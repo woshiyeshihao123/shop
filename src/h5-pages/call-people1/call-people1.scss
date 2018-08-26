@@ -1,0 +1,90 @@
+//  关于点击的模态框的弹出scss
+#call-phone{
+  width:200px;
+  height:80px;
+  text-align:center;
+  font-size:24px;
+  color:black;
+  line-height:60px;
+  float:left;
+  background:white;
+  border:0;
+  >img{
+      float:left;
+      margin-top:5px;
+  }
+  >span{
+      float:left;
+  }
+}
+#bg{
+  width:750px;
+//   height:1900px;
+  filter:alpha(Opacity=80);
+  -moz-opacity:0.5;
+  opacity: 0.5;
+  // background-color:#f4f4f4; 
+  background: rgba(0,0,0,0.5);
+  position:absolute;
+  z-index:2000;
+  top:0;
+  left:0;
+  right: 0;
+  margin: 0 auto;
+}
+#call-people{
+  position:fixed; 
+  width:600px;
+  height:400px;
+  background:white; 
+  // position:absolute;
+  z-index:9999;
+  top:250px;
+  // left:center;
+  left:0;
+  right: 0;
+  margin: 0 auto;
+  border-radius:10px;
+  >img{
+      float:left;
+      margin:70px 10px 10px 70px;
+  }
+  >span{
+      font-size:44px;
+      color:#ef7714;
+      font-weight:bold;
+      float:left;
+      margin:120px 0px 10px 15px;
+  }
+  >p{
+      font-size:26px;
+      color:#999999;
+      float:left;
+      margin:20px 0px 10px 100px;
+  }
+  >button:nth-child(4){
+      width:250px;
+      height:70px;
+      border-radius:6px;
+      background:#ef7714;
+      color:#ffffff;
+      font-size:32px;
+      border:0;
+      margin:50px 40px 30px 40px;
+  }
+  >button:nth-child(5){
+      width:250px;
+      height:70px;
+      border-radius:6px;
+      background:#f4f4f4;
+      color:#666666;
+      font-size:32px;
+      border:0;
+  }
+}
+.disappear{
+  display:none;
+}
+.show{
+  display:block;
+}

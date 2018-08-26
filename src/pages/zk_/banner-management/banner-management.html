@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>banner管理</title>
+  <script src="../../../assets/js/jquery-1.9.1.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="./banner-management.scss">
+  <link rel="stylesheet" href="../../member-center/supply-manage/extend-css/extend.css">
+  <link rel="stylesheet" href="../../../assets/css/common.scss">
+  <link rel="stylesheet" href="../../member-center/supply-manage/list-header/list-header.scss"> 
+  <link rel="stylesheet" href="../../member-center/supply-manage/list-left/list-left.scss"> 
+  <link rel="stylesheet" href="../../../common/footer-all/footer-all.scss">
+  <link rel="stylesheet" href="../../../widgets/index/nav/nav.scss">
+  <link rel="stylesheet" href="../../../pages/csl/chang-password/page-head/page-head.scss">
+
+
+  <!--引入CSS-->
+<link rel="stylesheet" type="text/css" href="./webuploader.css">
+<!--引入JS-->
+<script type="text/javascript" src="./webuploader.js"></script>
+<!--SWF在初始化的时候指定，在后面将展示-->
+<script type="text/javascript">
+    $(function(){
+     var web=new webload();
+    })
+    
+    </script>
+    
+  <style>
+    #footer{
+      clear:both;
+      margin-top: 102%;
+    }
+
+.webuploader-pick{
+  border-radius: 0px;
+  background-color:white;
+  color:black;
+  font-size:15px;
+  height:8px;
+  width:70px;
+  line-height:10px;
+}
+
+    #nav{
+      width:1200px;
+      margin:0 auto;
+    }
+  </style>
+</head>
+<body>
+    <link rel="import" href="../../../pages/csl/chang-password/page-head/page-head.html?__inline">
+    
+<div id="nav" >
+    <!-- 2、右：导航内容 -->
+    <ul class="lf">
+        <li>
+        <a href="#">首页</a>
+        </li>
+        <li>
+            <a href="#">供应信息</a>
+        </li>
+        <li>
+            <a href="#">求购信息</a>
+        </li>
+        <li>
+            <a href="#">公司库</a>
+        </li>
+        <li>
+            <a href="#">商业资讯</a>
+        </li>
+        <li>
+            <a href="#">展会信息</a>
+        </li>
+        <li>
+            <a href="#">企业信息</a>
+        </li>
+        <li>
+            <a href="#" class="active">会员中心</a>
+        </li>
+    </ul>
+</div>
+
+    <div class="menber-center-list-header boxsizing">
+      <div class="menber-center-list-header-left">
+          <span><a href="javascript:void(0)">首页</a>&gt</span>
+          <span><a href="javascript:void(0)">会员中心</a> &gt</span>
+          <span><a href="javascript:void(0)">banner管理</a></span>
+          <div class="menber-center-list-header-right">
+              <b></b>
+              帮助中心
+          </div>
+      </div>
+  </div>
+  <div id="outborder" style="width:1200px">
+  <link rel="import" href="../../member-center/supply-manage/list-left/list-left.html?__inline">
+  <div id="newsAdmin" class="lf">
+    <!-- 设置banner图管理的框 -->
+    <div id="bannerPhoto">
+      <a>banner管理</a>
+    </div>
+    <!-- 设置注意事项框 -->
+    <div id="mattersAttention">
+      <a>注意事项:</a>
+      <ul class="photoAttention">
+        <li>1.图片展示位置为店铺首页banner轮播图</li>
+        <li>2.图片最多可上传3张,最少上传1张</li>
+      </ul>
+    </div>
+
+<div id="uploader-demo">
+     <!-- 用来存放item -->
+     <div class="top-font"><span>第一张图:</span></div>
+     <div id="fileList1" class="uploader-list"><img src="Desert.jpg"></div>
+     <div class="filePicker" listId="fileList1" id="filePicker1">选择图片</div>
+     <div id="has-delete" style="margin-left:150px;">删除</div>
+     <input type="hidden" name="first-url" value="">
+
+     <div class="top-font"><span>第二张图:</span></div>
+     <div id="fileList2" class="uploader-list"></div>
+     <div class="filePicker" listId="fileList2" id="filePicker2">选择图片</div>
+     <input type="hidden" name="second-url" value="">
+     
+     <div class="top-font"><span>第三张图:</span></div>
+     <div id="fileList3" class="uploader-list"></div>
+     <div class="filePicker" listId="fileList3" id="filePicker3">选择图片</div>
+     <input type="hidden" name="third-url" value="">
+
+    <button id="ctlBtn" class="btn btn-default">提交</button>
+    <span id="success" class="over"><i></i>提交成功!</span>
+    <span id="failed" class="over"><i></i>提交失败,请重新提交</span>
+    <div id="bg" class="over"></div> 
+  </div>
+  <script src="../../member-center/supply-manage/list-header/list-header.ts"></script>
+  <script src="../../member-center/supply-manage/list-left/list-left.ts"></script>
+  <script src="../../csl/chang-password/page-head/page-head.ts"></script>
+  <script src="./banner-managenment.js"></script>
+</div>
+<link rel="import" href="../../../common/footer-all/footer-all.html?__inline">
+</div>
+</body>
+</html>

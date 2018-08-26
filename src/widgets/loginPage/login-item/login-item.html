@@ -1,0 +1,54 @@
+<div class="login-box">
+
+  <div class="box-con tran">
+
+    <div>
+      <h1><img src="../../../assets/img/photos/login-register/login.png"></h1>
+
+      <div class="form-group">
+
+        <label class="lf">账号:</label>
+        <br>
+
+        <input class="userText" type="text" id="txt_username" placeholder="6-20位英文字母或者数字" />
+
+      </div>
+      <div class="errMsg clear" id="usernameMsg" style="display:none" >错误信息</div>
+
+      <div class="form-group">
+
+        <label class="lf">密码:</label>
+        <br>
+
+        <input type="password" class="userText txt_password mima_dd" placeholder="密码6-18位字母、数字">
+        <input type="text" class="userText txt_password mima_wz" style="display:none;"  placeholder="密码6-18位字母、数字">
+        <img src="../../../assets/img/photos/login-register/eye.png" class="eye" data-show="1">
+      </div>
+      <div class="errMsg clear" style="display:none" id="passwordMsg" >错误信息</div>
+      <label class="lf">验证码:</label>
+      <br>
+
+      <div id="verify" class="l-captcha" data-site-key="acfeaede70056d661613f20b957d74da"></div>
+
+      <div class="errMsg clear"></div>
+
+      <div class="form-group" id="buttonGroup">
+
+
+        <button type="submit" class="tran">
+
+                    <a class="tran" id="sub">登录</a>
+
+                </button>
+        <button class="tran">
+
+                    <a class="tran" id="reg">注册</a>
+    
+                </button>
+
+        <p><input type="checkbox" id="ck_rmbUser" /><span>记住密码</span><a href="#">忘记密码</a></p>
+
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,27 @@
+#nav{
+    /*高度，背景*/
+    height:38px;
+    font-size: 14px;
+    height:40px;
+    margin:10px auto 0 auto;
+    // border-bottom:2px solid #EA6700;
+  }
+
+#nav .active{
+    background:#EA6700;
+    color: white;
+}    
+#nav li{
+      float:left;
+  }
+#nav li a{
+      /*行内块，宽度，高度，行高，水平居中，文字大小，颜色，加粗，取消下划线*/
+      display:inline-block;
+      width:133px;
+      height:40px;
+      line-height:40px;
+      text-align:center;
+      font-size:14px;
+      color:#000;
+      text-decoration:none;
+  }

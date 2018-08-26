@@ -1,0 +1,179 @@
+.login-box{
+	height: 450px;
+	width: 300px;
+	margin:0 auto;
+	text-align: center;
+
+	
+}
+
+.login-box h1{
+	margin: 40px auto 10px auto;
+}
+
+
+
+.btnHead{
+	margin: 10px 0px;
+}
+
+.errMsg{
+	text-align: left;
+	color: rgb(236, 19, 19);
+	float: left;
+	width: 300px;
+    height: 35px;
+	display: block;
+	margin-top: 10px;
+}
+
+
+.login-box .form-group input {
+	width: 302px;
+	height:50px;
+	line-height: 48px;
+	// padding-left: 10px;
+	border: 1px #d9d9d9 solid;
+	border-radius: 5px;
+	font-size: 14px;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	transition:all 0.3s ease-out;
+	-webkit-transition:all 0.3s ease-out;
+	-moz-transition:all 0.3s ease-out;
+}
+.userText{
+	line-height: 48px;
+	padding-left: 10px;
+	border: 1px #d9d9d9 solid;
+	border-radius: 5px;
+	font-size: 14px;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	transition:all 0.3s ease-out;
+	-webkit-transition:all 0.3s ease-out;
+	-moz-transition:all 0.3s ease-out;
+}
+.login-box input.userText:focus{
+	border-color: #03a9f4;
+	box-shadow: 0 0 15px #03a9f4;
+	-webkit-box-shadow: 0 0 15px #03a9f4;
+	-moz-box-shadow: 0 0 15px #03a9f4;
+}
+
+
+#buttonGroup button:first-child{
+	width: 300px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 16px;
+	border: 0;
+	background: -webkit-gradient(linear, 0 0, 100% 0, from(#ED7515), to(#FB992F));  
+	background: -webkit-linear-gradient(left, #ED7515, #FB992F);  
+	background: -moz-linear-gradient(left, #ED7515, #FB992F);  
+	background: -o-linear-gradient(left, #ED7515, #FB992F);  
+	background: -ms-linear-gradient(left, #ED7515, #FB992F);  
+	background: linear-gradient(left, #ED7515, #FB992F);  
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType = 1, startColorstr = #ED7515, endColorstr = #FB992F); 
+	border-radius: 5px;
+	margin: 10px 0;
+}
+#buttonGroup button:first-child a{
+	color: white;
+}
+#buttonGroup button:first-child+button{
+	width: 300px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 16px;
+	border: 1px solid #ddd;
+	background-color: white;
+	border-radius: 5px;
+}
+
+button a{
+	display: block;
+}
+
+
+.txt_password{
+	position: relative;
+}
+
+.eye{
+	float: right;
+	position: relative;
+	top: -35px;
+	right: 10px;
+	margin-bottom: -20px;
+}
+
+.tran{
+	transition:all 0.3s ease-out;
+	-webkit-transition:all 0.3s ease-out;
+	-moz-transition:all 0.3s ease-out;
+	-o-transition:all 0.3s ease-out;
+}
+
+#ck_rmbUser{
+    float: left;
+    height: 20px;
+    width: 20px;
+}
+
+.form-group p{
+    height: 20px;
+    width: 320px;
+	line-height: 20px;
+	margin: 10px auto;
+}
+
+.form-group p a{
+    float: right;
+}
+
+.form-group p span{
+    float: left;
+}
+
+.l-captcha{
+	margin: 10px auto;
+}
+
+label{
+	margin: 10px 0;
+}
+
+ul{
+	width: 296px;
+	margin: 0 auto;
+}
+
+ul li{
+	line-height: 30px;
+	margin:20px 20px;
+}
+
+.next{
+	display: none
+}
+
+.userText+p{
+	position: relative;
+	top:-35px;
+	right: -210px;
+	border-left: 1px solid #ED7515;
+	color: #ED7515;
+	font-size: 14px;
+	width: 70px;
+	margin: 0px;
+	padding: 0 4px;
+}
+
+#check {margin: 20px auto;}
+#check .input_check {position: absolute;width: 20px;height: 20px;visibility: hidden;background: #E92333;}
+#check span {position: relative;}
+#check .input_check+label {display: inline-block;width: 20px;height: 20px;background: url('../../../assets/img/photos/login-register/checkbox.png') no-repeat;}
+#check .input_check:checked+label {background: url('../../../assets/img/photos/login-register/checked.png')}

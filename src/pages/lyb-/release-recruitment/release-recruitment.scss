@@ -1,0 +1,159 @@
+
+
+#outborder{
+    width:1200px;
+    // float: left;
+    // position: relative;
+    margin:0 auto; 
+}
+#messages{
+    margin-left:30px;
+    margin-top:10px;
+    height:50px;
+    width:950px;
+    background-color: white;
+    float:left;
+}
+#messages>b{
+    border-bottom:4px solid #f99a2e;
+    margin-top:8px;
+    font-size: 16px;
+    float:left;
+}
+#details{
+    margin-left:30px;
+    width:950px;
+    height:700px;
+    float:left;
+}
+#information{
+    width:950px;
+    height:270px;
+    border-bottom:1px solid silver;
+}
+#information>ul>li{
+    height:50px;
+    width:950px;
+    float: left;
+}
+.input1{
+    width:420px;
+    height:14px;
+    float:left;
+    line-height:1;
+    padding:11px 0px;
+}
+#information>ul>li>span{
+    padding:15px 0px 0px 0px;
+    color:black;
+    font-size: 13px;
+    display: inline-block;
+    width:100px;
+    float: left;
+}
+#xingzhi{
+    margin-top:6px;
+}
+
+.btn3>span{
+    margin-top: 10px;
+    margin-right:100px;
+    float: left;
+}
+#checkboxone1,#checkboxone2,#checkboxone3{
+    float: left;
+    width:18px;
+    height:18px;
+    margin:10px 20px 0px 4px;
+}
+.changeImage{
+    background-image:url(../../../assets/img/photos/8-1/choose.png);
+}
+.otherImage{
+    background-image:url(../../../assets/img/photos/8-1/unselect.png);
+}
+#work>ul>li>span{
+    padding:15px 0px 0px 0px;
+    color:black;
+    font-size: 13px;
+    display: inline-block;
+    width:100px;
+}
+#photoEdit>div{
+    border:1px solid gray;
+    background-color: white;
+    width:960px;
+    height:150px;
+    margin: 20px 100px 0px 0px;
+    float: left;
+    >p{
+        font-size:16px;
+        color:silver;
+        margin:10px;
+    }
+}
+#change-message-submit{
+    width:200px;
+    height:50px;
+    margin-top:30px;
+    border:0px;
+    background-color: #eb6700;
+    color: white;
+    font-size:18px;
+    float: left;
+}
+
+#alert-success{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 10;
+    background:rgba(0, 0, 0,0.5);
+    >div{
+        position: absolute;
+        float: left;
+        left: 0;
+        right: 0;
+        top: 250px;
+        margin: 0 auto;
+        display: inline-block;
+        width: 350px;
+        height: 210px;
+        border: 1px solid #eaeaea;
+        border-radius: 5px;
+        text-align: center;
+        vertical-align: middle;
+        box-shadow: 0px 0px 30px 3px black;
+        background: #fff;
+        z-index: 10;
+        >p{
+            display: block;
+            font-size: 18px;
+            margin-top: 0px;
+            font-weight: bold;
+        }
+        >div{
+            width: 348px;
+            height: 100px;
+        }
+        >div.right{
+            background: url("../../../assets/img/photos/8-1/rightPrompt1.png") no-repeat center 20px;
+            margin-top:30px;
+        }
+        >div.erro{
+            background: url("../../../assets/img/photos/8-1/errorPrompt.png") no-repeat center 20px;
+            margin-top:30px;
+        }
+    }
+}
+#alert-success.no{
+    // visibility: hidden;
+    display: none;
+}
+#alert-success.show{
+    display: inline-block;
+}
+.center{
+    margin:auto
+}

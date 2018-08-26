@@ -1,0 +1,27 @@
+#company-intro {
+    height: 226px;
+    padding: 14px 0;
+    font-size: 14px;
+    >ul {
+        >li {
+            padding: 4px 0;
+        }
+    }
+    >a {
+        width: 202px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        font-size: 18px;
+        color: white;
+        display: block;
+        background: -webkit-gradient(linear, 0 0, 100% 0, from(#ED7515), to(#FB992F));
+        background: -webkit-linear-gradient(left, #ED7515, #FB992F);
+        background: -moz-linear-gradient(left, #ED7515, #FB992F);
+        background: -o-linear-gradient(left, #ED7515, #FB992F);
+        background: linear-gradient(left, #ED7515, #FB992F);
+        filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr=#ED7515, endColorstr=#FB992F);
+        background: -ms-linear-gradient(left, #ED7515, #FB992F);
+        margin-top: 25px;
+    }
+}

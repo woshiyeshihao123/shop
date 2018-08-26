@@ -1,0 +1,88 @@
+/*第二模块：LOGO 和 搜索框*/
+#top-main{
+    padding:22.5px 0;
+  }
+  #top-main>select{
+    
+    font-size: 14px;
+    float: left;
+    height: 38px;
+    width: 100px;
+    margin: 10px 0 0 100px;
+    border: 1px solid #EEEEEE;
+    border-right: none;
+  }
+  #search-box{
+    /*左浮动，宽度，min-height，左右外边距*/
+    float:left;
+    width:470px;
+    height:37px;
+    margin:10px 80px 0 0;
+  } 
+  #search-box div.search{
+    /*高度，背景颜色*/
+    // height:30px;
+    // border: 1px solid #eee;
+    /*内边距*/
+    // padding:3px;
+  }
+  #search-box input{
+    /*宽度，高度，取消边框 ，取消 内边距*/
+    float: left;
+    width:410px;
+    height:32px;
+    border: 1px solid #eee;
+    margin: auto 0;
+    // border:none;
+    padding:2px;
+  }
+  #search-box button{
+    /*宽度，高度，取消边框，背景颜色*/
+    float: left;
+    width:40px;
+    height:38px;
+    border: none;
+    background:#EC7913;
+    /*文本：大小，加粗，颜色*/
+    font-size:14px;
+    font-weight:bold;
+    color:#fff;
+  }
+  /*热门搜索*/
+  #search-box div.hot-words{
+    margin-top:5px;
+    color:#999;
+    /*溢出隐藏*/
+    width:500px;
+    height:14px;
+    overflow:hidden;
+  }
+  #search-box div.hot-words a{
+    color:#999;
+    margin-right:5px;
+  }
+  /*按钮 */
+  .topButton{
+    /*左内边距，高度*/
+    height:38px;
+    /*边框，背景，行高*/
+    background: #fff;
+    border:1px solid #ddd;
+    line-height:15px;
+    /*浮动*/
+    float:left;
+    /*宽度*/
+    width:130px;
+    margin: 11px 10px 0 0;
+    font-size: 14px;
+  }
+  #buy{
+    
+  }
+  #supply{
+
+  }
+
+  .topButton img{
+    margin: 0 0 0 15px;
+  }

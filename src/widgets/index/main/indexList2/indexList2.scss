@@ -1,0 +1,23 @@
+.honest{
+  float: left;
+  width: 204px;
+  height:60px;
+  margin-right: 40px;
+}
+
+.honest li{
+  padding-left: 22px;
+  color: #999;
+  text-overflow:ellipsis;
+  overflow:hidden;
+  white-space:nowrap;
+  width:210px;
+}
+
+.honest :first-child{
+  // margin:10px 0 0 0; 
+  color: #333;
+  font-size: 14px;
+  padding: 0;
+  list-style:square inside url("../../../../assets/img/photos/index/business-service/finger-up.png");
+}

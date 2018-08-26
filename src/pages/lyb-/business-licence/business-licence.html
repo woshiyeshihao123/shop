@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>营业执照/身份证/商标</title>
+  <script src="../../../assets/js/jquery-1.9.1.min.js"></script>
+  <script src="../../../assets/js/kindeditor/kindeditor-all-min.js"></script>
+  <script src="../../../assets/js/kindeditor/lang/zh-CN.js"></script>
+  <link rel="stylesheet" href="../../member-center/supply-manage/extend-css/extend.css">
+  <link rel="stylesheet" href="../../../assets/css/common.scss">
+  <link rel="stylesheet" href="./business-licence.scss">
+  <link rel="stylesheet" href="../../member-center/dev-pages-personal-plugin/dev-pages-personal-plugin.scss">
+  <link rel="stylesheet" href="../../member-center/exhibition-manage/pick-date/pick-date.scss">
+  <link rel="stylesheet" href="../../member-center/supply-manage/list-header/list-header.scss">
+  <link rel="stylesheet" href="../../member-center/supply-manage/list-left/list-left.scss">
+  <link rel="stylesheet" href="../../../common/footer-all/footer-all.scss">
+  <link rel="stylesheet" href="../../../widgets/index/nav/nav.scss">
+  <link rel="stylesheet" href="../../../pages/csl/chang-password/page-head/page-head.scss">
+  <link rel="stylesheet" type="text/css" href="./webuploader.css">
+  <script type="text/javascript" src="./webuploader.js"></script>
+  <script type="text/javascript">
+    $(function(){
+     var web=new webload();
+    })
+    
+    </script>
+  <style>
+        #footer{
+          clear: both;
+        }
+        #nav{
+      width:1200px;
+      margin:0 auto;
+    }
+    .webuploader-pick{
+  border-radius: 0px;
+  background-color:white;
+  color:black;
+  font-size:15px;
+  height:8px;
+  width:70px;
+  line-height:10px;
+}
+     </style>
+</head>
+<body>
+    <link rel="import" href="../../../pages/csl/chang-password/page-head/page-head.html?__inline">
+    <div id="nav" >
+        <!-- 2、右：导航内容 -->
+        <ul class="lf">
+            <li>
+                <a href="#">首页</a>
+            </li>
+            <li>
+                <a href="#">供应信息</a>
+            </li>
+            <li>
+                <a href="#">求购信息</a>
+            </li>
+            <li>
+                <a href="#">公司库</a>
+            </li>
+            <li>
+                <a href="#">商业资讯</a>
+            </li>
+            <li>
+                <a href="#">展会信息</a>
+            </li>
+            <li>
+                <a href="#">企业信息</a>
+            </li>
+            <li>
+                <a href="#" class="active">会员中心</a>
+            </li>
+        </ul>
+    </div>
+    <div class="menber-center-list-header boxsizing">
+        <div class="menber-center-list-header-left">
+            <span><a href="javascript:void(0)">首页</a>&gt</span>
+            <span><a href="javascript:void(0)">会员中心</a> &gt</span>
+            <span><a href="javascript:void(0)">营业执照/身份证/商标</a></span>
+            <div class="menber-center-list-header-right">
+                <b></b>
+                帮助中心
+            </div>
+        </div>
+    
+        
+    
+    </div>
+    <div id="outborder" style="width:1200px;margin:0 auto;">
+    <link rel="import" href="../../member-center/supply-manage/list-left/list-left.html?__inline">
+  <div id="card">
+    <b>身份证</b>
+  </div>
+  <div id="details">
+      <div id="attention">
+          <p>注意事项：</p>
+          <p>1、请确保证件的真实性，否则将被删除</p>
+      </div>
+      <div id="idcard">
+          <ul>
+              <li>
+                  <span id="card-information">身份证信息</span>
+              </li>
+              <li>
+                  <span id="zuofu">身份证姓名：</span>
+                  <input id="idname" type="text" placeholder="请输入">
+                  <span style="color:red;">&nbsp;&nbsp;必填</span>
+              </li>
+              <li>
+                  <span id="zuofu">身份证号码：</span>
+                  <input type="text" placeholder="请输入">
+                  <span style="color:red">&nbsp;&nbsp;必填</span>
+              </li>
+              <li>
+                  <span>身份证照片：</span>
+                  <span style="color:#f99a2e;">请您放心我们不会透露你的个人信息</span>
+                  <div id="id-style">
+                    <span>身份证正面照</span>
+                    <span style="color:red;margin:10px 0px 20px 20px;">必填</span>
+                    <span style="margin-left:320px;">手持身份证照</span>
+                  </div>
+                  <!-- <div id="positive">
+                      <img src="../../../assets/img/photos/8-6/ID-card.png">
+                  </div> -->
+                  <!-- <div id="photo-style1">
+                      <a href="javascript:void(0)"><button>本地上传</button></a>
+                      <a href="javascript:void(0)"><button>图片库上传</button></a>
+                  </div> -->
+                  <div id="positive">
+                    <div class="top-font"><span></span></div>
+                    <div id="fileList" class="uploader-list"></div>
+                    <div class="filePicker" listId="fileList" id="filePicker">选择图片</div>
+                  </div>
+                  <!-- <div id="photo-style2">
+                      <a href="javascript:void(0)"><button>本地上传</button></a>
+                      <a href="javascript:void(0)"><button>图片库上传</button></a>
+                  </div> -->
+                  <div id="hand">
+                    <div class="top-font"><span></span></div>
+                    <div id="fileList2" class="uploader-list"></div>
+                    <div class="filePicker" listId="fileList2" id="filePicker2">选择图片</div>
+                  </div>
+              </li>
+              <li>
+                  <!-- <div id="hand">
+                      <img src="../../../assets/img/photos/8-6/hand-ID-card.png">
+                  </div> -->
+              </li>
+          </ul>
+      </div>
+      <div id="business-licence">
+      <b>营业执照</b>
+      </div>
+      <div id="company">
+          <ul>
+              <li>
+                    <span id="zuofu">公司名称：</span>
+                    <input type="text" placeholder="请输入">
+              </li>
+              <li>
+                  <span id="zuofu">营业执照号码：</span>
+                  <input type="text" placeholder="请输入">
+                  <span style="color:red">&nbsp;&nbsp;必填</span>
+              </li>
+              <li>
+                  <span id="zuofu">所在地区:</span>
+                  <select name="country" style="line-height:1;padding:7px;">
+                        <option value="zhongguodalu">中国大陆</option>
+                        <option value="haiwai">海外</option>
+                  </select>
+                  <select name="province" style="line-height:1;padding:7px;">
+                        <option value="hebei">河北</option>
+                        <option value="henan">河南</option>
+                        <option value="shandong">山东</option>
+                        <option value="shanxi">山西</option>
+                        <option value="fujian">福建</option>
+                  </select>
+                  <select name="address" style="line-height:1;padding:7px;">
+                        <option value="handan">邯郸</option>
+                        <option value="shijiazhuang">石家庄</option>
+                        <option value="chengde">承德</option>
+                        <option value="qinhuangdao">秦皇岛</option>
+                        <option value="xingtai">邢台</option>
+                  </select>
+              </li>
+              <li>
+                  <span id="zuofu">法人代表：</span>
+                  <input type="text" placeholder="请输入">
+                  <span style="color:red">&nbsp;&nbsp;必填</span>
+              </li>
+              <li>
+                  <span id="zuofu">登记机关：</span>
+                  <input type="text" placeholder="请输入">
+              </li>
+              <li>
+                  <span id="zuofu">提交人：</span>
+                  <input type="text" placeholder="请输入">
+              </li>
+              <li>
+                  <span id="zuofu">电话：</span>
+                  <input type="text" placeholder="请输入">
+              </li>
+              <li>
+                  <span id="zuofu">地址：</span>
+                  <input type="text" placeholder="请输入">
+              </li>
+              <li>
+                  <span>营业期限：</span>
+                  <div id="yingyeqixian">
+                    <div class="lf">
+                        <div class="lf calendar-line">
+                            <input type="text" class="date-and-text calendar-input">
+                            <div id="container1" class="date-picker-container none">
+                                <div class="date-title">
+                                    <div> < </div>
+            
+                                            <div>
+                                              
+                                            </div>
+            
+                                            <div>
+                                                >
+                                            </div>
+                                </div>
+                                <div class="weeks">
+            
+                                </div>
+                                <div class="days">
+            
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <span class="lf" style="margin-top:10px;">至</span>
+            
+                    <div class="lf">
+                      <div class="lf calendar-line">
+                          <input type="text" class="date-and-text calendar-input">
+                          <div id="container2" class="date-picker-container none">
+                              <div class="date-title">
+                                          <div>
+                                              < 
+                                          </div>
+      
+                                          <div>
+      
+                                          </div>
+      
+                                          <div>
+                                              >
+                                          </div>
+                              </div>
+                              <div class="weeks">
+      
+                              </div>
+                              <div class="days">
+      
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+                  <span style="color:red">必填</span>
+              </li>
+              <li>
+                  <span>上传证件：</span>
+                  <span>上传营业执照</span>
+                  <span style="color:red">必填</span>
+                  <!-- <div id="licence">
+                      <p>营业执照</p>
+                  </div>
+                  <div id="yingyezhizhao">
+                        <a href="javascript:void(0)"><button>本地上传</button></a>
+                        <a href="javascript:void(0)"><button>图片库上传</button></a>
+                  </div> -->
+                <div id="yingyezhizhao">
+                  <div class="top-font"><span></span></div>
+                  <div id="fileList3" class="uploader-list"></div>
+                  <div class="filePicker" listId="fileList3" id="filePicker3">选择图片</div>
+                </div>
+              </li>
+          </ul>
+      </div>
+      <div id="logo">
+          <b>商标</b>
+      </div>
+      <div id="logo-photo">
+          <ul>
+              <li>
+                  <span id="zuofu">商标名称：</span>
+                  <input type="text" placeholder="请输入">
+              </li>
+              <li style="height:370px;">
+                  <span>上传商标：</span>
+                  <!-- <div id="up-logo">
+                      <p>商标图片</p>
+                  </div>
+                  <div id="logo-style">
+                        <a href="javascript:void(0)"><button>本地上传</button></a>
+                        <a href="javascript:void(0)"><button>图片库上传</button></a>
+                  </div> -->
+                  <div id="up-logo">
+                    <div class="top-font"><span></span></div>
+                    <div id="fileList4" class="uploader-list"></div>
+                    <div class="filePicker" listId="fileList4" id="filePicker4">选择图片</div>
+                  </div>
+              </li>
+              <li>
+                <div id="introduction">
+                    <span>详情：</span>
+                    <div id="photoEdit">
+                        <div>
+                          <textarea id="editor" style="width:960px;height:250px"></textarea>
+                        </div>
+                    </div>
+                </div>
+              </li>
+          </ul>
+      </div>
+      <button id="change-message-submit">提交</button> 
+  </div>
+  </div>
+  <div id="alert-success" class="no">
+            <div>
+                <div></div>
+                <p></p>
+            </div>
+      </div>
+  <script src="./business-licence.js"></script>
+  <script src="../../../widgets/index/nav/nav.ts"></script>
+  <script src="../../member-center/exhibition-manage/pick-date/pick-date.ts"></script>
+  <script src="../../member-center/dev-pages-personal-plugin/dev-pages-personal-plugin.ts"></script>
+  <script src="../../member-center/supply-manage/list-left/list-left.ts"></script>
+  <script src="../../member-center/supply-manage/list-header/list-header.ts"></script>
+  <link rel="import" href="../../../common/footer-all/footer-all.html?__inline">
+  <script>
+    var date_pick1 = new datePicker("container1");
+    var date_pick2 = new datePicker("container2");
+
+    // 监听整个页面，没有点到日历上，就关闭日历，点到了，就返回选中的日期
+    $(document).click(function (e) {
+      $(".calendar-line input").each(function () {
+        if ($.contains(this.parentElement, e.target)) {
+          // 点击到日历上了，不关闭日历
+          // 调用日历中得到选中日期的函数
+          
+          if ($(this).next().attr("id") == "container1") {
+            var id=$(this).next().attr("id");
+            var date=new Date(date_pick1.getChoosedDate());
+            $("#container1").prev().val(""+date.getFullYear()+"-"+(date.getMonth()+1)+"-"+date.getDate());
+          } else if ($(this).next().attr("id") == "container2") {
+            var date=new Date(date_pick2.getChoosedDate());
+            $("#container2").prev().val(""+date.getFullYear()+"-"+(date.getMonth()+1)+"-"+date.getDate());
+
+          }
+        } else {
+          // 否则就关闭日历
+          if ($(this).next().hasClass("none")) {
+
+          } else {
+            $(this).next().addClass("none");
+          }
+        }
+      })
+    })
+  </script>
+
+</body>

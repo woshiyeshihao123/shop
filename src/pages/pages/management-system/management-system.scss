@@ -1,0 +1,100 @@
+
+#shous-manage>div{
+    position: absolute;
+}
+#shous-manage{
+    
+    width:1920px;
+    height:1080px;
+    background: url("./management-system/shoushangpic@2x.png") no-repeat center center;
+    
+    margin:0 auto;
+}
+div.login-block{
+    width:690px;
+    height:510px;
+    margin:0px auto;
+   background: white;
+   border-radius: 25px;
+   position: relative;
+   top:285px;
+   left:615px;
+}
+
+img.shous-icon{
+    display: block;
+    margin:0 auto;
+    padding-top:70px;
+}
+img.shous-name{
+    display: block;
+    margin:0 auto;
+    padding-top:20px;
+}
+input.name-box{
+    width:300px;
+    height:44px;
+    margin:60px auto 0 auto;
+    border:1px solid #999;
+    border-radius: 10px;
+}
+#from-group>img{
+    margin-left:30px;
+    display:inline-block;
+    vertical-align: text-bottom;
+    position: relative;
+    top: -10px;
+    left: 160px;
+    z-index: 100;
+}
+input.name-box{
+    position: relative;
+    top: -10px;
+    left: 100px;
+    border-radius: 10px;
+    height:44px;
+    width:300px;
+    font-size: 16px;
+    margin-left:5px;
+    padding: 0 0 0 70px;
+}
+input.password-box{
+    position: relative;
+    top: -10px;
+    left: 100px;
+    width:300px;
+    height:44px;
+    margin:25px auto 0 auto;
+    border:1px solid #999;
+    border-radius: 10px;
+    padding: 0 0 0 70px;
+}
+input.password-box{
+    border-radius: 10px;
+    height:44px;
+    width:300px;
+    font-size: 16px;
+    margin-left:5px;
+
+}
+
+
+div.forget-pass{
+    width:370px;
+    font-size: 14px;
+    margin:0px auto 0px auto;
+}
+div.forget-pass>a{
+    float: right;
+}
+button.login-btn{
+    display: block;
+    width:370px;
+    height:40px;
+    margin:50px auto 0 auto;
+    border-radius: 20px;
+    border:none;
+    background: #ffa042;
+    color:white;
+    font-size: 18px;
+}

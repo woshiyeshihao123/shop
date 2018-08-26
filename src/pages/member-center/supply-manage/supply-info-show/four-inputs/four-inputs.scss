@@ -1,0 +1,23 @@
+#supply-info-show-intro-four{
+    >ul{
+        >li{
+            width: 50%;
+            float: left;
+            // 要删掉的border
+            border: 1px solid black;
+            height: 50px;
+            span{
+                float: left;
+                padding:10px;
+            }
+
+            .four-inputs{
+                padding:0;
+                border: 1px solid black;
+                height: 30px;
+                width: 30%;
+                margin: 10px;
+            }
+        }
+    }
+}

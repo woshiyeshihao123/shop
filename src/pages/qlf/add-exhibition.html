@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>添加展会</title>
+  <meta charset="UTF-8">
+  <script src="../../assets/js/jquery-1.9.1.min.js"></script>
+  
+  
+  
+  
+  <link rel="stylesheet" href="../member-center/supply-manage/extend-css/extend.css">
+  <link rel="stylesheet" href="../../assets/css/common.scss">
+  <link rel="stylesheet" href="./add-exhibition.scss">
+  <link rel="stylesheet" href="../member-center/dev-pages-personal-plugin/dev-pages-personal-plugin.scss">
+  <link rel="stylesheet" href="../member-center/exhibition-manage/pick-date/pick-date.scss">
+  <link rel="stylesheet" href="../member-center/supply-manage/list-header/list-header.scss">
+  <link rel="stylesheet" href="../member-center/supply-manage/list-left/list-left.scss">
+  <link rel="stylesheet" href="../../common/footer-all/footer-all.scss">
+  <link rel="stylesheet" href="../../widgets/index/nav/nav.scss">
+  <link rel="stylesheet" href="../../pages/csl/chang-password/page-head/page-head.scss">
+  <link rel="stylesheet" type="text/css" href="../../assets/js/kindeditor/themes/default/default.css">
+  <script src="../../assets/js/kindeditor/kindeditor-all-min.js"></script>
+  <script src="../../assets/js/kindeditor/lang/zh-CN.js"></script>
+  
+  <style>
+        #footer{
+          clear: both;
+        }
+        #nav{
+      width:1200px;
+      margin:0 auto;
+    }
+     </style>
+</head>
+<body>
+    <link rel="import" href="../../pages/csl/chang-password/page-head/page-head.html?__inline">
+    <div id="nav" >
+        <!-- 2、右：导航内容 -->
+        <ul class="lf">
+            <li>
+            <a href="#" >首页</a>
+            </li>
+            <li>
+                <a href="#">供应信息</a>
+            </li>
+            <li>
+                <a href="#">求购信息</a>
+            </li>
+            <li>
+                <a href="#">公司库</a>
+            </li>
+            <li>
+                <a href="#">商业资讯</a>
+            </li>
+            <li>
+                <a href="#">展会信息</a>
+            </li>
+            <li>
+                <a href="#">企业信息</a>
+            </li>
+            <li>
+                <a href="#" class="active">会员中心</a>
+            </li>
+        </ul>
+    </div>
+    
+    
+    <div class="menber-center-list-header boxsizing">
+        <div class="menber-center-list-header-left">
+            <span><a href="javascript:void(0)">首页</a>&gt</span>
+            <span><a href="javascript:void(0)">会员中心</a> &gt</span>
+            <span><a href="javascript:void(0)">发布展会</a></span>
+            <div class="menber-center-list-header-right">
+                <b></b>
+                帮助中心
+            </div>
+        </div>
+    
+        
+    
+    </div>
+    <div id="outborder" style="width:1200px">
+    <link rel="import" href="../member-center/supply-manage/list-left/list-left.html?__inline">
+  <div id="card">
+    <b>发布展会</b>
+    <div></div>
+  </div>
+  
+  <div id="details">
+      <div id="attention">
+          <p>注意事项：</p>
+          <p>1、严禁使用极限值例如最第一一流等，否则会被删除</p>
+          <p>2、严禁使用功效词例如治疗降血压，增高等，否则会被删除</p>
+          <p>3、严禁虚假和夸大宣传，否则或被删除</p>
+      </div>
+      <div id="idcard">
+          <ul>
+              <li>
+                 
+              </li>
+              <li>
+                  <span>展会名称：</span>
+                  <input id="idname" type="text" placeholder="请输入">
+                  <span style="color:red;margin-left:7px;">必填</span>
+              </li>
+              <li>
+                  <span>举办国家：</span>
+                  <select class="dizhi">
+                      <option>中国大陆</option>
+                      <option>中国大陆2</option>
+                      <option>中国大陆3</option>
+                      <option>中国大陆4</option>
+                      <option>中国大陆5</option>
+                  </select>
+                  <span style="color:red;margin-left:7px;">必填</span>
+              </li>
+              <li>
+                <span>参会日期：</span>
+                <div id="yingyeqixian">
+                  <div class="lf">
+                      <div class="lf calendar-line">
+                          <input type="text" class="date-and-text calendar-input">
+                          <div id="container1" class="date-picker-container none">
+                              <div class="date-title">
+                                  <div> < </div>
+          
+                                          <div>
+                                            
+                                          </div>
+          
+                                          <div>
+                                              >
+                                          </div>
+                              </div>
+                              <div class="weeks">
+          
+                              </div>
+                              <div class="days">
+          
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+          
+                  <span class="lf" style="margin-top:10px;">至</span>
+          
+                  <div class="lf">
+                    <div class="lf calendar-line">
+                        <input type="text" class="date-and-text calendar-input">
+                        <div id="container2" class="date-picker-container none">
+                            <div class="date-title">
+                                        <div>
+                                            < 
+                                        </div>
+    
+                                        <div>
+    
+                                        </div>
+    
+                                        <div>
+                                            >
+                                        </div>
+                            </div>
+                            <div class="weeks">
+    
+                            </div>
+                            <div class="days">
+    
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+                <span style="color:red">必填</span>
+            </li>
+            <li>
+                    <span>报名截至日期：</span>
+                <div id="yingyeqixian">
+                    <div class="lf">
+                        <div class="lf calendar-line">
+                            <input type="text"class="date-and-text calendar-inputtwo" >
+                            <div id="container3" class="date-picker-container none">
+                                <div class="date-title">
+                                    <div> < </div>
+            
+                                            <div>
+                                              
+                                            </div>
+            
+                                            <div>
+                                                >
+                                            </div>
+                                </div>
+                                <div class="weeks">
+            
+                                </div>
+                                <div class="days">
+            
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+            </li>
+           
+            <li>
+                <span>参展地（展馆）：</span>
+                <input id="idname" type="text" placeholder="请输入">
+                
+            </li>
+          </ul>
+      </div>
+      <div id="business-licence">
+      
+      </div>
+      <div id="company">
+          <ul>
+              <li>
+                    <span>批准单位：</span>
+                    <input type="text" placeholder="请输入">
+              </li>
+              <li>
+                  <span>主办单位：</span>
+                  <input type="text" placeholder="请输入">
+                  
+              </li>
+              <li>
+                  <span>承办单位：</span>
+                  <input type="text" placeholder="请输入">
+                  
+              </li>
+              <li>
+                  <span>支持协办单位：</span>
+                  <input type="text" placeholder="请输入">
+                  
+              </li>
+            </ul>
+            </div>
+     
+      <div id="logo-photo">
+          <ul>
+              <li style="border-bottom: 1px solid silver;padding:20px 0;">
+                  <span>参展范围：</span>
+                  <input type="text" placeholder="请输入">
+              </li>
+              <li style="border-bottom: 1px solid silver;padding:20px 0;">
+                <span>收费标准：</span>
+                <input type="text" placeholder="请输入">
+              </li>
+              
+              
+          </ul>
+      </div>
+      <div class=jieshao>
+          <p>展会介绍：</p>
+          
+          <div class="photoEdit">
+                <div>
+                  <textarea id="editor" style="width:960px;height:250px"></textarea>
+                </div>
+            </div>
+      </div>
+      <div class=jieshao>
+        <p>展会现场活动：</p>
+        
+        <div class="photoEdit">
+                <div>
+                  <textarea id="editor1" style="width:960px;height:250px"></textarea>
+                </div>
+            </div>
+    </div>
+    <div id="xinxi">
+        <ul>
+            <li style="margin-top:20px;">
+                <span>公司名称：</span>
+                <input id="idname" type="text" placeholder="请输入">
+               
+            </li>
+            <li>
+                <span>国家或地区：</span>
+                <select style="width:138px;height:39px">
+                    <option value="zhongguodalu">中国大陆</option>
+                    <option value="haiwai">海外</option>
+              </select>
+              <select style="width:138px;height:39px">
+                    <option value="hebei">河北</option>
+                    <option value="henan">河南</option>
+                    <option value="shandong">山东</option>
+                    <option value="shanxi">山西</option>
+                    <option value="fujian">福建</option>
+              </select>
+              <select style="width:138px;height:39px">
+                    <option value="handan">邯郸</option>
+                    <option value="shijiazhuang">石家庄</option>
+                    <option value="chengde">承德</option>
+                    <option value="qinhuangdao">秦皇岛</option>
+                    <option value="xingtai">邢台</option>
+              </select>
+               
+            </li>  
+            <li>
+                <span>联系人：</span>
+                <input id="idname" type="text" placeholder="请输入">
+                <span style="color:red;margin-left:7px;">必填</span>
+            </li>
+            <li>
+                <span>固定电话：</span>
+                <input id="idname" type="text" placeholder="请输入">
+                <span style="color:red;margin-left:7px;">必填</span>
+            </li>
+            <li>
+                <span>移动电话：</span>
+                <input id="idname" type="text" placeholder="请输入">
+                
+            </li>
+            <li>
+                <span>联系地址：</span>
+                <input id="idname" type="text" placeholder="请输入">
+                <span style="color:red;margin-left:7px;">必填</span>
+            </li>
+            <li>
+                <span>邮编：</span>
+                <input id="idname" type="text" placeholder="请输入">
+                
+            </li>
+            <li>
+                <span>传真：</span>
+                <input id="idname" type="text" placeholder="请输入">
+                
+            </li>
+            <li>
+                <span>电子邮件：</span>
+                <input id="idname" type="text" placeholder="请输入">
+                
+            </li>
+            <li>
+                <span>网址：</span>
+                <input id="idname" type="text" placeholder="请输入">
+                
+            </li>
+        </ul>
+    </div>
+    <button id="change-message-submit">提交</button>
+    
+
+</div>
+  
+</div>
+
+<div id="alert-success" class="no">
+        <div>
+            <div></div>
+            <p></p>
+        </div>
+  </div>
+ 
+ <link rel="import" href="../../common/footer-all/footer-all.html?__inline">
+  <script src="../../assets/js/jquery.goup.js"></script>
+  <script src="../../widgets/index/nav/nav.ts"></script>
+  <script src="../member-center/exhibition-manage/pick-date/pick-date.ts"></script>
+  <script src="../member-center/dev-pages-personal-plugin/dev-pages-personal-plugin.ts"></script>
+  <script src="../member-center/supply-manage/list-left/list-left.ts"></script>
+  <script src="../member-center/supply-manage/list-header/list-header.ts"></script>
+  
+ 
+  <script src="./add-exhibition.js"></script>
+  <script>
+    var date_pick1 = new datePicker("container1");
+    var date_pick2 = new datePicker("container2");
+    var date_pick3 = new datePicker("container3");
+
+
+
+    // 监听整个页面，没有点到日历上，就关闭日历，点到了，就返回选中的日期
+    $(document).click(function (e) {
+      $(".calendar-line input").each(function () {
+        if ($.contains(this.parentElement, e.target)) {
+          // 点击到日历上了，不关闭日历
+          // 调用日历中得到选中日期的函数
+          
+          if ($(this).next().attr("id") == "container1") {
+            var id=$(this).next().attr("id");
+            var date=new Date(date_pick1.getChoosedDate());
+            $("#container1").prev().val(""+date.getFullYear()+"-"+(date.getMonth()+1)+"-"+date.getDate());
+          } else if ($(this).next().attr("id") == "container2") {
+            var date=new Date(date_pick2.getChoosedDate());
+            $("#container2").prev().val(""+date.getFullYear()+"-"+(date.getMonth()+1)+"-"+date.getDate());
+          }
+          else if($(this).next().attr("id") == "container3"){
+            var date=new Date(date_pick3.getChoosedDate());
+            $("#container3").prev().val(""+date.getFullYear()+"-"+(date.getMonth()+1)+"-"+date.getDate());
+          }
+        } else {
+          // 否则就关闭日历
+          if ($(this).next().hasClass("none")) {
+
+          } else {
+            $(this).next().addClass("none");
+          }
+        }
+      })
+    })
+    // $(document).click(function (e) {
+    //   $(".calendar-line inputtwo").each(function () {
+    //     if ($.contains(this.parentElement, e.target)) {
+    //       // 点击到日历上了，不关闭日历
+    //       // 调用日历中得到选中日期的函数
+          
+    //       if ($(this).next().attr("id") == "container3") {
+    //         var id=$(this).next().attr("id");
+    //         var date=new Date(date_pick3.getChoosedDate());
+    //         $("#container3").prev().val(""+date.getFullYear()+"-"+(date.getMonth()+1)+"-"+date.getDate());
+    //       }
+    //     } else {
+    //       // 否则就关闭日历
+    //       if ($(this).next().hasClass("none")) {
+
+    //       } else {
+    //         $(this).next().addClass("none");
+    //       }
+    //     }
+    //   })
+    // })
+  </script>
+  
+  
+  
+</body>

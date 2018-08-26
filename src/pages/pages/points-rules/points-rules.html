@@ -1,0 +1,322 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width"> 
+    <title>点数规则管理</title>
+    <script src="modal/jquery-1.9.1.min.js" ></script>
+    <link href="../css/base.css" rel="stylesheet">
+    <link href="../css/platform.css" rel="stylesheet">
+    <link href="points-rules.css" rel="stylesheet">
+    <link href="modal/component.css" rel="stylesheet">
+</head> 
+<body>
+    <div class="container">
+        <!-- <div id="pf-hd">
+            <div class="pf-logo">
+                <img src="../images/main/main_logo.png" alt="logo">
+            </div>
+            
+            <div class="pf-nav-wrap">
+              <div class="pf-nav-ww">
+                <ul class="pf-nav">
+                  <li class="pf-nav-item home current" data-menu="sys-manage">
+                      <a href="javascript:;">
+                          <span class="iconfont">&#xe63f;</span>
+                          <span class="pf-nav-title">首页</span>
+                      </a>
+                  </li>
+                  <li class="pf-nav-item project" data-menu="org-manage">
+                      <a href="javascript:;">
+                          <span class="iconfont">&#xe60d;</span>
+                          <span class="pf-nav-title">会员管理</span>
+                      </a>
+                  </li>
+                  <li class="pf-nav-item static" data-menu="main-data">
+                      <a href="javascript:;">
+                          <span class="iconfont">&#xe61e;</span>
+                          <span class="pf-nav-title">信息管理</span>
+                      </a>
+                  </li>
+  
+                </ul>
+              </div>
+            
+            </div>
+            
+
+
+            <div class="pf-user">
+                <div class="pf-user-photo">
+                    <img src="images/main/user.png" alt="">
+                </div>
+                <h4 class="pf-user-name ellipsis">admin</h4>
+                <a href="">
+                    <span class="pf-opt-name">退出</span>
+                </a>
+
+
+            </div> -->
+
+        </div>
+
+        <div id="pf-bd">
+            <!-- <div id="pf-sider">
+                <h2 class="pf-model-name">
+                    <span class="iconfont">&#xe64a;</span>
+                    <span class="pf-name">首商网</span>
+                    <span class="toggle-icon"></span>
+                </h2>
+
+                <ul class="sider-nav">
+                     <li class="current">
+                        <a href="javascript:;">
+                          
+                            <span class="sider-nav-title">商业资讯管理</span>
+                            <i class="iconfont">&#xe642;</i>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="javascript:;">
+                         
+                            <span class="sider-nav-title">类别管理</span>
+                            <i class="iconfont">&#xe642;</i>
+                        </a>
+                       
+                     </li>
+                     <li>
+                        <a href="javascript:;">
+                            
+                            <span class="sider-nav-title">地区管理</span>
+                            <i class="iconfont">&#xe642;</i>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="javascript:;">
+
+                            <span class="sider-nav-title">关键字管理</span>
+                            <i class="iconfont">&#xe642;</i>
+                        </a>
+                    
+                     </li>
+                     <li>
+                        <a href="javascript:;">
+                           
+                            <span class="sider-nav-title">企业选项管理</span>
+                            <i class="iconfont">&#xe642;</i>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="javascript:;"> 
+                            <span class="sider-nav-title">留言管理</span>
+                            <i class="iconfont">&#xe642;</i>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="javascript:;"> 
+                            <span class="sider-nav-title">投诉管理</span>
+                            <i class="iconfont">&#xe642;</i>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="javascript:;"> 
+                            <span class="sider-nav-title">数据统计</span>
+                            <i class="iconfont">&#xe642;</i>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="javascript:;"> 
+                            <span class="sider-nav-title">财务管理</span>
+                            <i class="iconfont">&#xe642;</i>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="javascript:;"> 
+                            <span class="sider-nav-title">权限管理</span>
+                            <i class="iconfont">&#xe642;</i>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="javascript:;"> 
+                            <span class="sider-nav-title">系统管理</span>
+                            <i class="iconfont">&#xe642;</i>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="javascript:;"> 
+                            <span class="sider-nav-title">点数规则管理</span>
+                            <i class="iconfont">&#xe642;</i>
+                        </a>
+                     </li>
+                 </ul> 
+            </div> -->
+
+            <div id="pf-page">
+                
+                <div id="bread-crumb">
+                    <a>首页</a>
+                    <span>></span>
+                    <a>点数规则管理</a>
+                </div>
+                  
+                <div id="points-part">
+                    <ul>
+                        <li>
+                            <span>VIP点数管理</span>
+                            <button  href="javascript:;" class="md-trigger" data-modal="modal-1">确认</button>
+                        </li>
+                        <li>
+                            购买银牌会员赠送 <input>
+                            &nbsp;发布点数
+                        </li>
+                        <li>
+                            购买银牌会员赠送 <input>
+                            &nbsp;发布点数
+                        </li>
+                        <li>
+                            购买银牌会员赠送 <input>
+                            &nbsp;发布点数
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="points-part">
+                     <ul>
+                        <li>
+                            <span>点数赠送管理</span>
+                            <button  href="javascript:;" class="md-trigger" data-modal="modal-1">确认</button>
+                        </li>
+                        <li>
+                            普通用户每天登陆大于5分钟赠送 <input>
+                            &nbsp;发布点数
+                            &nbsp;<input> 更新点数
+                        </li>
+                        <li>
+                            营业执照审核通过赠送 <input>
+                            &nbsp;发布点数
+                        </li>
+                        <li>
+                            友情链接审核通过赠送 <input>
+                            &nbsp;发布点数
+                            &nbsp;
+                            最多可赠送 <input> 次
+                        </li>
+                        <li>
+                            身份证认证通过后赠送 <input>
+                            &nbsp;发布点数
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="points-part">
+                     <ul>
+                        <li>
+                            <span>点数发布管理</span>
+                            <button  href="javascript:;" class="md-trigger" data-modal="modal-1">确认</button>
+                        </li>
+                        <li>
+                            普通用户每天最多发布 <input>
+                            &nbsp;条信息
+                        </li>
+                        <li>
+                            银牌会员每天最多发布 <input>
+                            &nbsp;条信息
+                        </li>
+                        <li>
+                           金牌会员每天最多发布 <input>
+                            &nbsp;条信息
+                        </li>
+                        <li>
+                            钻石会员每天最多发布 <input>
+                            &nbsp;条信息
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="points-part">
+                     <ul>
+                        <li>
+                            <span>购买管理</span>
+                            <button  href="javascript:;" class="md-trigger" data-modal="modal-1">确认</button>
+                        </li>
+                        <li>
+                            银牌会员 <input>
+                            &nbsp;元/年
+                        </li>
+                        <li>
+                            金牌会员 <input>
+                            &nbsp;元/年
+                        </li>
+                        <li>
+                            钻石会员 <input>
+                            &nbsp;元/年
+                        </li>
+                        <li>
+                            关键字 <input>
+                            &nbsp;元/月
+                        </li>
+                        <li>
+                            发布点 <input>
+                            &nbsp;元/条
+                        </li>
+                        <li>
+                            更新点 <input>
+                            &nbsp;元/条
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="points-part">
+                    <ul>
+                        <li>
+                            <span>图片管理</span>
+                            <button  href="javascript:;" class="md-trigger" data-modal="modal-1">确认</button>
+                        </li>
+                        <li>
+                            营业执照通过赠送 <input>
+                            &nbsp;张图片
+                        </li>
+                        <li>
+                            普通会员可上传 <input>
+                            &nbsp;张图片
+                        </li>
+                        <li>
+                            付费会员可上传 <input>
+                            &nbsp;张图片
+                        </li>
+                        <li>
+                             vip会员可上传 <input>
+                            &nbsp;张图片
+                        </li>
+                        <li>
+                             api会员可上传 <input>
+                            &nbsp;张图片
+                        </li>
+                    </ul>
+                </div>
+            
+                <div class="md-modal md-effect-1" id="modal-1">
+                        <div class="md-content">
+                          <span>是否确认修改</span>
+                          <div>
+                            <button class="md-close ">确认 Close me!</button>
+                            <button class="md-close2 ">取消 Close me!</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="md-overlay"></div>
+                
+
+                
+           
+            </div>
+        </div>
+     
+ </div>
+ 
+      
+
+    <script src="./modal/classie.js"></script>
+    <script src="./modal/modalEffects.js" ></script>
+</body> 
+</html>

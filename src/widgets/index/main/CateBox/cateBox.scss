@@ -1,0 +1,47 @@
+div.cate-box{
+    /*宽度，高度，边框，内边距，定位*/
+    width: 304px;
+    border-bottom:1px solid #ddd;
+    background:#fff;
+    margin: 30px 0 0 0;
+    padding-left: 10px;
+}
+/*子分类内容*/
+div.cate-items{
+    float:left;
+}
+div.cate-items>h2{
+    margin-bottom: 30px;
+}
+div.cate-items li{
+    /*左浮动，左边框，内边距*/
+    font-size: 14px;
+    float:left;
+    margin: 0 20px 15px 0;
+    text-align: center;
+}
+
+div.cate-items li a:hover{
+    color: #eb6700;
+}
+
+div.cate-items ul{
+    /*overflow,上边框，上下内边距*/
+    overflow:hidden;
+    width: 304px;
+}
+div.cate-items li.title{
+    /*取消左边框，宽度，文本右对齐*/
+    border-left:none;
+    // width:60px;/*12px * 5 */
+    text-align:right;
+}
+
+.pullBtn{
+    float: right;
+}
+
+.cutLine{
+    float: right;
+    width: 780px;
+}

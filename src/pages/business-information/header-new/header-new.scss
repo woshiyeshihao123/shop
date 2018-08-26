@@ -1,0 +1,33 @@
+.header {
+    /*高度，行高，背景，下边框*/
+    background:#f7f7f7;
+    height:40px;
+    line-height:40px;
+}
+
+.top-login{
+    margin-left: 60px;
+}
+
+.top-login b{
+    margin: 10px 14px;
+    height: 20px;
+    width: 1px;
+}
+
+#top-box>a{
+    margin-left: 20px;
+}
+  
+#top-box>ul>li{
+    float:left;
+    margin-left:10px;
+}
+
+#top-box>ul>b{
+    border-left:1px solid #ddd;
+    margin-right:5px;
+}
+
+
+  

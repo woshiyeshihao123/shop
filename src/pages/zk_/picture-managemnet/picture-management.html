@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>图片管理</title>
+    <script src="../../../assets/js/jquery-1.9.1.min.js"></script>
+    <link rel="stylesheet" href="../../member-center/supply-manage/extend-css/extend.css">
+    <link rel="stylesheet" href="../../../assets/css/common.scss">
+    <link rel="stylesheet" href="../../member-center/supply-manage/list-header/list-header.scss">
+    <link rel="stylesheet" href="../../member-center/supply-manage/list-left/list-left.scss">
+    <link rel="stylesheet" href="../../../common/footer-all/footer-all.scss">
+    <link rel="stylesheet" href="./picture-management.scss">
+    <link rel="stylesheet" href="../../../widgets/index/nav/nav.scss">
+    <link rel="stylesheet" href="../../../pages/csl/chang-password/page-head/page-head.scss">
+    <link rel="stylesheet" href="./upimg.scss">
+<script>
+    var previewflag;
+</script>
+<style>
+        #footer {
+            clear: both;
+            margin-top: 97%;
+        }
+
+        #nav {
+            width: 1200px;
+            margin: 0 auto;
+        }
+      
+    </style>
+
+</head>
+
+<body>
+    <link rel="import" href="../../../pages/csl/chang-password/page-head/page-head.html?__inline">
+
+    <div id="nav">
+        <!-- 2、右：导航内容 -->
+        <ul class="lf">
+            <li>
+                <a href="#">首页</a>
+            </li>
+            <li>
+                <a href="#">供应信息</a>
+            </li>
+            <li>
+                <a href="#">求购信息</a>
+            </li>
+            <li>
+                <a href="#">公司库</a>
+            </li>
+            <li>
+                <a href="#">商业资讯</a>
+            </li>
+            <li>
+                <a href="#">展会信息</a>
+            </li>
+            <li>
+                <a href="#">企业信息</a>
+            </li>
+            <li>
+                <a href="#" class="active">会员中心</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="menber-center-list-header boxsizing">
+        <div class="menber-center-list-header-left">
+            <span>
+                <a href="javascript:void(0)">首页</a>&gt</span>
+            <span>
+                <a href="javascript:void(0)">会员中心</a> &gt</span>
+            <span>
+                <a href="javascript:void(0)">图片管理</a>
+            </span>
+            <div class="menber-center-list-header-right">
+                <b></b>
+                帮助中心
+            </div>
+        </div>
+    </div>
+    <div id="outborder">
+        <link rel="import" href="../../member-center/supply-manage/list-left/list-left.html?__inline">
+        <!-- 右侧整一个图片管理页面的div -->
+        <div id="picture-management">
+            <h2>图片管理</h2>
+            <div id="attention">
+                <ul>
+                    <li>注意事项 :</li>
+                    <li>请不要上传相同图片。</li>
+                    <li>1、免费用户图片100张、营业执照认证300张、付费用户5000张</li>
+                    <li>2、删除图片后，原来的信息里面图片就不会显示了;</li>
+                    <li>3、当用户发满后，删除后也无法发布。</li>
+                    <li>4、普通会员可添加20个文件夹，vip会员可添加200个文件夹</li>
+                </ul>
+            </div>
+            <!-- 三个图的外面一个大的div -->
+            <div class="three-titles">
+                <!-- 1.图片,上传图片,打开,X -->
+                <div>
+                    <!--[if lt IE 8]>
+                        <div>
+                            sssss
+                        </div>
+                    <![endif]-->
+                    <img class="pic-box" src="" alt="" />
+                    <img src="../../../../src/assets/img/photos/8-6/delete-dir.png"  style="margin:0px;" onclick="
+                        this.parentElement.remove();
+                      ">
+                    <button class="on">上传照片</button>
+                    <button class="off">打开</button>
+                    <input type="file" onchange="previewImage(this)" onclick="  previewflag = $(this);
+                    console.log(previewflag);" />     
+                    <!-- <div id="bg" class="over">           -->
+                        <div class="in-bg over" style="left:0px;">
+                            <div>
+                                <img src="" alt="" />
+                                <img id="delete" src="../../../../src/assets/img/photos/8-6/delete-dir.png" style="margin:0px;width:40px;height:40px;">
+                            </div>
+                            <div>
+                                <img src="" alt="" />
+                                <img id="delete" src="../../../../src/assets/img/photos/8-6/delete-dir.png" style="margin:0px;width:40px;height:40px;">
+                            </div>
+                            <div>
+                                <img src="" alt="" />
+                                <img id="delete" src="../../../../src/assets/img/photos/8-6/delete-dir.png" style="margin:0px;width:40px;height:40px;">
+                            </div>
+                            <div>
+                                <img src="" alt="" />
+                                <img id="delete" src="../../../../src/assets/img/photos/8-6/delete-dir.png" style="margin:0px;width:40px;height:40px;">
+                            </div>
+                            <div>
+                                <img src="" alt="" />
+                                <img id="delete" src="../../../../src/assets/img/photos/8-6/delete-dir.png" style="margin:0px;width:40px;height:40px;">
+                            </div>
+                            <div>
+                                <img src="" alt="" />
+                                <img id="delete" src="../../../../src/assets/img/photos/8-6/delete-dir.png" style="margin:0px;width:40px;height:40px;">
+                            </div>
+                            <div>
+                                <img src="" alt="" />
+                                <img id="delete" src="../../../../src/assets/img/photos/8-6/delete-dir.png" style="margin:0px;width:40px;height:40px;">
+                            </div>
+                            <div>
+                                <img src="" alt="" />
+                                <img id="delete" src="../../../../src/assets/img/photos/8-6/delete-dir.png" style="margin:0px;width:40px;height:40px;">
+                            </div>
+                        </div>
+                    </div>
+                <!-- </div> -->
+
+                <div id="folder">
+                    <div class="folder">
+                        上传图片添加新文件夹
+                    </div>
+                    <a id="btn-button">上传图片</a>
+                </div>
+
+    </div>  
+    </div>
+    
+        <script src="./upimg.js"></script>
+        <script src="./picture-management.js"></script>
+        <script src="../../member-center/supply-manage/list-header/list-header.ts"></script>
+        <script src="../../member-center/supply-manage/list-left/list-left.ts"></script>
+        <script src="../../csl/chang-password/page-head/page-head.ts"></script>
+    </div>
+</body>
+<link rel="import" href="../../../common/footer-all/footer-all.html?__inline">
+</html>

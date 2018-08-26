@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head lang="en" mip>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="viewport-fit=cover, width=750, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>产品展厅</title>
+    <script src="../../assets/js/jquery-1.9.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://c.mipcdn.com/static/v1/mip.css">
+    <link rel="stylesheet" href="./productShow.scss"/>
+    <link rel="stylesheet" href="../complain-add/complain-add.scss">
+    <link rel="stylesheet" href="../allCatalog/allCatalog.scss">
+    <link rel="stylesheet" href="../allCatalog/allCatalog.scss">
+    <link rel="stylesheet" href="../../h5-common/goTop/goup.scss">
+    <link rel="canonical" href="./productShow.html">
+</head>
+<body>
+  <!-- 头部 -->
+  <div class="modal-full-screen none"></div>
+
+  <!-- 这里插入首商网头部 -->
+  <link rel="import" href="../allCatalog/allCatalog.html?__inline">
+  <!-- 分类 -->
+  <nav>
+    <b>济南品脉数控设备有限公司</b>
+    <div class="img">
+      <mip-img width="44" height="44" src="../../h5-assets/img/index/drawable-xhdpi/gold.png" class="gode"></mip-img>
+      <span style="color:#666;">金牌</span>
+    </div>
+
+    <a class="tousu" href="javascript:void(0)">投诉</a>
+    <p>主营：服装、饰品、玩具、电源</p>
+    <div class="clear"></div>
+  </nav>
+  
+  <ul class="index-list">
+    <li>
+      <a class="a-1" href="../h5-index/index.html"><mip-img width="50" height="50" src="../../h5-assets/img/dianpu/home.png"></mip-img>
+                    <span >首页</span></a></li>
+    <li>
+      <a class="a-2" href="../supplyInfoNew/supplyInfoNew.html"><mip-img width="50" height="50" src="../../h5-assets/img/dianpu/supply.png"></mip-img>
+                        <span>最新供应</span></a></li>
+    <li>
+      <a class="a-3" href="../infoBuyList1/infoBuyList1.html"><mip-img width="50" height="50"src="../../h5-assets/img/dianpu/gou.png"></mip-img>
+                            <span>采购清单</span></a></li>
+    <li>
+      <a class="a-4 chang"><mip-img width="70" height="70"src="../../h5-assets/img/dianpu/chanpin-1.png"></mip-img>
+                                <span style="margin-top:0;">产品展厅</span></a></li>
+    <li style="margin-right:0;">
+      <a class="a-5"><mip-img width="50" height="50" src="../../h5-assets/img/dianpu/shou.png"></mip-img>
+                                    <span>收起</span></a></li>
+    <li>
+      <a class="a-6" href="../newList/newList.html"><mip-img width="50" height="50"src="../../h5-assets/img/dianpu/dong.png"></mip-img>
+                                        <span>公司动态</span></a></li>
+    <li>
+      <a class="a-7" href="../recruit-list/recruit-listl.html"><mip-img width="50" height="50"src="../../h5-assets/img/dianpu/zhaopin.png"></mip-img>
+                                            <span>公司招聘</span></a></li>
+    <li>
+      <a class="a-8" href="../chens/contactInfo/contact-info.html"><mip-img width="50" height="50"src="../../h5-assets/img/dianpu/lianxi-1.png"></mip-img>
+                                                <span>联系方式</span></a></li>
+    <li>
+      <a class="a-9" href="../corpInductor/corpInductor.html"><mip-img width="50" height="50"src="../../h5-assets/img/dianpu/jieshao.png"></mip-img>
+                                                    <span>公司介绍</span></a></li>
+    <li style="margin-right:0;">
+      <a class="a-10" href="../corpInfo/corpInfo.html"><mip-img width="50" height="50"src="../../h5-assets/img/dianpu/gongshan.png"></mip-img>
+                                                        <span>工商信息</span></a></li>
+    <div class="clear"></div>
+  </ul>
+  <div class="clear"></div>
+  <p class="jiege"></p>
+  <!-- 投诉 -->
+  <div class="complain-box none">
+    <div class="box">
+      <mip-img width="134" height="134" src="../../h5-assets/img/dianpu/tousu-1.png"></mip-img>
+      <div class="center"> 
+         <input type="text" placeholder="您的姓名：">
+         <input type="text" placeholder="电话号码：">
+         <input type="text" placeholder="电子邮箱：">
+         <input type="text" placeholder="QQ:" >
+         <div class="container-main">
+         <ul>
+         <li style=" position:relative;"><span>证据及类型：</span><a href="javascript:void(0)" class="list"><span>淫秽色情 </span><b class="down rg"></b></a>
+          <ul class="list-1 none">
+            <li class="jie"><i></i><span>淫秽色情</span></li>
+            <li class="jie"><i></i>
+              <span>赌博</span></li>
+            <li class="jie"><i></i>
+              <span>诈骗</span></li>
+              <li class="jie"><i></i>
+                <span>侵权</span></li>
+                <li class="jie"><i></i>
+                  <span>病毒</span></li>
+                  <li class="jie"><i></i>
+                    <span>违背宪法原则</span></li>
+                    <li class="jie"><i></i>
+                      <span>攻击党和政府</span></li>
+          </ul>
+        </li>
+      </ul>
+      </div>
+         <input type="text" placeholder="主题：" >
+         <input type="text" placeholder="网址：">
+       
+         <textarea id="txt" placeholder="详细内容:"></textarea>
+        </div> 
+        <div class="container-box none">
+          提交成功!
+        </div>
+        <div class="anniu">
+          <a class="lt" style="margin-right:20px;"><button class="two"> 取消</button></a>
+          <a class="lt"> <button class="one">提交</button></a> 
+        </div>
+        </div>
+  </div>
+  <!-- 主体 -->
+  <!-- 主题 -->
+  <section>
+    <div class="section-top">
+      <mip-img width="44" height="44" class="sige" src="../../h5-assets/img/info/drawable-xhdpi/type.png" onClick="jump1('../supplyType/supplyType.html')"></mip-img><b>产品展厅</b>
+    </div>
+    
+    <ul class="main">
+      <li>
+        <a href="../productDetail/supplyInfo.html">
+        <mip-img width="160" height="160" src="../../h5-assets/img/dianpu/purchase.jpg"></mip-img>
+        <div class="main-right">
+          <p class="main-right-top">鹌鹑采食器 养殖设备 鹌鹑食打算打算的撒...</p>
+          <p class="main-right-bottom">鹌鹑自动采食器：其结构又大漏料斗.输料桶.漏料槽，一次性对接而成。底层dasdsadasdasd...</p>
+        </div>
+        </a>
+      </li>
+      
+      <li>
+          <a href="../productDetail/supplyInfo.html">
+        <mip-img width="160" height="160" src="../../h5-assets/img/dianpu/purchase.jpg"></mip-img>
+        <div class="main-right">
+            <p class="main-right-top">鹌鹑采食器 养殖设备 鹌鹑食...</p>
+            <p class="main-right-bottom">鹌鹑自动采食器：其结构又大漏料斗.输料桶.漏料槽，一次性对接而成。底层...</p>
+        </div>
+        </a>
+      </li>
+      
+      <li>
+          <a href="../productDetail/supplyInfo.html">
+        <mip-img width="160" height="160" src="../../h5-assets/img/dianpu/purchase.jpg"></mip-img>
+        <div class="main-right">
+            <p class="main-right-top">鹌鹑采食器 养殖设备 鹌鹑食...</p>
+            <p class="main-right-bottom">鹌鹑自动采食器：其结构又大漏料斗.输料桶.漏料槽，一次性对接而成。底层...</p>
+        </div>
+        </a>
+      </li>
+      
+      <li>
+          <a href="../productDetail/supplyInfo.html">
+        <mip-img width="160" height="160" src="../../h5-assets/img/dianpu/purchase.jpg" ></mip-img>
+        <div class="main-right">
+            <p class="main-right-top">鹌鹑采食器 养殖设备 鹌鹑食...</p>
+            <p class="main-right-bottom">鹌鹑自动采食器：其结构又大漏料斗.输料桶.漏料槽，一次性对接而成。底层...</p>
+        </div>
+        </a>
+      </li>
+      
+    </ul>
+  </section>
+  <div id="button-top">
+    <button>登录</button>
+    <button>注册</button>
+    <button>电脑版</button>
+    <button>开通会员</button>
+ </div>
+    <div id="button-btn">
+  <button><mip-img width="44" height="44" class="jindian" src="../../h5-assets/img/dianpu/jin.png"></mip-img><span>进店</span></button>
+  <button id="call-phone"><mip-img width="44" height="44" class="boda" src="../../h5-assets/img/dianpu/tel.png"></mip-img><span>拨打电话</span></button>
+  <button><mip-img width="44" height="44" class="lianxi" src="../../h5-assets/img/dianpu/QQ.png"></mip-img><span>联系QQ</span></button>
+</div>
+<div id="bg" class="disappear"></div>
+<div id="call-people" class="disappear">
+      <mip-img width="98" height="98" class="touxiang" src="../../h5-assets/img/info/drawable-xhdpi/call-people.png"></mip-img>
+      <span>176-0056-5592</span>
+      <p>*此号码不暂不支持短信首发功能*</p>
+      <button><a href="tel:176-0056-5592"></a>拨打</button>
+      <button id="over">取消</button>
+</div>
+  <script src="https://c.mipcdn.com/static/v1/mip.js"></script>
+  <script src="../../h5-common/goTop/jquery.goup.js"></script>
+  <script src="//127.0.0.1:8080/h5-pages/productShow/productShow.js"></script>
+  <script src="../complain-add/complain.js"></script>
+  <script src="//127.0.0.1:8080/h5-pages/allCatalog/allCatalog.js"></script>
+</body>
+</html>

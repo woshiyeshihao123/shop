@@ -1,0 +1,119 @@
+<!-- <link rel="stylesheet" href="./examine-info-wait.scss"> -->
+
+<div id="examine-info-wait" class="boxsizing lf">
+  <div class="examine-info-wait-title">
+    <a href="javascript:void(0)" class="a-active">待审核</a>
+    <a href="javascript:void(0)">审核未通过</a>
+  </div>
+
+  <ul>
+    <li>
+      <!-- <link rel="import" href="../supply-info-manage/supply-info-manage-dateline/supply-info-manage-dateline.html?__inline"> -->
+      <li class="supply-info-manage-dateline clear">
+        <div class="checkBox" style="margin-left:15px">
+          <div class="checkBox-right"></div>
+        </div>
+        <span>全选</span>
+        <span>批量删除</span>
+        <select>
+                    <option value="">全部</option>
+                    <option value="">供应</option>
+                    <option value="">求购</option>
+                </select>
+        <div class="rt" id="date-pick-line">
+          <span>发布日期:</span>
+          <input type="text" calendar="YYYY-MM-DD" />
+            <span>至</span>
+            <input type="text" calendar="YYYY-MM-DD" />
+              <input type="text" class="date-and-text input-search" placeholder="请输入关键字">
+              <a href="javascript:void(0)" class="btn-supply-info-manage-search">搜索</a>
+            </div>
+      </li>
+    </li>
+    <li id="examine-info-wait-message">
+      <ul>
+        <li>
+          <span>信息</span>
+        </li>
+        <li>
+          <span>类型</span>
+        </li>
+        <li class="unpassed-type v-none">
+          <span>类型</span>
+        </li>
+        <li>
+          <span>发布日期</span>
+        </li>
+        <li>
+          <span>操作</span>
+        </li>
+      </ul>
+    </li>
+    <!-- 这是待审核 -->
+    <li class="examine-info-wait-li bottom-dash clear wait-fot-pass">
+      <ul>
+        <li>
+          <div class="checkBox">
+            <div class=""></div>
+          </div>
+          <span class="vertical-align-middle">2018年一桶海鲜大礼包</span>
+        </li>
+        <li>
+          <span>供应</span>
+        </li>
+        <li style="visibility:hidden">
+          <span>供应</span>
+        </li>
+        <li>
+          <span>2018-01-03 20:40:00</span>
+        </li>
+        <li>
+          <a href="javascript:void(0)" class="padR15" style="padding-left:0">修改</a>
+        </li>
+        <li>
+          <a href="javascript:void(0)" class="padR15 delete">删除</a>
+        </li>
+        <li>
+          <a href="javascript:void(0)" class="padR15" style="border-right:none">查看</a>
+        </li>
+      </ul>
+      <div class="clear"></div>
+    </li>
+    <!-- 这是审核未通过 -->
+    <li class="examine-info-wait-li bottom-dash clear unpassed none">
+      <ul>
+        <li>
+          <div class="checkBox">
+            <div class=""></div>
+          </div>
+          <span class="vertical-align-middle">这是审核未通过</span>
+        </li>
+        <li>
+          <span>供应</span>
+        </li>
+        <li>
+          <span>不符合</span>
+        </li>
+        <li>
+          <span>2018-01-03 20:40:00</span>
+        </li>
+        <li>
+          <a href="javascript:void(0)" class="padR15" style="padding-left:0">修改</a>
+        </li>
+        <li>
+          <a href="javascript:void(0)" class="padR15 delete">删除</a>
+        </li>
+        <li>
+          <a href="javascript:void(0)" class="padR15" style="border-right:none">查看</a>
+        </li>
+      </ul>
+      <div class="clear"></div>
+    </li>
+
+  </ul>
+  <!-- 分页插件 -->
+  <link rel="import" href="../../dev-pages-personal-plugin/dev-pages-personal-plugin.html?__inline">
+
+  </div>
+
+  <!-- <script src="./examine-info-wait.ts"></script> -->

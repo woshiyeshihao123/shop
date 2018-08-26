@@ -1,0 +1,16 @@
+.mainHeader{
+    float: left;
+    height: 25px;
+    // line-height: 25px;
+}
+
+.mainHeader ul li b{
+    position: relative;
+    border-bottom: 2px solid #fdb315;
+}
+
+.mainHeader ul li b a{
+    position: relative;
+    font-size: 24px;
+    top: 5px;
+}

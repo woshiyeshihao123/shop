@@ -1,0 +1,51 @@
+.newSup{
+    float: left;
+    width: 750px;
+    height: 590px;
+    margin:0 0 0 35px; 
+}
+
+.newSup h3{
+    width: 150px;
+    font-size: 18px;
+    color: #000;
+    margin: 10px 0;
+}
+
+.newSup .infoBox{
+    float: left;
+    height: 167px;
+    width: 167px;
+    margin: 0 20px 31px 0;
+    position: relative;
+}
+
+.newSup .infoBox dl{
+    height: 167px;
+}
+
+.newSup .infoBox dl dt{
+    height: 167px;
+    width: 167px;   
+    background:#3E3E3E;
+}
+
+.newSup .infoBox dl dd{
+    height: 40px;  
+    position: relative;
+    top: -40px;
+    background: #000;
+    font-size: 16px;
+    color: #fff;
+    line-height: 40px;
+    // 透明度的兼容性写法
+    -moz-opacity:0.3;
+    -khtml-opacity: 0.3;
+    opacity: 0.3;
+    filter:alpha(opacity=30);
+}
+
+// .last-index-list{
+//     float: left;
+//     width: 200px;
+// }

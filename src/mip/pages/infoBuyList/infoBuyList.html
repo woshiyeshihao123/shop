@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en" mip>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="viewport-fit=cover, width=750, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>采购清单</title>
+    <link rel="stylesheet" type="text/css"  href="../../css/infoBuyList.css"/>
+    <link rel="stylesheet" type="text/css"  href="../../css/allCatalog.css">
+    <link rel="stylesheet" type="text/css"  href="../../css/complain-add.css">
+    <link rel="stylesheet" type="text/css"  href="../../css/goup.css">
+    <link rel="stylesheet" type="text/css"  href="../../css/common.css">
+    <link rel="canonical" href="//www.mipengine.org/"> 
+    <link rel="stylesheet" type="text/css" href="https://mipcache.bdstatic.com/static/v1/mip.css">
+</head>
+<body>
+  
+<!-- *******header******** -->
+<div class="header " >
+        <a href="#" class="deploy-contact" </a>
+        <a href="javascript:;" class="deploy-sidebar"></a>
+    </div>
+
+<!-- ********popup******* -->
+<div class="popup">
+  <div class="menu">
+    <div class="left-one" onclick="jump1()">  
+        <mip-img src="../../img/index/drawable-xhdpi/main.png"></mip-img> 
+        <div class="word-two"> 
+        <a>首页</a>
+        </div>
+    </div>
+   <div class="center-one" onclick="jump2()">  
+         <mip-img src="../../img/index/drawable-xhdpi/supply-info.png"></mip-img>
+         
+        <div class="word-two"> 
+        <a>供应</a>
+        </div>
+    </div>   
+    <div class="right-one" onclick="jump3()">  
+        <mip-img src="../../img/index/drawable-xhdpi/buy-info.png"></mip-img> 
+         
+        <div class="word-four"> 
+        <a>求购信息 </a>
+        </div>
+    </div>
+      
+    
+    <div class="left-two" onclick="jump4()">  
+        <mip-img src="../../img/index/drawable-xhdpi/product-info.png"></mip-img>
+         
+        <div class="word-four"> 
+        <a>产品信息</a>
+        </div>
+    </div>     
+    <div class="center-two" onclick="jump5()">  
+         <mip-img src="../../img/index/drawable-xhdpi/company-list.png"></mip-img>
+         
+        <div class="word-three"> 
+        <a>公司库</a>
+        </div>
+    </div>     
+    <div class="right-two" onclick="jump6()">  
+        <mip-img src="../../img/index/drawable-xhdpi/news.png"></mip-img>
+         
+        <div class="word-four"> 
+        <a>新闻动态</a>
+        </div>
+    </div>    
+    <div class="left-three" onclick="jump7()">  
+        <mip-img src="../../img/index/drawable-xhdpi/excibition-info1.png"></mip-img>
+         
+        <div class="word-four"> 
+        <a>展会信息</a>
+        </div> 
+    </div>    
+    <div class="center-three" onclick="jump8()">  
+        <mip-img src="../../img/index/drawable-xhdpi/business-info.png"></mip-img>
+         
+        <div class="word-four"> 
+        <a>工商信息</a>
+        </div> 
+    </div>    
+    <div class="right-three" onclick="jump9()">  
+        <mip-img src="../../img/index/drawable-xhdpi/type-area.png"></mip-img>
+         
+        <div class="word-five"> 
+        <a>类别/信息</a>
+        </div> 
+    </div>     
+     
+  </div>
+</div>
+
+  <nav>
+    <b>济南品脉数控设备有限公司</b>
+    <mip-img src="../../img/index/drawable-xhdpi/gold.png" class="gode"></mip-img>
+    <span style="color:#666; font-size:26px;">金牌</span>
+    <a class="toushu">投诉</a>
+    <p style="font-size:28px;">主营：服装、饰品、玩具、电源</p>
+  </nav>
+  <!-- <hr> -->
+  <div id="icon-nav"  >
+      <ul class="icon-nav">
+          <li class="a-0">
+              <div>
+                <mip-img src="../../img/dianpu/home.png"></mip-img>
+              </div>
+              <p>首页</p>
+          </li>
+          <li class="a-1">
+              <div>
+                <mip-img src="../../img/dianpu/supply.png"></mip-img>
+              </div>
+              <p>最新供应</p>
+          </li>
+          <li class="active-icon a-2">
+              <div>
+                <mip-img src="../../h5-assets/img/dianpu/gou-1.png"></mip-img>
+              </div>
+              <p>采购清单</p>
+          </li>
+          <li class="a-3">
+              <div>
+                <mip-img src="../../img/dianpu/chanpin.png"></mip-img>
+              </div>
+              <p>产品展厅</p>
+          </li>
+          <li class="all-btn">
+              <div>
+                <mip-img src="../../img/dianpu/shou.png" class="img-btn"></mip-img>
+              </div>
+              <p>收起</p>
+          </li>
+      </ul>
+      <ul class="icon-nav" id="icon-nav-second">
+            <li class="a-5">
+                <div>
+                  <mip-img src="../../img/dianpu/dong.png"></mip-img>
+                </div>
+                <p>公司动态</p>
+            </li>
+            <li class="a-6">
+                <div>
+                  <mip-img src="../../img/dianpu/zhaopin.png"></mip-img>
+                </div>
+                <p>公司招聘</p>
+            </li>
+            <li class="a-7">
+                <div>
+                  <mip-img src="../../img/dianpu/lianxi-1.png"></mip-img>
+                </div>
+                <p>联系方式</p>
+            </li>
+            <li class="a-8">
+                <div>
+                  <mip-img src="../../img/dianpu/jieshao.png"></mip-img>
+                </div>
+                <p>公司介绍</p>
+            </li>
+            <li class="a-9">
+                <div>
+                  <mip-img src="../../img/dianpu/gongshan.png"></mip-img>
+                </div>
+                <p>工商信息</p>
+            </li>
+        </ul>
+  </div>
+  <div class="complain-box none">
+    
+<div class="box">
+<img src="../../img/dianpu/tousu-1.png">
+<div class="center"> 
+   <input type="text" placeholder="您的姓名：">
+   <input type="text" placeholder="电话号码：">
+   <input type="text" placeholder="电子邮箱：">
+   <input type="text" placeholder="QQ:" >
+   <div class="container-main">
+   <ul>
+   <li style=" position:relative;"  class="list"><i>证据及类型：</i><span class="you">淫秽色情</span><a href="javascript:void(0)" >
+    
+   <b class="down rg"></b></a>
+    <ul class="list-1 none">
+      <li class="jie"><i></i><span>淫秽色情</span></li>
+      <li class="jie"><i></i>
+        <span>赌博</span></li>
+      <li class="jie"><i></i>
+        <span>诈骗</span></li>
+        <li class="jie"><i></i>
+          <span>侵权</span></li>
+          <li class="jie"><i></i>
+            <span>病毒</span></li>
+            <li class="jie"><i></i>
+              <span>违背宪法原则</span></li>
+              <li class="jie"><i></i>
+                <span>攻击党和政府</span></li>
+    </ul>
+  </li>
+</ul>
+</div>
+   <input type="text" placeholder="主题：" >
+   <input type="text" placeholder="网址：">
+ 
+   <textarea id="txt" placeholder="详细内容:"></textarea>
+  </div> 
+  <div class="container-box none">
+    提交成功!
+  </div>
+  <div class="anniu">
+    <a class="lt" style="margin-right:20px;"><button class="two"> 取消</button></a>
+    <a class="lt"> <button class="one">提交</button></a> 
+  </div>
+  </div>
+
+      <!-- <script src="./complain.js" ></script> -->
+
+  </div>
+  <section>
+    <div class="section-top">
+      <mip-img src="../../img/info/drawable-xhdpi/type.png" id="tc"></mip-img><b>采购清单</b>
+    </div>
+    
+    <!-- <div class="category"></div> -->
+    <ul class="main">
+      <li>
+        <a href="../productDetail/supplyInfo.html">
+          <mip-img src="../../img/dianpu/purchase.jpg" class="tu"></mip-img>
+        </a>
+          <div class="main-right">
+            <a href="../productDetail/supplyInfo.html" class="main-right-top">三段式消防水枪可切换球阀可切换球阀</a>
+              <p class="main-right-bottom">
+                <mip-img class="dw"src="../../img/index/drawable-xhdpi/location2.png"></mip-img>
+              东台市海景消防器材有限公司</p>
+          </div>
+      </li>
+      
+      <li>
+          <a href="../productDetail/supplyInfo.html">
+            <mip-img src="../../img/dianpu/purchase.jpg"class="tu"></mip-img>
+          </a>
+            <div class="main-right">
+              <a href="../productDetail/supplyInfo.html" class="main-right-top">三段式消防水枪可切换球阀可切换球阀</a>
+                <p class="main-right-bottom">
+                  <mip-img class="dw"src="../../img/index/drawable-xhdpi/location2.png"></mip-img>
+                东台市海景消防器材有限公司</p>
+            </div>
+        </li>
+        
+        <li>
+            <a href="../productDetail/supplyInfo.html">
+              <mip-img src="../../img/dianpu/purchase.jpg"class="tu"></mip-img>
+            </a>
+              <div class="main-right">
+                <a href="../productDetail/supplyInfo.html" class="main-right-top">三段式消防水枪可切换球阀可切换球阀</a>
+                  <p class="main-right-bottom">
+                    <mip-img class="dw"src="../../img/index/drawable-xhdpi/location2.png"></mip-img>
+                  东台市海景消防器材有限公司</p>
+              </div>
+          </li>
+          
+    </ul>
+  </section>
+  
+  <footer class="foot-list">
+    <a href="">登录</a>
+    <a href="">注册</a>
+    <a href="">电脑版</a>
+    <a href="">开通会员</a>
+  </footer>
+  <script src="http://127.0.0.1:8080/mip/js/jquery-1.9.1.min.js"></script>
+  <script src="http://127.0.0.1:8080/mip/js/infoBuyList.js"></script>
+  <script src="http://127.0.0.1:8080/mip/js/allCatalog.js"></script>
+  <script src="http://127.0.0.1:8080/mip/js/jquery.goup.js"></script>
+  <script src="http://127.0.0.1:8080/mip/js/complain.js"></script>
+  <script src="https://mipcache.bdstatic.com/static/v1/mip.js"></script> 
+</body>
+</html>

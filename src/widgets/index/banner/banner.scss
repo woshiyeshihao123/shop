@@ -1,0 +1,199 @@
+#banner{
+    padding-top: 10px;
+    
+}
+
+// #cate-box li:first-child{
+//     margin: 0 20px 0 0;
+// }
+
+.navButton{
+    /*边框，背景，行高*/
+    // border:2px solid #E4393C;
+    // background:url("../../../assets/img/photos/index/business-service/business-service.png") no-repeat;
+    border: none;
+    line-height:27px;
+    text-align: center;
+    margin-right: 10px;
+    /*浮动*/
+    float:left;
+    position: relative;
+    border-bottom: 2px solid #ED7515;
+    /*宽度*/
+    // width:104px;/*12px(每个字大小) * 6(按6个子宽度算)*/
+}
+
+#banner li>p.gradient{
+    /*左浮动，宽度，高度，背景*/
+    float:left;
+    width: 165px;
+    text-align: center;
+    margin: 25px 20px 10px 20px;
+    height:38px;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(#ED7515), to(#FB992F));  
+　　background: -webkit-linear-gradient(left, #ED7515, #FB992F);  
+　　background: -moz-linear-gradient(left, #ED7515, #FB992F);  
+　　background: -o-linear-gradient(left, #ED7515, #FB992F);  
+　　background: linear-gradient(left, #ED7515, #FB992F); 
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType = 1, startColorstr = #ED7515, endColorstr = #FB992F); 
+        background: -ms-linear-gradient(left, #ED7515, #FB992F);       
+}
+
+:root .gradient{filter:none;} 
+
+#banner li>p a{
+    /*行高，取消下划线，颜色，大小，加粗,左浮动*/
+    width: 140px;
+    height: 27px;
+    line-height:27px;
+    text-decoration:none;
+    color:#fff;
+    font-size:14px;
+    font-weight:bold;
+    text-align: center;
+    padding: 5px 0 5px 15px;
+    float:left;
+}
+
+#banner li>p a img:first-child{
+margin: 7px 10px 0px 0px;
+}
+
+
+#cate-box{
+    /*宽度，高度，边框，上内边距，box-sizing，浮动*/
+    width:205px;
+    height:620px;
+    border:1px solid #EEE;
+    border-top:none;
+    box-sizing:border-box;
+    float:left;
+    background-color:#fafafa;
+    margin-top: 15px;
+    /*相对定位：配合 #sub-cate-box 做绝对定位*/
+    position:relative;
+    box-shadow: -4px 4px 40px #ddd;
+    -moz-box-shadow: -4px 4px 40px #ddd;
+    -webkit-box-shadow: -4px 4px 40px #ddd;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#969696', Direction=125, Strength=9);
+
+}
+#banner b{
+    float: left;
+    height: 31px;
+    border-right: 2px solid #E4393C;
+}
+#cate-box>li>a{
+    /*块级，宽度，左内边距，上下内边距，box-sizing，上边框透明，下边框白色*/
+    display:block;
+    font-size: 14px;
+    height: 32px;
+    padding:4px 20px 4px 20px;
+    box-sizing:border-box;
+    border-top:1px solid transparent;
+    border-bottom:1px solid #fff;
+    /*字体：颜色，大小，下划线*/
+    color:#333;
+    font-size:14px;
+    text-decoration:none;
+    text-align: left;
+}
+
+.sm-titel-icon{
+    float: left;
+    margin-right: 15px;
+}
+
+#cate-box>li>a:hover{
+    /*背景颜色，边框颜色*/
+    background-color:#fff;
+    border-color:#ddd;
+    /*调整 z-index 以便能够 压在 #sub-cate-box 之上*/
+    position:relative;
+    z-index:100;
+    color: #ED7515;
+}
+#cate-box>li:hover div.sub-cate-box{
+    display: block;
+    margin: 0 20px;
+}
+
+
+/*extra focus 用户云台*/
+
+#extra-focus{
+    float: left;
+    width: 205px;
+    height: 302px;
+    margin-top: 15px;
+}
+
+// 1.界面头像 欢迎语
+
+
+
+.btnDiv{
+    float: left;
+    height: 30px;
+    width: 230px;
+    font-size: 16px;
+    // margin: 10px 32px;
+}
+
+.btnDiv input{
+    width: 60px;
+    height: 38px;
+    // padding: 6px 14px;
+    border:none;
+    margin-right: 1px;
+    background:#EE7713;
+    line-height:27px;
+    text-align: center;
+    float: left;
+    color: #fff;
+   
+}
+
+.btnDiv input:first-child+input+input{
+    width: 83px;
+    background: #FBB313;
+}
+
+#infoScroll{
+    float: left;
+    width: 205px;
+    height: 282px;
+    margin-top: 15px;
+    border: 1px solid #ddd;
+    box-shadow: -4px 4px 40px #ddd;
+    -moz-box-shadow: -4px 4px 40px #ddd;
+    -webkit-box-shadow: -4px 4px 40px #ddd;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#969696', Direction=125, Strength=9);
+    background: #fff;
+    text-align: center;
+}
+
+.UButton{
+    /*边框，背景，行高*/
+    border:none;
+    background: #fff;
+    border-left: none;
+    border-right: none;
+    line-height:23px;
+    text-align: center;
+    /*浮动*/
+    float:left;
+    /*宽度*/
+    width:81px;/*临时*/
+    font-size: large;
+    margin: 20px 10px;
+    position: relative;
+    border-bottom: 2px solid #ED7515;
+}
+
+.UButton a{
+    position: relative;
+    top: 5px;
+}
+
+

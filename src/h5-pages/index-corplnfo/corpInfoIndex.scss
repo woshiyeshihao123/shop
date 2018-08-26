@@ -1,0 +1,136 @@
+p, span, li, ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+details summary::-webkit-details-marker {
+    display: none;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+img {
+    vertical-align: bottom;
+}
+.rg {
+    float: right;
+}
+.lf {
+    float: left;
+}
+.clear {
+    clear: both;
+}
+body {
+    font-size: 28px;
+    color: #333;
+    width: 750px;
+    background-color: #f4f4f4;
+}
+#header {
+    width: 750px;
+    height: 100px;
+    background-color: rgb(244, 244, 244);
+    position: relative;
+}
+#header .display {
+    margin-top: 30px;
+    margin-left: -161px;
+    font-size: 30px;
+    color: #ef7714;
+}
+#header .tangle {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid rgb(239, 119, 20);
+    margin-top: 18px;
+    margin-left: 15px;
+    float: right;
+}
+#header input {
+    width: 516px;
+    height: 64px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background-color: white;
+    font-size: 30px;
+    padding-left: 35px;
+    color: #999;
+    position: relative;
+    right: 36px;
+}
+#header img {
+    position: absolute;
+    z-index: 5;
+    left: 643px;
+    top: 40px;
+}
+.diqu {
+    overflow: hidden;
+    width: 100%;
+    li {
+        float: left;
+        width: 250px;
+        padding: 20px 0;
+        height: 77px;
+        text-align: center;
+        font-size: 28px;
+        background-color: #fff;
+        border-top: 1px solid #f4f4f4;
+        border-left: 1px solid #f4f4f4;
+        color: #333333;
+    }
+}
+.shouqi {
+    width: 750px;
+ 
+    margin-bottom: 10px;
+    background-color: #fff;
+    i {
+        display: inline-block;
+        width: 37px;
+        height: 37px;
+        background: url("../../h5-assets/img/index/drawable-xhdpi/hide.png") no-repeat 0 4px;
+    }
+    div {
+        font-size: 26px;
+        color: #999;
+    }
+}
+.zhankai {
+    width: 750px;
+    height: 104px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    i {
+        display: inline-block;
+        width: 37px;
+        height: 37px;
+        background: url("../../h5-assets/img/index/drawable-xhdpi/show.png") no-repeat 0 7px;
+    }
+    div {
+        font-size: 26px;
+        color: #999;
+    }
+}
+.footer-box {
+    height: 100px;
+    background: #f4f4f4;
+    padding: 0 30px;
+    >a {
+        width: 160px;
+        line-height: 100px;
+        text-align: center;
+        display: inline-block;
+        color: #333;
+        font-size: 30px;
+    }
+}
+.none {
+    display: none;
+}

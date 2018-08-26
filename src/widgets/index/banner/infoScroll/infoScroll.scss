@@ -1,0 +1,12 @@
+#sItem{
+    font-size: 12px;
+    text-align: left;
+    padding:0 15px;
+}
+
+#sItem li{
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space:nowrap;
+    margin-bottom: 15px;
+}

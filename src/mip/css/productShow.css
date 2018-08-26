@@ -1,0 +1,500 @@
+section {
+  width: 750px;
+  margin: 0 auto;
+}
+
+section .section-top {
+  padding: 20px 30px;
+  font-size: 32px;
+  border-bottom: 2px solid #f4f4f4;
+}
+
+section .section-top > b {
+  border-left: 5px solid #ef7714;
+  padding-left: 20px;
+  display: inline-block;
+  height: 28px;
+  line-height: 20px;
+}
+
+section .section-top > img {
+  float: right;
+}
+
+section .main {
+  min-height: 1300px;
+}
+
+section .main li {
+  padding: 30px 30px;
+  border-bottom: 2px solid #f4f4f4;
+}
+
+section .main li .main-right {
+  float: right;
+  width: 460px;
+  padding: 20px 0;
+  margin-right: 40px;
+  position: relative;
+}
+
+section .main li .main-right > .main-right-top {
+  font-size: 32px;
+  width: 460px;
+  margin-top: -20px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+section .main li .main-right .main-right-bottom {
+  width: 480px;
+  height: 70px;
+  margin-top: 20px;
+  line-height: 35px;
+  font-size: 26px;
+  color: #666666;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+section .main li .main-right .dw {
+  position: absolute;
+  top: 103px;
+  left: -7px;
+}
+
+#button-top {
+  height: 80px;
+  width: 750px;
+  margin-bottom: 80px;
+  background: #f4f4f4;
+}
+
+#button-top > button {
+  margin-left: 25px;
+  width: 20%;
+  height: 80px;
+  text-align: center;
+  font-size: 28px;
+  color: black;
+  line-height: 60px;
+  float: left;
+  background: #f4f4f4;
+  border: 0;
+}
+
+footer {
+  height: 100px;
+  background: #f9f9f9;
+  padding: 0  30px;
+}
+
+footer > a {
+  width: 160px;
+  line-height: 100px;
+  text-align: center;
+  display: inline-block;
+  color: #000;
+}
+
+#top-box {
+  padding: 10px 30px;
+  height: 270px;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.rg {
+  float: right;
+}
+
+.lf {
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+ul {
+  list-style: none;
+}
+
+.none {
+  display: none;
+}
+
+.chang {
+  color: #ef7714;
+}
+
+.header {
+  background-color: #fff;
+  border-bottom: solid 1px #ebebed;
+  height: 80px;
+  width: 100%;
+  z-index: 12;
+}
+
+.header .deploy-contact {
+  float: left;
+  z-index: 999;
+  background-image: url("../../assets/img/photos/login-register/logo.png");
+  background-size: 144px 50px;
+  background-repeat: no-repeat;
+  /* background-position:12px 18px; */
+  width: 144px;
+  height: 50px;
+  margin: 14px 30px;
+}
+
+.header .deploy-sidebar {
+  float: right;
+  z-index: 999;
+  background-image: url("../img/index/drawable-xhdpi/navigation-classify.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* background-position:15px 19px; */
+  width: 44px;
+  height: 44px;
+  display: block;
+  margin: 22px 30px;
+}
+
+.header-box {
+  position: absolute;
+  width: 100%;
+  height: 750px;
+  background: #fff;
+  z-index: 99;
+}
+
+.header-box ul li {
+  float: left;
+  margin: 50px 0 50px 90px;
+  text-align: center;
+  width: 130px;
+}
+
+.header-box ul li .text {
+  margin-top: 20px;
+  display: block;
+  font-size: 26px;
+}
+
+nav {
+  padding: 30px 30px 30px 30px;
+  position: relative;
+  border-bottom: 3px solid #f4f4f4;
+}
+
+nav .tousu {
+  float: right;
+  margin-top: 52px;
+  border: 1px solid #ff6600;
+  border-radius: 20px;
+  color: #ff6600;
+  display: block;
+  width: 110px;
+  text-align: center;
+  line-height: 40px;
+  background: #fff;
+  font-size: 26px;
+}
+
+nav b {
+  font-size: 32px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+nav .img {
+  float: left;
+  font-size: 26px;
+  color: #666;
+  margin-left: 30px;
+}
+
+nav .img span {
+  float: right;
+  margin-top: 5px;
+}
+
+nav p {
+  float: left;
+  font-size: 28px;
+  color: #666;
+}
+
+.index-list {
+  width: 693px;
+  margin: 20px 30px;
+}
+
+.index-list li {
+  float: left;
+  width: 100px;
+  height: 103px;
+  text-align: center;
+  margin-right: 47px;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+
+.index-list li a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.index-list li a span {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.jiege {
+  width: 100%;
+  height: 10px;
+  background: #f4f4f4;
+}
+
+.container .container-head {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 30px;
+}
+
+.container .container-head i {
+  width: 4px;
+  height: 30px;
+  background: #ff6600;
+  margin: 5px 20px 0 0;
+}
+
+.container .main {
+  width: 100%;
+}
+
+.container .main li {
+  width: 100%;
+  border-top: 1px solid #ccc;
+}
+
+.container .main li p {
+  width: 690px;
+  margin: 0 30px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.container .main li .main-title {
+  font-size: 32px;
+  margin-top: 30px;
+}
+
+.container .main li .main-time {
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 51px;
+}
+
+.container .main li .main-time a {
+  color: #f60;
+}
+
+.container .main li .main-time b {
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: url("../img/index/drawable-xhdpi/exhibition-date.png");
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.container .main li .main-detail {
+  font-size: 22px;
+}
+
+.container .main li .main-detail a {
+  color: #666;
+}
+
+.footer {
+  width: 100%;
+}
+
+.footer button {
+  font-size: 30px;
+  width: 24.5%;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  margin: 0;
+  background: none;
+  border: 0;
+  padding: 0;
+}
+
+.complain-box {
+  position: absolute;
+  width: 100%;
+  z-index: 200;
+  top: 80px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#button-btn {
+  position: fixed;
+  bottom: 0px;
+  width: 750px;
+}
+
+#button-btn > button {
+  width: 33.3333%;
+  height: 80px;
+  text-align: center;
+  font-size: 24px;
+  color: black;
+  line-height: 60px;
+  float: left;
+  background: white;
+  border: 0;
+}
+
+#button-btn > button > img {
+  float: left;
+  margin-top: 5px;
+}
+
+#button-btn > button > span {
+  float: left;
+}
+
+#call-phone {
+  width: 200px;
+  height: 80px;
+  text-align: center;
+  font-size: 24px;
+  color: black;
+  line-height: 60px;
+  float: left;
+  background: white;
+  border: 0;
+}
+
+#call-phone > img {
+  float: left;
+  margin-top: 5px;
+}
+
+#call-phone > span {
+  float: left;
+}
+
+#bg {
+  width: 750px;
+  height: 100%;
+  filter: alpha(Opacity=80);
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  z-index: 2000;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+#call-people {
+  position: fixed;
+  width: 600px;
+  height: 400px;
+  background: white;
+  z-index: 9999;
+  top: 250px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+#call-people > img {
+  float: left;
+  margin: 70px 10px 10px 70px;
+}
+
+#call-people > span {
+  font-size: 44px;
+  color: #ef7714;
+  font-weight: bold;
+  float: left;
+  margin: 120px 0px 10px 15px;
+}
+
+#call-people > p {
+  font-size: 26px;
+  color: #999999;
+  float: left;
+  margin: 20px 0px 10px 100px;
+}
+
+#call-people > button:nth-child(4) {
+  width: 250px;
+  height: 70px;
+  border-radius: 6px;
+  background: #ef7714;
+  color: #ffffff;
+  font-size: 32px;
+  border: 0;
+  margin: 50px 40px 30px 40px;
+}
+
+#call-people > button:nth-child(5) {
+  width: 250px;
+  height: 70px;
+  border-radius: 6px;
+  background: #f4f4f4;
+  color: #666666;
+  font-size: 32px;
+  border: 0;
+}
+
+.disappear {
+  display: none;
+}
+
+.show {
+  display: block;
+}

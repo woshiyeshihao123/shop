@@ -1,0 +1,27 @@
+body{
+    font:12px "microsoft yahei",Arial,Helvetica,sans-serif;
+	color:#111;
+	margin:0;
+    padding:0;
+}
+a{
+	color:#333;
+	text-decoration:none;
+}
+a:hover{
+	// color:#ff0700;
+	text-decoration:underline;
+}
+// #main{
+// 	/*宽度，元素水平居中对齐*/
+// 	margin:0 auto;
+// }
+h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd{
+	margin:0;
+	padding:0;
+	list-style:none;
+	color: #111;
+}
+.lf{float:left;}
+.rt{float:right;}
+.clear{clear:both;}

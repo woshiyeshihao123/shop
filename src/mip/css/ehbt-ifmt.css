@@ -1,0 +1,342 @@
+.none {
+  display: none;
+}
+
+.header {
+  background-color: #fff;
+  border-bottom: solid 1px #ebebed;
+  height: 80px;
+  width: 100%;
+  z-index: 12;
+}
+
+.header .deploy-contact {
+  float: left;
+  z-index: 999;
+  background-image: url("../../assets/img/photos/login-register/logo.png");
+  background-size: 144px 50px;
+  background-repeat: no-repeat;
+  /* background-position:12px 18px; */
+  width: 144px;
+  height: 50px;
+  margin: 14px 30px;
+}
+
+.header .deploy-sidebar {
+  float: right;
+  z-index: 999;
+  background-image: url("../img/index/drawable-xhdpi/navigation-classify.png");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  /* background-position:15px 19px; */
+  width: 44px;
+  height: 44px;
+  display: block;
+  margin: 27px 30px;
+}
+
+.header-box {
+  position: absolute;
+  width: 100%;
+  height: 680px;
+  background: #fff;
+  z-index: 99;
+}
+
+.header-box ul li {
+  float: left;
+  margin: 50px 0 50px 90px;
+  text-align: center;
+  width: 130px;
+}
+
+.header-box ul li .text {
+  margin-top: 20px;
+  display: block;
+}
+
+.container-head {
+  margin: 30px 30px;
+  font-size: 32px;
+  line-height: 32px;
+}
+
+.container-head i {
+  margin-top: 4px;
+  width: 4px;
+  height: 30px;
+  background: #ff6600;
+  margin-right: 20px;
+}
+
+/*****************************************************************/
+#searh-information {
+  height: 100px;
+  width: 100%;
+  background: #f4f4f4;
+}
+
+#searh-information-box {
+  width: 154px;
+  line-height: 100px;
+  margin-left: 30px;
+}
+
+#searh-information-box > span {
+  color: #ef7714;
+  font-size: 30px;
+  display: inline-block;
+  width: 130px;
+  font-weight: bold;
+}
+
+#searh-information-box > i {
+  width: 20px;
+  height: 20px;
+}
+
+#searh-information-box > .xl-icon {
+  width: 20px;
+  height: 20px;
+  background: url(../img/index/drawable-xhdpi/show-orange.png) no-repeat center center;
+  display: inline-block;
+  left: 0;
+  top: 0;
+}
+
+#searh-information-box > .sq-icon {
+  width: 20px;
+  height: 20px;
+  background: url(../img/index/drawable-xhdpi/hide-orange.png) no-repeat center center;
+  display: inline-block;
+}
+
+.search-box-list {
+  height: 60px;
+  width: 520px;
+  border: none;
+  border-radius: 40px;
+  font-size: 30px;
+  float: left;
+  margin-top: -79px;
+  margin-left: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: white;
+}
+
+.search-click {
+  width: 60px;
+  height: 60px;
+  display: block;
+  float: left;
+  background: url(../img/dianpu/search.png) no-repeat center center;
+  margin-left: 660px;
+  margin-top: -79px;
+}
+
+#main-tit {
+  height: 90px;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+
+#main-tit > ul {
+  text-align: center;
+}
+
+#main-tit > ul > li {
+  float: left;
+  margin-left: 172px;
+}
+
+#main-tit > ul > li a {
+  font-size: 32px;
+  font-weight: bolder;
+  line-height: 90px;
+  text-decoration: none;
+}
+
+#main-tit > ul > .active > a {
+  position: relative;
+  color: #ef7714;
+}
+
+#main-tit > ul > .active > a::after {
+  position: absolute;
+  left: 50%;
+  bottom: -25px;
+  width: 170px;
+  height: 4px;
+  margin-left: -87px;
+  background: #ff6600;
+  content: '';
+}
+
+#container {
+  height: 916px;
+}
+
+#container > .box {
+  display: none;
+}
+
+#container > .box.active {
+  display: block;
+}
+
+#container {
+  width: 690px;
+  margin-left: 30px;
+}
+
+#container > .box > ul {
+  margin-top: 34px;
+  border-bottom: 2px  solid #f4f4f4;
+}
+
+#container > .box > ul > li {
+  height: 40px;
+  line-height: 40px;
+}
+
+#container > .box > ul :first-child {
+  font-size: 28px;
+}
+
+#container > .box > ul :first-child a {
+  display: inline-block;
+  width: 545px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-decoration: none;
+}
+
+#container > .box > ul :nth-child(2) {
+  font-size: 21px;
+}
+
+#container > .box > ul :nth-child(2) > span {
+  font-size: 21px;
+  width: 132px;
+  text-align: right;
+  height: 40px;
+  display: inline-block;
+  color: #ff6600;
+  background: url(../img/index/drawable-xhdpi/exhibition-date.png) no-repeat left center;
+}
+
+#container > .box > ul :nth-child(3) {
+  color: #a8a8a8;
+  font-size: 17px;
+}
+
+#container > .box > ul :nth-child(3) > a {
+  width: 500px;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+#container > .box > ul :nth-child(3) > a span {
+  font-size: 22px;
+  color: #a8a8a8;
+}
+
+#container > .box > ul :nth-child(4) {
+  margin-bottom: 15px;
+}
+
+#container > .box > ul :nth-child(4) a {
+  width: 600px;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 19px;
+  color: #999;
+}
+
+/******************************footer**********************************/
+.footer-leader {
+  height: 98px;
+  background: #f9f9f9;
+  width: 100%;
+}
+
+.footer-leader a {
+  text-decoration: none;
+}
+
+.footer-leader > ul {
+  text-align: center;
+}
+
+.footer-leader > ul > li {
+  float: left;
+  margin-left: 84px;
+  line-height: 98px;
+}
+
+.footer-leader > ul > li > a {
+  font-size: 26px;
+  color: #333;
+}
+
+/******************************drown**************************************************/
+#searh-information > .select {
+  position: relative;
+}
+
+#searh-information-box .selectList {
+  z-index: 99;
+  display: none;
+  background: white;
+  width: 270px;
+  height: 340px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  position: absolute;
+}
+
+.selectList .listA-all a {
+  width: 100%;
+  height: 84px;
+  line-height: 84px;
+  border-bottom: 1px solid #ccc;
+  font-size: 26px;
+  color: #333;
+  display: block;
+  text-decoration: none;
+}
+
+.selectList .listA-all a .size {
+  width: 100%;
+  height: 30px;
+  padding-left: 40px;
+}
+
+.selectList > .listA-all > a > .border-size {
+  border-left: 4px solid #ef7714;
+}
+
+.selectList > .listA-all > a:hover {
+  color: #ef7714;
+}
+
+/***********************************/
+#shadow {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 177px;
+  z-index: 10;
+}
+
+.shadow-hide {
+  display: none;
+}

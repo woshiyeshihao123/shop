@@ -1,0 +1,21 @@
+#four-input-personal-define{
+    >div{
+        >ul{
+            width: 280px;
+            height: 80px;
+            // 要注释掉的border
+            border: 1px solid black;
+            >li{
+                float: left;
+                width: 135px;
+                // border: 1px solid black;
+                >div{
+                    margin: 5px;
+                    height: 30px;
+                    border: 1px solid black;
+                }
+            }
+        }
+    }
+
+}

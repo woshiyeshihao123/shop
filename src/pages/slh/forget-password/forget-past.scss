@@ -1,0 +1,102 @@
+
+#header{
+    width:1200px;
+    height:125px;
+    font-size:20px;
+    font-weight:bold;
+}
+#header .text{
+    width:170px;
+    height:32px;
+    margin-left:400px;
+    margin-top:-45px;
+    font-size:20px;
+    font-weight:bold;
+}
+#content{
+    width:1200px;
+    height:780px;
+    float:left;
+    background-color: rgb(247,247,247);
+}
+#content .box{
+    width:404px;
+    height:654px;
+    margin-left:415px;
+}
+#content .box .circle{
+    width: 404px;
+    height:91px;
+    margin-top:-50px;
+}
+#content .box .circle .word{
+    width:296px;
+    height:17px;
+    margin-left:44px;
+    margin-top:100px;
+}
+#content .box .circle .word1{
+    width:84px;
+    height:15px;
+    font-size:14px;
+    float:left;
+    margin-top:10px;
+    text-align: center;
+}
+#content .box .circle .word2{
+    width:40px;
+    height:15px;
+    font-size:14px;
+    margin-left:168px;
+    margin-top:10px;
+    float:left;
+    text-align: center;
+}
+#content .detail{
+    width: 370px;
+    height:315px;
+    margin-top:30px;
+}
+#content .input{
+    width:352px;
+    height:45px;
+    color:black;
+    line-height: 50px;
+    border:1px solid rgb(204,204,204);
+    border-radius: 6px;
+}
+#content input{
+    width:352px;
+    height:45px;
+    border:1px solid transparent;
+    font-size:15px;
+    float:left;
+    color:white;
+    background-color: white;
+    padding-left:2px;
+}
+#content .btn1{
+    width:350px;
+    height:46px;
+    line-height:46px;
+    padding-left:5px;
+    border:1px solid lightgray;
+    background-color:lightgray;
+    border-radius: 6px;
+    margin-top:8px;
+    font-size:15px;
+}
+#content .btn2{
+    width:358px;
+    height:46px;
+    border:1px solid rgb(250,152,45);
+    background-color: rgb(250,152,45);
+    border-radius: 6px;
+    margin-top:23px;
+    font-size:15px;
+    color:white;
+}
+#footer{
+    width:1200px;
+    height:216px;
+}

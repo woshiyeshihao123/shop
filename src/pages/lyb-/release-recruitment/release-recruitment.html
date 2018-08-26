@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>发布招聘信息</title>
+  <script src="../../../assets/js/jquery-1.9.1.min.js"></script>
+  <script src="../../../assets/js/kindeditor/kindeditor-all-min.js"></script>
+  <script src="../../../assets/js/kindeditor/lang/zh-CN.js"></script>
+  <link rel="stylesheet" href="../../member-center/supply-manage/extend-css/extend.css">
+  <link rel="stylesheet" href="../../../assets/css/common.scss">
+  <link rel="stylesheet" href="./release-recruitment.scss">
+  <link rel="stylesheet" href="../../member-center/supply-manage/list-header/list-header.scss">
+  <link rel="stylesheet" href="../../member-center/supply-manage/list-left/list-left.scss">
+  <link rel="stylesheet" href="../../../common/footer-all/footer-all.scss">
+  <link rel="stylesheet" href="../../../widgets/index/nav/nav.scss">
+  <link rel="stylesheet" href="../../../pages/csl/chang-password/page-head/page-head.scss">
+  <style>
+    #footer{
+      clear:both;
+    }
+    #nav{
+      width:1200px;
+      margin:0 auto;
+    }
+  </style>
+</head>
+<body>
+  <link rel="import" href="../../../pages/csl/chang-password/page-head/page-head.html?__inline">
+  <div id="nav" >
+    <!-- 2、右：导航内容 -->
+    <ul class="lf">
+        <li>
+            <a href="#">首页</a>
+        </li>
+        <li>
+            <a href="#">供应信息</a>
+        </li>
+        <li>
+            <a href="#">求购信息</a>
+        </li>
+        <li>
+            <a href="#">公司库</a>
+        </li>
+        <li>
+            <a href="#">商业资讯</a>
+        </li>
+        <li>
+            <a href="#">展会信息</a>
+        </li>
+        <li>
+            <a href="#">企业信息</a>
+        </li>
+        <li>
+            <a href="#" class="active">会员中心</a>
+        </li>
+    </ul>
+</div>
+  <div class="menber-center-list-header boxsizing">
+    <div class="menber-center-list-header-left">
+        <span><a href="javascript:void(0)">首页</a>&gt</span>
+        <span><a href="javascript:void(0)">会员中心</a> &gt</span>
+        <span><a href="javascript:void(0)">发布招聘信息</a></span>
+        <div class="menber-center-list-header-right">
+            <b></b>
+            帮助中心
+        </div>
+    </div>
+
+    
+
+</div>
+  <div id="outborder" style="width:1200px">
+    <link rel="import" href="../../member-center/supply-manage/list-left/list-left.html?__inline">
+  <div id="messages">
+    <b>发布招聘信息</b>
+  </div>
+  <div id="details">
+    <div id="information">
+      <ul>
+        <li>
+          <span>标题：</span>
+          <input type="text" placeholder="磨具" class="input1">
+          <span style="color:#EC2A10;margin-left:10px;">必填</span>
+        </li>
+        <li>
+          <span style="float:left;">工作性质：</span>
+          <div id="xingzhi">
+          <div class="btn3"><b id="checkboxone1" class="otherImage"></b><span>全职</span></div>
+          <div class="btn3"><b id="checkboxone2" class="changeImage"></b><span>兼职</span></div>
+          <div class="btn3"><b id="checkboxone3" class="changeImage"></b><span>应届生</span></div>
+          </div>
+        </li>
+        <li>
+          <span>工作时间：</span>
+          <input type="text" placeholder="磨具" class="input1">
+          <span style="color:#EC2A10;margin-left:10px;">必填</span>
+        </li>
+        <li>
+          <span>招聘人数：</span>
+          <input type="text" placeholder="磨具" class="input1">
+        </li>
+        <li>
+          <span>工作地点：</span>
+          <input type="text" placeholder="磨具" class="input1">
+        </li>
+      </ul>
+    </div>
+    <div id="work">
+      <ul>
+        <li>
+         <span>工作内容：</span>
+         <span style="color:#EC2A10">必填</span>
+        </li>
+        <li>
+          <div style="margin-top:20px;">
+            <textarea id="editor" style="width:960px;height:250px"></textarea>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <button id="change-message-submit">提交</button>
+  </div>
+  </div>
+  <div id="alert-success" class="no">
+    <div>
+        <div></div>
+        <p></p>
+    </div>
+</div>
+  <script src="./release-recruitment.js"></script>
+  <script src="../../member-center/supply-manage/list-header/list-header.ts"></script>
+  <script src="../../member-center/supply-manage/list-left/list-left.ts"></script>
+  <link rel="import" href="../../../common/footer-all/footer-all.html?__inline">
+
+</body>
+</html>

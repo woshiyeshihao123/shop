@@ -1,0 +1,247 @@
+.lt{float: left;}
+*{
+    margin:0;
+    padding:0;
+}
+.rt{
+    float:right;
+}
+input,button,select{
+    border:0;
+i{font-style:normal;}
+}
+.header-box,.logo,.nav-box,.main,#footer-box,.where{
+    width:1200px;
+    margin:auto;
+}
+.header{
+   
+    width:100%;
+    height:40px;
+    background-color:#f5f5f5;
+    font-size:12px;
+    p{
+        line-height:40px;
+        float:left;
+        margin-right:30px;
+    }
+    a{
+        float:left;
+        line-height:40px;
+       i{
+           margin:0 10px;
+       }
+    }
+    i{
+        font-style:normal;
+    }
+    ul{
+        margin-right:0px;
+        li{
+            float:left;
+            line-height:40px;
+            margin-left:10px;
+        }
+    }
+}
+.nav {
+ 
+    width:100%;
+    height:40px;
+     border-bottom: 2px solid#eb6700;
+    ul {
+        height: 40px;
+        li {
+            float: left;
+            width: 150px;
+            height:40px;
+            line-height:40px;
+            text-align:center;
+           
+        }
+    }
+}
+.nav>.nav-box>ul>li:hover{
+    background-color:#eb6700;
+}  
+.nav>.nav-box>ul>li:hover>a{
+    color:white;
+}
+   .where-box{
+       height:30px;
+      width:100%;
+        background-color:#f7f6f4;
+      
+       .where{
+            width:1200px;
+           line-height:30px;
+           font-size:12px;
+           position:relative;
+          margin:auto;
+          p{
+              width:200px;
+position:absolute;
+left:20px;
+          }
+          
+    }
+}
+.main .title .gong{
+   position:absolute;
+   left:620px;
+    
+}
+.main .title .zhu{
+    position:absolute;
+    left:0px;
+}
+.title{
+    position:relative;
+    height:60px;
+    line-height:60px; 
+    
+    h1{
+        position: relative;
+     position:absolute;
+     left:20px;
+        font-size:20px;
+        i{
+         display: block;
+         width: 80px;
+         height: 6px;
+         background-color: #ffbe89;
+         position: absolute;
+         top: 35px;
+         opacity: 0.5
+        }
+       }
+}
+    
+   .main{
+       position: relative;
+ 
+    
+}
+.left-box{
+  position:relative;
+    margin-top:30px;
+width:580px;
+box-sizing:border-box;
+  select{
+      width:290px;
+      height:38px;
+      font-size:14px;
+      
+      background-color:#f7f6f4;
+      border:1px solid #cecece;
+      box-shadow:0px 0px  10px 5px #eeeeee;
+      option{
+          color:#333333;
+          border:1px solid #eeeeee;
+      }
+  }
+}
+.right-box{
+    margin-top:30px;
+    margin-left:40px;
+    width:580px;
+    box-sizing:border-box;
+  select{
+    width:290px;
+    height:38px;
+    font-size:14px;
+    
+    background-color:#f7f6f4;
+    border:1px solid #cecece;
+    box-shadow:0px 0px  0px 0px #eeeeee;
+    option{
+        color:#333333;
+        border:1px solid #eeeeee;
+    }
+}
+}
+
+.time{
+        width:580px;
+        li{
+            height:50px;
+            line-height:50px;
+            position: relative;
+            border-bottom:1px dotted black;
+            p:last-child{
+                margin:0 50px 0 10px;
+                position:absolute;
+                top:0; left:290px;
+            }
+        }
+    }
+.father{
+    position:relative;
+}
+#footer{
+    width: 100%;
+    background: #f7f6f4;
+    margin-top:20px;
+}
+#footer-box{
+    height: 200px;
+    
+}
+#footer-box>span{
+    margin-top: 50px;
+    display: inline-block;
+    color: black;
+}
+#footer-nav{
+    margin-top: 50px;
+    float: right;
+   margin-right: 20px;
+    
+}
+
+#footer-nav>ul>li{
+    float:left;
+    width: 80px;
+   
+}
+#footer-nav>ul>li a{
+   color: #333;
+   font-size: 12px;
+}
+#footer-nav>ul>li b{
+    border-left: 1px solid #333;
+     margin-right: 16px;
+}
+#num{
+    margin-top: 30px;	
+    border-top:1px solid #d4d4d1;
+}
+#num>ul{
+    margin-top:30px;
+   float: right;
+   margin-right:250px;
+}
+#num>ul>li{
+    float: left;
+    margin-right: 30px;
+    font-size: 12px;
+    color: #111;
+}
+#num>ul>li>span{
+    width: 60px;
+    height: 27px;
+    background: #f99b2d;
+    color: #fff;
+    border-radius: 2px;
+
+}
+#footer-box>p{
+    color: #111;
+    font-size: 12px;
+   text-align: center;
+    margin-top: 30px;
+    width: 100%
+}
+#search-box input{
+    box-sizing: content-box!important;
+}

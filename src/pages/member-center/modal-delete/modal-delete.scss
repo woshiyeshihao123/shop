@@ -1,0 +1,57 @@
+.modal-full-screen{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: rgba(0,0,0,0.5);
+}
+
+#modal-delete{
+    background: white;
+    width: 355px;
+    height: 267px;
+    position: fixed;
+    z-index: 900;
+    top:50%;
+    left: 50%;
+    margin-left: -177.5px;
+    margin-top: -133.5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px 3px black;
+    >img{
+        width: 60px;
+        height: 60px;
+        display: block;
+        margin:0 auto;
+        margin-top: 55px;
+    }
+    span{
+        display: block;
+        font-size: 18px;
+        text-align: center;
+        padding-top: 20px;
+        font-weight: bold;
+    }
+    >div{
+        margin-top: 10px;
+        padding: 10px 65px;
+        a{
+            float: left;
+            width: 100px;
+            height: 35px;
+            line-height: 35px;
+            text-align: center;
+            
+        }
+        a:first-child{
+            background: #eb6700;
+            color: white;
+            margin-right: 20px;
+        }
+        a:first-child+a{
+            border:1px solid #cecece;
+        }
+    }
+}

@@ -1,0 +1,89 @@
+/*弹出框*/
+div.sub-cate-box{
+    /*宽度，高度，边框，内边距，定位*/
+    width:780px;
+    height:575px;/*测试：留着删除*/
+    border:1px solid #ddd;
+    padding:22px;
+    background:#fff;
+    /*绝对定位*/
+    position:absolute;
+    top:0px;
+    left:182px;
+    z-index:60;
+    font-size: 14px;
+    display:none;
+}
+/*子分类内容*/
+div.sub-cate-items{
+    float:left;
+    width: 747px;
+}
+div.sub-cate-items>h2{
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+div.sub-cate-items li{
+    /*左浮动，左边框，内边距*/
+    float:left;
+    padding:5px;
+    height: 20px;
+}
+
+div.sub-cate-items li a{
+    float: left;
+    margin-right: 10px;
+}
+
+div.sub-cate-items li i{
+    float: left;
+    height: 15px;
+    border-left: 1px solid #ddd;
+}
+
+div.sub-cate-items ul{
+    /*overflow,上边框，上下内边距*/
+    overflow:hidden;
+    // border-top:1px solid #ddd;
+    padding:10px 0;
+}
+div.sub-cate-items li.title{
+    /*取消左边框，宽度，文本右对齐*/
+    border-left:none;
+    // width:60px;/*12px * 5 */
+    text-align:right;
+}
+
+.sub-new-msg ul{
+    padding: 10px 20px;
+}
+
+.sub-new-msg ul li{
+    width: 200px;
+    margin-right: 40px;
+    padding-top: 10px;
+    float: left;
+    list-style-type: disc;
+}
+
+.sub-new-msg{
+    margin: 20px 0;
+    padding: 10px;
+    float: left;
+    background: #f7f6f4;
+}
+
+.sub-new-reg p{
+    margin: 10px 0 10px 20px;
+}
+
+.sub-new-reg li{
+    float: left;
+    margin-right: 22px;
+}
+
+.sub-new-reg li img{
+    width: 130px;
+    height: 130px;
+    background: #ddd;
+}

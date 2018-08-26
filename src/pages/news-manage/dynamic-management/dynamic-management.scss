@@ -1,0 +1,386 @@
+// 整体布局
+#top-box,#top-main,#nav,#topSearch,#details-list{
+    width:1211px;
+    margin:0 auto;
+}
+.lf{
+    float: left;
+}
+.rt{
+    float: right;
+}
+.clear{
+  clear:both;
+}
+ul{
+   list-style: none;
+}
+#main{
+    margin: 0 auto;
+}
+body{
+    /*保证footer是相对于container位置绝对定位*/
+    position:relative;  
+    width:100%;
+    min-height:100%; 
+    /*设置padding-bottom值大于等于footer的height值，以保证main的内容能够全部显示出来而不被footer遮盖；*/  
+    padding-bottom: 200px;  
+    box-sizing: border-box;
+}
+
+.top{
+        width:100%;
+        height:20px;
+        background:#f7f6f4;
+        border-top:1px #fa992e solid;
+    ul{
+        float:left;
+        margin-left:143px;
+    }
+    li{
+        float:left;
+        height:20px;
+        line-height:20px;
+        color:#666;
+    }
+   b{
+        margin-right:5px;
+   }
+}
+#details-list>header.mainHeader{
+    width: 800px;
+}
+.menber-center-list-header{
+    width: 100%;
+    height: 31px;
+    line-height:31px;
+    background: #f7f6f4;
+    margin-bottom: 20px;
+    font-size: 12px;
+    .menber-center-list-header-left{
+        // float: left;
+        width: 1200px;
+        margin: 0 auto;
+        .menber-center-list-header-right{
+            float: right;
+            color: #ea6700;
+            b{
+                margin-right: 3px;
+                float: left;
+                width: 14px;
+                height: 31px;
+                background: url("../../../../assets/img/photos/8-0/help.png")no-repeat center center;
+            }
+        }
+    }
+   
+}
+#right{
+    overflow: hidden;
+    margin-bottom: 80px;
+    
+}
+.supply-info-manage{
+    float: left;
+    width:952px;
+    margin-left: 30px;
+    min-height: 400px;
+}
+.supply-info-manage-title-left{
+    float: left;
+    font-size: 20px;
+    color: black;
+    height: 46px;
+    line-height: 46px;
+    &:first-child+.supply-info-manage-title-left{
+        margin-left: 90px;
+    }
+    &:hover{
+        color: black;
+    }
+}
+.supply-info-manage-title-left-active{
+    border-bottom: 4px solid orange;
+    color: orange;
+    &:hover{
+        color: orange;
+    }
+}
+.supply-info-manage-title{
+    min-width: 1px;
+    min-height: 1px;
+    height: 46px;
+}
+.supply-info-manage-show-info-first1{
+    float: left;
+    margin-left: 55px;
+    width: 220px;
+}
+.supply-info-manage-show-info-second1{
+    width: 160px;
+    float: left;
+}
+.supply-info-manage-show-info-third1{
+    float: left;
+    width: 223px;
+}
+.supply-info-manage-show-info-fourth1{
+    float: left;
+}
+.supply-info-manage-show-info{
+    height: 44px;
+    line-height: 44px;
+    background: #f7f6f4;
+    >span{
+        font-size: 14px;
+    }
+}
+.supply-info-manage-list {
+    height: 65px;
+    line-height: 65px;
+    border-bottom: 1px dashed #dddddd;
+    font-size: 14px;
+    >span{
+        float: left;
+    }
+    .checkBox{
+        width: 22px;
+        height: 22px;
+        margin-top: 21px;
+        margin-left: 10px;
+        background: url("../../../assets/img/photos/8-1/rectangle.png")no-repeat center center;
+        .checkBox-right-active{
+            position: relative;
+            top: -4px;
+            width: 23px;
+            height: 23px;
+            // display: none;
+            background: url("../../../assets/img/photos/8-1/right.png") no-repeat center center;
+        }
+    
+    }
+    .supply-info-manage-list-change {
+        padding:0 16px;
+        border-right:2px solid orange;
+        color: orange;
+        
+    }
+    .fchange{
+        padding-left: 0;
+    }
+    .fupdate{
+        border-right: none;
+    }
+    .supply-info-manage-list-info-name1 {
+        width: 218px;
+        margin-left: 25px;
+        a{
+            padding-right: 5px;
+            padding-bottom: 4px;
+            line-height: 20px;
+            vertical-align: middle;
+            display: inline-block;
+        }
+    }
+    .supply-info-manage-list-info-state1 {
+        width: 160px;
+    }
+    .supply-info-manage-list-info-time1 {
+        width: 223px;
+    }
+    >div{
+        float: right;
+        width: 35px;
+        height: 35px;
+        margin-top: 14px;
+    }
+    .supply-info-manage-list-logo2{
+        //360
+        background: url("../../../assets/img/photos/8-1/360.png")no-repeat center center;
+        margin-right: 31px;
+    }
+    .supply-info-manage-list-logo1{
+        //百度
+        background: url("../../../assets/img/photos/8-1/Baidu.png")no-repeat center center;
+        margin-right: 13px;
+    }
+}
+
+.supply-info-manage-show-info-first2{
+    float: left;
+    margin-left: 55px;
+    width: 330px;
+}
+.supply-info-manage-show-info-second2{
+    width: 120px;
+    float: left;
+}
+.supply-info-manage-show-info-third2{
+    float: left;
+    width: 223px;
+}
+.supply-info-manage-show-info-fourth2{
+    float: left;
+}
+.supply-info-manage-list-info-name2 {
+    width: 328px;
+    margin-left: 25px;
+        a{
+            padding-right: 5px;
+            padding-bottom: 4px;
+            line-height: 20px;
+            vertical-align: middle;
+            display: inline-block;
+        }
+}
+.supply-info-manage-list-info-state2 {
+    width: 120px;
+}
+.supply-info-manage-list-info-time2 {
+    width: 223px;
+}
+
+.supply-info-manage-show-info-first3{
+    float: left;
+    margin-left: 55px;
+    width: 280px;
+}
+.supply-info-manage-show-info-second3{
+    width: 115px;
+    float: left;
+}
+.supply-info-manage-show-info-third3{
+    float: left;
+    width: 140px;
+}
+.supply-info-manage-show-info-fourth3{
+    float: left;
+    width: 200px;
+}
+.supply-info-manage-show-info-fifth3{
+    float: left;
+}
+.supply-info-manage-list-info-name3 {
+    width: 280px;
+    margin-left: 23px;
+        a{
+            padding-right: 5px;
+            padding-bottom: 4px;
+            line-height: 20px;
+            vertical-align: middle;
+            display: inline-block;
+        }
+}
+.supply-info-manage-list-info-result3 {
+    width: 115px;
+}
+.supply-info-manage-list-info-reason3 {
+    width: 140px;
+        a{
+            padding-right: 5px;
+            padding-bottom: 4px;
+            line-height: 20px;
+            vertical-align: middle;
+            display: inline-block;
+        }
+}
+.supply-info-manage-list-info-time3 {
+    width: 200px;
+}
+
+//删除界面css
+.modal-full-screen{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: rgba(0,0,0,0.5);
+}
+
+#modal-delete{
+    background: white;
+    width: 355px;
+    height: 267px;
+    position: fixed;
+    z-index: 900;
+    top:50%;
+    left: 50%;
+    margin-left: -177.5px;
+    margin-top: -133.5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px 3px black;
+    >img{
+        width: 60px;
+        height: 60px;
+        display: block;
+        margin:0 auto;
+        margin-top: 55px;
+    }
+    span{
+        display: block;
+        font-size: 18px;
+        text-align: center;
+        padding-top: 20px;
+        font-weight: bold;
+    }
+    >div{
+        margin-top: 10px;
+        padding: 10px 65px;
+        a{
+            float: left;
+            width: 100px;
+            height: 35px;
+            line-height: 35px;
+            text-align: center;
+            
+        }
+        a:first-child{
+            background: #eb6700;
+            color: white;
+            margin-right: 20px;
+        }
+        a:first-child+a{
+            border:1px solid #cecece;
+        }
+    }
+}
+//更新界面css
+.modal-submit{
+    background: white;
+    >img{
+        width: 60px;
+        height: 60px;
+        display: block;
+        margin:0 auto;
+        margin-top: 55px;
+    }
+    span{
+        display: block;
+        font-size: 18px;
+        text-align: center;
+        padding-top: 20px;
+        font-weight: bold;
+    }
+    
+    width: 350px;
+    height: 210px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px 3px black;
+    position: fixed;
+    z-index: 900;
+    top:50%;
+    left: 50%;
+    margin-left: -175px;
+    margin-top: -105px;
+}
+.modal-full-screen{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 880;
+    background: rgba(0,0,0,0.5);
+}

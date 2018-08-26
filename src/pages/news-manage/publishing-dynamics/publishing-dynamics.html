@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="../../../assets/js/jquery-1.9.1.min.js"></script>
+    <link rel="stylesheet" href="../../../assets/css/common.scss">
+    <link rel="stylesheet" href="publishing-dynamics.scss">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../../common/header/header.scss">
+    <link rel="stylesheet" href="../../../common/search/search.scss">
+    <link rel="stylesheet" href="../../../common/nav/nav.scss">
+    <link rel="stylesheet" href="../../../common/footer-all/footer-all.scss">
+    <link rel="stylesheet" href="../../../index.scss">    
+    <link rel="stylesheet" href="../../member-center/supply-manage/extend-css/extend.css">
+    <link rel="stylesheet" href="../../member-center/supply-manage/list-left/list-left.scss"> 
+    <link rel="stylesheet" href="../../../common/footer-all/footer-all.scss"> 
+    <link rel="stylesheet" href="../../../pages/csl/chang-password/page-head/page-head.scss">
+    <link rel="stylesheet" href="../../../assets/js/kindeditor/themes/default/default.css">
+    <title>发布新闻动态</title>
+</head>
+<body>
+
+    <!-- 此处插入了公用的header -->
+    <link rel="import" href="../../../pages/csl/chang-password/page-head/page-head.html?__inline">
+    <!-- 此处插入了公用的header -->
+    <div class="search-background">
+        <div id="nav" >
+            <!-- 2、右：导航内容 -->
+            <ul class="lf">
+                <li>
+                <a href="#">首页</a>
+                </li>
+                <li>
+                    <a href="#">供应信息</a>
+                </li>
+                <li>
+                    <a href="#">求购信息</a>
+                </li>
+                <li>
+                    <a href="#">公司库</a>
+                </li>
+                <li>
+                    <a href="#">商业资讯</a>
+                </li>
+                <li>
+                    <a href="#">展会信息</a>
+                </li>
+                <li>
+                    <a href="#">企业信息</a>
+                </li>
+                <li>
+                    <a href="#" class="active">会员中心</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="menber-center-list-header boxsizing">
+        <div class="menber-center-list-header-left">
+            <span><a href="javascript:void(0)">首页</a>&gt</span>
+            <span><a href="javascript:void(0)">会员中心</a> &gt</span>
+            <span><a href="javascript:void(0)" style="font-weight:bold">发布新闻动态</a></span>
+            <div class="menber-center-list-header-right">
+                <b></b>
+                帮助中心
+            </div>
+        </div>
+    </div>
+    
+    <div id="main">
+
+      <!-- 插入左侧栏 -->
+      <link rel="import" href="../../member-center/supply-manage/list-left/list-left.html?__inline">
+      
+      <!--右侧发布动态栏-->
+      <div id="right">
+          <span>发布新闻动态</span>
+          <ul>
+              <li>注意事项 : </li>
+              <li>1、严禁使用 "极端词" 例如:最、第一、一流等，否则会被删除</li>
+              <li>2、严禁使用 "功效词" 例如:治疗、降血压、增高等，否则会被删除</li>
+              <li>3、严禁虚假和夸大宣传，否则会被删除</li>
+          </ul>
+          <div class="box">
+              <div id="details">
+              标题：<input type="text" placeholder=" 请输入"><span>必填</span>
+              </div>
+              <hr>
+              <div class="clear" id="release-big-photo">
+                <h3>详情：<span>必填</span></h3>
+                <ul>
+                    <li>(1)严重声明:详细内容中不可以带网址和链接，如果违反直接删除账号，恕不通知!</li>
+                    <li>(2)内容尽可能详细和原创，以提高信息的可信度，促使您做成生意</li>
+                    <li>(3)请注意:多产品用同一内容介绍系统则自动删除您的账号，请为不同产品配上不同内容介绍</li>
+                </ul>
+                <div class="release-big-photo-img">
+                    <textarea id="editor" style="width:950px;height:160px"></textarea>
+                </div>
+              </div>
+              <a class="submit">提交</a>
+          </div>
+          <div class="box1" style="display:none">
+              <div>
+              标题：
+              <span>xxx标题</span>
+              </div>
+              <div class="text">
+                <span>
+                    测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本
+                </span>
+              </div>
+              <a class="back">返回</a>
+          </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+    
+    <!--此处引用公用底部all组件-->
+    <link rel="import" href="../../../common/footer-all/footer-all.html?__inline">
+
+</body>
+
+<script src="../../../assets/js/jquery.goup.js"></script>
+<script src="../../member-center/supply-manage/list-left/list-left.ts"></script>
+<script src="publishing-dynamics.ts"></script>
+<script src="../../../assets/js/kindeditor/kindeditor-all-min.js"></script>
+<script src="../../../assets/js/kindeditor/lang/zh-CN.js"></script>
+<script>
+    $(".menber-center-list-header-left>span:first-child+span+span").html("发布供求信息");
+
+    KindEditor.ready(function(K) {
+
+      window.editor = K.create('#editor', {
+        cssPath: 'plugins/code/prettify.css',
+        ////后台处理图片的PHP文件
+        uploadJson: '/news/upload-imge',
+        //0：不能缩放，1：可缩放
+        resizeType: 0,
+        allowPreviewEmoticons: true,
+        allowImageUpload: true,
+      })
+    });
+</script>
+
+</html>

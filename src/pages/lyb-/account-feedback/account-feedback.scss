@@ -1,0 +1,145 @@
+
+#outborder{
+    width:1200px;
+    // float: left;
+    // position: relative;
+    margin:0 auto; 
+}
+#messages{
+    margin-left:30px;
+    margin-top:10px;
+    height:50px;
+    width:950px;
+    background-color: white;
+    float:left;
+}
+#messages>b{
+    border-bottom:4px solid #f99a2e;
+    margin-top:8px;
+    font-size: 16px;
+    float:left;
+}
+#details{
+    margin-left:30px;
+    width:950px;
+    margin:0 auto; 
+    float:left;
+}
+#details>ul>li:first-child{
+    background-color: #f7f6f4;
+    padding:10px 0px 10px 5px;
+    border-bottom:1px solid white;
+}
+#style1{
+    border-bottom:1px dashed gray;
+}
+#details>ul>li{
+    width:950px;
+    padding:20px 0px 20px 5px;
+    float:left;
+}
+#one>a{
+    padding-right:10px;
+    font-size: 13px;
+    color:black;
+    display: block;
+    margin-left:60px;
+    float:left;
+}
+#liuyan{
+    width:260px;
+}
+#liuyanneirong{
+    width:225px;
+}
+#lianxi{
+    width:112px;
+    padding-left:13px;
+}
+#tijiao{
+    width: 110px;
+}
+#fenye{
+    padding: 10px 0;
+    display: inline-block;
+}
+#style1>span{
+    padding-right:10px;
+    font-size: 13px;
+    color:black;
+    display:inline-block;
+
+}
+#name{
+    margin-left:60px;
+    width:112px;
+}
+#people{
+    width:85px;
+}
+#date{
+    width:110px;
+}
+#six{
+    margin-left:59px;
+    width: 45px;
+}
+#alert-success1{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 99;
+    background:rgba(0, 0, 0,0.5);
+    >div{
+        position: absolute;
+        float: left;
+        left: 0;
+        right: 0;
+        top: 200px;
+        margin: 0 auto;
+        display: inline-block;
+        width: 355px;
+        height: 267px;
+        border: 1px solid #eaeaea;
+        border-radius: 5px;
+        text-align: center;
+        vertical-align: middle;
+        box-shadow: 0px 0px 30px 3px black;
+        background: #fff;
+        z-index: 900;
+        >p{
+            display: block;
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: black;
+            font-weight: bold;
+        }
+        >div{
+            width: 348px;
+            height: 100px;
+        }
+        >div.right{
+            background: url("../../../assets/img/photos/8-1/deletePrompt.png") no-repeat center 20px;
+            margin-top:30px;
+        }
+        >button{
+            width: 120px;
+            height: 40px;
+            border: 0;
+            border-radius: 5px;
+            margin:0 10px;
+            
+        }
+        >.confirm{
+            color: #fff;
+            background: #ef7814;
+        }
+    }
+}
+#alert-success1.no{
+    visibility: hidden;
+}
+#alert-success1.show{
+    display: inline-block;
+}

@@ -1,0 +1,26 @@
+a{
+	color:black;
+	text-decoration:none;
+}
+a:hover{
+	color:#ff0700;
+	text-decoration:underline;
+}
+#top-header,#top-box,#top-nav,#top-main,#nav,#main,.banner,#footer-box{
+	/*宽度，元素水平居中对齐*/
+	width:1200px;
+	margin:0 auto;
+}
+h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd{
+	margin:0;
+	padding:0;
+	list-style:none;
+	color: #111;
+}
+.lf{float:left;}
+.rt{float:right;}
+.clear{clear:both;}
+#main-big{
+	border-top: 3px solid #ea6901;
+	margin-top: -3px;
+}

@@ -1,0 +1,165 @@
+
+
+#top-nav {
+    background: #ccc;
+    height: 30px;
+    line-height: 30px;
+}
+#top-main {
+    padding: 10px 0px;
+    height: 66px;
+}
+#top-main>a {
+    display: inline-block;
+    height: 65px;
+    width: 70px;
+    margin-top: 14px;
+}
+#name-box {
+    float: left;
+    width: 500px;
+    margin-top: 25px;
+    margin-left: 70px;
+}
+#name-box>.cmp-name {
+    width: 500px
+}
+#name-box>.cmp-name>span {
+    font-size: 20px;
+    color: #333;
+    float: left;
+}
+#name-box>.cmp-name>p {
+    float: left;
+}
+.main-business>p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+}
+/*****************main****************/
+
+#main-top{
+
+	height: 150px;
+	line-height: 150px;
+}
+#main-top>p{
+height: 150px;
+line-height: 150px;
+font-size: 20px;
+margin-left: 430px;
+color: #666;
+font-size: 16px;
+
+}
+/*******************main-body*************/
+#main-body{
+    margin-top:58px;
+    position: relative;
+}
+#main-body>span{
+    font-size: 30px;
+    display: block;
+    width: 127px;
+}
+#main-body>span>hr{
+    border:none;
+    height: 9px;
+    background-color: #ffbf82;
+    margin-top: -9px;
+}
+
+#main-body-ul {
+   margin-left: 40px;
+   margin-top:30px;
+   float: left;
+}
+#main-body-ul>li{
+    margin-bottom: 20px;
+    height: 40px;;
+}
+#main-body-ul>li>input{
+    margin-left: 30px;
+    height: 40px;
+    width: 400px ;
+   background:  #f7f6f4;
+   border: none;
+}
+#main-body-ul>#li3>input{
+    margin-left: 54px;
+}
+#main-body-ul>#li4{
+  display:block;
+  line-height: 40px;
+  position: relative;
+}
+#main-body-ul>#li4>span{
+    margin-right: 18px;
+}
+
+#main-body-ul>#li5>input{
+    margin-left: 54px;
+}
+#main-body-ul>#li6>input{
+    margin-left: 54px;
+}
+#main-body-ul>#li7{
+    width: 800px;
+    height:150px;
+}
+#main-body-ul>#li7>textarea{
+    margin-left: 89px;
+    width: 790px;
+    height: 120px;
+    background: #f0f0f0;
+    border: none;
+    font-size: 14px;
+    margin-top: -50px
+}
+#main-body-ul>#li7>b{
+  margin-left:89px;
+}
+#main-body-ul>#li7>span{
+    margin-top: 30px;
+	float: left;
+
+}
+#main-body-ul>#li7>.care-for{
+    margin-left: 88px;
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+#main-body-ul>#li8>.l-captcha{
+   margin-left: 86px;
+   margin-top: 50px;
+}
+#main-body-ul>#li8>.yanzhengma{
+    margin-top: 13px;
+    float: left;
+}
+
+#main-adv{
+	margin-top:70px;
+   width: 300px;
+   height: 300px;
+}
+#main-body>#btns{
+    display: inline-block;
+    width: 150px;
+    height: 40px; 
+    line-height: 40px;
+    color: #fff;
+    background: #ef7913;
+    text-align: center;
+    margin-left: 60px;
+    font-size: 16px;
+    text-decoration:none;
+}
+#main>#adv{
+	margin-top: 30px;
+    width: 1200px;
+    height: 240px;
+}
+/*****************footer******************/

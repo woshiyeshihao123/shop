@@ -1,0 +1,112 @@
+    // 整体布局
+
+    #top-box,#top-main,#nav{
+        width:1211px;
+        margin:0 auto;
+    }
+    .mainHeader{
+            line-height: 2;
+            background: #f7f6f4;
+            height: 30px;
+            line-height: 30px;
+            ul{
+                margin-left:10%;
+                li{
+                float:left;
+                margin:auto 5px;
+                color:#666666;
+                }
+                .member{
+                    font-weight: bold;
+                    color: #333;
+                }
+            }
+          }
+
+    #main{
+        .center{
+            .registered{
+                margin-bottom: 30px;
+               p{
+                  margin-top:40px; 
+                 font-size: 18px;
+                 font-weight: bold;
+                }
+                i{
+                    display: inline-block;
+                    width: 72px;
+                    height: 5px;
+                    background:#ffbd86;
+                    opacity: 0.8;
+                    position: relative;
+                    top: -12px;
+                    left:0px;
+                   }  
+
+            }
+            .day{
+                margin-left:20px;
+                margin-bottom: 30px;
+                span{
+                    font-size: 14px;
+                }
+                select{
+                    margin-right: 10px;
+                    margin-left: 0px;
+                    border: 1px solid #cecece;      
+                    font-size: 14px;
+                    width: 120px;
+                    color:#333333;
+                    text-align: center;  
+                    height: 38px; 
+                }
+                .btn{
+                    display: inline-block;
+                    background: #ef7813;
+                    color:#fff;
+                    font-size: 14px;
+                    width: 120px;
+                    text-align: center;  
+                    height: 38px; 
+                }
+            }
+        }
+       
+        
+        #main-body-list{
+            border: 1px solid  #cecece;
+            margin-top:20px;
+            height: 498px;
+            width: 1202px;
+            margin-bottom: 40px;
+        }
+        #main-body-list>p{
+            font-size: 16px;
+            color: #333;
+            background: #f7f6f4;
+            border-bottom:1px #cecece;
+            height: 38px;
+            line-height: 38px;
+            text-align: center;
+        }
+        #main-body-list>ul{
+            width: 300px;
+            float: left;
+            margin-top:20px;
+        }
+        #main-body-list>ul> li{
+            margin-bottom: 24px;
+            font-size: 14px;
+            color: #333;
+            padding-left:30px;
+        }
+        #1{
+            width:1200px;
+            height:63px;
+            border:1px solid #111
+        }
+    }
+    
+   
+
+    

@@ -1,0 +1,26 @@
+.infoBox{
+    float: left;
+    text-align:center;
+    
+}
+
+
+
+.infoBox dl dt{
+    height: 70px;
+    width: 105px;   
+    background:#3E3E3E;
+}
+
+.infoBox dl dd{
+    line-height:2;
+}
+
+.hot-prod{
+    background: #fff;
+    margin-left: 10px;
+    box-shadow: -4px 4px 40px #ddd;
+    -moz-box-shadow: -4px 4px 40px #ddd;
+    -webkit-box-shadow: -4px 4px 40px #ddd;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#969696', Direction=125, Strength=9);
+}

@@ -1,0 +1,20 @@
+    // 整体布局
+#banner,#main,#footer{
+      width:1200px;
+      margin:0 auto;
+}
+
+.new-background{
+    background: #f7f7f4;
+    padding-bottom: 25px;
+}
+
+.search-background{
+    background: #fff;
+    border-bottom: 2px solid #EB6800;
+}
+
+.goup-container{
+    background: url("../../assets/img/photos/index/goup.png");
+    z-index: 80;
+}

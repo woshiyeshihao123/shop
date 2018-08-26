@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>友情链接</title>
+  <meta charset="UTF-8">
+  <script src="../../../assets/js/jquery-1.9.1.min.js"></script>
+  <link rel="stylesheet" href="../../member-center/supply-manage/extend-css/extend.css">
+  <link rel="stylesheet" href="../../../assets/css/common.scss">
+  <link rel="stylesheet" href="../../member-center/supply-manage/list-header/list-header.scss"> 
+  <link rel="stylesheet" href="../../member-center/supply-manage/list-left/list-left.scss"> 
+  <link rel="stylesheet" href="../../member-center/dev-pages-personal-plugin/dev-pages-personal-plugin.scss">
+  <link rel="stylesheet" href="../../member-center/exhibition-manage/pick-date/pick-date.scss">
+  <link rel="stylesheet" href="./friendshipLink.scss">
+  <link rel="stylesheet" href="../../../common/footer-all/footer-all.scss">  
+  <link rel="stylesheet" href="../../../widgets/index/nav/nav.scss">
+  <link rel="stylesheet" href="../../../pages/csl/chang-password/page-head/page-head.scss">
+</head>
+<body style="margin:0 auto;">
+    <link rel="import" href="../../../pages/csl/chang-password/page-head/page-head.html?__inline">
+    <div style="width:1211px;margin:0 auto;">
+      <div id="nav" >
+        <!-- 2、右：导航内容 -->
+        <ul class="lf">
+            <li>
+            <a href="#">首页</a>
+            </li>
+            <li>
+                <a href="#">供应信息</a>
+            </li>
+            <li>
+                <a href="#">求购信息</a>
+            </li>
+            <li>
+                <a href="#">公司库</a>
+            </li>
+            <li>
+                <a href="#">商业资讯</a>
+            </li>
+            <li>
+                <a href="#">展会信息</a>
+            </li>
+            <li>
+                <a href="#">企业信息</a>
+            </li>
+            <li>
+                <a href="#" class="active">会员中心</a>
+            </li>
+        </ul>
+    </div>
+    </div>
+    <div class="menber-center-list-header boxsizing">
+        <div class="menber-center-list-header-left">
+            <span><a href="javascript:void(0)">首页</a>&gt</span>
+            <span><a href="javascript:void(0)">会员中心</a> &gt</span>
+            <span><a href="javascript:void(0)">友情链接</a></span>
+            <div class="menber-center-list-header-right">
+                <b></b>
+                帮助中心
+            </div>
+        </div>
+    </div>
+    <div style="width:1211px;margin:0 auto;">
+        <link rel="import" href="../../member-center/supply-manage/list-left/list-left.html?__inline">
+    <div id="friendship-link">
+      <div>
+        <b class="b-font-size">友情链接</b>
+      </div>
+      <div>
+        <b>给商铺添加友情链接的好处？</b><br>
+        <p class="p-color">1、做好友情链接后，您的首商网商铺页会链接贵网站(非首商网首页)</p><br>
+        <p class="p-color">2、赠送发布条数60条（只要您不撤链，信息永久显示！）[总计限送120点]</p><br>
+        <p></p><br>
+        <b>如何给商铺添加外链接？</b><br>
+        <p>您可以在贵公司网站(就是您企业的官方网站)，给您在本站的好商铺添加个外链。比如您在阿里巴巴有个商铺,那您先登录阿里巴巴会员中心,</p><br>
+        <p>找到商铺友情连接专栏,给我们的站 首商网 加个链接（网站名称: 首商网 链接网址:http://www.sooshong.com/）,加完后再到首商网这里</p><br>
+        <p>http://member.sooshong.com/member/shoplink.jsp 提交一下您所添加的阿里巴巴商铺。提示：网站名称可以填写公司产品关键字，有利于</p><br>
+        <p>提升百度 搜索排名。</p><br>
+        <b>给商铺添加外链接奖励?</b><br>
+        <p>您在贵公司网站等其他网站加上"首商网"的链接，就是帮本站做推广和宣传，一个好的商务平台离开不了大家的支持，希望大家能尽自己一份力量</p><br>
+        <p>帮助本站广泛推广，让更多人加入首商网!</p><br>
+      </div>
+      <div>
+        <b class="b-font-size">样式：<p></p></b>
+        <p>
+          <span>网站名称：<input type="text" class="input-short"></span>
+          <span>链接地址：<input type="text"  name="friendship-link-message" value="http://haixiandalibao.sooshong.com" class="input-long"><button class="copy-a">复制链接</button></span>
+        </p>
+        <b class="p-color">注意:必须在您的其他网站上显示"如下链接"才能审核通过!</b>
+        <p></p>
+      </div>
+      <div>
+        <b class="b-font-size">添加友情链接 <b></b></b>
+        <p>
+          <span><i>网站名称:</i><input type="text" class="input-short"></span>
+          <span><i>链接地址:</i><input type="text" name="friendship-link-check" value="http://haixiandalibao.sooshong.com" class="input-long"></span>
+        </p>
+        <p>
+          <span>
+            <i>链接类型</i><select name="" id="">
+              <option value="">公司网址</option>
+              <option value="">博客或论坛签名</option>
+              <option value="">其他电子商务网站商铺</option>
+            </select>
+          </span>
+          <span><i>QQ</i><input type="text" value="请输入您的联系QQ号码" class="input-long"><button class="add-a">添加</button></span>
+        </p>
+      </div>
+      <div id="zhuangtai">
+        <div class="zhuangtai-time"> 
+          <span>状态：</span>
+          <select name="" id="friendshiplink-check">
+            <option value="1">全部</option>
+            <option value="2">审核未通过</option>
+            <option value="3">审核通过</option>
+          </select>
+          <div>
+              <span class="lf">发布日期</span>
+      
+              <div class="lf">
+                  <div class="lf calendar-line">
+                      <input type="text" class="date-and-text calendar-input">
+                      <b></b>
+                      <div id="container1" class="date-picker-container none">
+                          <div class="date-title">
+                              <div> < </div>
+      
+                                      <div>
+                                        
+                                      </div>
+      
+                                      <div>
+                                          >
+                                      </div>
+                          </div>
+                          <div class="weeks">
+      
+                          </div>
+                          <div class="days">
+      
+                          </div>
+                      </div>
+                  </div>
+              </div>
+      
+              <span class="lf">至</span>
+      
+              <div class="lf">
+                <div class="lf calendar-line">
+                    <input type="text" class="date-and-text calendar-input">
+                    <b></b>
+                    <div id="container2" class="date-picker-container none">
+                        <div class="date-title">
+                                    <div>
+                                        < 
+                                    </div>
+
+                                    <div>
+
+                                    </div>
+
+                                    <div>
+                                        >
+                                    </div>
+                        </div>
+                        <div class="weeks">
+
+                        </div>
+                        <div class="days">
+
+                        </div>
+                    </div>
+                </div>
+              </div>
+                      <a href="javascript:void(0)" class="btn-supply-info-manage-search">搜索</a>
+          </div>
+          <!-- <span>发布日期：<input type="text" placeholder="请选择发布日期"><input type="text"><button>搜索</button></span>   -->
+        </div>
+        <div class="friendship-link-message">
+          <ul>
+            <li>网站名称</li>
+            <li>网址</li>
+            <li>状态</li>
+            <li>提交日期</li>
+            <li>操作</li>
+          </ul>
+          <ul>
+            <li>牛排礼盒</li>
+            <li>http://haixiandalibao.sooshong.com</li>
+            <li>审核未通过</li>
+            <li>2018-01-24-2018-02-23</li>
+            <li>
+                <b><a href="" class="change-a ">修改</a><b></b></b>
+                <b><a href="" class="delete-a">删除</a></b>
+            </li>
+          </ul>
+          <ul>
+            <li>牛排礼盒</li>
+            <li>http://haixiandalibao.sooshong.com</li>
+            <li>审核通过</li>
+            <li>2018-01-24-2018-02-23</li>
+            <li>
+              <b><a href="" class="submit-a ">重新提交</a><b></b></b>
+              <b><a href="" class="delete-a">删除</a></b>
+            </li>
+          </ul>
+        </div>
+        <div class="friendship-link-message none">
+          <ul>
+            <li>网站名称</li>
+            <li>网址</li>
+            <li>状态</li>
+            <li>提交日期</li>
+            <li>操作</li>
+          </ul>
+          <ul>
+            <li>牛排礼盒</li>
+            <li>http://haixiandalibao.sooshong.com</li>
+            <li>审核通过</li>
+            <li>2018-01-24-2018-02-23</li>
+            <li>
+                <b><a href="" class="change-a ">修改</a><b></b></b>
+                <b><a href="" class="delete-a">删除</a></b>
+            </li>
+          </ul>
+          <ul>
+            <li>牛排礼盒</li>
+            <li>http://haixiandalibao.sooshong.com</li>
+            <li>审核通过</li>
+            <li>2018-01-24-2018-02-23</li>
+            <li>
+              <b><a href="" class="change-a ">重新提交</a><b></b></b>
+              <b><a href="" class="delete-a">删除</a></b>
+            </li>
+          </ul>
+        </div>
+        <div class="friendship-link-message none">
+          <ul>
+            <li>网站名称</li>
+            <li>网址</li>
+            <li>状态</li>
+            <li>提交日期</li>
+            <li>操作</li>
+          </ul>
+          <ul>
+            <li>牛排礼盒</li>
+            <li>http://haixiandalibao.sooshong.com</li>
+            <li>审核未通过</li>
+            <li>2018-01-24-2018-02-23</li>
+            <li>
+                <b><a href="" class="change-a ">修改</a><b></b></b>
+                <b><a href="" class="delete-a">删除</a></b>
+            </li>
+          </ul>
+          <ul>
+            <li>牛排礼盒</li>
+            <li>http://haixiandalibao.sooshong.com</li>
+            <li>审核未通过</li>
+            <li>2018-01-24-2018-02-23</li>
+            <li>
+              <b><a href="" class="change-a ">重新提交</a><b></b></b>
+              <b><a href="" class="delete-a">删除</a></b>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="div-last-child"><link rel="import" href="../../member-center/dev-pages-personal-plugin/dev-pages-personal-plugin.html?__inline"></p>
+      </div>
+  </div>
+</div>
+<div id="alert-success1" class="no">
+  <div>
+      <div></div>
+      <p></p>
+      <button class="confirm">确定</button>
+      <button class="cancel">取消</button>
+  </div>  
+</div>
+  <link rel="import" href="../../../common/footer-all/footer-all.html?__inline">
+  <script src="../../../widgets/index/nav/nav.ts"></script>
+  <script src="./friendshipLink.js"></script>
+  <script src="../../member-center/exhibition-manage/pick-date/pick-date.ts"></script>
+  <script src="../../member-center/dev-pages-personal-plugin/dev-pages-personal-plugin.ts"></script>
+  <script src="../../member-center/supply-manage/list-header/list-header.ts"></script>
+  <script src="../../member-center/supply-manage/list-left/list-left.ts"></script>
+  <script>
+      //var dev = new initPages("dev-pages-p", 3, 5);
+      var date_pick1 = new datePicker("container1");
+      var date_pick2 = new datePicker("container2");
+  
+      // 监听整个页面，没有点到日历上，就关闭日历，点到了，就返回选中的日期
+      $(document).click(function (e) {
+        $(".calendar-line input").each(function () {
+          if ($.contains(this.parentElement, e.target)) {
+            // 点击到日历上了，不关闭日历
+            // 调用日历中得到选中日期的函数
+  
+            if ($(this).next().next().attr("id") == "container1") {
+            
+              var date=new Date(date_pick1.getChoosedDate());
+              $("#container1").prev().prev().val(""+date.getFullYear()+"-"+(date.getMonth()+1)+"-"+date.getDate());
+            } else if ($(this).next().next().attr("id") == "container2") {
+              var date=new Date(date_pick2.getChoosedDate());
+              $("#container2").prev().prev().val(""+date.getFullYear()+"-"+(date.getMonth()+1)+"-"+date.getDate());
+  
+            }
+          } else {
+            // 否则就关闭日历
+            if ($(this).next().next().hasClass("none")) {
+  
+            } else {
+              $(this).next().next().addClass("none");
+              $(this).next().toggleClass("b-active");
+            }
+          }
+        })
+      })
+    </script>
+</body>
+</html>

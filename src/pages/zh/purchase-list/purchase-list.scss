@@ -1,0 +1,264 @@
+.lf{ float:left;}
+.rt{ float:right;}
+#top,#nav-big,#banner-adv{
+    width:100%;
+}
+#top-box,#nav,#main{
+    width:1200px;
+    margin:0 auto;
+}
+.top-vip{
+  width:1200px;
+  height:105px;
+  margin:25px auto 0 auto;
+       b{
+        font-size:20px;
+        margin-left:20px;
+        margin-top:10px;
+      }
+      span{margin-left:20px;}
+      .margin-right{
+          margin-right:12px;
+      }
+}
+#nav-big{
+     border-bottom:2px solid #EA6700;
+     margin-bottom:20px;
+}
+#nav{
+  /*高度，背景*/
+  height:38px;
+  font-size: 14px;
+  height:40px;
+ 
+}
+#nav .active{
+  background:#EA6700;
+  color: white;
+}    
+#nav li{
+    float:left;
+}
+#nav li a{
+    /*行内块，宽度，高度，行高，水平居中，文字大小，颜色，加粗，取消下划线*/
+    display:inline-block;
+    width:133px;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    font-size:14px;
+    color:#000;
+    text-decoration:none;
+}
+/*********************Banner***************************/
+
+#banner-adv {
+    width:1200px;
+    height: 330px;
+    margin: 0 auto;
+    text-align: center;
+}
+#banner-adv>.banner {
+    width: 1200px;
+}
+#banner-adv>.imgbox {
+    width: 1200px;
+}
+/* .banner>img{
+	vertical-align: middle;
+} */
+
+/********************main**************************/
+
+.photo hr{
+    width: 64px;
+    height: 4px;
+    border: none;
+    background-color: #f6b781;
+    margin-top:-5px;
+    margin-left: 0px;
+  }
+
+.photo{
+  width:920px;
+  margin-top:20px;
+  .line{
+      position:relative;
+  }
+  .line>h1{
+      margin-bottom:20px;
+  }
+  .line>hr{
+    width: 98px;
+    height: 6px;
+    border: none;
+    background-color: #febf8c;
+    position:absolute;
+    top:32px;
+    z-index:-1;
+  }
+
+ul{
+  margin-top:20px;
+  clear:both;
+  }
+
+  li{
+ 
+      margin-right:5px;
+      float:left;
+      width:225px;
+      height:260px;
+      img{
+      height:220px;
+      width:220px;
+      background-color:black;
+    }
+  p{
+    text-align:center;
+    font-size:16px;
+    line-height:40px;
+   }
+}
+}
+
+
+
+.right-box{
+width:250px;
+}
+.father{
+margin-top:30px;
+box-sizing:border-box;
+>li{
+   box-shadow:#eee 3px 3px 3px 3px 0 ;
+
+  border:2px solid #eee;
+ margin-bottom:20px;
+}
+}
+
+.two{
+    margin-top:20px;
+    span {
+        display: block;
+        font-size: 16px;
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-bottom: 25px;
+        width:64px;
+    }
+    span>hr{
+        width: 64px;
+        height: 4px;
+        border: none;
+        background-color: #f6b781;
+        margin-top:-5px;
+        margin-left: 0px;
+    }
+b{
+   display:inline-block;
+   margin:0 0 20px 20px; 
+   font-size:16px;
+}
+li{
+   margin:0 0 0 25px;
+   height:20px;
+   line-height:20px;
+}
+hr{
+    width: 60px;
+    height: 4px;
+    border: none;
+    background-color: #febf8c;
+    margin-top:-5px;
+    margin-left: 18px;
+}
+.right-vip{
+      img{
+    margin:20px 0 0 100px;}
+      
+      p{
+        font-size:16px;
+        margin: 0 0 30px 86px;
+      }
+  }
+}
+
+#dev-pages-p{
+  height: 30px;
+  margin-top: 30px;
+  @mixin all{
+      border: 1px solid #cecece;
+      float: left;
+      padding:10px 17px;
+      font-size: 12px;
+      margin-left: 15px;
+  }
+
+                         //点击效果
+  span{
+      @include all;
+      // margin-right: 10px;
+  }
+  a{  
+      
+      @include all;
+       &:hover {
+        color: #000000; 
+        text-decoration: none; 
+        } 
+      &:active{
+          color:white;
+          background: #fa992e;
+          border:1px solid #fa992e;  
+      }
+    } 
+ 
+     //点击时显示效果
+ .active{
+        color:white;
+        background: #fa992e;
+        border:1px solid #fa992e;   
+      }
+
+     }
+.develop{
+  display: inline-block;
+  margin-top:20px;
+ 
+}
+
+.mianze{
+  clear:both;
+  width:100%;
+  height:50px;
+  line-height:50px;
+  background-color:#feebda;
+  text-align:center;
+  font-size:14px;
+  color:#fe8b52;
+  margin-top:30px;
+  display: inline-block;
+}
+.top{
+  margin:20px;
+  border-bottom: 1px dotted black;
+  width:1000px;
+  height:70px;
+  line-height:70px;
+  margin-left:240px;
+  p{
+      margin-left:20px;
+  }
+  ul{
+      li{
+          float: left;
+          i{
+              font-style:normal;
+              margin:0 10px;
+          }
+         
+      }
+  }
+}

@@ -1,0 +1,65 @@
+<!-- <link rel="stylesheet" href="./supply-info-manage.scss"> -->
+<div class="supply-info-manage boxsizing">
+    <div class="supply-info-manage-title">
+        <a href="javascript:void(0)" class="supply-info-manage-title-left supply-info-manage-title-left-active">供应信息</a>
+        <a href="javascript:void(0)" class="supply-info-manage-title-left">求购信息</a>
+        <a href="javascript:void(0)" class="btn-supply-info-manage">
+            <b></b>
+            发布供求信息
+        </a>
+    </div>
+    <ul class="clear">
+        <li>
+            <link rel="import" href="./supply-info-manage-dateline/supply-info-manage-dateline.html?__inline">
+        </li>
+
+        <li class="supply-info-manage-show-info clear">
+            <span class="supply-info-manage-show-info-first">信息</span>
+            <span class="supply-info-manage-show-info-second">发布日期</span>
+            <span class="supply-info-manage-show-info-third">操作</span>       
+        </li>
+
+        <!-- <link rel="import" href="./manage-li/manage-li.html?__inline"> -->
+        <!-- 这里是供应信息 -->
+        <li class="supply-info-manage-list clear supply">
+            <span class="checkBox">
+                <div class=""></div>
+            </span>
+            <span class="supply-info-manage-list-info-name">2018年一桶海鲜大礼包</span>
+            <span class="supply-info-manage-list-info-time">2018-01-03 20:40:00</span>
+            <div class="supply-info-manage-list-logo2"></div>
+            <div class="supply-info-manage-list-logo1"></div>
+        
+            <!-- 要实现右浮动，所以顺序先放反 -->
+            <a href="javascript:void(0)" class="supply-info-manage-list-change fchange">修改</a>
+        
+            <a href="javascript:void(0)" class="supply-info-manage-list-change delete">删除</a>
+        
+            <a href="javascript:void(0)" class="supply-info-manage-list-change fupdate">更新</a>
+        </li>
+        <!-- 这里是求购信息 -->
+        <li class="supply-info-manage-list clear none buy">
+            <span class="checkBox">
+                <div class=""></div>
+            </span>
+            <span class="supply-info-manage-list-info-name">这他妈是求购</span>
+            <span class="supply-info-manage-list-info-time">2018-01-03 20:40:00</span>
+            <div class="supply-info-manage-list-logo2"></div>
+            <div class="supply-info-manage-list-logo1"></div>
+        
+            <!-- 要实现右浮动，所以顺序先放反 -->
+            <a href="javascript:void(0)" class="supply-info-manage-list-change fchange">修改</a>
+        
+            <a href="javascript:void(0)" class="supply-info-manage-list-change delete">删除</a>
+        
+            <a href="javascript:void(0)" class="supply-info-manage-list-change fupdate">更新</a>
+        </li>
+             
+        <!-- 分页 -->
+        <li class="supply-info-managepages">
+            <link rel="import" href="../../dev-pages-personal-plugin/dev-pages-personal-plugin.html?__inline">
+        </li>
+
+    </ul>
+</div>
+<!-- <script src="./supply-info-manage.ts"></script> -->

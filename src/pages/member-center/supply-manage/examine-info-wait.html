@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../../../assets/css/common.scss">
+  <link rel="stylesheet" href="../../../index.scss">
+  <link rel="stylesheet" href="./extend-css/extend.css">
+  <link rel="stylesheet" href="./list-left/list-left.scss">
+  <link rel="stylesheet" href="./list-header/list-header.scss">
+  <link rel="stylesheet" href="../../../widgets/index/nav/nav.scss">
+  <!-- <link rel="stylesheet" href="./supply-info-manage/supply-info-manage.scss"> -->
+  <link rel="stylesheet" href="./supply-info-manage/supply-info-manage-dateline/supply-info-manage-dateline.scss">
+  <link rel="stylesheet" href="./supply-info-manage/manage-li/manage-li.scss">
+  <link rel="stylesheet" href="../supply-manage/examine-info-wait/examine-info-wait.scss">
+  <!-- <link rel="stylesheet" href="./release-info-message/release-big-photo/release-big-photo.scss"> -->
+  <!-- <link rel="stylesheet" href="./release-info-message/company-intro/company-intro.scss"> -->
+  <!-- <link rel="stylesheet" href="./supply-info-show/supply-info-show.scss"> -->
+  <link rel="stylesheet" href="./examine-info-wait/examine-info-wait.scss">
+  <link rel="stylesheet" href="../dev-pages-personal-plugin/dev-pages-personal-plugin.scss">
+  <link rel="stylesheet" href="../exhibition-manage/pick-date/pick-date.scss">
+  <link rel="stylesheet" href="../../csl/chang-password/page-head/page-head.scss">
+  <link rel="stylesheet" href="../../../common/footer-all/footer-all.scss">
+  <link rel="stylesheet" href="../modal-delete/modal-delete.scss">
+  <link rel="stylesheet" href="./calendar.css">
+  <script src="../../../assets/js/jquery-1.9.1.min.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <link rel="import" href="../modal-delete/modal-delete.html?__inline">
+  <link rel="import" href="../../csl/chang-password/page-head/page-head.html?__inline">
+  <!-- 插入头部 -->
+  <!-- <link rel="import" href="../../../widgets/index/nav/nav.html?__inline"> -->
+  <div id="nav">
+    <!-- 2、右：导航内容 -->
+    <ul class="lf">
+      <li>
+        <a href="#">首页</a>
+      </li>
+      <li>
+        <a href="#">供应信息</a>
+      </li>
+      <li>
+        <a href="#">求购信息</a>
+      </li>
+      <li>
+        <a href="#">公司库</a>
+      </li>
+      <li>
+        <a href="#">商业资讯</a>
+      </li>
+      <li>
+        <a href="#">展会信息</a>
+      </li>
+      <li>
+        <a href="#">企业信息</a>
+      </li>
+      <li>
+        <a href="#" class="active">会员中心</a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- 插入列表头 -->
+  <link rel="import" href="./list-header/list-header.html?__inline">
+  <div class="main-center">
+    <!-- 插入左侧栏 -->
+    <link rel="import" href="./list-left/list-left.html?__inline">
+
+    <!-- 插入列表栏 -->
+    <!-- <link rel="import" href="../supply-info-manage/supply-info-manage.html?__inline"> -->
+
+    <!-- 插入发布供求信息列表栏 -->
+    <!-- <link rel="import" href="../release-info-message/release-info-message.html?__inline"> -->
+
+    <!-- 待审核的信息列表栏 -->
+    <link rel="import" href="./examine-info-wait/examine-info-wait.html?__inline">
+
+
+
+    <!-- 产品供求查看详情 -->
+    <!-- <link rel="import" href="./supply-info-show/supply-info-show.html?__inline"> -->
+  </div>
+  <link rel="import" href="../../../common/footer-all/footer-all.html?__inline">
+
+  <script src="../supply-manage/examine-info-wait/examine-info-wait.ts"></script>
+  <script src="../../../widgets/index/nav/nav.ts"></script>
+  <script src="./list-left/list-left.ts"></script>
+  <!-- <script src="./supply-info-manage/supply-info-manage.ts"></script> -->
+  <!-- <script src="./supply-info-manage/supply-info-manage-dateline/supply-info-manage-dateline.ts"></script> -->
+  <!-- <script src="./supply-info-manage/manage-li/manage-li.ts"></script> -->
+  <script src="../dev-pages-personal-plugin/dev-pages-personal-plugin.ts"></script>
+  <!-- <script src="../exhibition-manage/pick-date/pick-date.ts"></script> -->
+  <script src="./calendar.js"></script>
+  <script>
+    $(".menber-center-list-header-left>span:first-child+span+span").html("待审核的信息");
+
+    var obj = {
+      containerId:"dev-pages-p",
+      pagesNum:3,
+      recordNum:5,
+      currentPage:1,
+      previousPageFunc: function() {
+          // console.log("这里放置点击上一页时的触发函数")
+      },
+      nextPageFunc:function() {
+        // console.log("这里放置点击下一页时的触发函数");
+      },
+      jumpPagesFunc:function(){
+        // console.log("这里放置跳转到某一页时的触发函数,点击上一页,下一页,首页，尾页都会触发");
+        console.log("当前页数为"+this.currentPage);
+				console.log("总记录数为"+this.recordNum);
+				console.log("总页数为"+this.pagesNum);
+      }
+    }
+
+    var dev = new initPages(obj);
+    // var date_pick1 = new datePicker("container1");
+    // var date_pick2 = new datePicker("container2");
+    // // 监听整个页面，没有点到日历上，就关闭日历，点到了，就返回选中的日期
+    // $(document).click(function(e) {
+    //   $("#date-pick-line .calendar-input").each(function() {
+
+    //     if ($.contains(this.parentElement, e.target)) {
+    //       // 点击到日历上了，不关闭日历
+    //       // 调用日历中得到选中日期的函数
+    //       if ($(this).next().next().attr("id") == "container1") {
+    //         var date = new Date(date_pick1.getChoosedDate());
+    //         // console.log(date);
+    //         $("#container1").prev().prev().val("" + date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate());
+    //         // $(this).next().removeClass("b-active");
+    //       } else if ($(this).next().next().attr("id") == "container2") {
+    //         var date = new Date(date_pick2.getChoosedDate());
+    //         // console.log(date);
+    //         $("#container2").prev().prev().val("" + date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate());
+    //         console.log($(this));
+    //         // $(this).next().removeClass("b-active");
+    //       }
+    //     } else {
+    //       // 否则就关闭日历
+
+    //       if ($(this).next().next().hasClass("none")) {
+
+    //       } else {
+    //         $(this).next().next().addClass("none");
+    //         $(this).next().removeClass("b-active");
+    //       }
+    //     }
+    //   })
+    // })
+
+  </script>
+</body>
+
+</html>

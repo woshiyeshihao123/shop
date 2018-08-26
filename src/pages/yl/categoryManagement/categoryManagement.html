@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>类别管理</title>
+  <meta charset="UTF-8">
+  <script src="../../../assets/js/jquery-1.9.1.min.js"></script>
+  <link rel="stylesheet" href="../../member-center/supply-manage/extend-css/extend.css">
+  <link rel="stylesheet" href="../../../assets/css/common.scss">
+  <link rel="stylesheet" href="../../member-center/supply-manage/list-header/list-header.scss"> 
+  <link rel="stylesheet" href="../../member-center/supply-manage/list-left/list-left.scss"> 
+  <link rel="stylesheet" href="./categoryManagement.scss">
+  <link rel="stylesheet" href="../../../common/footer-all/footer-all.scss">    
+  <link rel="stylesheet" href="../../../widgets/index/nav/nav.scss">
+  <link rel="stylesheet" href="../../../pages/csl/chang-password/page-head/page-head.scss">
+  <link rel="stylesheet" href="../../member-center/dev-pages-personal-plugin/dev-pages-personal-plugin.scss">
+</head>
+<body style="margin:0 auto;">
+
+    <link rel="import" href="../../../pages/csl/chang-password/page-head/page-head.html?__inline">
+    <div style="width:1211px;margin:0 auto;">
+        <div id="nav" >
+            <!-- 2、右：导航内容 -->
+            <ul class="lf">
+                <li>
+                <a href="#">首页</a>
+                </li>
+                <li>
+                    <a href="#">供应信息</a>
+                </li>
+                <li>
+                    <a href="#">求购信息</a>
+                </li>
+                <li>
+                    <a href="#">公司库</a>
+                </li>
+                <li>
+                    <a href="#">商业资讯</a>
+                </li>
+                <li>
+                    <a href="#">展会信息</a>
+                </li>
+                <li>
+                    <a href="#">企业信息</a>
+                </li>
+                <li>
+                    <a href="#" class="active">会员中心</a>
+                </li>
+            </ul>
+        </div> 
+    </div>
+    <div class="menber-center-list-header boxsizing">
+            <div class="menber-center-list-header-left">
+                <span><a href="javascript:void(0)">首页</a>&gt</span>
+                <span><a href="javascript:void(0)">会员中心</a> &gt</span>
+                <span><a href="javascript:void(0)">类别管理</a></span>
+                <div class="menber-center-list-header-right">
+                    <b></b>
+                    帮助中心
+                </div>
+            </div>
+        </div>
+    <div style="width:1211px;margin:0 auto;">
+        <div class="member-center-list-box boxsizing clear">
+            <ul>
+                <li class="member-center-list-box-item">
+                    <a href="javascript:void(0)">
+                        <span>
+                            <b></b>
+                            个人中心
+                            <i class="right-arrow"></i>
+                        </span>
+                    </a>
+                </li>
+        
+                <li class="member-center-list-box-item">
+                    <a href="javascript:void(0)" class="member-center-toggle-title">
+                        <span>
+                            <b></b>
+                            供求信息
+                            <i class="right-arrow"></i>
+                        </span>
+        
+                    </a>
+                    <ul class="member-center-second-list clear">
+                        <li>
+                            <a href="javascript:void(0)">供求信息管理</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">发布供求信息</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">待审核的信息</a>
+                        </li>
+                    </ul>
+                </li>
+        
+                <li class="member-center-list-box-item">
+                    <a href="javascript:void(0)" class="member-center-toggle-title list-left-active">
+                        <span>
+                            <b></b>
+                            产品管理
+                            <i class="right-arrow"></i>
+                        </span>
+        
+                    </a>
+                    <ul class="member-center-second-list">
+                        <li>
+                            <a href="javascript:void(0)">产品管理</a>
+                        </li>
+        
+                        <li>
+                            <a href="javascript:void(0)" class="font-orange">类别管理</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">添加产品</a>
+                        </li>
+                    </ul>
+                </li>
+        
+                <li class="member-center-list-box-item">
+                    <a href="javascript:void(0)" class="member-center-toggle-title">
+                        <span>
+                            <b></b>
+                            新闻动态管理
+                            <i class="right-arrow"></i>
+                        </span>
+        
+                    </a>
+                    <ul class="member-center-second-list">
+                        <li>
+                            <a href="javascript:void(0)">动态管理</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">发布动态</a>
+                        </li>
+                    </ul>
+                </li>
+        
+                <li class="member-center-list-box-item">
+                    <a href="javascript:void(0)" class="member-center-toggle-title">
+                        <span>
+                            <b></b>
+                            展会管理
+                            <i class="right-arrow"></i>
+                        </span>
+        
+                    </a>
+                    <ul class="member-center-second-list">
+                        <li>
+                            <a href="javascript:void(0)">展会管理</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">发布展会</a>
+                        </li>
+                    </ul>
+                </li>
+        
+                <li class="member-center-list-box-item">
+                    <a href="javascript:void(0)" class="member-center-toggle-title">
+                        <span>
+                            <b></b>
+                            招聘管理
+                            <i class="right-arrow"></i>
+                        </span>
+        
+                    </a>
+                    <ul class="member-center-second-list">
+                        <li>
+                            <a href="javascript:void(0)">招聘信息管理</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">发布招聘信息</a>
+                        </li>
+                    </ul>
+                </li>
+        
+                <li class="member-center-list-box-item">
+                    <a href="javascript:void(0)" class="member-center-toggle-title">
+                        <span>
+                            <b></b>
+                            账户管理
+                            <i class="right-arrow"></i>
+                        </span>
+        
+                    </a>
+                    <ul class="member-center-second-list">
+                        <li>
+                            <a href="javascript:void(0)">营业执照/身份证/商标</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">财务明细</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">修改资料</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">Banner管理</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">图片管理</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">关键字排名</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">友情链接</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">模板选择</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">客户留言</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">修改密码</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div id="categoryManagement">
+            <div>
+                <b>类别管理<b></b></b>
+            </div>
+            <div>
+                <div>
+                    <p>添加类别</p>
+                    <b>添加一级类别：</b>
+                    <input type="text" placeholder="请输入一级类别名称"> <button>&nbsp;&nbsp;&nbsp;添加</button><br>
+                </div>
+                <b>添加二级类别：</b>
+                <input type="text" placeholder="请输入二级类别名称"><b>所属一级类别：</b>
+                <div class="one-category">
+                    <input type="text" class="background" placeholder="请选择一级类别名称" id="one-cate">
+                    <div class="one-cate">
+                        <ul>
+                            <li><a>123</a><b></b></li>
+                            <li><a>345</a><b></b></li>
+                            <li><a>256</a><b></b></li>
+                        </ul>
+                    </div>
+                </div>
+                <button>&nbsp;&nbsp;&nbsp;添加</button><br>
+                <b>添加三级类别：</b>
+                <input type="text" placeholder="请输入三级类别名称"><b>所属二级类别：</b>
+                <div class="two-category">
+                        <input type="text"  class="background" placeholder="请选择二级类别名称" id="two-cate">
+                    <div class="two-cate">
+                        <ul>
+                            <li><a>1</a><b></b></li>
+                            <li><a>3</a><b></b></li>
+                            <li><a>2</a><b></b></li>
+                        </ul>
+                    </div>
+                </div>
+                <button>&nbsp;&nbsp;&nbsp;添加</button>
+            </div>
+            <div>
+                <ul class="lf">
+                    <li>一级类别</li>
+                    <li>二级类别</li>
+                    <li>三级类别</li>
+                    <li>操作</li>
+                </ul>
+                
+                <ul class="lf change">
+                    <li><a>机床</a></li>
+                    <li>
+                        <a></a>
+                    </li>
+                    <li class="change-w">
+                        <a></a>
+                    </li>
+                    <li><span class="change-a"><a href="javascript:void(0)">编辑</a></span><b class="color"></b><span class="delete"><a href="javascript:void(0)">删除</a></span></li>
+                </ul>
+                <ul class="lf change">
+                    <li><a>机床</a></li>
+                    <li>
+                        <a>机床</a>
+                    </li>
+                    <li class="change-w">
+                        <a></a>
+                    </li>
+                    <li><span class="change-a"><a href="javascript:void(0)">编辑</a></span><b class="color"></b><span class="delete"><a href="javascript:void(0)">删除</a></span></li>
+                </ul>
+                <ul class="lf change">
+                    <li><a>机床</a></li>
+                    <li>
+                        <a>机床</a>
+                    </li>
+                    <li class="change-w">
+                        <a>机床</a>
+                    </li>
+                    <li><span class="change-a"><a href="javascript:void(0)">编辑</a></span><b class="color"></b><span class="delete"><a href="javascript:void(0)">删除</a></span></li>
+                </ul>
+            </div>
+            <div class="div-last-child">
+                <link rel="import" href="../../member-center/dev-pages-personal-plugin/dev-pages-personal-plugin.html?__inline">
+              </div>
+        </div>
+    </div>
+    <div id="alert-success1" class="none">
+        <div>
+            <div></div>
+            <p></p>
+            <button class="confirm">确定</button>
+            <button class="cancel">取消</button>
+        </div>  
+    </div>
+    <div id="editor" class="none one">
+        <div>
+            <p>修改一级类别<span class="close">x</span></p>
+            <div>
+                <p>一级类别：<input id="one-categoryManagement" type="text"></p>
+                <button class="confirm">确定</button>
+                
+            </div>
+        </div>  
+    </div>
+    <div id="editor" class="none two-three">
+            <div>
+                    <p>修改二级类别/三级类别<span class="close">x</span></p>
+                    <div>
+                        <div>
+                            <p>二级类别：<input id="two-categoryManagement" type="text" class="background"></p>
+                            <ul class="none two-categoryManagement-ul">
+                                <li><a href="javascript:void(0)">123456</a></li>
+                                <li><a href="javascript:void(0)">123456</a></li>
+                                <li><a href="javascript:void(0)">123456</a></li>
+                                <li><a href="javascript:void(0)">123456</a></li>
+                            </ul>
+                        </div>
+                        <p>三级类别：<input id="three-categoryManagement" type="text"></p>
+                        <button class="confirm">确定</button>
+                        
+                    </div>
+                </div>  
+    </div>
+    <link rel="import" href="../../../common/footer-all/footer-all.html?__inline">
+    <script src="./categoryManagement.ts"></script>
+    <script src="../../../widgets/index/nav/nav.ts"></script>
+    <script src="../../member-center/supply-manage/list-header/list-header.ts"></script>
+    <script src="../../member-center/supply-manage/list-left/list-left.ts"></script>
+    <script src="../../member-center/dev-pages-personal-plugin/dev-pages-personal-plugin.ts"></script>
+    <script>
+        //var dev = new initPages("dev-pages-p", 3, 5);
+    </script>
+</body>
+</html>

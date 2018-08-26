@@ -1,0 +1,430 @@
+
+
+.color-red{
+    
+    color:#ef7814;
+    border-bottom: 3px solid #ef7814;
+ }
+ #audit-switch{
+     width:960px;
+     display: inline-block;
+     >P{
+         display: inline-block;
+         width: 960px;
+         margin-left: 30px;
+         >span{
+             width: 130px;
+             margin: 10px 50px 10px 10px;
+             display: inline-block;
+             text-align: center;
+             margin-right: 100px;
+             font-size:16px;
+         }
+     }
+     >span{
+         display: inline-block;
+         width: 960px;
+         margin-left: 30px;
+         >div{
+             padding:10px 0 0 10px;
+             height: 50px;
+             >div{
+                 display: inline-block;
+                 height: 23px;
+                 >span{
+                     margin-top: 10px;
+                 }
+                 >div{
+                     margin-left: 15px;
+                     margin-right:15px;
+ 
+                        >div.calendar-line{
+                         position: relative;
+                         >input{
+                             position: relative;
+                             float: left;
+                             height: 35px !important;
+                             border: 1px solid #cecece;
+                             line-height: 35px;
+                             padding-left: 5px;
+                             padding-right: 32px;
+                             width: 130px !important;
+                             background: url("../../assets/img/photos/8-1/calendar1.png")no-repeat 143px center;
+                         
+                         }
+                         >div.date-picker-container{
+                             top:38px;
+                             left:0px;
+                         }
+     
+                     }
+                    
+                 }
+             }
+             >img{
+                 margin-bottom: 8px;
+             }
+ 
+             >span{
+                 display: inline-block;
+                 width: 160px;
+                 margin-left: 20px;
+ 
+                 >a{
+                     color:#000;
+                     margin-right: 30px;
+                 }
+                 >.all-change-hide{
+                     display: none;
+                 }
+             }
+ 
+             >.choose-noright{
+                 padding: 10px;
+                 background: url(../../assets/img/photos/8-1/rectangle.png) no-repeat 0 10px ;
+             }
+             >.choose-right{
+                 padding: 10px;
+                 background: url(../../assets/img/photos/login-register/checked.png) no-repeat 0 10px ;
+             }
+ 
+             >b{
+                 font-weight: normal;
+                 >input{
+                     width: 140px;
+                     height: 32px;
+                 }
+ 
+                 >button{
+                     height: 36px;
+                     width: 100px;
+                     background: #ef7814;
+                     border:0;
+                     color: #fff;
+                     margin-left: 6px;
+                 }
+             }
+         }
+         >ul.ul-background{
+             border:0;
+             padding-top: 5px;
+             background:#eee;
+             padding-bottom: 5px;
+             >li:first-child+li+li+li+li+li+li{
+                 width: 90px;
+             }
+         }
+         >ul{
+             border-bottom: 1px dashed #000;
+             vertical-align: middle;
+             width: 960px;
+             margin: 0 auto;
+             >li{
+                 display: inline-block;
+                 line-height: 30px;
+                 text-align: left;
+                 vertical-align: middle;
+                 margin: 0 10px  0 10px ;
+                 padding: 10px 20px 10px 0; 
+                 width: 110px;
+                 >b{
+                     font-weight:normal;
+                     display: inline-block;
+                     margin: 0 ;
+ 
+                     >a{
+                         color:#ef7814;
+                     }
+ 
+                     >b{
+                         border-right: 1px solid #ef7814;
+                         margin: 0 0 0 10px;
+                     }
+                 }
+                 >.choose-noright{
+                     padding: 10px;
+                     background: url(../../assets/img/photos/8-1/rectangle.png) no-repeat 0 10px ;
+                 }
+                 >.choose-right{
+                     padding: 10px;
+                     background: url(../../assets/img/photos/login-register/checked.png) no-repeat 0 10px ;
+                 }
+                 >a{
+                 margin:  5px;
+                 }
+             }
+ 
+             >li:first-child{
+                 width:20px;
+                 margin-left: 10px;
+                 >img{
+                     margin-bottom: 6px;
+                 }
+             }
+             >li:first-child+li{
+                 width:176px;
+             }
+             >.li-time{
+                 width: 170px;
+             }
+         }
+     }       
+     >div{   
+         display: none;
+         width: 960px;
+         margin-left: 30px;
+         >p{
+             padding:10px 0 10px 10px;
+ 
+             >img{
+                 margin-bottom: 8px;
+             }
+ 
+             >span{
+                 display: inline-block;
+                 width: 220px;
+                 margin-right: 30px;
+                 margin-left: 20px;
+ 
+                 >a{
+                     color:#000;
+                     margin-right: 30px;
+                 }
+             }
+ 
+             >.choose-noright{
+                 padding: 10px;
+                 background: url(../../assets/img/photos/8-1/rectangle.png) no-repeat 0 10px ;
+             }
+             >.choose-right{
+                 padding: 10px;
+                 background: url(../../assets/img/photos/login-register/checked.png) no-repeat 0 10px ;
+             }
+ 
+             >b{
+                 font-weight: normal;
+                 >input{
+                     width: 140px;
+                     height: 32px;
+                 }
+ 
+                 >button{
+                     height: 36px;
+                     width: 100px;
+                     background: #ef7814;
+                     border:0;
+                     color: #fff;
+                     margin-left: 12px;
+                 }
+             }
+         }
+         >ul.ul-background{
+             border:0;
+             padding-top: 5px;
+             background:#eee;
+             padding-bottom: 5px;
+             >li:first-child+li+li+li+li+li+li{
+                 width: 90px;
+             }
+         }
+ 
+         >ul{
+             border-bottom: 1px dashed #000;
+             vertical-align: middle;
+             width: 960px;
+             margin: 0 auto;
+             >li{
+                 display: inline-block;
+                 line-height: 30px;
+                 text-align: left;
+                 vertical-align: middle;
+                 margin: 0 10px  0 10px ;
+                 padding: 10px 20px 10px 0; 
+                 width: 122px;
+                 >b{
+                     font-weight:normal;
+                     display: inline-block;
+                     margin: 0 ;
+ 
+                     >a{
+                         color:#ef7814;
+                     }
+ 
+                     >b{
+                         border-right: 1px solid #ef7814;
+                         margin: 0 0 0 10px;
+                     }
+                 }
+                 >.choose-noright{
+                     padding: 10px;
+                     background: url(../../assets/img/photos/8-1/rectangle.png) no-repeat 0 10px ;
+                 }
+                 >.choose-right{
+                     padding: 10px;
+                     background: url(../../assets/img/photos/login-register/checked.png) no-repeat 0 10px ;
+                 }
+                 >a{
+                 margin:  5px;
+                 }
+             }
+ 
+             >li:first-child{
+                 width:20px;
+                 margin-left: 10px;
+                 >img{
+                     margin-bottom: 6px;
+                 }
+             }
+             >li:first-child+li{
+                 width:176px;
+             }
+             >.li-time{
+                 width: 140px;
+             }
+         }
+     }
+ 
+     >div.in{
+         display: inline-block;
+     }
+ 
+     >div:first-child{
+             border-bottom: 0;
+ 
+         >ul{
+ 
+             >li{
+ 
+                 >a{
+                     display:inline-block;
+                     width: 10px;
+                     height: 10px;
+                     padding:5px;
+                 }
+             }
+         }
+     }
+ 
+     >.div-last-child{
+         padding: 10px 0;
+         display: inline-block;
+     }
+ }
+ 
+ #dev-pages-p{
+     display:block;
+     
+ }
+ #alert-success{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 880;
+    background:rgba(0, 0, 0,0.5);
+    >div{
+        position: absolute;
+        float: left;
+        left: 0;
+        right: 0;
+        top: 200px;
+        margin: 0 auto;
+        display: inline-block;
+        width: 350px;
+        height: 210px;
+        border: 1px solid #eaeaea;
+        border-radius: 5px;
+        text-align: center;
+        vertical-align: middle;
+        box-shadow: 0px 0px 30px 3px black;
+        background: #fff;
+        z-index: 10;
+        >p{
+            display: block;
+            font-size: 18px;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        >div{
+            width: 348px;
+            height: 100px;
+        }
+        >div.right{
+            background: url("../../assets/img/photos/8-1/rightPrompt1.png") no-repeat center 20px;
+            margin-top:30px;
+        }
+    }
+}
+#alert-success.no{
+    visibility: hidden;
+}
+#alert-success.show{
+    display: inline-block;
+}
+.center{
+    margin:auto
+}
+#alert-success1{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 99;
+    background:rgba(0, 0, 0,0.5);
+    >div{
+        position: absolute;
+        float: left;
+        left: 0;
+        right: 0;
+        top: 200px;
+        margin: 0 auto;
+        display: inline-block;
+        width: 355px;
+        height: 267px;
+        border: 1px solid #eaeaea;
+        border-radius: 5px;
+        text-align: center;
+        vertical-align: middle;
+        box-shadow: 0px 0px 30px 3px black;
+        background: #fff;
+        z-index: 900;
+        >p{
+            display: block;
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: black;
+            font-weight: bold;
+        }
+        >div{
+            width: 348px;
+            height: 100px;
+        }
+        >div.right{
+            background: url("../../assets/img/photos/8-1/deletePrompt.png") no-repeat center 20px;
+            margin-top:30px;
+        }
+        >button{
+            width: 120px;
+            height: 40px;
+            border: 0;
+            border-radius: 5px;
+            margin:0 10px;
+            
+        }
+        >.confirm{
+            color: #fff;
+            background: #ef7814;
+        }
+    }
+}
+#alert-success1.no{
+    visibility: hidden;
+}
+#alert-success1.show{
+    display: inline-block;
+}
+
+
+
+ 

@@ -1,0 +1,199 @@
+#main{
+    height: 600px;
+    margin:10px auto 0 auto;
+    
+}
+
+#main div.mainHeader{
+    font-size: 18px;
+    margin: 40px 0;
+}
+
+#main div.mainHeader ul li:first-child{
+    float: left;
+    width: 1160px;
+    font-size: large;
+    text-align: center;
+}
+
+
+.bottomInfo>div ul>li{
+    float:none;
+}
+
+.bottomInfo .newsBox div{
+    width: auto;
+    height: 50px;
+}
+
+#main .cate-box{
+    float: left;
+    width: 318px;
+    height: 156px;
+    border-bottom:none;
+}
+
+.main-cate-box{
+    float: left;
+    width: 415px;
+    height: 590px;
+    box-shadow: -4px 4px 40px #ddd;
+    -moz-box-shadow: -4px 4px 40px #ddd;
+    -webkit-box-shadow: -4px 4px 40px #ddd;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#969696', Direction=125, Strength=9);
+}
+.main-cate-box img{
+    position: relative;
+    top: 20px;
+}
+
+#tab-list{
+    text-align: center;
+}
+
+#tab-list div{
+    width: 245px;
+    height: 260px;
+    float: left;
+    margin-right: 55px;
+    margin-top: 30px;
+    box-shadow: -4px 4px 40px #ddd;
+    -moz-box-shadow: -4px 4px 40px #ddd;
+    -webkit-box-shadow: -4px 4px 40px #ddd;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#969696', Direction=125, Strength=9);
+}
+#tab-list div ul{
+    margin-top: 20px;
+}
+
+#tab-list div ul li{
+    text-align: center;
+}
+
+
+#vtab-list{
+    float: left;
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+#vtab-list div{
+    width: 277px;
+    // height: 260px;
+    float: left;
+    // margin-right: 32px;
+    // margin-top: 30px;
+}
+#vtab-list div ul{
+    margin-top: 20px;
+}
+
+#vtab-list div ul li{
+    text-align: center;
+}
+
+
+
+#mTab{
+    width: 1200px;
+    float: left;
+    margin-top: 140px;
+    text-align: center;
+}
+
+#mTab ul{
+    width: 800px;
+    margin: 0 auto;
+    
+}
+
+#mTab ul li{
+    float: left;
+    margin-right: 50px;
+    font-size: 30px;
+}
+
+#mTab ul li.active-tab a{
+    width: 10px;
+    border-bottom: 2px solid #eb6700;
+    color: #eb6700;
+}
+
+
+#vTab{
+    width: 1200px;
+    float: left;
+    margin-top: 25px;
+    text-align: center;
+}
+
+#vTab ul{
+    width: 800px;
+    margin: 0 auto;
+    
+}
+
+#vTab ul li{
+    float: left;
+    margin-right: 50px;
+    font-size: 30px;
+}
+
+#vTab ul li.active-tab a{
+    width: 10px;
+    border-bottom: 2px solid #eb6700;
+    color: #eb6700;
+}
+
+
+
+.comp-list{
+    float: left;
+    text-align: center;
+    width: 1110px;
+    height: 150px;
+    // padding: 10px 30px;
+    margin: 10px 30px;
+    box-shadow: -4px 4px 40px #ddd;
+    -moz-box-shadow: -4px 4px 40px #ddd;
+    -webkit-box-shadow: -4px 4px 40px #ddd;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#969696', Direction=125, Strength=9);
+    
+}
+
+.list-background{
+    background: url("../../../assets/img/photos/index/background.png") no-repeat left bottom;
+}
+
+.comp-list div:first-child{
+    font-size: 18px;
+    width: 72px;
+    margin: 0 auto;
+    position: relative;
+    border-bottom: 4px solid #fdb315;
+}
+
+.comp-list div:first-child a{
+    position: relative;
+    top: 7px;
+}
+
+.comp-list ul{
+    padding:0 200px;
+}
+
+.comp-list li{
+    float: left;
+    margin: 10px 35px 0 0;
+}
+.v-box{
+    float: left;
+    display: inline-block;
+    width: 1110px;
+    margin: 12.5px 30px;
+    box-shadow: -4px 4px 40px #ddd;
+    -moz-box-shadow: -4px 4px 40px #ddd;
+    -webkit-box-shadow: -4px 4px 40px #ddd;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#969696', Direction=125, Strength=9);
+}

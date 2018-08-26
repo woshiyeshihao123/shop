@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="viewport-fit=cover, width=750, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./iosSelect.scss">
+  <link rel="stylesheet" href="./addressChoose.scss">
+  <link rel="stylesheet" href="../../h5-common/goTop/goup.scss">
+  <link rel="stylesheet" href="../../h5-assets/css/common.scss">
+  <link rel="stylesheet" href="../allCatalog/allCatalog.scss">
+  <script src="../../h5-common/goTop/jquery.goup.js"></script>
+  <script src="../../assets/js/jquery-1.9.1.min.js"></script>
+  <script src="./iosSelect.js"></script>
+  <title>Document</title>
+  <!-- <script src="addressChoose.js"></script> -->
+</head>
+<body>
+  <!-- <link rel="import" href="../../allCatalog/allCatalog.html?_inline"> -->
+        <!-- <div id="top">
+            <img class="img1 lf" src="../../../assets/img/photos/login-register/logo.png">
+                <a href="#">
+                <img class="img2" src="../../../h5-assets/img/index/drawable-xhdpi/navigation-classify.png">
+             </a>
+                </div> -->
+<!-- 引入头部 -->
+<div id="top">
+        <div class="header">
+                
+<!-- *******header******** -->
+<div class="header " >
+        <a href="#" class="deploy-contact" onclick="jump1()"></a>
+        <a href="javascript:;" class="deploy-sidebar"></a>
+    </div>
+
+<!-- ********popup******* -->
+<div class="popup">
+  <div class="menu">
+    <div class="left-one" onclick="jump1()">  
+        <img src="../../h5-assets/img/index/drawable-xhdpi/main.png"/> 
+        <div class="word-two"> 
+        <a>首页</a>
+        </div>
+    </div>
+   <div class="center-one" onclick="jump2()">  
+         <img src="../../h5-assets/img/index/drawable-xhdpi/supply-info.png"/>
+         
+        <div class="word-two"> 
+        <a>供应</a>
+        </div>
+    </div>   
+    <div class="right-one" onclick="jump3()">  
+        <img src="../../h5-assets/img/index/drawable-xhdpi/buy-info.png"/> 
+         
+        <div class="word-four"> 
+        <a>求购信息 </a>
+        </div>
+    </div>
+      
+    
+    <div class="left-two" onclick="jump4()">  
+        <img src="../../h5-assets/img/index/drawable-xhdpi/product-info.png"/>
+         
+        <div class="word-four"> 
+        <a>产品信息</a>
+        </div>
+    </div>     
+    <div class="center-two" onclick="jump5()">  
+         <img src="../../h5-assets/img/index/drawable-xhdpi/company-list.png"/>
+         
+        <div class="word-three"> 
+        <a>公司库</a>
+        </div>
+    </div>     
+    <div class="right-two" onclick="jump6()">  
+        <img src="../../h5-assets/img/index/drawable-xhdpi/news.png"/>
+         
+        <div class="word-four"> 
+        <a>新闻动态</a>
+        </div>
+    </div>    
+    <div class="left-three" onclick="jump7()">  
+        <img src="../../h5-assets/img/index/drawable-xhdpi/excibition-info1.png"/>
+         
+        <div class="word-four"> 
+        <a>展会信息</a>
+        </div> 
+    </div>    
+    <div class="center-three" onclick="jump8()">  
+        <img src="../../h5-assets/img/index/drawable-xhdpi/business-info.png"/>
+         
+        <div class="word-four"> 
+        <a>工商信息</a>
+        </div> 
+    </div>    
+    <div class="right-three" onclick="jump9()">  
+        <img src="../../h5-assets/img/index/drawable-xhdpi/type-area.png"/> 
+         
+        <div class="word-five"> 
+        <a>类别/信息</a>
+        </div> 
+    </div>     
+     
+  </div>
+</div>
+
+            </div>
+         </div>  
+  <div class="main">
+    <div class="nav">
+        <p>
+            <a href="#">供应信息</a>
+            <span>></span>
+            <a href="#" style="color:#666;">选矿设备</a>
+        </p>
+    </div>
+    <div class="navtwo">
+        <button>机床
+            <b></b>
+        </button>
+        <button>化工设备
+            <b></b>
+        </button>
+        <button>手动工具
+            <b></b>
+        </button>
+
+        <button>商业专用设备
+            <b></b>
+        </button>
+        <button>包装相关设备
+            <b></b>
+        </button>
+        <button>泵
+            <b></b>
+        </button>
+
+        <button>农业机械
+            <b></b>
+        </button>
+        <button>工程与建筑机械
+            <b></b>
+        </button>
+        <button>磨具
+            <b></b>
+        </button>
+        <div class="nav-select">
+            <span>地址</span>
+            <p class="select rt">请选择
+                <b></b>
+            </p>
+        </div>
+    </div>
+    <hr style="margin-top:20px;background-color:#f4f4f4;height:5px;border:1px solid #f4f4f4;" />
+    <div id="enterprise">
+        <div class="daily-one">
+            <div class="companies">
+                <i></i>
+                <span class="daily-two">供应列表</span>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <hr style="border:1px solid #f4f4f4">
+        <div class="directories" style="width:750px;">
+            <div class="company-list">
+                <div class="company-detail">
+                       <img src="../../../h5-assets/img/dianpu/beacon.jpg" alt="">
+                    <ul>
+                        <li class="company-name">
+                            <p>三段式消防水枪可切换球阀实打实大师大师</p>
+                        </li>
+                        <li class="company-ads">
+                            <p>消防水枪质量高质量好，产自与山东青岛某大型制造厂</p>
+                        </li>
+                        <li class="telephone">
+                            <b></b>
+                            <p>东台市海景消防器材有限公司是打算打算</p>
+                            <i id="call-two"></i>
+                            
+                            <div id="call-people" class="disappear">
+                                  <img src="../../../h5-assets/img/info/drawable-xhdpi/call-people.png" style="width:98px;height:98px;">
+                                  <span>176-0056-5592</span>
+                                  <p style="margin:20px 0px 10px 100px;">*此号码不暂不支持短信首发功能*</p>
+                                  <button><a href="tel:176-0056-5592"></a>拨打</button>
+                                  <button id="over">取消</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr style="border:1px solid #f4f4f4">
+        </div>
+        
+    </div>
+
+    <div id="enterprise">
+            <div class="daily-one">
+                <div class="companies">
+                    <i></i>
+                    <span class="daily-two">供应列表</span>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <hr style="border:1px solid #f4f4f4">
+            <div class="directories" style="width:750px;">
+                <div class="company-list">
+                    <div class="company-detail">
+                           <img src="../../../h5-assets/img/dianpu/beacon.jpg" alt="">
+                        <ul>
+                            <li class="company-name">
+                                <p>三段式消防水枪可切换球阀实打实大师大师</p>
+                            </li>
+                            <li class="company-ads">
+                                <p>消防水枪质量高质量好，产自与山东青岛某大型制造厂</p>
+                            </li>
+                            <li class="telephone">
+                                <b></b>
+                                <p>东台市海景消防器材有限公司是打算打算</p>
+                                <i id="call-two"></i>
+                                
+                                <div id="call-people" class="disappear">
+                                      <img src="../../../h5-assets/img/info/drawable-xhdpi/call-people.png" style="width:98px;height:98px;">
+                                      <span>176-0056-5592</span>
+                                      <p style="margin:20px 0px 10px 100px;">*此号码不暂不支持短信首发功能*</p>
+                                      <button><a href="tel:176-0056-5592"></a>拨打</button>
+                                      <button id="over">取消</button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <hr style="border:1px solid #f4f4f4">
+            </div>
+            
+        </div>
+
+        <div id="enterprise">
+                <div class="daily-one">
+                    <div class="companies">
+                        <i></i>
+                        <span class="daily-two">供应列表</span>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <hr style="border:1px solid #f4f4f4">
+                <div class="directories" style="width:750px;">
+                    <div class="company-list">
+                        <div class="company-detail">
+                               <img src="../../../h5-assets/img/dianpu/beacon.jpg" alt="">
+                            <ul>
+                                <li class="company-name">
+                                    <p>三段式消防水枪可切换球阀实打实大师大师</p>
+                                </li>
+                                <li class="company-ads">
+                                    <p>消防水枪质量高质量好，产自与山东青岛某大型制造厂</p>
+                                </li>
+                                <li class="telephone">
+                                    <b></b>
+                                    <p>东台市海景消防器材有限公司是打算打算</p>
+                                    <i id="call-two"></i>
+                                    
+                                    <div id="call-people" class="disappear">
+                                          <img src="../../../h5-assets/img/info/drawable-xhdpi/call-people.png" style="width:98px;height:98px;">
+                                          <span>176-0056-5592</span>
+                                          <p style="margin:20px 0px 10px 100px;">*此号码不暂不支持短信首发功能*</p>
+                                          <button><a href="tel:176-0056-5592"></a>拨打</button>
+                                          <button id="over">取消</button>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr style="border:1px solid #f4f4f4">
+                </div>
+                
+            </div>
+      
+      <footer>                                      
+                 <input type="hidden" name="contact_province_code" data-id="0001" id="contact_province_code" value="" data-province-name="">                     
+                <input type="hidden" name="contact_city_code" id="contact_city_code" value="" data-city-name="">     
+        <a href="">登录</a>
+        <a href="">注册</a>
+        <a href="">电脑版</a>
+        <a href="">开通会员</a>
+    </footer>
+
+    <div id="bg" class="disappear"></div>
+    <script src="./addressChoose.js"></script>
+    <script src="../allCatalog/allCatalog.js"></script>
+    <script>
+    var selectContactDom = $('.select');
+    var showContactDom = $('.select');
+    var contactProvinceCodeDom = $('#contact_province_code');
+    var contactCityCodeDom = $('#contact_city_code');
+    selectContactDom.bind('click', function () {
+        var sccode = showContactDom.attr('data-city-code');
+        var scname = showContactDom.attr('data-city-name');
+        var oneLevelId = showContactDom.attr('data-province-code');
+        var twoLevelId = showContactDom.attr('data-city-code');
+        var threeLevelId = showContactDom.attr('data-district-code');
+        var iosSelect = new IosSelect(3, 
+            [iosProvinces, iosCitys, iosCountys],
+            {
+                title: '地址选择',
+                itemHeight: 35,
+                relation: [1, 1],
+                oneLevelId: oneLevelId,
+                twoLevelId: twoLevelId,
+                threeLevelId: threeLevelId,
+                callback: function (selectOneObj, selectTwoObj, selectThreeObj) {
+                    contactProvinceCodeDom.val(selectOneObj.id); 
+                    contactProvinceCodeDom.attr('data-province-name', selectOneObj.value);
+                    contactCityCodeDom.val(selectTwoObj.id);
+                    contactCityCodeDom.attr('data-city-name', selectTwoObj.value);
+                    showContactDom.attr('data-province-code', selectOneObj.id);
+                    showContactDom.attr('data-city-code', selectTwoObj.id);
+                    showContactDom.attr('data-district-code', selectThreeObj.id);
+                    showContactDom.html(selectOneObj.value + ' ' + selectTwoObj.value + ' ' + selectThreeObj.value);
+                }
+        });
+    });
+    </script>
+   <script src="./areaData_v2.js"></script>
+</body>
+</html>

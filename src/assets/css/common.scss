@@ -1,0 +1,365 @@
+// 初始化
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+em {
+    font-style: normal
+}
+li {
+    list-style: none
+}
+img {
+    border: 0;
+    vertical-align: bottom;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+p {
+    word-wrap: break-word
+}
+body {
+    font: 12px "microsoft yahei", Arial, Helvetica, sans-serif;
+    color: #333;
+    margin: 0;
+    -webkit-text-size-adjust: 100%;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.lf {
+    float: left;
+}
+.rt {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+
+.shop-page{
+    background: #fff;
+}
+
+body{
+    background: #fff;
+}
+
+
+
+
+// 店铺共用样式BEGIN
+
+
+
+
+
+
+
+.rg {
+  float: right;
+}
+
+.header {
+  /*高度，行高，背景，下边框*/
+  background: #f7f7f7;
+  height: 40px;
+  line-height: 40px;
+}
+
+.top-login {
+  margin-left: 60px;
+}
+
+#top-box > a {
+  margin-left: 20px;
+}
+
+#top-box > ul > li {
+  float: left;
+  margin-left: 20px;
+}
+
+#top-box > ul > b {
+  border-left: 1px solid #ddd;
+  margin: 10px 0 10px 30px;
+  height: 20px;
+  width: 1px;
+}
+
+#top-box {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  line-height: 40px;
+}
+
+.header img {
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.erwei {
+  height: 100px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.erwei img {
+  width: 65px;
+  height: 65px;
+  float: left;
+  margin-top: 25px;
+}
+
+.erwei div {
+  height: 65px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.erwei div span {
+  float: left;
+  margin-top: 20px;
+}
+
+.erwei div b {
+  display: inline-block;
+  width: 35px;
+  height: 30px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-left: 5px;
+  background: url("../../assets/img/shop/1psd/VIP.png") no-repeat;
+}
+
+.nav{
+    border-bottom: 2px solid #EB6800;
+}
+
+.nav .nav-box {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.nav .nav-box ul {
+  height: 40px;
+}
+
+.nav .nav-box ul li {
+  float: left;
+  width: 133px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.nav > .nav-box > ul > li.active {
+  background-color: #eb6700;
+  a{
+      color: white;
+  }
+}
+
+#footer-new{
+    width:100%;
+    background-color: #f7f6f4;
+    height:220px;
+    .footer-head{
+        width:1000px;
+        height:77px;
+        border-bottom:1px solid #aaaaaa;
+        margin: 0 auto;
+        span{
+           display: inline-block;
+           margin-top:30px;
+           font-size:12px;
+          }
+        ul{
+            float:right;
+            margin-top:30px;
+            li{
+                float:left;
+                a{
+                    display: inline-block;
+                    border-right:1px solid #aaaaaa;
+                    padding:0 10px;
+                }
+             }
+            .website{
+                a{
+                border:none;
+                display:inline-block
+                 }
+            }
+          }
+    }
+    .footer-main{
+        width:1000px;
+        height:94px;
+        margin:0 auto;
+        span{
+           display: inline-block;
+           margin-top:30px;
+           font-size:12px;
+           color:#333;
+          }
+        ul{
+            width:93%;
+            float:right;
+            margin-top:30px;
+            li{
+                float:left;
+                a{
+                    display: inline-block;
+                    color:#333;
+                    font-size: 12px;
+                    border-right:1px solid #aaaaaa;
+                    padding:0 5px;
+                }
+             }
+            .website{
+                a{
+                border:none;
+                display:inline-block;
+                 }
+            }
+          }
+    }
+    p{
+        text-align: center;
+        margin-bottom:30px;
+        span{
+            margin-left:20px;
+        }
+    }
+}
+
+// 店铺共用样式END
+
+#footer-all {
+    overflow: hidden;
+    width: 100%;
+    background: #f7f6f4;
+}
+#footer-main {
+    margin: 0 auto;
+    width: 1200px;
+    height: 200px;
+}
+#footer-main>span {
+    margin-top: 40px;
+    display: inline-block;
+    color: black;
+}
+#footer-main-nav {
+    margin-top: 40px;
+    float: right;
+}
+#footer-main-nav>ul {
+    display: flex;
+    text-align: center;
+}
+#footer-main-nav>ul>li {
+    float: left;
+    width: 80px;
+}
+#footer-main-nav>ul>li a {
+    color: #333;
+    font-size: 12px;
+}
+#footer-main-nav>ul>li b {
+    border-left: 1px solid #333;
+    margin-right: 13px;
+}
+
+
+#footer-all #footer-main div.unique{
+    margin-top: 0;
+    border: none;
+}
+
+
+#footer-main-num {
+    margin-top: 30px;
+    border-top: 1px solid #d4d4d1;
+    text-align: center;
+    >ul {
+        margin-top: 30px;
+        display: inline-block;
+        >li {
+            float: left;
+            margin-right: 30px;
+            font-size: 12px;
+            color: #111;
+            >span {
+                width: 60px;
+                height: 22px;
+                line-height: 22px;
+                text-align: center;
+                background: #f99b2d;
+                display: inline-block;
+                color: #fff;
+                border-radius: 3px;
+            }
+        }
+    }
+}
+#footer-main>p {
+    color: #111;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+//会员共用样式BEGIN
+
+#memberNav div ul li{
+    width: 150px;
+}
+.menber-center-list-header{
+    width: 100%;
+    height: 31px;
+    line-height:31px;
+    background: #f7f6f4;
+    margin-bottom: 20px;
+    font-size: 12px;
+    .menber-center-list-header-left{
+        // float: left;
+        width: 1200px;
+        margin: 0 auto;
+        .menber-center-list-header-right{
+            float: right;
+            color: #EA6700;
+            b{
+                margin-right: 3px;
+                float: left;
+                width: 14px;
+                height: 31px;
+                background: url("../../../../assets/img/photos/8-0/help.png")no-repeat center center;
+            }
+        }
+    }
+   
+}
+
+
+//会员共用样式END

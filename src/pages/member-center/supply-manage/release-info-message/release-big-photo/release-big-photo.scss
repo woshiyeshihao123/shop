@@ -1,0 +1,23 @@
+#release-big-photo {
+    font-size: 14px;
+    h3 {
+        font-weight: normal;
+        margin-top: 15px;
+        >span{
+            color: red;
+        }
+    }
+    ul {
+        >li{
+            padding: 5px;
+        }
+    }
+    .release-big-photo-img {
+        margin-top: 15px;
+        margin-bottom: 20px;
+        width: 950px;
+        // background: red;
+        height: 160px;
+        border:1px solid #cecece;
+    }
+}

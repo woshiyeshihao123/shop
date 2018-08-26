@@ -1,0 +1,61 @@
+.supply-info-manage-list {
+    height: 63px;
+    line-height: 63px;
+    border-bottom: 1px dashed #dddddd;
+    font-size: 14px;
+    >span{
+        float: left;
+    }
+    .checkBox{
+        width: 22px;
+        height: 22px;
+        margin-top: 21px;
+        margin-left: 10px;
+        background: url("../../../../../assets/img/photos/8-1/rectangle.png")no-repeat center center;
+        .checkBox-right-active{
+            position: relative;
+            top: -4px;
+            width: 23px;
+            height: 23px;
+            // display: none;
+            background: url("../../../../../assets/img/photos/8-1/right.png") no-repeat center center;
+        }
+    
+    }
+    .supply-info-manage-list-change {
+        padding:0 16px;
+        border-right:2px solid orange;
+        color: orange;
+        
+    }
+    .fchange{
+        padding-left: 0;
+    }
+    .fupdate{
+        border-right: none;
+    }
+
+    .supply-info-manage-list-info-name {
+        width: 364px;
+        margin-left: 25px;
+    }
+    .supply-info-manage-list-info-time {
+        width: 223px;
+    }
+    >div{
+        float: right;
+        width: 35px;
+        height: 35px;
+        margin-top: 14px;
+    }
+    .supply-info-manage-list-logo2{
+        //360
+        background: url("../../../../../assets/img/photos/8-1/360.png")no-repeat center center;
+        margin-right: 31px;
+    }
+    .supply-info-manage-list-logo1{
+        //百度
+        background: url("../../../../../assets/img/photos/8-1/baidu.png")no-repeat center center;
+        margin-right: 13px;
+    }
+}

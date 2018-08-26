@@ -1,0 +1,28 @@
+#dev-pages-p{
+    height: 35px;
+    margin-top: 30px;
+    @mixin all{
+        border: 1px solid #cecece;
+        float: left;
+        padding:10px 17px;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+
+
+
+    span{
+        @include all;
+        // margin-right: 10px;
+    }
+    a{
+        @include all;
+        &:hover{
+            color:white;
+            background: #fa992e;
+            border:1px solid #fa992e;
+            
+        }
+    }
+}

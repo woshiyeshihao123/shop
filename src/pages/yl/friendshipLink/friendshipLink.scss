@@ -1,0 +1,329 @@
+body{
+    font:12px "microsoft yahei",Arial,Helvetica,sans-serif;
+    color:#333;
+    margin:0;
+    -webkit-text-size-adjust: 100%;
+}
+
+i{  
+    display: inline-block;
+    font-style: normal;
+    width: 70px;
+    line-height: 10px;
+}
+
+.none{
+    display: none;
+}
+#friendship-link{
+    display: inline-block;
+    width:980px;
+        >div{
+            padding-top: 15px;
+            font-size: 14px;
+            margin-left: 30px;
+            padding:20px 0 20px 0;
+            >b{
+                display: inline-block;
+                font-weight:normal;
+                margin-bottom: 16px;
+                >p{
+                    display: inline-block;
+                    width: 885px;
+                    border-bottom:1px solid #eaeaea; 
+                    margin:  0 0 20px 5px;   
+                }
+                >b{
+                    display: inline-block;
+                    width: 825px;
+                    border-bottom:1px solid #eaeaea; 
+                    margin:  0 0 5px 5px;
+                }
+            } 
+            >p{
+                display: inline-block;
+                color: #333333;
+                margin-bottom: 20px;
+                >span{
+                    display: inline-block;
+                    >input{
+                        line-height: 36px;
+                        height: 36px;
+                        margin-right: 30px;
+                        padding-left: 10px;
+                    }
+                    >.input-short{
+                        width: 246px;
+                    }
+                    >.input-long{
+                        width: 350px;
+                    }
+                    >button{
+                        width: 100px;
+                        height: 36px;
+                        background: #eb6700;
+                        color: #fff;
+                        border: 0;
+                    }
+                    >select{
+                        width: 260px;
+                        height: 40px;
+                        padding: 10px 0;
+                        margin-right: 30px;
+                        //padding-right: 30px;
+                        // padding-left: 10px;
+                        // background: url(../../../assets/img/photos/8-1/drop-down.png)no-repeat  230px center;
+                        //   /*很关键：将默认的select选择框样式清除*/  
+                        // appearance:none;  
+                        // -moz-appearance:none;  
+                        // -webkit-appearance:none; 
+                    }
+                }
+            }
+            >.b-font-size{
+                font-weight: bold;
+                font-size: 18px;
+                color: #333333;
+            }
+            >.p-color{
+                color: #ef7814;
+            }
+        }
+        >div:first-child{
+            height: 40px;
+            line-height: 30px;
+            padding-left: 5px;
+            margin: 30px 0 20px 25px;
+            padding: 0 0 0 7px;
+            >b{
+                border-bottom: 3px solid #f99a2e;
+            }
+        }
+        >div:first-child+div{
+            border-top: 0 ;
+            background: #eee;
+            padding:20px 0 4px 20px;
+            >b{
+                color: #eb6700;
+            }
+        }
+        
+} 
+#zhuangtai{
+        >div{
+            height: 50px;
+            >select{
+                width: 100px;
+                height:33px;
+                padding: 6px 0;
+                margin-right:197px;
+            }
+            >span{
+                margin-top: 10px;
+                // >input{
+                //     width: 133px;
+                //     text-align: center; 
+                //     margin-right: 0;
+                // }
+                // >input{
+                //     border: 1px solid #aaa;
+                //     background: url(../../../assets/img/photos/8-1/calendar1.png)no-repeat scroll right center transparent;
+                // }
+            }
+            >button{
+                width: 150px;
+                height: 34px;
+            }
+            >div{
+                display: inline-block;
+
+                >span{
+                    margin-top: 10px;
+                }
+                >div{
+                    margin-left: 15px;
+                    margin-right:15px;
+
+                       >div.calendar-line{
+                        position: relative;
+                            >input{
+                                position: relative;
+                                float: left;
+                                margin: 0px 9px;
+                                height: 35px !important;
+                                border: 1px solid #cecece;
+                                line-height: 35px;
+                                padding-left: 5px;
+                                padding-right: 32px;
+                                width: 130px !important;
+                                //background: url("../../../assets/img/photos/8-1/calendar1.png")no-repeat 143px center;
+                            
+                            }
+                            >div.date-picker-container{
+                                top:38px;
+                            }
+                            >b{
+                                float: left;
+                                width: 35px;
+                                height: 35px;
+                                position: absolute;
+                                left: 141px;
+                                top:0px;
+                                border:1px solid #cecece;
+                                background: url("../../../assets/img/photos/8-1/calendar1.png")no-repeat center center;
+                            }
+                            >.b-active{
+                                background: url("../../../assets/img/photos/8-1/calendar2.png")no-repeat center center!important;
+                            }
+                    }
+                   
+                }
+            }
+        }
+      
+}
+.friendship-link-message{
+    display: inline-block;
+        >ul{
+        display: inline-block;
+        width: 946px;
+        border-bottom: 1px dashed #000;
+            >li{
+                text-align: center; 
+                display: inline-block;
+                margin:15px 0 15px 30px;
+                line-height: 30px;
+                text-align: left;
+                vertical-align: middle;
+    
+                >b{
+                    font-weight:normal;
+                    display: inline-block;
+                    margin: 0 ;
+                    >a{
+                        color:#ef7814;
+                    }
+                    >b{
+                        border-right: 1px solid #ef7814;
+                        margin: 0 0 0 5px;
+                    }
+                }
+            }
+            >li:first-child{
+                width:70px;
+            }
+            >li:first-child+li{
+                width: 280px;
+                
+            }>li:first-child+li+li{
+                width: 90px;
+            }
+            >li:first-child+li+li+li{
+                width: 190px;
+            }
+        }
+
+        >ul:first-child{
+            border:0;
+            background: #eee;
+                >li{
+                    line-height: 30px;
+                    margin: 10px 0 0 30px;
+                }
+            }
+}
+.none{
+    display: none;
+}
+.change-a{
+    padding: 0 10px;
+}
+.submit-a{
+    padding: 0 10px;
+}
+.delete-a{
+    padding: 0 10px;
+}
+.add-a{
+    padding: 0 10px;
+}
+.copy-a{
+    padding: 0 10px;
+}
+#dev-pages-p{
+    margin-top:-25px;
+}
+.div-last-child{
+    display: inline-block;
+}
+
+#zhuangtai .btn-supply-info-manage-search {
+    display: inline-block;
+    font-size: 14px;
+    padding: 9px 35px;
+    background: #ef7714;
+    color: white;
+}
+#alert-success1{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background:rgba(0, 0, 0,0.5);
+    >div{
+        position: absolute;
+        float: left;
+        left: 0;
+        right: 0;
+        top: 400px;
+        margin: 0 auto;
+        display: inline-block;
+        width: 348px;
+        height: 208px;
+        border: 1px solid #a3a3a3;
+        border-radius: 5px;
+        text-align: center;
+        vertical-align: middle;
+        box-shadow: 0 0 30px 3px #363636;
+        background: #fff;
+        z-index: 10;
+        >p{
+            display: block;
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: block;
+            font-weight: 500;
+        }
+        >div{
+            width: 348px;
+            height: 100px;
+        }
+        >div.right{
+            background: url("../../../assets/img/photos/8-1/deletePrompt.png") no-repeat center 20px;
+        }
+        >button{
+            width: 120px;
+            height: 40px;
+            border: 0;
+            border-radius: 5px;
+            margin:0 10px;
+            
+        }
+        >.confirm{
+            color: #fff;
+            background: #ef7814;
+        }
+    }
+}
+#alert-success1.no{
+    visibility: hidden;
+}
+#alert-success1.show{
+    display: inline-block;
+}
+
+
+
+

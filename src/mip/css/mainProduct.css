@@ -1,0 +1,244 @@
+.none {
+  display: none;
+}
+
+.header {
+  background-color: #fff;
+  border-bottom: solid 1px #ebebed;
+  height: 80px;
+  width: 750px;
+  z-index: 12;
+}
+
+.header .deploy-contact {
+  float: left;
+  z-index: 999;
+  background-image: url("../../assets/img/photos/login-register/logo.png");
+  background-size: 144px 50px;
+  background-repeat: no-repeat;
+  /* background-position:12px 18px; */
+  width: 144px;
+  height: 50px;
+  margin: 14px 30px;
+}
+
+.header .deploy-sidebar {
+  float: right;
+  z-index: 999;
+  background-image: url("../img/index/drawable-xhdpi/navigation-classify.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* background-position:15px 19px; */
+  width: 44px;
+  height: 44px;
+  display: block;
+  margin: 22px 30px;
+}
+
+.header-box {
+  position: absolute;
+  width: 750px;
+  height: 750px;
+  background: #fff;
+  z-index: 99;
+}
+
+.header-box ul li {
+  float: left;
+  margin: 50px 0 50px 90px;
+  text-align: center;
+  width: 130px;
+}
+
+.header-box ul li .text {
+  margin-top: 20px;
+  display: block;
+  font-size: 25px;
+}
+
+.segment-line {
+  width: 750px;
+  height: 10px;
+  background-color: #f4f4f4;
+}
+
+.necessities {
+  width: 750px;
+}
+
+.necessities .hot {
+  margin: 30px;
+  height: 50px;
+}
+
+.necessities .hot .daily {
+  width: 375px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.necessities .hot .daily i {
+  width: 4px;
+  height: 23px;
+  background-color: #ef7714;
+  margin-right: 20px;
+  float: left;
+  position: relative;
+  top: 14px;
+  left: 0;
+}
+
+.necessities .hot .daily .daily-head {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.necessities .hot .more {
+  float: right;
+  height: 50px;
+  line-height: 50px;
+  margin-top: -50px;
+}
+
+.necessities .hot .more .more-list {
+  font-size: 26px;
+  color: #999999;
+}
+
+.necessities .hot .more mip-img {
+ margin-top:5px;
+}
+
+.necessities .product ul {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 720px;
+  list-style: none;
+  padding: 0;
+}
+
+.necessities .product ul li {
+  float: left;
+  margin-left: 30px;
+  width: 330px;
+}
+
+.necessities .product ul li a img {
+  width: 330px;
+  height: 250px;
+}
+
+.necessities .product ul li a p {
+  font-size: 28px;
+  color: #666666;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#enterprise {
+  width: 750px;
+}
+
+#enterprise .daily-one {
+  margin: 30px;
+  height: 50px;
+}
+
+#enterprise .daily-one .companies {
+  width: 375px;
+  height: 50px;
+  line-height: 50px;
+}
+
+#enterprise .daily-one .companies i {
+  width: 4px;
+  height: 23px;
+  background-color: #ef7714;
+  margin-right: 20px;
+  float: left;
+  position: relative;
+  top: 14px;
+  left: 0;
+}
+
+#enterprise .daily-one .companies .daily-two {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333333;
+}
+
+#enterprise .daily-one .more-one {
+  float: right;
+  height: 50px;
+  line-height: 50px;
+  margin-top: -50px;
+}
+
+#enterprise .daily-one .more-one .more-two {
+  font-size: 26px;
+  color: #999999;
+}
+
+#enterprise .daily-one .more-one mip-img {
+   margin-top:5px;
+}
+
+#enterprise .directories {
+  width: 750px;
+}
+
+#enterprise .directories .company-list {
+  width: 690px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+
+#enterprise .directories .company-list .company-detail img {
+  width: 170px;
+  height: 170px;
+  margin-right: 30px;
+  float: left;
+  margin-bottom: 30px;
+}
+
+#enterprise .directories .company-list .company-detail ul {
+  width: 70%;
+  margin-left: 200px;
+}
+
+#enterprise .directories .company-list .company-detail ul li p {
+  display: inline-block;
+  height: 28px;
+  font-size: 28px;
+  color: #999;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#enterprise .directories .company-list .company-detail ul li p span {
+  margin-left: 5px;
+}
+
+#enterprise .directories .company-list .company-detail ul .company-name {
+  margin-bottom: 20px;
+}
+
+#enterprise .directories .company-list .company-detail ul .company-name p {
+  display: inline-block;
+  height: 32px;
+  font-size: 32px;
+  color: #333333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#enterprise .directories .company-list .company-detail ul .telephone {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+#enterprise .directories .company-list .company-main {
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #999;
+}

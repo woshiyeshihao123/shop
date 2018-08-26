@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="../../assets/js/jquery-1.9.1.min.js"></script>
+    <link rel="stylesheet" href="../../assets/css/common.scss">
+    <link rel="stylesheet" href="account-management.scss">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../common/header/header.scss">
+    <link rel="stylesheet" href="../../common/search/search.scss">
+    <link rel="stylesheet" href="../../common/nav/nav.scss">
+    <link rel="stylesheet" href="../../common/footer-all/footer-all.scss">
+    <link rel="stylesheet" href="../../index.scss">    
+    <link rel="stylesheet" href="../xw/same/same-body.scss">   
+    <link rel="stylesheet" href="../member-center/supply-manage/extend-css/extend.css">
+    <link rel="stylesheet" href="../member-center/supply-manage/list-left/list-left.scss"> 
+    <link rel="stylesheet" href="../../common/footer-all/footer-all.scss">
+    <link rel="stylesheet" href="../../pages/csl/chang-password/page-head/page-head.scss">
+    <link rel="stylesheet" href="../../assets/js/kindeditor/themes/default/default.css">
+    <link rel="stylesheet" href="../zk_/banner-management/webuploader.css">
+    <title>修改资料</title>
+    <!--SWF在初始化的时候指定，在后面将展示-->
+    <script type="text/javascript">
+
+        $(function(){
+        var web=new webload();
+        })
+        
+    </script>
+    
+    <style>
+
+    .webuploader-pick{
+        border-radius: 0px;
+        background-color:white;
+        color:black;
+        font-size:15px;
+        height:8px;
+        width:70px;
+        line-height:10px;
+        display: block;
+    }
+        
+    </style>
+</head>
+<body>
+    
+    <div id="submit-success" class="modal-submit none">
+        <div class="back-bottom">
+            <img src="../../assets/img/photos/8-1/rightPrompt1.png" alt="">
+            <span>提交成功</span>
+        </div>
+    </div>
+
+    <div id="submit-failed" class="modal-submit none">
+        <div class="back-bottom">
+            <img src="../../assets/img/photos/8-1/errorPrompt.png" alt="">
+            <span>提交失败，请重新提交</span>
+        </div>
+    </div>
+
+    <div id="submit-update" class="modal-submit none">
+        <div class="back-bottom">
+            <img src="../../assets/img/photos/8-1/rightPrompt1.png" alt="">
+            <span>已更新</span>
+        </div>
+    </div>
+
+    <div class="modal-full-screen none">
+
+    </div>
+
+    <!-- 此处插入了公用的header -->
+    <link rel="import" href="../../pages/csl/chang-password/page-head/page-head.html?__inline">
+    <!-- 此处插入了公用的header -->
+    <!-- 此处插入了公用的header -->
+    <div class="search-background">
+
+        <div id="nav" >
+            <!-- 2、右：导航内容 -->
+            <ul class="lf">
+                <li>
+                <a href="#">首页</a>
+                </li>
+                <li>
+                    <a href="#">供应信息</a>
+                </li>
+                <li>
+                    <a href="#">求购信息</a>
+                </li>
+                <li>
+                    <a href="#">公司库</a>
+                </li>
+                <li>
+                    <a href="#">商业资讯</a>
+                </li>
+                <li>
+                    <a href="#">展会信息</a>
+                </li>
+                <li>
+                    <a href="#">企业信息</a>
+                </li>
+                <li>
+                    <a href="#" class="active">会员中心</a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+    
+    <div class="menber-center-list-header boxsizing">
+        <div class="menber-center-list-header-left">
+            <span><a href="javascript:void(0)">首页</a>&gt</span>
+            <span><a href="javascript:void(0)">会员中心</a> &gt</span>
+            <span>修改资料</span>
+            <div class="menber-center-list-header-right">
+                <b></b>
+                帮助中心
+            </div>
+        </div>
+    </div>
+    
+    <div id="main">
+
+      <!-- 插入左侧栏 -->
+      <link rel="import" href="../member-center/supply-manage/list-left/list-left.html?__inline">
+      
+      <div id="title-information">
+          <div class="company-information">
+             <div class="company">
+                <span>公司资料</span>
+             </div>
+             <div class="examine">
+                 <p>审核未通过 : 您上传的资料违反了国家法律</p>
+             </div>
+             <div class="careful">
+                 <p>注意事项 : </p>
+                 <p>已经审核的会员再次修改资料会重新进入审核程序</p>
+             </div>
+          </div>
+      <form action="">
+      <div id="main-information">
+          <div class="index-information">
+              <p>
+                  <span class="one">基本信息</span>
+                  <span class="two"></span>
+              </p>
+              <ul class="main-lf">
+                  <li style="height:80px">公司名称 : </li>
+                  <li style="height:80px">优化Title : </li>
+                  <li>主营行业 : </li>
+                  <li>员工人数 : </li>
+                  <li>企业类型 : </li>
+                  <li>经营模式 : </li>
+                  <li>年营业额 : </li>
+                  <li>主营业务/服务 : </li>
+              </ul>
+              <ul class="main-lf1">
+                  <li style="height:80px">
+                        <input type="text" placeholder=" 请输入" id="uname"><span>必填</span>
+                        <p class="p1">请按营业执照如实填写，差一个字也会被删除！【付费会员除外，办理QQ2389736403】</p>
+                  </li>
+                  <li style="height:80px">
+                        <input type="text" placeholder=" 请输入">
+                        <p class="p1">案例：深圳雨伞厂_深圳雨伞厂_深圳雨伞厂_深圳雨伞厂_深圳雨伞厂</p>
+                  </li>
+                  <li>
+                        <select class="select1">
+                            <option value="">请选择</option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                        </select>
+                        <select class="select1">
+                            <option value="">请选择</option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                        </select>
+                        <select class="select1">
+                            <option value="">请选择</option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                        </select>
+                  </li>
+                  <li>
+                        <select class="select2">
+                            <option value="">请选择</option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                        </select>
+                  </li>
+                  
+                  <li>
+                        <input type="radio" id="lei1" name="lei" checked/>
+                        <label for="lei1">生产型</label>
+                        <input type="radio" id="lei2" name="lei"/>
+                        <label for="lei2">贸易型</label>
+                        <input type="radio" id="lei3" name="lei"/>
+                        <label for="lei3">服务型</label>
+                        <input type="radio" id="lei4" name="lei"/>
+                        <label for="lei4">政府或其他机构</label>
+                  </li>
+                  <div class="clear"></div>
+                  <li>
+                        <select class="select2">
+                            <option value="">请选择</option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                        </select>
+                  </li>
+                  <li>
+                        <select class="select2">
+                            <option value="">请选择</option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                        </select>
+                  </li>
+                  <li style="height:90px">
+                        <input type="text" placeholder=" 请输入" class="text1">
+                        <input type="text" placeholder=" 请输入" class="text1">
+                        <input type="text" placeholder=" 请输入" class="text1">
+                        <input type="text" placeholder=" 请输入" class="text1">
+                        <input type="text" placeholder=" 请输入" class="text2">
+                        <input type="text" placeholder=" 请输入" class="text2">
+                        <input type="text" placeholder=" 请输入" class="text2">
+                        <input type="text" placeholder=" 请输入" class="text2">
+                  </li>
+              </ul>
+              <div class="clear"></div>
+              <hr style="height:1px;border:none;border-top:1px solid #e8e8e8;">
+              <ul class="main-lf">
+                  <li>公司注册地址 : </li>
+                  <li>主要营业地点 : </li>
+                  <li>公司成立时间 : </li>
+                  <li>品牌名称 : </li>
+                  <li>法人代表 : </li>
+                  <li>注册资金 : </li>
+                  <li>主要客户群 : </li>
+                  <li>年出口额 : </li>
+                  <li>年进口额 : </li>
+                  <li>开户银行 : </li>
+                  <li>账号 : </li>
+              </ul>
+              <ul class="main-lf">
+                  <li><input type="text" placeholder=" 请输入"></li>
+                  <li><input type="text" placeholder=" 请输入"></li>
+                  <li><input type="text" placeholder=" 请输入"></li>
+                  <li><input type="text" placeholder=" 请输入"></li>
+                  <li><input type="text" placeholder=" 请输入"></li>
+                  <li>
+                        <select class="select2">
+                            <option value="">请选择</option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                        </select>
+                  </li>
+                  <li><input type="text" placeholder=" 请输入"></li>
+                  <li>
+                        <select class="select2">
+                            <option value="">请选择</option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                        </select>
+                  </li>
+                  <li>
+                        <select class="select2">
+                            <option value="">请选择</option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                        </select>
+                  </li>
+                  <li><input type="text" placeholder=" 请输入"></li>
+                  <li><input type="text" placeholder=" 请输入"></li>
+              </ul>
+              <div class="clear"></div>
+              <p style="margin-top:20px;">
+                  <span class="one">工厂信息</span>
+                  <span class="two"></span>
+              </p>
+              <br>
+              <div class="div1">
+                <li class="lf" style="margin:12px 10px 0px 0px">是否提供OEM嗲加工 : </li>
+                <li style="line-height:44px;height:44px">
+                        <input type="radio" id="yes" name="yn" checked/>
+                        <label for="yes">是</label>
+                        <input type="radio" id="no" name="yn"/>
+                        <label for="no">否</label>
+                </li>
+              </div>
+              <div class="clear"></div>
+              <ul class="main-lf">
+                  <li>研发部门人数 : </li>
+                  <li>月产量 : </li>
+                  <li>厂房面积 : </li>
+              </ul>
+              <ul class="main-lf1">
+                  <li style="margin-bottom:10px">
+                        <select class="select2">
+                            <option value="">请选择</option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                        </select>
+                  </li>
+                  <li><input type="text" placeholder=" 请输入"></li>
+                  <li><input type="text" placeholder=" 请输入"></li>
+              </ul>
+              <div class="clear"></div>
+              <p style="margin-top:20px;">
+                  <span class="one">联系方式</span>
+                  <span class="two"></span>
+              </p>
+              <ul class="main-lf">
+                  <li>姓名 : </li>
+                  <li>性别 : </li>
+                  <li>部门 : </li>
+                  <li>职位 : </li>
+                  <li>固定电话 : </li>
+                  <li>手机 : </li>
+                  <li>QQ号 : </li>
+                  <li>邮箱 : </li>
+                  <li>传真 : </li>
+                  <li>邮编 : </li>
+                  <li>网址 : </li>
+                  <li>所在地区 : </li>
+                  <li>地址 : </li>
+              </ul>
+              <ul class="main-lf1">
+                  <li><input type="text" placeholder=" 请输入"></li>
+                  <li>
+                        <input type="radio" id="male" name="sex" checked/>
+                        <label for="male">男</label>
+                        <input type="radio" id="female" name="sex"/>
+                        <label for="female">女</label>
+                  </li>
+                  <div class="clear"></div>
+                  <li><input type="text" placeholder=" 请输入"></li>
+                  <li><input type="text" placeholder=" 请输入"></li>
+                  <li><input type="text" placeholder=" 请输入"></li>
+                  <li><input type="text" placeholder=" 请输入"></li>
+                  <li><input type="text" placeholder=" 请输入"></li>
+                  <li><input type="text" placeholder=" 请输入"></li>
+                  <li><input type="text" placeholder=" 请输入"></li>
+                  <li><input type="text" placeholder=" 请输入"></li>
+                  <li><input type="text" placeholder=" 请输入"></li>
+                  <li>
+                        <select class="select1">
+                            <option value="">中国大陆</option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                        </select>
+                        <select class="select1">
+                            <option value="">河北</option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                        </select>
+                        <select class="select1">
+                            <option value="">秦皇岛</option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                        </select>
+                  </li>
+                  <li><input type="text" placeholder=" 请输入"></li>
+              </ul>
+              <div class="clear"></div>
+              <p style="margin-top:20px;">
+                  <span class="one">公司介绍</span>
+                  <span class="two"></span>
+              </p>
+              <div class="company-introduction">
+                <div class="photo">
+                    <p><span class="one">公司图片 : </span><span class="two">注意:只有VIP会员才可以上传公司图片(尺寸300*250)</span></p>
+                    <!--<div class="pic">图片</div>
+                    <div class="depres">
+                        <button>本地上传</button>
+                        <button>图片库上传</button>
+                    </div>-->
+                    <div id="fileList" class="uploader-list"></div>
+                    <div class="filePicker" listId="fileList" id="filePicker">选择图片</div>
+                </div>
+              </div>
+          </div>
+
+          <div class="box">
+              <p>详情：</p>
+              <div class="release-big-photo-img" style="margin-top:10px;">
+                    <textarea id="editor" style="width:950px;height:250px;"></textarea>
+              </div>
+              <input type="submit" id="submit">
+          </div>
+      </div>
+      </form>
+      </div>
+    </div>
+    <div class="clear"></div>
+    
+    <!--此处引用公用底部all组件-->
+    <link rel="import" href="../../common/footer-all/footer-all.html?__inline">
+
+  </body>
+  
+  <script src="../../assets/js/jquery.goup.js"></script>
+  <script src="../member-center/supply-manage/list-left/list-left.ts"></script>
+  <script src="account-management.js"></script>
+  <script src="../../assets/js/kindeditor/kindeditor-all-min.js"></script>
+  <script src="../../assets/js/kindeditor/lang/zh-CN.js"></script>
+  <script src="../zk_/banner-management/webuploader.js"></script>
+  <script>
+    KindEditor.ready(function(K) {
+
+      window.editor = K.create('#editor', {
+        cssPath: 'plugins/code/prettify.css',
+        ////后台处理图片的PHP文件
+        uploadJson: '/news/upload-imge',
+        //0：不能缩放，1：可缩放
+        resizeType: 0,
+        allowPreviewEmoticons: true,
+        allowImageUpload: true,
+      })
+    });
+</script>
+
+  </html>

@@ -1,0 +1,86 @@
+.supplyType-left-ul {
+    position: relative;
+    // 左侧的li激活的时候
+    >.supplyType-left-li-active {
+        a {
+            background: white;
+        }
+        span {
+            border-left: 2px solid orange!important;
+            color: orange;
+        }
+    } // 左侧的li
+    .supplyType-left-ul-li {
+        // position: relative;
+        height: 85px;
+        line-height: 85px;
+        background: #f4f4f4;
+        width: 350px;
+        border-bottom: 1px solid transparent;
+        >a {
+            display: block;
+            height: 100%;
+            font-size: 30px;
+            >span {
+                padding: 0 3px;
+                padding-left: 25px;
+                border-left: 2px solid transparent;
+            }
+        } // 右侧的ul
+        >ul {
+            display: none;
+            position: absolute;
+            background: white;
+            z-index: 10;
+            left: 350px;
+            top: 0;
+            >li {
+                background: url("../../h5-assets/img/info/drawable-xhdpi/choose-right.png")no-repeat 342px center;
+                border-bottom: 1px solid #f4f4f4;
+                padding-left: 40px;
+                width: 400px;
+                height: 85px;
+                >a {
+                    font-size: 30px;
+                }
+            }
+        }
+        // 右侧的ul激活的时候
+        .supplyType-ul-right-active {
+            display: block;
+            z-index: 99;
+        }
+    }
+}
+
+.supplyType-title{
+    height: 72px;
+    line-height: 72px;
+    background: #f4f4f4;
+    font-size: 26px;
+    padding-left: 27px;
+}
+.header{
+	background-color:#FFFFFF;
+	display:block;
+    width:100%;
+    height:80px;
+
+}
+.deploy-contact{
+	float: left;
+	background-image:url("../../assets/img/photos/login-register/logo.png");
+	background-repeat:no-repeat;
+	width:144px;
+	height:50px;
+	margin:15px 30px;
+}
+.deploy-sidebar{
+	float: right;
+	background-image:url("../../h5-assets/img/index/drawable-xhdpi/navigation-classify.png");
+	background-repeat:no-repeat;
+	width:50px;
+	height:50px;
+	display:block;
+	margin: 15px 20px;
+}

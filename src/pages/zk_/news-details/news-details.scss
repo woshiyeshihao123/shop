@@ -1,0 +1,156 @@
+/* body加外边框防止缩放 */
+body{
+    position: relative;
+    font:12px "microsoft yahei",Arial,Helvetica,sans-serif;
+    color:black;
+    margin:0;
+    -webkit-text-size-adjust: 100%;
+}
+
+#outborder{
+    width:1200px;
+    // float: left;
+    // position: relative;
+    margin:0 auto; 
+}
+/* 去掉所有li的点 */
+li {
+    list-style: none
+}
+/* 设置整个右下方div的大小 */
+#newsAdmin{
+    /* border-left:1px solid silver;
+    border-bottom:1px dashed silver; */
+    /* border:1px solid; */
+    // height:900px;
+    width:960px;
+    float: left;
+    margin-left:20px;
+}
+/* 设置图片管理的边框 */
+#amendNews{
+    margin-bottom:20px;
+    height:50px;
+    width:100%;
+}
+/* 设置修改新闻状态字体大小 */
+#amendNews>a{
+    margin:15px 0px 0px 0px;
+    font-size:17px;
+    color:black;
+    float:left;
+    padding-bottom:5px;
+    border-bottom:3px solid #f99a2e;
+}
+/* 注意事项 */
+#mattersAttention{
+    width:960px;
+    height:150px;
+    background:#f5f5f3;
+}
+#mattersAttention>a{
+    width:950px;
+    font-size:15px;
+    color:#f99a2e;
+    padding:20px 0px 6px 20px;
+    float:left;
+}
+.newsAttention{
+    font-size:14px;
+    color:#f99a2e;
+    padding:5px 0px 6px 15px;
+    float:left;
+}
+.newsAttention>li{
+    padding-bottom:8px;
+}
+
+/* 标题必填栏 */
+#titleRequired{
+    height:80px;
+    width:960px;
+    border-bottom:1px solid silver;
+    position: relative;
+   
+}
+#titleRequired b{
+    font-size:14px;
+    position: absolute;
+    display:inline-block;
+    top:30px;
+    left:50px;
+     }
+
+
+#titleRequired>span{
+    font-size:18px;
+    color:#363636;
+    margin:27px 10px 0px 0px;
+    float:left;
+}
+// #titleRequired>input{
+//     margin:22px 15px 0px 0px;
+//     float:left;
+//     height:30px;
+//     line-height:1;
+//     width:300px;
+//     padding:5px 0;
+//     font-size: 18px;
+// }
+#detailsRequired{
+    height:45px;
+    width:1200px;
+}
+#detailsRequired>span{
+    font-size:18px;
+    color:#646464;
+    margin:15px 10px 0px 0px;
+    float:left;
+}
+#threeTips>ul>li{
+    font-size:15px;
+    color:#646464;
+    margin:16px 0px 0px 0px;
+}
+#photoEdit>div{
+    background-color: white;
+    width:960px;
+    margin: 0px 100px 0px 0px;
+    float: left;
+    >p{
+        width:958px;
+        height:330px;
+        font-size:18px;
+        color:#363636;
+        margin:0px;
+        border:1px solid silver;
+    }
+}
+// #photoEdit>p{
+//     font-size:16px; 
+//     margin:10px;
+// }
+#return{
+    height:52px;
+    width:200px;
+    text-align:center;
+    background-color: #f99a2e;
+    font-size:17px;
+    color:white;
+    float: left;
+    margin:30px 0px 20px 0px;
+    border:1px solid ;
+}
+#titleRequired>b{
+    right: 0;
+    color: red;
+    float:left;
+    margin-top:30px;
+    display: none;
+}
+.over{
+    display:none;
+}
+.show{
+    display:block;
+}

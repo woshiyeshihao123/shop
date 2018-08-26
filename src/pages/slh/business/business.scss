@@ -1,0 +1,169 @@
+#nav{
+    /*高度，背景*/
+    height:38px;
+    font-size: 14px;
+    height:40px;
+    margin:10px auto 0 auto;
+    //border-bottom:2px solid #EA6700;
+  }
+
+#nav .active{
+    background:#EA6700;
+    color: white;
+}    
+#nav li{
+      float:left;
+  }
+#nav li a{
+      /*行内块，宽度，高度，行高，水平居中，文字大小，颜色，加粗，取消下划线*/
+      display:inline-block;
+      width:150px;
+      height:40px;
+      line-height:40px;
+      text-align:center;
+      font-size:14px;
+      color:#000;
+      text-decoration:none;
+  }
+#container{
+    width:1200px;
+    margin:0 auto;
+    height:1600px;
+    /*border:1px solid black;*/
+}
+#title{
+    width:100%;
+    height:30px;
+    line-height:30px;
+    /*border:1px solid black;*/
+    font-size:12px;
+    background-color: rgb(247,246,244);
+}
+.goup-container{
+    background: url("../../../assets/img/photos/index/goup.png");
+    
+ z-index: 9999;
+}
+#title{
+    border-top:2px solid orange;
+}
+
+  
+#box{
+    width:634px;
+    height:122px;
+    margin-left:250px;
+    /*border:1px solid black;*/
+}
+#box .text{
+    width:180px;
+    height:17px;
+    font-size:16px;
+    color:rgb(235,103,0);
+    margin-top:42px;
+    margin-left:176px;
+    /*border:1px solid black;*/
+}
+#box .search{
+    width:634px;
+    height:38px;
+    margin-top:23px;
+}
+#box .search .all{
+    width:100px;
+    height:36px;
+    float:left;
+    line-height:36px;
+    font-size:15px;
+    border:1px solid lightgray;
+    padding-left:20px;
+}
+#box .search .keyword{
+      width:424px;
+      height:36px;
+      float:left;
+      border:1px solid lightgray;
+       margin-left:10px;
+      line-height:36px;
+       font-size:15px;
+  }
+#box .search .find{
+    width:80px;
+    height:36px;
+    text-align:center;
+    line-height:36px;
+    font-weight:bold;
+    float:left;
+    font-size:15px;
+    background-color:rgb(239,119,20) ;
+    color:white;
+    margin-left:8px;
+    padding-left:8px;
+}
+#first{
+    width:510px;
+    height:40px;
+    border-top:2px solid darkgray;
+    // margin-left:200px;
+    margin-top:12px;
+    float:left;
+}
+#second{
+    width:155px;
+    height:18px;
+    float:left;
+   margin-left:15px;
+    font-size:18px;
+}
+#third{
+    margin-top:12px;
+    width:510px;
+    height:40px;
+    border-top:2px solid darkgray;
+    margin-left:180px;
+     margin-top:-7px;
+    float:left;
+}
+#content{
+    width:1200px;
+    // margin-left:200px;
+    margin-top:42px;
+    margin-bottom:30px;
+    /*border:1px solid black;*/
+}
+#content .beijing{
+    width:1200px;
+    height:120px;
+    margin-top:40px;
+    border:1px solid darkgray;
+}
+#content .beijing div{
+    width:48px;
+    height:21px;
+    font-size:18px;
+    border-bottom:2px solid orangered;
+    margin-left:40px;
+    margin-top:15px;
+    font-weight:bold;
+}
+#content .beijing div p{
+    font-size:18px;
+    font-weight:bold;
+}
+#content .beijing ul{
+    float:left;
+}
+#content .beijing ul li{
+   text-align: center;
+    font-size:15px;
+    list-style: none;
+    float:left;
+    box-sizing: border-box;
+    width:136px;
+    height:16px;
+    border-right:2px solid darkgray;
+}
+.search-background{
+    margin:0 auto;
+    width:1200px;
+  }

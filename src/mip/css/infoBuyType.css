@@ -1,0 +1,92 @@
+.supplyType-left-ul {
+  position: relative;
+}
+
+.supplyType-left-ul > .supplyType-left-li-active a {
+  background: white;
+}
+
+.supplyType-left-ul > .supplyType-left-li-active span {
+  border-left: 2px solid orange !important;
+  color: orange;
+}
+
+.supplyType-left-ul .supplyType-left-ul-li {
+  height: 85px;
+  line-height: 85px;
+  background: #f4f4f4;
+  width: 350px;
+  border-bottom: 1px solid transparent;
+}
+
+.supplyType-left-ul .supplyType-left-ul-li > a {
+  display: block;
+  height: 100%;
+  font-size: 30px;
+}
+
+.supplyType-left-ul .supplyType-left-ul-li > a > span {
+  padding: 0 3px;
+  padding-left: 25px;
+  border-left: 2px solid transparent;
+}
+
+.supplyType-left-ul .supplyType-left-ul-li > ul {
+  display: none;
+  position: absolute;
+  background: white;
+  z-index: 10;
+  left: 350px;
+  top: 0;
+}
+
+.supplyType-left-ul .supplyType-left-ul-li > ul > li {
+  background: url("../img/info/drawable-xhdpi/choose-right.png") no-repeat 342px center;
+  border-bottom: 1px solid #f4f4f4;
+  padding-left: 40px;
+  width: 400px;
+  height: 85px;
+}
+
+.supplyType-left-ul .supplyType-left-ul-li > ul > li > a {
+  font-size: 30px;
+}
+
+.supplyType-left-ul .supplyType-left-ul-li .supplyType-ul-right-active {
+  display: block;
+  z-index: 99;
+}
+
+.supplyType-title {
+  height: 72px;
+  line-height: 72px;
+  background: #f4f4f4;
+  font-size: 26px;
+  padding-left: 27px;
+}
+
+.header {
+  background-color: #FFFFFF;
+  display: block;
+  width: 100%;
+  height: 80px;
+}
+
+.deploy-contact {
+  float: left;
+  background-image: url("../../assets/img/photos/login-register/logo.png");
+  background-repeat: no-repeat;
+  width: 144px;
+  height: 50px;
+  margin: 15px 30px;
+}
+
+.deploy-sidebar {
+  float: right;
+  background-image: url("../img/index/drawable-xhdpi/navigation-classify.png");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 15px 20px;
+}

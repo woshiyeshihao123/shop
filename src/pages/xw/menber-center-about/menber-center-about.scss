@@ -1,0 +1,423 @@
+body{
+    position: relative;
+}
+#main-big>#main-big-nav {
+    background: #f7f6f4;
+    height: 30px;
+    line-height: 30px;
+}
+#main-big>#main-big-nav>p {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#main-big>#main-big-nav>p>span{
+    background: url(../../../assets/img/photos/8-0/help.png) no-repeat left center;
+}
+#main-big>#main-big-nav>p>span>a{
+    margin-left: 20px;
+    color: #fa992e;
+}
+#main{
+    width: 1280px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+#main-right {
+    float: right;
+    width: 950px;
+    margin-right: 40px;
+}
+
+.main-right-top1 {
+    height: 330px;
+    border-bottom: 1px solid #ccc;
+}
+
+#product-intro {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#product-intro>#preview {
+    background: #ccc;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+#product-intro>ul {
+    margin-left: 20px;
+    float: left;
+}
+
+#product-intro>ul li {
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+#product-intro>ul>li>a {
+    display: inline-block;
+    background: #fa992e;
+    height: 30px;
+    width: 100px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+}
+
+#product-intro p {
+    margin-top: 15px;
+}
+
+#recharge {
+    float: right;
+    width:280px;
+    // border-left: 1px solid #111;
+    height: 310px;
+    box-shadow: 2px 2px 5px #aaa;
+}
+
+#recharge>ul {
+    margin-left: 10px;
+}
+
+#recharge>ul li {
+    height: 60px;
+    line-height: 60px;
+    font-size: 15px;
+}
+
+#recharge>ul>li a{
+    // border: 1px solid black;
+   float: right;
+   margin-right: 10px;
+   margin-top: 10px;
+   height: 40px;
+   border: 1px solid #ccc;
+   line-height: 40px;
+   width: 80px;
+   text-align: center;
+   font-size: 14px;
+}
+#recharge>ul>li>.yellow-box{
+    color: #fff;
+   background: #f8b62e;
+   border: none;
+}
+#main-right>.main-right-top2 {
+    margin-top: 30px;
+    border-bottom: 1px solid #ccc;
+}
+#main-right>.main-right-top2>div>span{
+     font-size: 16px;
+    
+}
+#main-right>.main-right-top2>div{
+    width:70px;
+}
+#main-right>.main-right-top2>div>span>hr{
+    background-color:#fba569; 
+    border: none;
+    height: 4px;
+ 
+}
+#main-right>.main-right-top2>#care-for{
+    background: #f7f6f4;
+    width: 900px;
+     margin: 0 auto;   
+     height: 50px; 
+     margin-bottom: 30px;
+}
+#main-right>.main-right-top2>#care-for>p{
+     height:40px;
+    color: #ee9362;
+    font-size: 12px;
+}
+#main-right-table-nav {
+   margin-top: 30px;
+}
+
+#main-right-table>#main-right-table-nav>span>b{
+    font-size: 16px;
+}
+#main-right-table>#main-right-table-nav>span>hr{
+    height:4px;
+    border: none;
+    background-color: #fba569;
+
+}
+#main-right-table>#main-right-table-nav>span>a{
+    font-size: 16px;
+    color: #6c6c6c;
+}
+#main-right-table>#main-right-table-body>table {
+    width: 100%;
+    font-size: 13px;
+    td {
+        height: 50px;
+        line-height: 50px;
+        border-bottom: 1px dashed #666;
+    }
+}
+#main-right-table>#main-right-table-body>table>thead{
+    background: #f7f6f4;
+    height: 44px;
+    line-height: 44px;
+}
+#main-right-table>#main-right-table-body>table>thead>tr :first-child {
+    width: 500px;
+    text-align: left;
+}
+
+#main-right-table>#main-right-table-body>table>thead>tr :first-child+th {
+    width: 250px;
+    text-align: left
+}
+
+#main-right-table>#main-right-table-body>table>thead>tr :first-child+th+th {
+    width: 300px;
+    text-align: left;
+}
+
+#main-right-table>#main-right-table-body>table>tbody>tr  :first-child+td+td {
+    text-align: left;
+}
+
+.dropdown {
+    width: 150px;
+    float: right;
+    background:#fa992e;
+    color:#fff;
+    margin-right: 20px;
+     margin-top: 20px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.dropdown>span>a{
+    color: #fff;
+}
+
+
+/*****************模态框***************************************************************/
+.md-modal{
+    display: none;
+} 
+#modal-1{
+    box-shadow: 2px 2px 5px #aaa;
+    width: 482px;
+    position: fixed;
+  top:30%;
+   left:32%;
+    background:#fff;
+}
+#modal-1>.md-content{
+     width: 415px;;
+     margin: 0 auto;
+ }
+#modal-1>.md-content>p{
+font-size: 16px;
+height: 30px;
+width: 150px;
+float: left;
+margin-top: 38px;
+margin-left: 40px;
+}
+#modal-1>.md-content>.md-close{
+     float: right;
+     margin-top: 30px;
+     margin-right: 20px;
+ }
+.ip-tp{
+    border: none;
+    height: 30px;
+    width: 110px;
+    text-align: center;
+    line-height:30px; 
+    border: 1px solid #ccc;
+}
+#modal-1>.md-content>div>ul{
+    border-bottom: 1px solid  #666;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+#modal-1>.md-content>div>ul>li>span{
+    color: #666;
+}
+#modal-1>.md-content>div>ul>li>b{
+    color:red;;
+}
+#modal-1>.md-content>div>ul>li{
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+#modal-1>.md-content>div>p{
+    margin-left: 40px;
+}
+#modal-1>.md-content>div>p>b{
+    color: red;
+}
+#modal-1>.md-content>div>p>a{
+    background: #f8b62e;
+    color: #fff;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+#modal-1>.md-content>div>.modal-buy{
+    color: white;
+    background: #eb6700;
+    font-size: 15px;
+    height: 40px;
+    line-height: 40px;
+    width: 128px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-left: 126px;
+    margin-bottom: 20px;
+}
+/**************************************************************/
+
+#modal-2{
+    box-shadow: 2px 2px 5px #aaa;
+    width: 483px;
+    height: 287px;
+    position: fixed;
+    top:30%;
+   left:32%;
+    background:#fff;
+}
+#modal-2>.md-content{
+    width: 391px;
+    margin: 0 auto;
+    height: 300px;
+}
+#modal-2>.md-content>p{
+font-size: 16px;
+height: 30px;
+width: 150px;
+float: left;
+margin-top: 30px;
+margin-left: 0px;
+}
+#modal-2>.md-content>.md-close{
+float: right;
+margin-top: 30px;
+margin-right: 20px;
+margin-bottom: 20px;
+}
+
+#modal-2>.md-content>div>p>b{
+    color: red;
+}
+
+#modal-2>.md-content>div>ul>li{
+    float: left;
+    margin-right: 56px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#modal-2>.md-content>div>ul>li>.img-url{
+    display: inline-block;
+    margin-bottom: -5px;
+    width: 20px;
+    height: 20px;
+  background: url(../../../assets/img/photos/8-0/alert/unchoosed.png) no-repeat center center;
+    
+}
+.img-url-choosed{
+    background: url(../../../assets/img/photos/8-0/alert/choosed.png) no-repeat center center!important;
+}
+#modal-2>.md-content>div>p>a{
+    background: #f8b62e;
+    color: #fff;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+#modal-2>.md-content>div>.modal-buy{
+    color: white;
+    background: #eb6700;
+    font-size: 15px;
+    height: 40px;
+    line-height: 40px;
+    width: 128px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 55px;
+    border-radius: 5px;
+    margin-left: 120px;
+}
+/**********************************/
+#modal-3{
+    box-shadow: 2px 2px 5px #aaa;
+    width: 400px;
+    position: fixed;
+    top:38%;
+     left:37%;
+    background:#fff;
+    height: 258px;;
+ 
+}
+#modal-3>.md-content{
+      width: 380px;
+      margin: 0 auto;
+}
+#modal-3>.md-content>p{
+    font-size: 16px;
+    height: 30px;
+    width: 300px;
+    float: left;
+    margin-top: -16px;
+    margin-left: 50px;
+    }
+    
+    #modal-3>.md-content>div>ul>li{
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-bottom: 10px;
+    }
+    #modal-3>.md-content>div>ul>li:first-child+li+li+li{
+        margin-top: 20px;
+    }
+    #modal-3>.md-content>.md-close{
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px;
+    }
+    /*************************************/
+    #modal-4{
+        box-shadow: 2px 2px 5px #aaa;
+        width: 348px;
+        position: fixed;
+         top:38%;
+          left:38%;
+        background:#fff;
+        height: 210px;
+    }
+    #modal-4>.md-content>.md-close{
+        float: right;
+        margin-top: 11px;
+        margin-right: 20px;
+        }
+   #modal-4>.md-content>div{
+     
+       height: 117px;
+       background: url(../../../assets/img/photos/8-0/alert/gsc-background.png) no-repeat center ;
+   }
+   #modal-4>.md-content>div>img{
+       margin-left: 127px;
+       margin-top: 47px;
+   }
+   #modal-4>.md-content>p{
+       text-align: center;
+       font-size: 16px;
+       margin-top:10px;
+   }   

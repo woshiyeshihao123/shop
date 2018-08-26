@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="viewport-fit=cover, width=750, user-scalable=no">
+  <title></title>
+  <!-- <link rel="stylesheet" href="./corpInfo.scss" /> -->
+  <link rel="stylesheet" href="../allCatalog/allCatalog.scss">
+  <link rel="stylesheet" href="../../h5-assets/css/common.scss">
+  <link rel="stylesheet" href="./corpInfoIndex.scss">
+  <script src="../../assets/js/jquery-1.9.1.min.js"></script>
+</head>
+
+<body>
+  <link rel="import" href="../allCatalog/allCatalog.html?__inline">
+  <div id="header">
+    <div class="display lf">
+      全部
+      <div class="tangle rt"></div>
+    </div>
+    <div class="search rt">
+      <input type="text" placeholder="请输入搜索内容">
+      <img src="../../../h5-assets/img/info/drawable-xhdpi/search.jpg" class="rt">
+    </div>
+  </div>
+  <div class="clear"></div>
+  <div class="shouqi">
+    <div class="lf" style="font-size:30px;margin:30px"><b>北京</b></div>
+
+    <div class="rg  haha" style="margin:30px;">收起<i></i></div>
+    <div class="clear"></div>
+    <div class="clear"></div>
+    <ul class="diqu">
+      <li>海淀区</li>
+      <li>朝阳区</li>
+      <li>大兴区</li>
+      <li>通州区</li>
+      <li style="color:#ef7714">丰台区</li>
+      <li>西城区</li>
+      <li>东城区</li>
+      <li>怀柔区</li>
+      <li>房山区</li>
+    </ul>
+  </div>
+
+  <div class="clear"></div>
+  <div class="shouqi">
+    <div class="lf" style="font-size:30px;margin:30px"><b>上海</b></div>
+
+    <div class=" haha rg " style="margin:30px;">收起<i></i></div>
+    <div class="clear"></div>
+
+    <ul class="diqu">
+
+      <li>海淀区</li>
+      <li>朝阳区</li>
+      <li>大兴区</li>
+      <li>通州区</li>
+      <li>丰台区</li>
+      <li>西城区</li>
+      <li>东城区</li>
+      <li>怀柔区</li>
+      <li>房山区</li>
+    </ul>
+  </div>
+
+
+  <div class="clear"></div>
+  <div class="shouqi">
+    <div class="lf" style="font-size:30px;margin:30px"><b>天津</b></div>
+
+    <div class="rg haha" style="margin:30px;">收起<i></i></div>
+    <div class="clear"></div>
+    <ul class="diqu">
+
+      <li>海淀区</li>
+      <li>朝阳区</li>
+      <li>大兴区</li>
+      <li>通州区</li>
+      <li>丰台区</li>
+      <li>西城区</li>
+      <li>东城区</li>
+      <li>怀柔区</li>
+      <li>房山区</li>
+    </ul>
+    
+
+  </div>
+  <div class="clear"></div>
+  <div class="zhankai" >
+    <div class="lf" style="font-size:30px;margin:30px"><b>河北</b></div>
+  
+      <div class="rg haha" style="margin:30px;">展开<i></i></div>
+      <div class="clear"></div>
+
+      <ul class="diqu none">
+
+        <li>海淀区</li>
+        <li>朝阳区</li>
+        <li>大兴区</li>
+        <li>通州区</li>
+        <li>丰台区</li>
+        <li>西城区</li>
+        <li>东城区</li>
+        <li>怀柔区</li>
+        <li>房山区</li>
+      </ul>
+  </div>
+
+
+  <div class="clear"></div>
+  <div class="zhankai" >
+    <div class="lf" style="font-size:30px;margin:30px"><b>河南</b></div>
+  
+      <div class="rg haha" style="margin:30px;">展开<i></i></div>
+      <div class="clear"></div>
+      <div class="clear"></div>
+      <ul class="diqu none">
+
+        <li>海淀区</li>
+        <li>朝阳区</li>
+        <li>大兴区</li>
+        <li>通州区</li>
+        <li>丰台区</li>
+        <li>西城区</li>
+        <li>东城区</li>
+        <li>怀柔区</li>
+        <li>房山区</li>
+      </ul>
+  </div>
+
+
+  <div class="clear"></div>
+  <div class="zhankai">
+    <div class="lf" style="font-size:30px;margin:30px"><b>山东</b></div>
+    
+      <div class="rg haha" style="margin:30px;">展开<i></i></div>
+      <div class="clear"></div>
+      <div class="clear"></div>
+      <ul class="diqu none">
+
+        <li>海淀区</li>
+        <li>朝阳区</li>
+        <li>大兴区</li>
+        <li>通州区</li>
+        <li>丰台区</li>
+        <li>西城区</li>
+        <li>东城区</li>
+        <li>怀柔区</li>
+        <li>房山区</li>
+      </ul>
+  </div>
+
+
+  <div class="clear"></div>
+  <div style="width: 750px;
+            height: 87px;
+            margin-bottom: 10px;
+            background-color: #fff;"></div>
+  <div class="footer-box">
+    <a href="">登录</a>
+    <a href="">注册</a>
+    <a href="">电脑版</a>
+    <a href="">开通会员</a>
+  </div>
+  <script src="../allCatalog/allCatalog.js"></script>
+  <script>
+    $(".haha").click(function() {
+      $(this).siblings(".diqu").slideToggle();
+      $(this).parent().css("height","345px");
+      if($(".zhangkai").css("height")="345px"){
+       
+        $(this).parent().css("height","104px");
+        
+      }
+    });
+
+  </script>
+</body>
+
+</html>

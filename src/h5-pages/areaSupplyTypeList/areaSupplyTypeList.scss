@@ -1,0 +1,335 @@
+body{
+    margin:0;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+dl,
+dd {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+.rg {
+    float: right;
+}
+
+.lf {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+ul {
+    list-style: none;
+}
+
+.none {
+    display: none;
+}
+
+.chang {
+    color: #f60;
+}
+
+.header {
+    background-color: #fff;
+    border-bottom: solid 1px #ebebed;
+    height: 80px;
+    width: 100%;
+    z-index: 12;
+    .deploy-contact {
+        float: left;
+        z-index: 999;
+        background-image: url("../../assets/img/photos/login-register/logo.png");
+        background-size: 144px 50px;
+        background-repeat: no-repeat;
+        /* background-position:12px 18px; */
+        width: 144px;
+        height: 50px;
+        margin: 14px 30px;
+    }
+    .deploy-sidebar {
+        float: right;
+        z-index: 999;
+        background-image: url("../../h5-assets/img/index/drawable-xhdpi/navigation-classify.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        /* background-position:15px 19px; */
+        width: 44px;
+        height: 44px;
+        display: block;
+        margin: 22px 30px;
+    }
+}
+
+.header-box {
+    position: absolute;
+    width: 100%;
+    height: 750px;
+    background: #fff;
+    z-index: 99;
+    ul {
+        li {
+            float: left;
+            margin: 50px 0 50px 90px;
+            text-align: center;
+            width: 130px;
+            .text {
+                margin-top: 20px;
+                display: block;
+                font-size: 26px;
+            }
+        }
+    }
+}
+
+.nav{
+    background-color:#f4f4f4;
+    width:100%;
+    height:70px;
+}
+.nav p{
+   width:690px;
+   display: inline-block;   
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin:0 30px;
+}
+.nav a{ 
+    font-size:26px;
+    color:#333;
+    text-decoration:none;
+    font-style: normal;
+    line-height:70px;
+
+}
+.nav span{
+    font-size:26px;
+    color:#fe6e0d;
+    margin:0 10px;
+}
+.navtwo{
+    width: 690px;
+    margin-left:30px;
+    margin-top:20px;
+    button{
+        width: 209px;
+        height: 60px;
+        color: #333;
+        background-color: #fff;
+        margin-left:15px;
+        margin-top:10px;
+        line-height: 60px;
+        text-align: center;
+        border-radius: 6px;
+        border:1px solid #e3e3e3;
+        position: relative;  
+        font-size: 26px;     
+    }
+    button:hover{
+        border:1px solid #ef7714;
+        border-radius: 6px;
+        b{
+            display: inline-block;
+            width: 26px;
+            height: 26px;
+            position: absolute;
+            top:0px;
+            right: 0px;
+            background:url('../../h5-assets/img/info/drawable-xhdpi/selected.png') no-repeat;
+        }
+    }
+    .nav-select{
+        width: 100%;
+        margin-top:50px;
+        position: relative;
+        span{
+            font-size: 30px;
+            margin-left:30px;
+            color: #333;
+        }
+        p{
+            display: inline-block;
+            font-size: 30px;
+            margin-right:30px;
+            color: #666;
+            float: right;
+        
+            b{
+                display: inline-block;
+                width: 44px;
+                height: 44px;
+                margin-left:20px;
+                background:url('../../h5-assets/img/info/drawable-xhdpi/choose-right.png') no-repeat;
+               position: absolute;
+               top:0px;
+               right:-8px;
+            }
+        }
+    }
+}
+
+#enterprise {
+    width: 750px;
+    .daily-one {
+        margin: 30px;
+        height: 35px;
+        .companies {
+            width: 375px;
+            ;
+            height: 50px;
+            line-height: 50px;
+            i {
+                width: 4px;
+                height: 23px;
+                background-color: #ef7714;
+                margin-right: 20px;
+                float: left;
+                position: relative;
+                top: 14px;
+                left: 0;
+            }
+            .daily-two {
+                font-size: 32px;
+                font-weight: bold;
+                color: #333333;
+            }
+        }
+    }
+    .directories {
+
+        .company-list {
+            .company-detail {
+                width: 750px;
+                height: 220px;
+                border-bottom: 1px solid #e3e3e3;
+                ul {
+                    width: 100%;
+                    margin-top: 20px;
+                    float: left;
+                    li {
+                        color: #666;
+                        float: left;
+                        width: 510px;
+                        padding-left:30px;
+                        p {
+                            font-size: 28px;
+                            
+                            font-family: Arial, Helvetica, sans-serif;
+                        
+                        a{
+                            font-size: 32px;
+                        }
+                        }
+                        img {
+                            width: 170px;
+                            height: 170px;
+
+                        }
+                    }
+                    li:first-child{
+                        width: 170px;
+                    }
+                    .company-name {
+                        margin-bottom: 20px;
+                        margin-top: 30px;
+                        p {
+                            width: 411px;
+                            overflow: hidden;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                            font-size: 32px;
+                            color: #333333;
+                            font-family: Arial, Helvetica, sans-serif;
+                        }
+                    }
+                    .telephone {
+                        margin-top: 7px;
+                        margin-bottom: 55px;
+                        position: relative;
+                        a{
+                            color: #999;
+                            width: 421px;
+                            overflow: hidden;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                            display: inline-block;
+                        }
+                        b{
+                            display: inline-block;
+                            width: 44px;
+                            height: 44px;
+                            position: relative;
+                            top:11px;
+                            left:-10px;
+                            background: url('../../h5-assets/img/index/drawable-xhdpi/location2.png') no-repeat;
+                        }
+                        i{
+                            display: inline-block;
+                            width: 68px;
+                            height: 68px;
+                            background: url('../../h5-assets/img/index/drawable-xhdpi/tel.png') no-repeat;
+                            position: absolute;
+                            top:-10px;
+                            right: 0px;
+                        }
+                    }
+                }
+            }
+            .company-main {
+                font-size: 28px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: #666666;
+            
+            }
+        }
+    }
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    height: 80px;
+    width: 750px;
+    background: rgba(0, 0, 0, 0.5);
+
+    div{
+        display: inline-block;
+        background: #ef7714;
+        border-radius:5px;
+        width: 120px;
+        height: 40px;
+        border: 0;
+        margin:20px 60px;
+        text-align: center;
+        vertical-align: middle;
+        line-height:45px;
+
+        a{
+         
+            position: relative;
+            top: -1px;
+            color: #fff;
+            font-size: 18px;
+            height: 32px;
+        }
+    }
+}

@@ -1,0 +1,204 @@
+<!-- <link rel="stylesheet" href="./release-info-message.scss"> -->
+<div class="lf boxsizing" id="release-info-message-all">
+    <div>
+        <h3 class="release-info-message-h3">
+            <span>发布供应</span>
+        </h3>
+        <!-- 第一块开始，供应类型+一二三级类别 -->
+        <ul class="bottom-solid" id="radio-two">
+            <li>
+                <ul>
+                    <li class="lf release-info-message-type">
+                        <span class="lf">供应类型:</span>
+                    </li>
+                    <li class="lf release-info-message-type bigger">
+                        <div class="checkbox-span-choose">
+                        </div>
+                        <span class=" checkbox-span">我要供应</span>
+                    </li>
+                    <li class="lf release-info-message-type bigger">
+                        <div class="checkbox-span-choose">
+                        </div>
+                        <span class=" checkbox-span">我要求购</span>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="clear">
+                <ul>
+                    <li class="lf release-info-message-type">
+                        <span>一级类别:</span>
+                    </li>
+                    <li class="lf release-info-message-type-onetwothree">
+                        <!-- <div class="type-choose">
+                            请选择类别
+                            <b></b>
+                        </div> -->
+                        <input type="text" class="type-choose" placeholder="请输入类别"/>
+                        <div class="alert-box none">
+                            <ul>
+                                <li><a href="javascript:void(0)">机械</a></li>
+                                <li><a href="javascript:void(0)">机械</a></li>
+                                <li><a href="javascript:void(0)">机械</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="lf release-info-message-type left20">
+                        <span>必填</span>
+                    </li>
+
+                </ul>
+            </li>
+            <li class="clear">
+                <ul>
+                    <li class="lf release-info-message-type">
+                        <span>二级类别:</span>
+                    </li>
+                    <li class="lf release-info-message-type-onetwothree">
+                        <input type="text" class="type-choose" placeholder="请输入类别"/>
+                        <div class="alert-box none">
+                            <ul>
+                                <li><a href="javascript:void(0)">机械</a></li>
+                                <li><a href="javascript:void(0)">机械</a></li>
+                                <li><a href="javascript:void(0)">机械</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="lf release-info-message-type left20">
+                        <span>必填</span>
+                    </li>
+                </ul>
+            </li>
+            <li class="clear">
+                <ul>
+                    <li class="lf release-info-message-type">
+                        <span>三级类别:</span>
+                    </li>
+                    <li class="lf release-info-message-type-onetwothree">
+                        <input type="text" class="type-choose" placeholder="请输入类别"/>
+                        <div class="alert-box none">
+                            <ul>
+                                <li><a href="javascript:void(0)">机械</a></li>
+                                <li><a href="javascript:void(0)">机械</a></li>
+                                <li><a href="javascript:void(0)">机械</a></li>
+                            </ul>
+                        </div>
+                        
+                    </li>
+                    <li class="lf release-info-message-type left20">
+                        <span>必填</span>
+                    </li>
+                    <li class="rt">
+                        <a href="javascript:void(0)" class="btn-release-info-message-type">
+                            <b></b>
+                            类别反馈
+                            <i></i>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <!-- 第二块，标题关键字，有三个连在一起的input -->
+    <div class="clear bottom-solid">
+        <ul id="release-info-message-search">
+            <li id="one-input">
+                <span class="release-info-message-type lf" class="release-info-message-type">标题:</span>
+                <input type="text" class="lf" placeholder="请输入标题名称">
+                <span class="release-info-message-type lf left20">必填</span>
+            </li>
+            <li class="clear suggest">
+                <span class="release-info-message-type lf zhanwei"></span>
+                <span class="lf suggest-detail">优化建议:产品标题中添加城市名，意外收获你也会有</span>
+            </li>
+            <li class="clear" id="three-inputs">
+                <span class="release-info-message-type lf">关键字:</span>
+                <input type="text" class="lf" placeholder="请输入关键字">
+                <input type="text" class="lf" placeholder="请输入关键字">
+                <input type="text" class="lf" placeholder="请输入关键字">
+            </li>
+            <li class="clear suggest"> 
+                <span class="release-info-message-type lf zhanwei"></span>
+                <span class="lf suggest-detail">方便用户在搜索时获取到</span>
+            </li>
+        </ul>
+    </div>
+    <!-- 第三块，图片展示，图片上传，图片库上传 -->
+    <div class="release-info-message-photo clear bottom-solid">
+
+        <div class="lf release-info-message-type pblock">
+            图片:
+        </div>
+
+        <div class="pblock-img">
+            <div class="top">
+                <img src="sadfasdf" alt="展示图第一张">
+            </div>
+            <div class="btn-pblock-img-group clear">
+                <a href="javascript:void(0)">本地上传</a>
+                <a href="javascript:void(0)">图片库上传</a>             
+            </div>           
+        </div>
+    </div>
+    <!-- 产品规格，产品数量，包装说明，价格说明 -->
+    <div class="clear bottom-solid" id="product-simple-intro">
+        <div class="lf">
+            <span class="release-info-message-type lf">产品规格:</span>
+            <input type="text" placeholder="请输入产品规格">
+        </div>
+        <div class="lf">
+            <span class="release-info-message-type lf">产品数量:</span>
+            <input type="text" placeholder="请输入产品数量">
+        </div>
+
+        <!-- 不限，一个单选框 -->
+        <li class="lf release-info-message-type bigger">
+            <div class="checkbox-span-choose" id="no-limit">
+            </div>
+            <span class=" checkbox-span">不限</span>
+        </li>
+
+        <div class="lf">
+            <span class="release-info-message-type lf">包装说明:</span>
+            <input type="text" placeholder="请输入包装说明">
+        </div>
+        <div class="lf">
+            <span class="release-info-message-type lf">价格说明:</span>
+            <input type="text"j placeholder="请输入价格说明">
+        </div>
+    </div>
+
+    <!-- 自定义产品参数 -->
+    <div class="clear bottom-solid" id="personal-parameters">
+        <h3>自定义产品参数:</h3>
+       
+        <div>
+            <input type="text" placeholder="请输入参数名">
+            <span>:</span>
+            <input type="text" placeholder="请输入参数值">
+            <br>
+            <input type="text" placeholder="请输入参数名">
+            <span>:</span>
+            <input type="text" placeholder="请输入参数值">
+            <a href="javascript:void(0)">
+                <b></b>    
+                删除
+            </a>
+            <br>
+        </div>
+        <a href="javascript:void(0)">
+            <b></b>
+            添加
+        </a>
+        <p class="clear">您可以手动添加产品参数，最多可以添加6条。参数名和参数值的内容不能相同并且不能为空</p>
+    </div>
+
+    <!-- 详情：必填，大图 -->
+    <link rel="import" href="./release-big-photo/release-big-photo.html?__inline">
+
+    <!-- 最后一块，公司名称，联系人电话邮箱 -->
+    <link rel="import" href="./company-intro/company-intro.html?__inline">
+
+
+</div>
+<!-- <script src="./release-info-message.ts"></script> -->

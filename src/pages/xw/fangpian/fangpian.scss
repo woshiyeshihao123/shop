@@ -1,0 +1,90 @@
+#top-nav {
+    background: #ccc;
+    height: 30px;
+    line-height: 30px;
+}
+#top-main {
+    padding: 10px 0px;
+    height: 92px;
+}
+#top-main>a {
+    display: inline-block;
+    height: 65px;
+    width: 65px;
+    margin-top: 25px;
+}
+#name-box {
+    float: left;
+    width: 500px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+#name-box>.cmp-name {
+    width: 500px
+}
+#name-box>.cmp-name>span {
+    font-size: 20px;
+    color: #333;
+    float: left;
+}
+#name-box>.cmp-name>p {
+    float: left;
+}
+.main-business>p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+}
+#top-main>.QR-code {
+    margin-right: 10px;
+}
+/***************nav*************/
+/***************main**************/
+#main-big>#main-big-nav {
+    background: #f7f6f4;
+    height: 30px;
+    line-height: 30px;
+}
+#main-big>#main-big-nav>p {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#main-body{
+	margin-top: 30px;
+}
+#main-body>span{
+    font-size: 30px;
+    width: 125px;
+    display: block;
+}
+#main-body>span>hr{
+	height: 9px;
+	border :none;
+	background-color: #ffbe8a;
+	margin-left: 0;
+	width: 120px;
+	margin-top: -9px;
+}
+#main-body>ul>li{
+    margin-bottom: 10px;
+    margin-left:32px;
+}
+#main-body>.big-adv{
+	width: 1200px;
+	height: 250px;
+	margin-top: 50px;
+}
+#shengmin{
+    background: #feedd9;
+    text-align: center;
+}
+#shengmin>p {
+    height: 40px;
+    font-size: 13px;
+    color: #f19667;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 15px;
+}
+/*****************footer******************/

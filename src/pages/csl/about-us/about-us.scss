@@ -1,0 +1,233 @@
+#bread-crumb{
+    background:#f7f7f7;
+    height:30px;
+}
+#bread-crumb>div{
+    width:1200px;
+    height:30px;
+    line-height:30px;
+    margin:0 auto;
+}
+#main-body{
+    width:1200px;
+    margin:30px auto 0 auto;
+    height:600px;
+
+}
+#connect-ways{
+    width:980px;
+    float:right;
+}
+
+#connect-ways>p{
+    width:900px;
+    // height:30px;
+    margin-left:30px;
+    font-size: 18px;
+    color:black;
+    display:inline-block;
+    
+  }
+  hr.tmd{
+    border-top:5px solid #Eb6700;
+    opacity: 0.5;
+    width:80px;
+    float: left;
+    margin-left:30px;
+    margin-top:2px;
+  }
+  p.con-tact{
+      background: #f7f7f7;
+      height:50px;
+      display: inline-block;
+    //   width:950px;
+    line-height:50px;
+  }
+  p.con-tact>span{
+      font-size:14px;
+      color:#Eb6700;
+      margin-left:20px;
+      
+  }
+  #connect-ways>div{
+      width:900px;
+      
+      margin-left:30px;
+  }
+  #connect-ways>div>ul{
+    //   width:900px;
+      margin-left:30px;
+      margin-top:5px;
+      font-size:14px;
+  }
+  #connect-ways>div>ul>li{
+      margin-top:30px;
+  }
+  #connect-ways>div>ul>li>b{
+      width:20px;
+      height:10px;
+      margin-right:10px;
+      display: inline-block;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 左侧栏
+.boxsizing * {
+    box-sizing: border-box;
+}
+.boxsizing{
+    box-sizing: border-box;
+}
+.bottom-dash{
+    border-bottom: 1px dashed black;
+}
+.bottom-solid{
+    border-bottom: 1px solid #cecece;
+}
+.vertical-align-middle{
+    vertical-align: middle;
+}
+.vertical-align-text-bottom{
+    vertical-align: text-bottom;
+}
+.supply-list-title{
+    height: 40px;
+    background: red;
+}
+
+
+
+
+
+.member-center-list-box li {
+    width: 100%;
+}
+
+.member-center-list-box {
+    float: left;
+    // vertical-align: top;
+    width: 218px;
+    box-shadow: 0px 6px 15px 0px #eae7e7;
+    ul {
+        width: 100%;
+    }
+}
+
+.member-center-second-list {
+    // display: none;
+    width: 170px!important;
+    margin-left: 48px;
+    >li {
+        text-align: left;
+        padding:11px 0;
+        font-size: 12px;
+
+    }
+}
+
+.member-center-list-box-item {
+    width: 100%;
+    
+    >a {
+        display: block;
+        width: 100%;
+        height: 38px;
+        // line-height: 38px;
+        padding-left: 15px;
+        padding-right: 13px;
+        
+        >span{
+            font-size: 14px;
+            padding-right: 7px;
+            // padding-top: 12px;
+            // padding-bottom: 14px;
+            border-bottom: 1px dashed #cccccc;
+            border-top: 1px dashed #cccccc;
+            display: block;
+            height: 38px;
+            line-height: 38px;
+            width: 100%;
+            // 牛逼牛逼，解决了border重叠的问题
+            margin-top: -1px;
+            margin-bottom: -1px;
+        }
+    }
+    .right-arrow {
+        background: url(../../../../assets/img/photos/8-0/rightArrow-black.png)no-repeat center center;
+        float: right;
+        width: 5px;
+        height: 16px;
+        margin-top: 10px;
+    }
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+@mixin list-left-icon {
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-right: 20px;
+}
+.member-center-list-box-item{
+    >a{
+        >span{
+            >b{
+                margin-top: 10px;
+            }
+        }
+    }
+}
+.member-center-list-box-item:first-child {
+    >a {
+        >span {
+            border-top: none;
+            >b {
+                @include list-left-icon;
+                background: url(../../../../assets/img/photos/9/about-us.png)no-repeat center center;
+            }
+            >.active-b{
+                background: url(../../../../assets/img/photos/9/about-us.png)no-repeat center center;
+            }
+        }
+    }
+}
+
+
+.list-left-active {
+    // background: linear-gradient(90deg, #ec7413, #fa992e);
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(#ED7515), to(#FB992F));  
+　　background: -webkit-linear-gradient(left, #ED7515, #FB992F);  
+　　background: -moz-linear-gradient(left, #ED7515, #FB992F);  
+　　background: -o-linear-gradient(left, #ED7515, #FB992F);  
+　　background: linear-gradient(left, #ED7515, #FB992F); 
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType = 1, startColorstr = #ED7515, endColorstr = #FB992F); 
+        background: -ms-linear-gradient(left, #ED7515, #FB992F);    
+    color: white;
+    &:hover {
+        color: white;
+    }
+    >span{
+        border-top: 1px solid #fa992e!important;
+        border-bottom: 1px solid #fa992e!important;
+    }
+    .right-arrow{
+        background: url(../../../../assets/img/photos/8-0/rightArrow-white.png)no-repeat center center;
+    }
+}

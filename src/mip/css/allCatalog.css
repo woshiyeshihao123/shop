@@ -1,0 +1,146 @@
+body {
+  width: 750px;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.header {
+  background-color: #FFFFFF;
+  display: block;
+  width: 750px;
+  height: 79px;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.deploy-contact {
+  float: left;
+  background-image: url("../../assets/img/photos/login-register/logo.png");
+  background-repeat: no-repeat;
+  width: 144px;
+  height: 50px;
+  margin: 15px 30px;
+}
+
+.deploy-sidebar {
+  float: right;
+  background-image: url("../img/index/drawable-xhdpi/navigation-classify.png");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 15px 20px;
+}
+
+.popup {
+  position: absolute;
+  top: 79px;
+  left: 750px;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  z-index: 999;
+}
+
+.menu {
+  width: 750px;
+  height: 600px;
+  padding: 45px 110px;
+  position: relative;
+  background: #fff;
+  z-index: 100;
+}
+
+.menu div {
+  overflow: visible;
+}
+
+.menu a {
+  overflow: visible;
+  font-size: 26px;
+  color: #333;
+  line-height: 50px;
+}
+
+.left-one {
+  position: absolute;
+  left: 110px;
+  top: 45px;
+  cursor: pointer;
+}
+
+.left-two {
+  position: absolute;
+  left: 110px;
+  top: 225px;
+  cursor: pointer;
+}
+
+.left-three {
+  position: absolute;
+  left: 110px;
+  top: 425px;
+  cursor: pointer;
+}
+
+.center-one {
+  position: absolute;
+  left: 330px;
+  top: 45px;
+  cursor: pointer;
+}
+
+.center-two {
+  position: absolute;
+  left: 330px;
+  top: 225px;
+  cursor: pointer;
+}
+
+.center-three {
+  position: absolute;
+  left: 330px;
+  top: 425px;
+  cursor: pointer;
+}
+
+.right-one {
+  position: absolute;
+  left: 550px;
+  top: 45px;
+  cursor: pointer;
+}
+
+.right-two {
+  position: absolute;
+  left: 550px;
+  top: 225px;
+  cursor: pointer;
+}
+
+.right-three {
+  position: absolute;
+  left: 550px;
+  top: 425px;
+  cursor: pointer;
+}
+
+.word-two {
+  padding-left: 20px;
+}
+
+.word-three {
+  padding-left: 6px;
+}
+
+.word-four {
+  position: absolute;
+  width: 105px;
+  left: -5px;
+  top: 90px;
+}
+
+.word-five {
+  position: absolute;
+  width: 120px;
+  left: -10px;
+  top: 90px;
+}

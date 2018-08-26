@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="viewport-fit=cover, width=750, user-scalable=no">
+    <title>产品展厅</title>
+    <script src="../../assets/js/jquery-1.9.1.min.js"></script>
+    <link rel="stylesheet" href="../../h5-assets/css/productShow.css"/>
+    <link rel="stylesheet" href="../../h5-assets/css/complain-add.css">
+    <link rel="stylesheet" href="../../h5-assets/css/allCatalog.css">
+    <!-- <link rel="stylesheet" href="../../h5-common/goTop/goup.scss"> -->
+</head>
+<body>
+  <!-- 头部 -->
+  <div class="header">
+    <a href="../h5-index/index.html" class="deploy-contact"></a>
+    <a href="javascript:void(0)" class="deploy-sidebar"></a>
+  </div>
+  <div class="header-box none">
+    <ul>
+      <li><a href="../h5-index/index.html"><img      src="../../h5-assets/img/index/drawable-xhdpi/main.png"></a>
+        <a class="text" href="../h5-index/index.html">首页</a>
+      </li>
+      <li><a href="../complain/supply-info/supply-info.html"><img      src="../../h5-assets/img/index/drawable-xhdpi/supply-info.png"></a>
+        <a class="text" href="../complain/supply-info/supply-info.html">供应信息</a>
+      </li>
+      <li><a href="../infoBuyList1/infoBuyList1.html"><img      src="../../h5-assets/img/index/drawable-xhdpi/buy-info.png"></a>
+        <a class="text" href="javascript:void(0)">求购信息</a>
+      </li>
+      <li><a href="../product-show/product-show.html"><img      src="../../h5-assets/img/index/drawable-xhdpi/product-info.png"></a>
+        <a class="text" href="javascript:void(0)">产品信息</a>
+      </li>
+      <li><a href="../newList/newList.html"><img      src="../../h5-assets/img/index/drawable-xhdpi/company-list.png"></a>
+        <a class="text" href="javascript:void(0)">公司库</a>
+      </li>
+      <li><a href="../newsSearchList/newsSearchList.html"><img      src="../../h5-assets/img/index/drawable-xhdpi/news.png"></a>
+        <a class="text" href="../newsSearchList/newsSearchList.html">新闻动态</a>
+      </li>
+      <li><a href="../exproinfo/exproinfo.html"><img      src="../../h5-assets/img/index/drawable-xhdpi/excibition-info1.png"></a>
+        <a class="text" href="../exproinfo/exproinfo.html">展会信息</a>
+      </li>
+      <li><a href="../corpInfo/corpInfo.html"><img      src="../../h5-assets/img/index/drawable-xhdpi/business-info.png"></a>
+        <a class="text" href="../corpInfo/corpInfo.html">工商信息</a>
+      </li>
+      <li><a href="../areaSupplyType/areaSupplyType.html"><img      src="../../h5-assets/img/index/drawable-xhdpi/type-area.png"></a>
+        <a class="text" href="../areaSupplyType/areaSupplyType.html">类别/地区</a>
+      </li>
+    </ul>
+  </div>
+  <!-- 分类 -->
+  <nav>
+    <b>济南品脉数控设备有限公司</b>
+    <div class="img">
+      <img src="../../h5-assets/img/index/drawable-xhdpi/gold.png" class="gode">
+      <span style="color:#666;">金牌</span>
+    </div>
+
+    <a class="tousu" href="javascript:void(0)">投诉</a>
+    <p>主营：服装、饰品、玩具、电源</p>
+    <div class="clear"></div>
+  </nav>
+  
+  <ul class="index-list">
+    <li>
+      <a class="a-1" href="../h5-index/index.html"><img src="../../h5-assets/img/dianpu/home.png">
+                    <span >首页</span></a></li>
+    <li>
+      <a class="a-2" href="../supplyInfoNew/supplyInfoNew.html"><img src="../../h5-assets/img/dianpu/supply.png">
+                        <span>最新供应</span></a></li>
+    <li>
+      <a class="a-3" href="../infoBuyList1/infoBuyList1.html"><img src="../../h5-assets/img/dianpu/gou.png">
+                            <span>采购清单</span></a></li>
+    <li>
+      <a class="a-4 chang"><img src="../../h5-assets/img/dianpu/chanpin-1.png">
+                                <span style="margin-top:0;">产品展厅</span></a></li>
+    <li style="margin-right:0;">
+      <a class="a-5"><img src="../../h5-assets/img/dianpu/shou.png">
+                                    <span>收起</span></a></li>
+    <li>
+      <a class="a-6" href="../newList/newList.html"><img src="../../h5-assets/img/dianpu/dong.png">
+                                        <span>公司动态</span></a></li>
+    <li>
+      <a class="a-7" href="../recruit-list/recruit-listl.html"><img src="../../h5-assets/img/dianpu/zhaopin.png">
+                                            <span>公司招聘</span></a></li>
+    <li>
+      <a class="a-8" href="../chens/contactInfo/contact-info.html"><img src="../../h5-assets/img/dianpu/lianxi-1.png">
+                                                <span>联系方式</span></a></li>
+    <li>
+      <a class="a-9" href="../corpInductor/corpInductor.html"><img src="../../h5-assets/img/dianpu/jieshao.png">
+                                                    <span>公司介绍</span></a></li>
+    <li style="margin-right:0;">
+      <a class="a-10" href="../corpInfo/corpInfo.html"><img src="../../h5-assets/img/dianpu/gongshan.png">
+                                                        <span>工商信息</span></a></li>
+    <div class="clear"></div>
+  </ul>
+  <div class="clear"></div>
+  <p class="jiege"></p>
+  <!-- 投诉 -->
+  <div class="complain-box none">
+    <div class="box">
+      <img src="../../h5-assets/img/dianpu/tousu-1.png">
+      <div class="center"> 
+         <input type="text" placeholder="您的姓名：">
+         <input type="text" placeholder="电话号码：">
+         <input type="text" placeholder="电子邮箱：">
+         <input type="text" placeholder="QQ:" >
+         <div class="container-main">
+         <ul>
+         <li style=" position:relative;"><span>证据及类型：</span><a href="javascript:void(0)" class="list"><span>淫秽色情 </span><b class="down rg"></b></a>
+          <ul class="list-1 none">
+            <li class="jie"><i></i><span>淫秽色情</span></li>
+            <li class="jie"><i></i>
+              <span>赌博</span></li>
+            <li class="jie"><i></i>
+              <span>诈骗</span></li>
+              <li class="jie"><i></i>
+                <span>侵权</span></li>
+                <li class="jie"><i></i>
+                  <span>病毒</span></li>
+                  <li class="jie"><i></i>
+                    <span>违背宪法原则</span></li>
+                    <li class="jie"><i></i>
+                      <span>攻击党和政府</span></li>
+          </ul>
+        </li>
+      </ul>
+      </div>
+         <input type="text" placeholder="主题：" >
+         <input type="text" placeholder="网址：">
+       
+         <textarea id="txt" placeholder="详细内容:"></textarea>
+        </div> 
+        <div class="container-box none">
+          提交成功!
+        </div>
+        <div class="anniu">
+          <a class="lt" style="margin-right:20px;"><button class="two"> 取消</button></a>
+          <a class="lt"> <button class="one">提交</button></a> 
+        </div>
+        </div>
+  </div>
+  <!-- 主体 -->
+  <!-- 主题 -->
+  <section>
+    <div class="section-top">
+      <img src="../../h5-assets/img/info/drawable-xhdpi/type.png" onClick="jump1('../supplyType/supplyType.html')"><b>产品展厅</b>
+    </div>
+    
+    <ul class="main">
+      <li>
+        <a href="../productDetail/supplyInfo.html">
+        <img src="../../h5-assets/img/dianpu/purchase.jpg">
+        <div class="main-right">
+          <p class="main-right-top">鹌鹑采食器 养殖设备 鹌鹑食打算打算的撒...</p>
+          <p class="main-right-bottom">鹌鹑自动采食器：其结构又大漏料斗.输料桶.漏料槽，一次性对接而成。底层dasdsadasdasd...</p>
+        </div>
+        </a>
+      </li>
+      
+      <li>
+          <a href="../productDetail/supplyInfo.html">
+        <img src="../../h5-assets/img/dianpu/purchase.jpg">
+        <div class="main-right">
+            <p class="main-right-top">鹌鹑采食器 养殖设备 鹌鹑食...</p>
+            <p class="main-right-bottom">鹌鹑自动采食器：其结构又大漏料斗.输料桶.漏料槽，一次性对接而成。底层...</p>
+        </div>
+        </a>
+      </li>
+      
+      <li>
+          <a href="../productDetail/supplyInfo.html">
+        <img src="../../h5-assets/img/dianpu/purchase.jpg">
+        <div class="main-right">
+            <p class="main-right-top">鹌鹑采食器 养殖设备 鹌鹑食...</p>
+            <p class="main-right-bottom">鹌鹑自动采食器：其结构又大漏料斗.输料桶.漏料槽，一次性对接而成。底层...</p>
+        </div>
+        </a>
+      </li>
+      
+      <li>
+          <a href="../productDetail/supplyInfo.html">
+        <img src="../../h5-assets/img/dianpu/purchase.jpg" >
+        <div class="main-right">
+            <p class="main-right-top">鹌鹑采食器 养殖设备 鹌鹑食...</p>
+            <p class="main-right-bottom">鹌鹑自动采食器：其结构又大漏料斗.输料桶.漏料槽，一次性对接而成。底层...</p>
+        </div>
+        </a>
+      </li>
+      
+    </ul>
+  </section>
+  <div id="button-top">
+    <button>登录</button>
+    <button>注册</button>
+    <button>电脑版</button>
+    <button>开通会员</button>
+ </div>
+    <div id="button-btn">
+  <button><img src="../../h5-assets/img/dianpu/jin.png" style="margin-left:70px;"><span>进店</span></button>
+  <button id="call-phone"><img src="../../h5-assets/img/dianpu/tel.png" style="         margin-left:30px;"><span>拨打电话</span></button>
+  <button><img src="../../h5-assets/img/dianpu/QQ.png" style="margin-left:20px;"><span>联系QQ</span></button>
+</div>
+<div id="bg" class="disappear"></div>
+<div id="call-people" class="disappear">
+      <img src="../../h5-assets/img/info/drawable-xhdpi/call-people.png">
+      <span>176-0056-5592</span>
+      <p>*此号码不暂不支持短信首发功能*</p>
+      <button><a href="tel:176-0056-5592"></a>拨打</button>
+      <button id="over">取消</button>
+</div>
+  <script src="../../h5-assets/js/jquery.goup.js"></script>
+  <script src="../../h5-assets/js/productShow.js"></script>
+  <script src="../../h5-assets/js/complain.js"></script>
+</body>
+</html>

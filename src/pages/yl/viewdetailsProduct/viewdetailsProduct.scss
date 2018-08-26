@@ -1,0 +1,172 @@
+body{
+    font:12px "microsoft yahei",Arial,Helvetica,sans-serif;
+    color:#666;
+    margin:0;
+    -webkit-text-size-adjust: 100%;
+}
+
+#viewdetailsProduct{
+    display: inline-block;
+    width:980px;
+
+    >div{
+        font-size: 14px;
+        margin-left: 30px;
+        border-bottom: 1px solid #eaeaea;
+        >b{
+            display: inline-block;
+            font-weight:normal;
+            margin-bottom: 16px;
+            margin-top: 15px;
+        } 
+        >p{
+            display: inline-block;
+            width: 885px;
+            margin:  0 0 20px 5px;   
+        }
+        >.b-font-size{
+            font-weight: bold;
+            font-size: 18px;
+            color: #333333;
+        }
+        >.p-color{
+            color: #ef7814;
+        }
+        >ul{
+            margin-top: 15px;
+            >li{
+                
+                font-size: 14px;
+                height: 50px;
+                >b{
+                    display: inline-block;
+                    width: 300px;
+                    font-weight: normal;
+                }
+                >i{
+                    display: inline-block;
+                    width: 100px;
+                    font-style: normal;
+                }
+                >div{
+                    display: inline-block;
+                    background: #f5f5f5;
+                    border:1px solid #ccc;
+                    margin: 0 5px;
+                    padding: 4px 15px;
+                    line-height: 20px;
+                }
+            }
+        }
+        >ul:first-child+ul{
+            border-bottom: 1px dashed #333;
+            >li{
+                width: 429px;
+            }
+            
+        }
+        >ul{
+            width:845px;
+            padding: 0px 0 10px 0;
+            >li{
+                vertical-align: middle;
+            }
+        }
+        >span{
+            display: inline-block;
+            padding: 0 0 10px 192px;
+            font-size: 14px;
+        }
+        >i{
+            display: inline-block;
+            width: 110px;
+            font-style: normal;
+        }
+        >.ipmort-input{
+            line-height: 20px;
+            width: 300px;
+        }
+        >select{
+            width:160px;
+            height: 20px;
+        }
+        >input{
+            width: 160px;
+            height: 20px;
+            margin-right: 10px;
+            background: #fff;
+        }
+         button{
+             width: 90px;
+            height: 30px;
+            border-radius: 3px;
+            background: #fff;
+            margin: 5px 0px 5px 0;
+        }
+        >.view-detail-picture{
+            width: 950px;
+            height: 300px;
+            border: 1px solid #333;
+            margin: 10px auto 20px;
+            >div{
+                width: 950px;
+                height: 300px;
+                
+            }
+        }
+    }
+    >div:first-child{
+            height: 40px;
+            line-height: 30px;
+            padding: 0 0 0 7px;
+            margin: 0 0 20px 25px;
+            border-bottom: 0;
+            >b{
+                border-bottom: 3px solid #f99a2e;
+            }
+        }
+    >div:first-child+div{
+        border-top: 0 ;
+        background: #eee;
+        padding:20px 0 4px 20px;
+        >b{
+            color: #eb6700;
+        }
+    }
+    >.no-border-bottom{
+        border: 0;
+        margin: 10px 0 10px 25px;
+
+    }
+}
+#factory-picture-show{
+    >div{
+        display: inline-block;
+        width: 120px;
+        height: 120px;
+        border: 1px solid #333;
+        margin: 10px;
+    }
+    >div:first-child{
+        display: inline-block;
+        width: 50px;
+        height: 100px;
+        border: 0;
+    }
+}
+#change-message-submit{
+    width: 150px;
+    height:50px;
+    border: 0;
+    color: #fff;
+    background: #eb6700;
+    background: -webkit-linear-gradient(left,#ee7413,#fa992e); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(left,#ee7413,#fa992e); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(left,#ee7413,#fa992e); /* Firefox 3.6 - 15 */
+    background: linear-gradient(left,#ee7413,#fa992e);
+    margin: 10px 10px 10px 35px;
+    font-size: 16px;
+}
+.center{
+    margin:auto
+}

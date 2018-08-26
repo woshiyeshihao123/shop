@@ -1,0 +1,181 @@
+#outborder{
+    width:1200px;
+    //  float: left;
+    // position: relative;
+    margin:0 auto; 
+}
+
+//去掉所有li的点
+li {
+    list-style: none
+}
+#newsAdmin.lf{
+    border-bottom:none;
+}
+//设置整个右下方div的大小
+#newsAdmin{
+    // border:1px solid blue;
+    // height:1500px;
+    width:960px;
+    margin-left:20px;
+    float:left;
+}
+//设置banner图管理的边框
+#bannerPhoto{
+    height:70px;
+    width:100%;
+}
+//设置banner图管理字体大小
+#bannerPhoto>a{
+    margin:20px 0px 5px 0px;
+    font-size:17px;
+    font-weight:bold;
+    color:black;
+    float:left;
+    padding-bottom:6px;
+    border-bottom:3px solid #f99a2e;
+}
+//注意事项
+#mattersAttention{
+    width:960px;
+    height:98px;
+    background: #f5f5f3;
+}
+#mattersAttention>a{
+    width:100%;
+    font-size:14px;
+    color:#f99a2e;
+    padding:18px 0px 20px 20px;
+    // margin-left:22px;
+    float:left;
+}
+.photoAttention>li{
+    font-size:14px;
+    color:#f99a2e;
+    padding:0px 50px 20px 20px;
+    // margin-left:18px;
+    float:left;
+}
+.filePicker,.webupload-update{
+    width:120px;
+    height:30px;
+    border:1px solid silver;
+    text-align:center;
+    color:silver;
+    margin-top:10px;
+}
+.webupload-delete,#has-delete{
+    font-size:15px;
+    border:1px solid silver;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    float: left;
+    margin-left: 120px;
+    margin-top: -32px;
+}
+#fileList1,#fileList2,#fileList3{
+    margin:20px 0px;
+    width:772px;
+    height:332px;
+    border:1px solid silver;
+}
+#ctlBtn{
+    font-size:21px;
+    width:202px;
+    height:52px;
+    text-align: center;
+    float:left;
+    margin-top:30px;
+    margin-bottom:20px;
+    color: white;
+    //    ie8下的按钮的背景颜色
+    // background: #f99a2e;
+    //    正常情况下游览器按钮的背景颜色
+        background: -webkit-gradient(linear, 0 0, 100% 0, from(#ED7515), to(#FB992F));  
+        background: -webkit-linear-gradient(left, #ED7515, #FB992F);  
+    　　background: -moz-linear-gradient(left, #ED7515, #FB992F);  
+    　　background: -o-linear-gradient(left, #ED7515, #FB992F);  
+    　　background: linear-gradient(left, #ED7515, #FB992F); 
+        filter: progid:DXImageTransform.Microsoft.gradient(GradientType = 1, startColorstr = #ED7515, endColorstr = #FB992F); 
+        background: -ms-linear-gradient(left, #ED7515, #FB992F);   
+    border:1px solid silver;
+}
+.over{
+    display:none;
+}
+.show{
+    display:block;
+}
+#bg{
+    width:100%;
+    height:100%;
+    filter:alpha(Opacity=80);
+    -moz-opacity:0.5;
+    opacity: 0.5;
+    background:rgba(0,0,0,0.5);
+    position:absolute;
+    z-index:2000;
+    top:0;
+    left:0;
+}
+#success>i{
+    background:url(../../../assets/img/photos/8-1/rightPrompt1.png)no-repeat;
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    margin-left:140px;
+    margin-top:40px;
+    background-position: 0px 0px;
+    z-index: 999999999999999;
+    left: 5px;
+    top: 4px;
+}
+#failed>i{
+    background:url(../../../assets/img/photos/8-1/errorPrompt.png)no-repeat;
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    margin-left:140px;
+    margin-top:40px;
+    background-position: 0px 0px;
+    z-index: 999999999999999;
+    left: 5px;
+    top: 4px;
+}
+#success,#failed{
+    float:left;
+    z-index:99999999;
+    height:210px;
+    width:350px;
+    // display:none;
+    position:fixed;
+    // margin-left:500px;
+    // margin-top:150px;
+    font-size:18px;
+    background:#fff;
+    top:30px;
+    left:0;
+    right:0;
+    margin:150px auto;
+    text-align: center;
+    line-height: 300px;
+    font-weight: bold;
+    box-shadow: 0px 0px 30px 3px gray;
+    border-radius: 5px;
+}
+.top-font{
+    margin-top:50px;
+
+>span{
+    font-size: 15px;
+   margin:10px 0px;
+   }
+}
+#fileList1{
+    >img{
+        width:770px;
+        height:330px;
+    }
+}

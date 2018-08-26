@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+  <title>客户留言</title>
+  <script src="../../../assets/js/jquery-1.9.1.min.js"></script>
+  <link rel="stylesheet" href="../../member-center/supply-manage/extend-css/extend.css">
+  <link rel="stylesheet" href="../../../assets/css/common.scss">
+  <link rel="stylesheet" href="./account-feedback.scss">
+  <link rel="stylesheet" href="../../member-center/dev-pages-personal-plugin/dev-pages-personal-plugin.scss">
+  <link rel="stylesheet" href="../../member-center/supply-manage/list-header/list-header.scss">
+  <link rel="stylesheet" href="../../member-center/supply-manage/list-left/list-left.scss">
+  <link rel="stylesheet" href="../../../common/footer-all/footer-all.scss">
+  <link rel="stylesheet" href="../../../widgets/index/nav/nav.scss">
+  <link rel="stylesheet" href="../../../pages/csl/chang-password/page-head/page-head.scss">
+  <style>
+      #footer{
+        clear: both;
+      }
+      #nav{
+      width:1200px;
+      margin:0 auto;
+    }
+   </style>
+</head>
+<body>
+    <link rel="import" href="../../../pages/csl/chang-password/page-head/page-head.html?__inline">
+    <div id="nav" >
+        <!-- 2、右：导航内容 -->
+        <ul class="lf">
+            <li>
+                <a href="#">首页</a>
+            </li>
+            <li>
+                <a href="#">供应信息</a>
+            </li>
+            <li>
+                <a href="#">求购信息</a>
+            </li>
+            <li>
+                <a href="#">公司库</a>
+            </li>
+            <li>
+                <a href="#">商业资讯</a>
+            </li>
+            <li>
+                <a href="#">展会信息</a>
+            </li>
+            <li>
+                <a href="#">企业信息</a>
+            </li>
+            <li>
+                <a href="#" class="active">会员中心</a>
+            </li>
+        </ul>
+    </div>
+    <div class="menber-center-list-header boxsizing">
+      <div class="menber-center-list-header-left">
+          <span><a href="javascript:void(0)">首页</a>&gt</span>
+          <span><a href="javascript:void(0)">会员中心</a> &gt</span>
+          <span><a href="javascript:void(0)">客户留言</a></span>
+          <div class="menber-center-list-header-right">
+              <b></b>
+              帮助中心
+          </div>
+      </div>
+  
+      
+  
+  </div>
+    <div id="outborder" style="width:1200px;">
+    <link rel="import" href="../../member-center/supply-manage/list-left/list-left.html?__inline">
+    
+  <div id="messages">
+      <b>客户留言</b>
+  </div>
+<div id="details">
+    <ul  id="J_List">
+      <li id="style1" style="border-bottom:0px ">
+          <span id="name">公司名称</span>
+          <span id="people">联系人</span>
+          <span id="lianxi">联系方式</span>
+          <span id="liuyan">留言内容</span>
+          <span id="date">提交日期</span>
+          <span id="six">操作</span>
+      </li>
+      <li id="style1">
+          <span id="name">牛奶礼盒</span>
+          <span id="people">小利</span>
+          <span id="lianxi">17600565592</span>
+          <span id="liuyan">我想加盟不知道都需要什么条件</span>
+          <span>2018-01-24 20:00</span>
+          <span href="#" style="color:#f99a2e" class="delete" id="six">删除</span>
+      </li>
+      <li id="style1">
+        <span id="name">牛奶礼盒</span>
+        <span id="people">小利</span>
+        <span id="lianxi">17600565592</span>
+        <span id="liuyan">我想加盟不知道都需要什么条件</span>
+        <span>2018-01-24 20:00</span>
+        <span href="#" style="color:#f99a2e" class="delete" id="six">删除</span>
+      </li>
+      <li id="style1">
+        <span id="name">牛奶礼盒</span>
+        <span id="people">小利</span>
+        <span id="lianxi">---</span>
+        <span id="liuyan">我想加盟不知道都需要什么条件</span>
+        <span>2018-01-24 20:00</span>
+        <span href="#" style="color:#f99a2e" class="delete" id="six">删除</span>
+      </li>
+      <li id="style1">
+        <span id="name">牛奶礼盒</span>
+        <span id="people">小利</span>
+        <span id="lianxi">---</span>
+        <span id="liuyan">我想加盟不知道都需要什么条件</span>
+        <span>2018-01-24 20:00</span>
+        <span href="#" style="color:#f99a2e" class="delete" id="six">删除</span>
+      </li>
+    </ul>
+    <div id="fenye">
+    <link rel="import" href="../../member-center/dev-pages-personal-plugin/dev-pages-personal-plugin.html?__inline">
+  </div>
+  </div>
+  </div>
+  <link rel="import" href="../../../common/footer-all/footer-all.html?__inline">
+<div id="alert-success1" class="no">
+    <div>
+        <div></div>
+        <p></p>
+        <button class="confirm">确定</button>
+        <button class="cancel">取消</button>
+    </div>  
+</div>
+  <script src="./account-feedback.js"></script>
+  <script src="../../member-center/dev-pages-personal-plugin/dev-pages-personal-plugin.ts"></script>
+  <script src="../../member-center/supply-manage/list-left/list-left.ts"></script>
+  <script src="../../member-center/supply-manage/list-header/list-header.ts"></script>
+  <script>
+     var dev = new initPages("dev-pages-p", 3, 5);
+  </script>
+</body>

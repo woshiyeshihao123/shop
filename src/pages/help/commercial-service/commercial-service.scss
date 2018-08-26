@@ -1,0 +1,290 @@
+.lt{float: left;}
+*{
+    margin:0;
+    padding:0;
+}
+i{
+    font-style:normal;
+}
+.rt{
+    float:right;
+}
+
+input,button,select{
+    border:0;
+i{font-style:normal;}
+}
+.header-box,.logo,.nav-box,.main,.where,.footer{
+    width:1200px;
+    margin:auto;
+}
+.header{
+   
+    width:100%;
+    height:40px;
+    background-color:#f5f5f5;
+    font-size:12px;
+    p{
+        line-height:40px;
+        float:left;
+        margin-right:30px;
+    }
+    a{
+        float:left;
+        line-height:40px;
+       i{
+           margin:0 10px;
+       }
+    }
+    i{
+        font-style:normal;
+    }
+    ul{
+        margin-right:0px;
+        li{
+            float:left;
+            line-height:40px;
+            margin-left:10px;
+        }
+    }
+}
+.nav {
+    
+    width:100%;
+    height:40px;
+     border-bottom: 2px solid#eb6700;
+    ul {
+        height: 40px;
+        li {
+            float: left;
+            width: 132px;
+            height:40px;
+            line-height:40px;
+            text-align:center;
+           
+        }
+    }
+}
+.active{
+    background-color:#eb6700;
+} 
+   .where-box{
+       height:30px;
+      width:100%;
+        background-color:#f7f6f4;
+       .where{
+          width:1200px; 
+           line-height:30px;
+           font-size:12px;
+           position: relative;
+    }
+}
+.two{
+    border-bottom: 1px dotted black;
+    width:1200px;
+    margin-top:20px;
+    height:900px;
+  }
+  .one{
+      height:700px;
+      border-bottom:1px dotted black;
+  }
+  .last{
+      border-bottom: none;
+  }
+.first{
+    width:500px;
+    position:relative;
+   .p{
+       position:absolute;
+       top:0;
+       left:400px;
+    color:#3e3e3e;
+    margin-top:25px;
+   font-size:14px;
+   }
+    margin-left:50px; overflow:hidden;/*超出长度的文字隐藏*/  
+            text-overflow:ellipsis;
+            h2{
+                font-size:20px;
+                width:250px;
+                 position: relative;
+                 margin:20px 0 25px 0px;
+                 i{
+                  display: block;
+                  width: 120px;
+                  height: 7px;
+                  background-color: #ffbe89;
+                  position: absolute;
+                  top: 5px;
+                  opacity: 0.5;
+                 }
+            
+         }
+         .last{
+            border-bottom: none;
+        }
+    li{
+        border-bottom: 1px dotted gray;
+         height:115px;
+       
+         
+        }
+        h3,p{
+            margin-top:15px;
+          }
+           
+        i{
+            display:block;
+            margin-top: 15px;
+            color:#ccc;
+        
+    }
+   
+}
+.second{
+    width:500px;
+    margin-left:50px;  
+    overflow:hidden;/*超出长度的文字隐藏*/  
+            text-overflow:ellipsis;/*文字隐藏以后添加省略号*/ 
+            h2{
+                font-size:20px;
+                
+                 position: relative;
+                 margin:20px 0 25px 0px;
+                 i{
+                  display: block;
+                  width: 40px;
+                  height: 7px;
+                  background-color: #ffbe89;
+                  position: absolute;
+                  top: 20px;
+                  opacity: 0.5;
+                 }
+            
+         }
+         .liang>a{
+             color:#ffbe89;
+         }
+         img{
+             margin-bottom:3px;
+             margin-right:2px;
+         }
+    .zong{
+             width:560px;height:250px;
+             background-color:black;
+         }
+
+    h3{
+        margin-top:20px;
+        font-weight: normal;
+    }
+    .last{
+        border-bottom: none;
+    }
+          li{
+        border-bottom: 1px dotted gray;
+        margin-top:10px;
+        height:50px;
+        line-height:50px;
+        a{
+            p{
+                float:left;
+            }
+            i{
+                float:right;
+            }
+        }
+        }
+        
+        h3,p{
+            margin-bottom:10px;
+           
+           
+        i{
+            margin-top: 15px;
+            color:#ccc;
+        }
+    }
+  
+}
+#third-two{
+    margin-left:150px;
+}
+.third{
+   
+    width:500px;
+    margin-left:50px;
+    overflow:hidden;/*超出长度的文字隐藏*/  
+    text-overflow:ellipsis;/*文字隐藏以后添加省略号*/ 
+    .p{
+        color:#3e3e3e;
+        margin-top:25px;
+       font-size:14px;
+    }
+    h2{
+        width:40px;
+        font-size:20px;
+        color:#333333;
+         position: relative;
+         margin:20px 0 25px 0px;
+         i{
+          display: block;
+          width: 40px;
+          height: 7px;
+          background-color: #ffbe89;
+          position: absolute;
+          top: 5px;
+          opacity: 0.5;
+         }
+         
+    
+ }
+    div{
+     
+        div{
+            width:250px;
+            position: relative;
+            button{
+                width:100px;
+                height:30px;
+                background-color: #f99b2d;
+                color:white;
+                line-height:30px;
+                position: absolute;
+                top:150px;
+            }
+        } 
+        img{
+            width:205px;
+            height:215px;
+            background-color: black;
+            margin-right:10px;
+            margin-bottom:20px;
+        }
+    }
+    .last{
+        border-bottom: none;
+    }
+   
+    
+    li{
+        border-bottom: 1px dotted gray;
+         height:115px;
+        
+        
+        }
+      
+        h3,p{
+            margin-top:20px;
+            color:#a4a4a4;
+           }
+        i{ 
+            display: block;
+            margin-top: 15px;
+            color:#ccc;
+        
+    }
+   
+}
+

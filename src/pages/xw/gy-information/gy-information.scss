@@ -1,0 +1,87 @@
+#main{
+   margin-top:5px;
+   
+}
+#main-big>#main-big-nav{
+ background: #f7f6f4;
+  height: 30px;
+line-height: 30px;
+}
+#main-big>#main-big-nav>p{
+   width: 1200px;
+   margin:0 auto;
+  
+}
+#date>span{
+    font-size: 14px;
+    color: #333;
+    margin-right: 10px;
+}
+#date>select{
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 0px;
+    margin-right: 10px;
+    border: 1px solid #cecece;      
+    font-size: 14px;
+    width: 120px;
+   text-align: center;  
+   height: 38px; 
+}
+#date>select>option{
+    color: #333;  
+
+}
+#date>a{
+    height: 38px;
+    width:120px;
+    display: inline-block;
+    text-align: center;
+    line-height: 38px;
+    font-size: 14px;
+    background: #ef7913;
+    color: #fff;
+}
+#main-body-text{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    width: 120px;
+}
+#main-body-text>hr{
+   border: none;
+   border-top:8px solid #ef7913;
+   margin-top:-10px;
+}
+#main-body-list{
+    border: 1px solid  #cecece;
+    margin-top:20px;
+    height: 464px;
+    width: 1202px;
+    margin-bottom:50px;
+}
+#main-body-list>p{
+    font-size: 16px;
+    color: #333;
+    background: #f7f6f4;
+    border-bottom:1px #cecece;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+}
+#main-body-list>ul{
+    width: 250px;
+    float: left;
+    margin-top:20px;
+    margin-left: 50px;
+    
+}
+#main-body-list>ul> li{
+    margin-bottom: 24px;
+    font-size: 14px;
+    color: #333
+}
+#1{
+    width:1200px ;
+     height:63px;
+ border:1px solid #111}

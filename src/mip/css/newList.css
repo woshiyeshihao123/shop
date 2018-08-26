@@ -1,0 +1,280 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.rg {
+  float: right;
+}
+
+.lf {
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+ul {
+  list-style: none;
+}
+
+.none {
+  display: none;
+}
+
+.header {
+  background-color: #fff;
+  border-bottom: solid 1px #ebebed;
+  height: 80px;
+  width: 100%;
+  z-index: 12;
+}
+
+.header .deploy-contact {
+  float: left;
+  z-index: 999;
+  background-image: url("../../assets/img/photos/login-register/logo.png");
+  background-size: 144px 50px;
+  background-repeat: no-repeat;
+  /* background-position:12px 18px; */
+  width: 144px;
+  height: 50px;
+  margin: 14px 30px;
+}
+
+.header .deploy-sidebar {
+  float: right;
+  z-index: 999;
+  background-image: url("../img/index/drawable-xhdpi/navigation-classify.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* background-position:15px 19px; */
+  width: 44px;
+  height: 44px;
+  display: block;
+  margin: 22px 30px;
+}
+
+.header-box {
+  position: absolute;
+  width: 100%;
+  height: 750px;
+  background: #fff;
+  z-index: 99;
+}
+
+.header-box ul li {
+  float: left;
+  margin: 50px 0 50px 90px;
+  text-align: center;
+  width: 130px;
+}
+
+.header-box ul li .text {
+  margin-top: 20px;
+  display: block;
+  font-size: 26px;
+}
+
+.bei {
+  background: #f60;
+  color: #fff;
+}
+
+.bei-1 {
+  color: #ef7714;
+}
+
+nav {
+  padding: 30px;
+  position: relative;
+  border-bottom: 2px solid #f4f4f4;
+}
+
+nav .toushu {
+  float: right;
+  margin-top: 52px;
+  border: 1px solid #ef7714;
+  border-radius: 20px;
+  width: 110px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 26px;
+}
+
+nav b {
+  font-size: 32px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+nav .img {
+  float: left;
+  font-size: 26px;
+  color: #333;
+  margin-left: 30px;
+}
+
+nav .img span {
+  float: right;
+  margin-top: 5px;
+}
+
+nav p {
+  float: left;
+  font-size: 28px;
+  color: #666;
+}
+
+.index-list {
+  width: 693px;
+  margin: 30px 30px 0px 30px;
+}
+
+.index-list li {
+  float: left;
+  width: 100px;
+  height: 103px;
+  text-align: center;
+  margin-right: 47px;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+
+.index-list li a {
+  display: inline-block;
+  text-align:center;
+}
+
+.index-list li a span {
+  width:100px;
+  display: inline-block;
+  margin-top: 20px;
+}
+.chang {
+  color: #ef7714;
+}
+
+.index-list li > a.chang > img {
+  margin-top: 0;
+}
+
+.index-list li > a.chang > span {
+  margin-top: 0;
+}
+
+.jiege {
+  width: 100%;
+  height: 10px;
+  background: #f4f4f4;
+}
+
+.container .container-head {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 30px;
+}
+
+.container .container-head i {
+  width: 5px;
+  height: 25px;
+  background: #ef7714;
+  margin: 10px 20px 0 0;
+}
+
+.container .main {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.container .main li {
+  width: 100%;
+  border-top: 2px solid #f4f4f4;
+}
+
+.container .main li p {
+  width: 690px;
+  margin: 0 30px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.container .main li .main-title {
+  font-size: 32px;
+  margin-top: 30px;
+}
+
+.container .main li .main-time {
+  font-size: 28px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 51px;
+}
+
+.container .main li .main-time a {
+  color: #f60;
+}
+
+.container .main li .main-time b {
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: url("../img/index/drawable-xhdpi/exhibition-date.png");
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.container .main li .main-detail {
+  font-size: 22px;
+}
+
+.container .main li .main-detail a {
+  color: #666;
+}
+
+.footer {
+  width: 100%;
+  background: #f4f4f4;
+}
+
+.footer button {
+  font-size: 30px;
+  width: 24.5%;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  margin: 0;
+  background: none;
+  border: 0;
+  padding: 0;
+}
+
+.complain-box {
+  position: absolute;
+  width: 100%;
+  z-index: 200;
+  top: 80px;
+  background-color: rgba(0, 0, 0, 0.4);
+}

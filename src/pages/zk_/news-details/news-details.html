@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>新闻详情</title>
+  <script src="../../../assets/js/jquery-1.9.1.min.js"></script>
+  <script src="../../../assets/js/kindeditor/kindeditor-all-min.js"></script>
+  <script src="../../../assets/js/kindeditor/lang/zh-CN.js"></script>
+  <link rel="stylesheet" type="text/css" href="../../../assets/js/kindeditor/themes/default/default.css">
+  <link rel="stylesheet" type="text/css" href="./news-details.scss">
+  <link rel="stylesheet" href="../../member-center/supply-manage/extend-css/extend.css">
+  <link rel="stylesheet" href="../../../assets/css/common.scss">
+  <link rel="stylesheet" href="../../member-center/supply-manage/list-header/list-header.scss"> 
+  <link rel="stylesheet" href="../../member-center/supply-manage/list-left/list-left.scss"> 
+  <link rel="stylesheet" href="../../../common/footer-all/footer-all.scss">
+  <link rel="stylesheet" href="../../../widgets/index/nav/nav.scss">
+  <link rel="stylesheet" href="../../../pages/csl/chang-password/page-head/page-head.scss">
+  <style>
+      #footer{
+        clear:both;
+        margin-top: 60%;
+      }
+      #nav{
+      width:1200px;
+      margin:0 auto;
+    }
+    </style>
+</head>
+<body>
+    <link rel="import" href="../../../pages/csl/chang-password/page-head/page-head.html?__inline">
+    
+<div id="nav" >
+    <!-- 2、右：导航内容 -->
+    <ul class="lf">
+        <li>
+        <a href="#">首页</a>
+        </li>
+        <li>
+            <a href="#">供应信息</a>
+        </li>
+        <li>
+            <a href="#">求购信息</a>
+        </li>
+        <li>
+            <a href="#">公司库</a>
+        </li>
+        <li>
+            <a href="#">商业资讯</a>
+        </li>
+        <li>
+            <a href="#">展会信息</a>
+        </li>
+        <li>
+            <a href="#">企业信息</a>
+        </li>
+        <li>
+            <a href="#" class="active">会员中心</a>
+        </li>
+    </ul>
+</div>
+
+    <div class="menber-center-list-header boxsizing">
+      <div class="menber-center-list-header-left">
+          <span><a href="javascript:void(0)">首页</a>&gt</span>
+          <span><a href="javascript:void(0)">会员中心</a> &gt</span>
+          <span><a href="javascript:void(0)">查看新闻详情</a></span>
+          <div class="menber-center-list-header-right">
+              <b></b>
+              帮助中心
+          </div>
+      </div>
+  </div>
+<div id="outborder" style="width:1200px">
+  <link rel="import" href="../../member-center/supply-manage/list-left/list-left.html?__inline">
+  <div id="newsAdmin" class="lf">
+    <!-- 设置发布新闻动态的框 -->
+    <div id="amendNews">
+      <a>新闻详情</a> 
+    </div>
+    <!-- 设置注意事项框 -->
+    <div id="mattersAttention">
+      <a>注意事项:</a>
+      <ul class="newsAttention">
+        <li>1、严禁使用“极限词”例如:最、第一、一流等，否则会被删除</li>
+        <li>2、严禁使用“功效词”例如:治疗、降血压、增高等，否则会被删除</li>
+        <li>3、严禁虚假和夸大宣传，否则会被删除</li>
+      </ul>
+    </div>
+    <!-- 标题框 -->
+    <div id="titleRequired">
+        <span>标题 : </span>
+        <span>XXXXX新闻标题</span>
+        <!-- <span style="color:red;">必填</span> -->
+        <!-- <b>内容含有非法关键字，请重新填写</b> -->
+    </div>
+    <div id="detailsRequired">
+      <span>详情 : </span>
+      <!-- <span style="color:red;">必填</span> -->
+    </div>
+    <!-- <div id="threeTips">
+      <ul>
+        <li>(1)严重声明：详细内容中不可以带“网址”和“链接”，如果违反直接删除账号，恕不通知！</li>
+        <li>(2)内容尽可能详细和原创，以提高信息的可信度，促使您做成生意；</li>
+        <li>(3)请注意:多产品用同一内容介绍系统则自动删除您的帐号，请为不同产品配上不同内容介绍。</li>
+      </ul>
+      
+    </div> -->
+    <div id="photoEdit">
+        <div style="height:500px;border: 1px solid #cecece;">
+      </div>
+      <button id="return">返回</button>
+    <script src="./news-details.js"></script>
+    <script src="../../member-center/supply-manage/list-left/list-left.ts"></script>
+    <script src="../../member-center/supply-manage/list-header/list-header.ts"></script>
+    <script src="../../csl/chang-password/page-head/page-head.ts"></script>
+  </div>
+  </div>
+  </div>
+    </body>
+    <link rel="import" href="../../../common/footer-all/footer-all.html?__inline">
+    </html>

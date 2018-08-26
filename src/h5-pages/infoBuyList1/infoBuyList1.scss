@@ -1,0 +1,300 @@
+body{
+    width:750px;
+    position: none;
+    margin:0;
+    padding: 0px;
+}
+.main{
+    height: auto;
+}
+ul,li,a,p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-size:26px;
+.clear{
+    clear:both;
+}
+}
+.nav{
+    background-color:#f4f4f4;
+    width:100%;
+    height:70px;
+}
+.nav p{
+   width:690px;
+   display: inline-block;   
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin:0 30px;
+}
+.nav a{ 
+    font-size:26px;
+    color:#333;
+    text-decoration:none;
+    font-style: normal;
+    line-height:70px;
+
+}
+.nav span{
+    font-size:26px;
+    color:#fe6e0d;
+    margin:0 10px;
+}
+.navtwo{
+    width: 690px;
+    margin-left:30px;
+    margin-top:20px;
+    button{
+        width: 210px;
+        height: 60px;
+        color: #333;
+        background-color: #fff;
+        margin-left:15px;
+        margin-top:10px;
+        line-height: 60px;
+        text-align: center;
+        border-radius: 6px;
+        border:1px solid #e3e3e3;
+        position: relative;  
+        font-size: 26px;     
+    }
+    button:hover{
+        border:1px dashed #ef7714;
+        border-radius: 6px;
+        b{
+            display: inline-block;
+            width: 26px;
+            height: 26px;
+            position: absolute;
+            top:0px;
+            right: 0px;
+            background:url('../../h5-assets/img/info/drawable-xhdpi/selected.png') no-repeat;
+        }
+    }
+    .nav-select{
+        width: 100%;
+        margin-top:50px;
+        position: relative;
+        span{
+            font-size: 30px;
+            margin-left:30px;
+            color: #333;
+        }
+        p{
+            display: inline-block;
+            font-size: 30px;
+            margin-right:30px;
+            color: #666;
+            float: right;
+            b{
+                display: inline-block;
+                width: 44px;
+                height: 44px;
+                margin-left:20px;
+                background:url('../../h5-assets/img/info/drawable-xhdpi/choose-right.png') no-repeat;
+               position: absolute;
+               top:0px;
+               right:-8px;
+            }
+        }
+    }
+}
+
+#enterprise {
+    width: 750px;
+    .daily-one {
+        margin: 30px;
+        height: 35px;
+        .companies {
+            width: 375px;
+            ;
+            height: 50px;
+            line-height: 50px;
+            i {
+                width: 4px;
+                height: 23px;
+                background-color: #ef7714;
+                margin-right: 20px;
+                float: left;
+                position: relative;
+                top: 14px;
+                left: 0;
+            }
+            .daily-two {
+                font-size: 32px;
+                font-weight: bold;
+                color: #333333;
+            }
+        }
+    }
+    .directories {
+
+        .company-list {
+            width: 750px;
+            margin-top: 30px;
+            margin-bottom: 35px;
+            .company-detail {
+                width: 690px;
+                margin-left: 30px;
+                img {
+                    width: 170px;
+                    height: 170px;
+                    margin-right: 30px;
+                    margin-left: 20px;
+                    float: left;
+                    margin-bottom: 30px;
+                }
+               
+                ul {
+                    width: 70%;
+                    margin-left: 200px;
+                    li {
+                        width:500px; 
+                        color: #666;
+                        p {                           
+                            font-family: Arial, Helvetica, sans-serif;
+                           a {
+                             font-size: 32px;
+                             color: #333; 
+                            }
+                        }
+                    }
+                    .company-name {
+                        p {
+                            font-size: 32px;
+                            color: #333333;
+                            font-family: Arial, Helvetica, sans-serif;
+                        }
+                    }
+                    .telephone {
+                        margin-top: -8px;
+                        margin-bottom: 7px;
+                        position: relative;
+                      a{
+                          color: #999;
+                        b{
+                            display: inline-block;
+                            width: 44px;
+                            height: 44px;
+                            position: relative;
+                            top:15px;
+                            left:-10px;
+                            background: url('../../h5-assets/img/index/drawable-xhdpi/location2.png') no-repeat;
+                        }
+                    }
+                        i{
+                            display: inline-block;
+                            width: 68px;
+                            height: 68px;
+                            background: url('../../h5-assets/img/index/drawable-xhdpi/tel.png') no-repeat;
+                            position: absolute;
+                            top:-5px;
+                            right: 0px;
+                        }
+                    }
+                }
+            }
+            .company-main {
+                font-size: 28px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: #666666;
+            }
+        }
+    }
+}
+footer{
+    height: 80px;
+    background: #f9f9f9;
+    padding: 0 30px;
+    width: 690px;
+    position:absolute;
+    >a{
+        width: 160px;
+        line-height: 80px;
+        text-align: center;
+        display: inline-block;
+        color: #000;
+    }
+}
+// 电话弹窗css
+//  关于点击的模态框的弹出scss
+#bg{
+    width:750px;
+    height:1900px;
+    filter:alpha(Opacity=80);
+    -moz-opacity:0.5;
+    opacity: 0.5;
+    // background-color:#f4f4f4; 
+    background: rgba(0,0,0,0.5);
+    position:absolute;
+    z-index:2000;
+    top:0;
+    left:0;
+    right: 0;
+    margin: 0 auto;
+  }
+  #call-people{
+    position:fixed; 
+    width:600px;
+    height:400px;
+    background:white; 
+    // position:absolute;
+    z-index:9999;
+    top:250px;
+    // left:center;
+    left:0;
+    right: 0;
+    margin: 0 auto;
+    border-radius:10px;
+    >img{
+        float:left;
+        margin:70px 10px 10px 70px;
+    }
+    >span{
+        font-size:44px;
+        color:#ef7714;
+        font-weight:bold;
+        float:left;
+        margin:120px 0px 10px 15px;
+    }
+    >p{
+        font-size:26px;
+        color:#999999;
+        float:left;
+        margin:20px 0px 10px 100px;
+    }
+    >button:nth-child(4){
+        width:250px;
+        height:70px;
+        border-radius:6px;
+        background:#ef7714;
+        color:#ffffff;
+        font-size:32px;
+        border:0;
+        margin:50px 40px 30px 40px;
+    }
+    >button:nth-child(5){
+        width:250px;
+        height:70px;
+        border-radius:6px;
+        background:#f4f4f4;
+        color:#666666;
+        font-size:32px;
+        border:0;
+    }
+  }
+
+
+  .disappear{
+    display:none;
+  }
+  .show{
+    display:block;
+  }
+
+  .directories>ul>li{
+      border-top:1px solid #ccc;
+  }

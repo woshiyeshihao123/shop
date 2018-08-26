@@ -1,0 +1,478 @@
+body {
+    
+    width: 750px;
+}
+p, span, li, ul, a, hr {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+h1, h2, h3, h4, th {
+    font-weight: normal;
+    font-size: 12px
+}
+.division {
+    width: 100%;
+    height: 10px;
+    background: #f4f4f4;
+    clear: both;
+}
+.header {
+    background-color: #FFFFFF;
+    display: block;
+    width: 100%;
+    height: 80px;
+}
+.biaoti{
+    padding: 30px 40px;
+    position: relative;
+    border-bottom: 2px solid #f4f4f4;
+    .toushu{
+        float: right;
+        margin-top: 52px;
+        border: 1px solid #ef7714;
+        border-radius: 20px;
+        color: #ef7714;
+        display: block;
+        width: 110px;
+        text-align: center;
+        line-height: 40px;
+        font-size:24px;
+        
+
+    }
+    >b{font-size: 32px;margin-right: 70px;margin-bottom: 15px;display: inline-block;}
+    .gode{position: absolute;top:32px;left:450px;}
+}
+
+.deploy-contact {
+    float: left;
+    background-image: url("../../assets/img/photos/login-register/logo.png");
+    background-repeat: no-repeat;
+    width: 144px;
+    height: 50px;
+    margin: 15px 30px;
+}
+.deploy-sidebar {
+    float: right;
+    background-image: url("../../h5-assets/img/index/drawable-xhdpi/navigation-classify.png");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 15px 20px;
+}
+
+.section {
+    width: 750px;
+    margin: 0 auto;
+    .section-top {
+        padding: 20px 30px;
+        font-size: 30px;
+        border-bottom: 1px solid #f4f4f4;
+        >span {
+            display: inline-block;
+            border-left: 5px solid #ff6600;
+            height: 22px;
+            font-size:30px;
+        }
+        >b {
+            padding-left: 12px;
+            display: inline-block;
+        }
+    }
+}
+.main {
+    font-size: 28px;
+    color: #333;
+    margin:10px 30px;
+    >li {
+        margin-bottom: 10px;
+       color:#666666;
+        font-size:28px;
+        >span {
+            float: right;
+            padding-right: 30px;
+        }
+    }
+}
+.section-table1 {
+    border: 1px solid #888;
+    margin: 20px auto;
+    th {
+        background: #e4e4e4;
+        font-size: 26px;
+        width: 165px;
+        padding: 15px 0;
+        border: 1px solid #888;
+    }
+    td {
+        width: 165px;
+        font-size: 22px;
+        text-align: center;
+        vertical-align: middle;
+        border: 1px solid #888;
+        padding: 20px 0;
+        font-weight: 500;
+        color:#666666;
+    }
+}
+.section-table2 {
+    width: 680px;
+    border: 1px solid #888;
+    margin: 20px auto;
+    th {
+        background: #e4e4e4;
+        font-size: 26px;
+        width: 165px;
+        padding: 15px 0;
+        border: 1px solid #888;
+    }
+    td {
+        width: 165px;
+        font-size: 22px;
+        text-align: center;
+        vertical-align: middle;
+        border: 1px solid #888;
+        padding: 20px 0;
+        font-weight: 500;
+        color:#666666;
+    }
+}
+.section-ul {
+    width: 690px;
+    margin: 0 auto;
+    font-size: 26px;
+    color: #333;
+    span {
+        float: right;
+    }
+}
+.section-ul li{
+    font-size:28px;
+    color:#8c8c8c;
+}
+footer {
+    height: 100px;
+    background: #f9f9f9;
+    padding: 0 30px;
+    // position: absolute;
+    // bottom: -100px;
+    >a {
+        width: 160px;
+        line-height: 100px;
+        text-align: center;
+        display: inline-block;
+        color: #000;
+        font-size:28px;
+        color:#666666;
+    }
+}
+.footer-end{
+    height:80px;
+    font-size:32px;
+    width:750px;
+    position:fixed;
+   bottom:0px;
+    background:#fff;
+    div{
+       float:left;
+        width:249px;
+        height:80px;
+        border-top:1px solid #ccc;
+        border-right:1px  solid #ccc;
+        a{  display: block;
+            height:50px;
+            margin:15px auto;
+        }
+        a:active{
+            color:#f60;
+        }
+        b{
+          float:left;
+          width:44px;
+          height:44px;
+          margin:5px 0 0 35px;
+           }
+           span{
+            float:left;
+            height:44px;
+            margin:8px 0 0 5px;
+           }
+      .one{
+          margin-left:60px;
+          background:url("../../h5-assets/img/dianpu/jin.png");
+      }
+      .two{
+        background:url("../../h5-assets/img/dianpu/tel.png");
+    }
+    .three{
+        background:url("../../h5-assets/img/dianpu/QQ.png");
+    }
+        }
+      
+    
+}
+
+//  关于点击的模态框的弹出scss
+#bg{
+    width:750px;
+    height:2511px;
+    filter:alpha(Opacity=80);
+    -moz-opacity:0.5;
+    opacity: 0.5;
+    background:rgba(0,0,0,0.5);
+    position:absolute;
+    z-index:2000;
+    top:0;
+    left:0;
+}
+#call-people{
+    position:fixed; 
+    width:600px;
+    height:400px;
+    background:white; 
+    // position:absolute;
+    z-index:9999;
+    top:150px;
+    // left:center;
+    left:0;
+    right: 0;
+    margin: 0 auto;
+    border-radius:10px;
+    >img{
+        float:left;
+        margin:70px 10px 10px 70px;
+    }
+    >span{
+        font-size:44px;
+        color:#ef7714;
+        font-weight:bold;
+        float:left;
+        margin:120px 0px 10px 15px;
+    }
+    >p{
+        font-size:26px;
+        color:#999999;
+        float:left;
+        margin:20px 0px 10px 100px;
+    }
+    >button:nth-child(4){
+        width:250px;
+        height:70px;
+        border-radius:6px;
+        background:#ef7714;
+        color:#ffffff;
+        font-size:32px;
+        border:0;
+        margin:50px 40px 30px 40px;
+        float:left;
+    }
+    >button:nth-child(5){
+        width:250px;
+        height:70px;
+        border-radius:6px;
+        background:#f4f4f4;
+        color:#666666;
+        font-size:32px;
+        border:0;
+        float:left;
+        margin-top:50px;
+    }
+}
+#icon-nav {
+    margin-top: 20px;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 10px solid #f7f7f7;
+    margin-bottom: 20px;
+}
+div.nav-height {
+    height: 180px;
+}
+ul.icon-nav {
+    margin: 0 auto;
+    width: 710px;
+}
+ul.icon-nav>li {
+    float: left;
+    width: 140px;
+    height: 135px;
+    margin: 15px auto;
+    
+    /* // line-height:60px; */
+}
+ul.icon-nav>li>div {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    line-height: 60px;
+}
+ul.icon-nav>li>p {
+    display: block;
+    margin-top: 20px;
+    font-size: 24px;
+    color:#666666;
+}
+li.active-icon>p {
+    color: #ef7714;
+    font-size: 24px;
+}
+.none {
+    display: none;
+}
+.complain-box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 200;
+    top: 190px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+nav p {
+    font-size: 28px;
+}
+nav {
+    padding: 0px 30px 20px 30px;
+    position: relative;
+    .toushu {
+        float: right;
+        margin-top: 20px;
+        border: 1px solid #ff6600;
+        border-radius: 20px;
+        color: #ff6600;
+        display: block;
+        width: 110px;
+        text-align: center;
+        line-height: 40px;
+    }
+    >h1 {
+        font-size: 32px;
+        margin-right: 70px;
+        margin-bottom: 15px;
+        color: #666666;
+        position: absolute;
+        left:30px;
+    }
+    .gode {
+        position: absolute;
+        top: 0px;
+        left: 500px;
+    }
+}
+nav span {
+    position: absolute;
+    left: 550px;
+    top: 5px;
+    color: #666666;
+    font-size: 28px;
+}
+
+div.store-name{
+    margin-top:30px;
+    border-bottom: 3px solid #f7f7f7;
+}
+div.store-name>img{
+    width:44px;
+    height:44px;
+}
+span.comp-name{
+    font-size: 32px;
+    color:#333;
+    margin-left:30px;
+}
+span.gold-de{
+    font-size: 26px;
+    color:#666;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+div.store-name>img{
+    margin-left:30px;
+}
+div.store-name>div{
+    font-size:28px;
+    margin-top:10px;
+    margin-left:30px;
+    margin-bottom: 30px;
+    color:#666;
+}
+div.store-name>div>span{
+    color:#333;
+}
+div.com-plaints{
+    width:110px;
+    height:40px;
+    line-height:40px;
+    background:#ea6700;
+    font-size: 24px;
+    color:white;
+    border-radius: 20px;
+    text-align: center;
+    margin-right:30px;
+}
+.store-name .com-plaints{
+    background-color:white;
+    border:1px solid #ea6700;
+    span{
+        color:#ea6700;
+    } 
+}
+
+// 查看更多
+.black-cloth{
+    width:750px;
+    height:100%;
+    position: fixed;
+    top:0px;
+    background: black;
+    opacity: 0.5;
+    z-index: 100;
+}
+.main-box {
+    position: absolute;
+    top:680px;
+    z-index: 200;
+    background: white;
+    border-radius:20px ;
+    
+    color: #333;
+    margin:20px 40px;
+    width:660px;
+    
+    padding:20px 30px;
+    >li {
+        
+        margin-bottom: 20px;
+       color:#666666;
+       font-size: 30px;
+        width:600px;
+    }
+}
+.none{
+    display: none;
+}
+
+
+// 查看更多2
+.section-ul2 {
+    position: absolute;
+    top:1500px;
+    z-index: 200;
+    background: white;
+    border-radius: 20px;
+    width: 660px;
+    margin:40px;
+    padding:30px;
+    font-size: 26px;
+    color: #333;
+    span {
+        float: right;
+    }
+}
+.section-ul2 li{
+    padding:10px 0px;
+    font-size:28px;
+    color:#8c8c8c;
+}

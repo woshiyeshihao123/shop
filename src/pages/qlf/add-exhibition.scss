@@ -1,0 +1,381 @@
+#outborder{
+    width:1200px;
+    // float: left;
+    // position: relative;
+    margin:0 auto; 
+}
+#card{
+    margin-left:30px;
+    margin-top:10px;
+    height:50px;
+    width:950px;
+    
+    float:left;
+    
+    >div{
+        position: relative;
+        background-color: #ffbe89;
+        height: 8px;
+        width: 120px;
+        top:40px;
+        z-index: -1;
+    }
+}
+#card>b{
+    
+    margin-top:8px;
+    font-size: 30px;
+    float:left;
+    
+}
+
+#details{
+    margin-left:30px;
+    width:950px;
+   
+    float:left;
+}
+#attention{
+    background-color: #f7f6f4;
+    width:950px;
+    height:150px;
+}
+#attention>p{
+    font-size: 13px;
+    padding:18px 0px 0px 20px;
+    color: #eb6700;
+}
+#idcard{
+    width:950px;
+    height:330px;
+    border-bottom:1px solid silver;
+}
+#idcard>ul>li{
+    height:50px;
+}
+#idcard>ul>li>input{
+    width:420px;
+    height:35px;
+}
+#idcard>ul>li>span{
+    display: inline-block;
+    width:110px;
+    
+}
+.dizhi{
+    width:424px;
+    height:35px;
+}
+
+#idcard>ul>li>span{
+    padding:15px 0px 0px 0px;
+    color:black;
+    font-size: 13px;
+}
+
+
+#positive{
+    border:1px solid black;
+    width: 420px;
+    height:240px;
+    margin-left:80px;
+    margin-top:10px;
+}
+#positive>img{
+    margin-top:30px;
+    margin-left:70px;
+}
+#photo-style1{
+    margin-left:160px;
+    width:450px;
+    float: left;
+}
+#photo-style2{
+    float: left;
+}
+#photo-style1>button{
+    width:120px;
+    height:30px;
+    background-color: white;
+    border: 1px solid gray;
+    margin-top: 20px;
+    margin-right:20px;
+}
+#photo-style2>button{
+    width:120px;
+    height:30px;
+    background-color: white;
+    border: 1px solid gray;
+    margin-top: 20px;
+    margin-right:20px;
+}
+#id-style>span{
+    font-size:13px;
+    color:black;
+    margin: 10px 0px 10px 80px;
+}
+
+#hand{
+    border: 1px solid black;
+    height:240px;
+    width:420px;
+    margin-left:530px;
+    margin-top:-6px;
+    
+}
+#business-licence{
+    margin-top:10px;
+    height:10px;
+    width:950px;
+    background-color: white;
+    
+}
+
+#company{
+    width:950px;
+    height:240px;
+    border-bottom: 1px solid silver;
+}
+#company>ul>li{
+    width:950px;
+    height:50px;
+    float: left;
+}
+#company>ul>li>span{
+    padding: 20px 0px 20px 0;
+    color:black;
+    font-size: 13px;
+    width:110px;
+    display: inline-block;
+}
+
+#company>ul>li>input{
+    width: 420px;
+    height:35px;
+}
+#yingyeqixian{
+    display: inline-block;
+    margin-left:-9px;
+    margin-bottom:-14px;
+}
+.calendar-line{
+    position: relative;
+}
+.calendar-input{
+    position: relative;
+    float: left;
+    margin: 0px 9px;
+    height: 35px !important;
+    border: 1px solid silver;
+    line-height: 35px;
+    padding-left: 5px;
+    padding-right: 32px;
+    width: 158px !important;
+    background: url("../../assets/img/photos/8-1/calendar1.png")no-repeat 170px center;
+}
+.calendar-inputtwo{
+    position: relative;
+    float: left;
+    margin: 0px 9px;
+    height: 35px !important;
+    border: 1px solid silver;
+    line-height: 35px;
+    padding-left: 5px;
+    padding-right: 32px;
+    width: 386px !important;
+    background: url("../../assets/img/photos/8-1/calendar1.png")no-repeat 398px center;
+}
+#licence{
+    width:420px;
+    height:240px;
+    border: 1px solid silver;
+    margin-left:100px;
+    margin-top: 10px;
+}
+#licence>p{
+    text-align: center;
+    line-height: 240px;
+}
+#yingyezhizhao{
+    width:420px;
+    margin-left: 100px;
+}
+#yingyezhizhao>button{
+    width:120px;
+    height:30px;
+    border:1px solid silver;
+    background-color: white;
+    margin: 20px 20px 0px 0px;
+}
+#logo{
+    
+    height:20px;
+    width:950px;
+}
+
+#logo-photo{
+    width:950px;
+    
+}
+#logo-photo>ul>li{
+    width:950px;
+    height:50px;
+    float: left;
+    
+}
+#logo-photo>ul>li>input{
+    width:840px;
+    height: 35px;
+}
+#logo-photo>ul>li>span{
+    padding:15px 0px 0px 0px;
+    color:black;
+    font-size: 13px;
+    width:100px;
+    display: inline-block;
+}
+.jieshao{
+    color:black;
+    font-size: 13px;
+    
+    display: inline-block;
+    margin-top:20px;
+    margin-left:px;
+}
+
+.photoEdit>div{
+    border:1px solid gray;
+    background-color: white;
+    width:960px;
+    height:250px;
+    margin: 20px 100px 0px 0px;
+    float: left;
+    >p{
+        font-size:16px;
+        color:silver;
+        margin:10px;
+    }
+}
+#up-logo{
+    width:420px;
+    height:240px;
+    border: 1px solid silver;
+    margin-left:104px;
+    margin-top:-20px;
+}
+#up-logo>p{
+    color: black;
+    font-size: 13px;
+    text-align: center;
+    line-height: 200px;
+}
+#logo-style{
+    width:420px;
+    margin-left: 100px;
+}
+#logo-style>button{
+    width:120px;
+    height:30px;
+    border:1px solid silver;
+    background-color: white;
+    margin: 20px 20px 0px 4px;
+}
+#xinxi{
+    width:950px;
+    font-size: 13px;
+    
+}
+#xinxi>ul>li{
+    height:50px;
+}
+#xinxi>ul>li>input{
+    width:420px;
+    height:35px;
+}
+#xinxi>ul>li>span{
+    display: inline-block;
+    width:110px;
+    color:black;
+    
+}
+
+#details>button{
+    width:200px;
+    height:50px;
+    margin:30px 0;
+    border:0px;
+    background-color: #eb6700;
+    color: white;
+    font-size:18px;
+}
+#change-message-submit{
+    width:200px;
+    height:50px;
+    margin:30px 0;
+    border:0px;
+    background-color: #eb6700;
+    color: white;
+    font-size:18px;
+    float: left;
+    position: relative;
+   
+}
+
+#alert-success{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 10;
+    background:rgba(0, 0, 0,0.5);
+    >div{
+        position: absolute;
+        float: left;
+        left: 0;
+        right: 0;
+        top: 250px;
+        margin: 0 auto;
+        display: inline-block;
+        width: 350px;
+        height: 210px;
+        border: 1px solid #eaeaea;
+        border-radius: 5px;
+        text-align: center;
+        vertical-align: middle;
+        box-shadow: 0px 0px 30px 3px black;
+        background: #fff;
+        z-index: 10;
+        >p{
+            display: block;
+            font-size: 18px;
+            margin-top: 0px;
+            font-weight: bold;
+        }
+        >div{
+            width: 348px;
+            height: 100px;
+        }
+        >div.right{
+            background: url("../../assets/img/photos/8-1/rightPrompt1.png") no-repeat center 20px;
+            margin-top:30px;
+        }
+        >div.erro{
+            background: url("../../assets/img/photos/8-1/errorPrompt.png") no-repeat center 20px;
+            margin-top:30px;
+        }
+    }
+}
+#alert-success.no{
+    visibility: hidden;
+}
+#alert-success.show{
+    display: inline-block;
+}
+.center{
+    margin:auto
+}
+.goup-container{
+    background: url("../../../assets/img/photos/index/goup.png");
+    
+ z-index: 9999;
+}

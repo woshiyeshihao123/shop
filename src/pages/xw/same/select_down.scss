@@ -1,0 +1,42 @@
+.select-box{
+    width: 400px;
+    left: 90px;
+   position:absolute;
+   top: 0px;
+}
+.select-box .select-title{
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid #cecece;
+    cursor: pointer;
+    background: #f7f6f4;
+    color: #333;
+    font-size: 14px;
+}
+.select-box ul{
+   width: 400px;
+   margin-top:-11px;
+
+   color: #333;
+}
+.select-box ul li{
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    list-style: none;
+    text-align: center;
+    border:  1px solid #cecece;
+    background: #f7f6f4;
+}
+.select-box ul li.current:hover{
+    background:#fff;
+}
+.none{
+    display: none;
+    background: #fff;
+}
+.block{
+    display: block;
+}

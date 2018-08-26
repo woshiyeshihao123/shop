@@ -1,0 +1,546 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="businesslist.scss">
+   <link rel="stylesheet" href="../../../assets/css/common.scss">
+   <link rel="stylesheet" href="../../../common/header/header.scss">
+   <link rel="stylesheet" href="../../../common/search/search.scss">
+   <link rel="stylesheet" href="../../../common/nav/nav.scss">
+    <link rel="stylesheet" href="../../../common/footer-new/footer-new.scss">
+    <link rel="stylesheet" href="../../../index.scss"> 
+    <script src="../../member-center/dev-pages-personal-plugin/dev-pages-personal-plugin.ts"></script>
+    <link rel="stylesheet" href="../../member-center/dev-pages-personal-plugin/dev-pages-personal-plugin.scss">
+    <script src="../../../assets/js/jquery-1.9.1.min.js"></script>
+</head>
+<body>
+    
+    <!-- 此处插入了公用的header -->
+    <link rel="import" href="../../../common/header/header.html?__inline">
+    <!-- 此处插入了公用的header -->
+  <div class="search-background">
+    <!-- 此处插入了search -->
+    <link rel="import" href="../../../common/search/search.html?__inline">
+    <!-- 此处插入了search -->
+  
+    <!-- 此处插入了nav -->
+    <!-- <link rel="import" href="../../../common/nav/nav.html?__inline"> -->
+    
+<div id="nav" >
+    <!-- 2、右：导航内容 -->
+    <ul class="lf">
+        <li>
+        <a href="#" class="active">首页</a>
+        </li>
+        <li>
+            <a href="#">供应信息</a>
+        </li>
+        <li>
+            <a href="#">求购信息</a>
+        </li>
+        <li>
+            <a href="#">公司库</a>
+        </li>
+        <li>
+            <a href="#">商业资讯</a>
+        </li>
+        <li>
+            <a href="#">展会信息</a>
+        </li>
+        <li>
+            <a href="#">企业信息</a>
+        </li>
+         <li>
+            <a href="#">会员中心</a>
+        </li> 
+    </ul>
+</div>
+
+    <!-- 此处插入了nav -->
+  </div>
+     
+       
+    <div id="container"> 
+        <div id="title">
+                <ul>
+                        <li><a href="javascript:;">首页</a><b> > </b></li>
+                        <li><a href="javascript:;">工商信息</a> <b> ></b> </li>
+                        <li><a href="javascript:;">河北</a><b> > </b></li>
+                        <li style="font-weight:bold;"><a href="javascript:;">石家庄</a> <b></b> </li>
+                        
+                 </ul>
+                 <div class="clear"></div>
+            <!-- <div class="word1">首页&nbsp;>&nbsp;工商信息&nbsp;>&nbsp;河北&nbsp;>&nbsp;</div>
+            <div class="word2">石家庄</div> -->
+        </div>
+        <div id="box">
+            <div class="tab1">
+                <div class="border1"> 
+                    <div style="float:left;font-size:15px;  margin-top:23px;">地区筛选：</div>
+                <ul class="city">
+                    <li>福建</li>
+                    <li>四川</li>
+                    <li>甘肃</li>
+                    <li>上海</li>
+                    <li>天津</li>
+                    <li>浙江</li>
+                    <li>江苏</li>
+                    <li>海南</li>
+                    <li>河北</li>
+                    <li>河南</li>
+                    <li>重庆</li>
+                    <li>浙江</li>
+                    <li>江苏</li>
+                    <li>海南</li>
+                    <li>湖北</li>
+                    <li>吉林</li>
+                    <li>贵州</li>
+                    <li>江西</li>
+                    <li>辽宁</li>
+                    <li>宁夏</li> 
+                    <li>重庆</li>
+                    <li>江西</li>
+                    <li>青海</li>
+                    <li>江西</li>
+                    <li>海南</li>
+                    <li>湖北</li>
+                    <li>吉林</li>
+                    <li>贵州</li>
+                    <li>江西</li>
+                    <li>辽宁</li>
+                    <li>宁夏</li> 
+                    <li>重庆</li>
+                    <li>江西</li>
+                    <li>青海</li>
+                    <li>江西</li>
+                    <li>海南</li>
+                    <li>湖北</li>
+                    <li>吉林</li>
+                    <li>贵州</li>
+                    <li>江西</li>
+                    <li>辽宁</li>
+                    <li>宁夏</li> 
+                    <li>重庆</li>
+                    <li>江西</li>
+                    <li>青海</li>
+                    <li>江西</li>
+                    <li>海南</li>
+                    <li>湖北</li>
+                    <li>吉林</li>
+                    <li>贵州</li>
+                    <li>江西</li>
+                    <li>辽宁</li>
+                    <li>宁夏</li> 
+                    <li>重庆</li>
+                    <li>江西</li>
+                    <li>青海</li>
+                    <li style="border:none;">江西</li>
+                </ul>
+               </div>
+                   
+    
+                  <div class="border1"> 
+                      <div style="float:left;font-size:15px;margin-top:12px;">市／区：</div>
+                 <ul class="city"  style="margin-top:8px;">
+                   
+                    <li style="width:56px;">石家庄</li>
+                    <li>唐山</li>
+                    <li style="width:56px;">秦皇岛</li>
+                    <li style="width:56px;">张家口</li>
+                    <li>承德</li>
+                    <li>沧州</li>
+                    <li>邢台</li>
+                    <li>邯郸</li>
+                    <li>承德</li>
+                    <li>沧州</li>
+                    <li>邢台</li>
+                    <li>邯郸</li>
+                    <li>承德</li>
+                    <li>沧州</li>
+                    <li>邢台</li>
+                    <li>邯郸</li>
+                    <li>承德</li>
+                    <li>沧州</li>
+                    <li>邢台</li>
+                    <li>邯郸</li>
+                    <li>承德</li>
+                    <li>沧州</li>
+                    <li>邢台</li>
+                    <li>邯郸</li>
+                    <li style="border-right:none;">衡水</li>
+                </ul> 
+</div>
+
+                <div class="border1">
+                    <div style="float:left;font-size: 15px;margin-top:12px;">区／县：</div>
+                 <ul class="city" style="margin-top:8px;">
+                
+                    <li style="width:56px;">裕华区</li>
+                    <li>唐山</li>
+                    <li style="width:56px;">桥西区</li>
+                    <li style="width:56px;">桥东区</li>
+                    <li style="width:56px;">张家口</li>
+                    <li>唐山</li>
+                    <li style="width:56px;">桥西区</li>
+                    <li style="width:56px;">桥东区</li>
+                    <li style="width:56px;">张家口</li>
+                    <li>唐山</li>
+                    <li style="width:56px;">桥西区</li>
+                    <li style="width:56px;">桥东区</li>
+                    <li style="width:56px;">张家口</li>
+                    <li>唐山</li>
+                    <li style="width:56px;">桥西区</li>
+                    <li style="width:56px;">桥东区</li>
+                    <li style="width:56px;">张家口</li>
+                    <li style="width:56px;border-right:none;">长安区</li>
+                </ul>
+            </div>
+            </div>
+    
+            <div class="tab2">
+                <div style="float:left;width:85px;height:15px;margin-top:30px;margin-left:10px;font-size:15px;">选择地区：</div>
+                <ul>
+                    <li>
+                        <select>
+                            <option value="">选择省／市</option>
+                            <option value="">选择省／市</option>
+                            <option value="">选择省／市</option>
+                        </select>
+                    </li>
+                    <li>
+                        <select>
+                            <option value="">选择市／区</option>
+                            <option value="">选择市／区</option>
+                            <option value="">选择市／区</option>
+                        </select>
+                    </li>
+                    <li><select>
+                        <option value="">选择区／县</option>
+                        <option value="">选择区／县</option>
+                        <option value="">选择区／县</option>
+                    </select>
+                    </li>
+                </ul>
+    
+                <div style="float:left;width:85px;height:15px;margin-top:30px;margin-left:18px;font-size:15px;">选择类别：</div>
+                <ul>
+                    <li>
+                        <select>
+                            <option value="">选择一级类别</option>
+                            <option value="">选择一级类别</option>
+                            <option value="">选择一级类别</option>
+                        </select>
+                    </li>
+                    <li>
+                        <select>
+                            <option value="">选择二级类别</option>
+                            <option value="">选择二级类别</option>
+                            <option value="">选择二级类别</option>
+
+                        </select>
+                    </li>
+                    <li><select>
+                        <option value="">选择三级类别</option>
+                        <option value="">选择三级类别</option>
+                        <option value="">选择三级类别</option>
+                    </select>
+                    </li>
+                </ul>
+                <button>搜索</button>
+            </div>
+        </div>
+    
+        <div id="right-box" >
+            <div class="hot-product">推荐公司</div>
+            <div class="img1">
+                <img src="../../../assets/img/photos/index/photo.png" alt="">
+            </div>
+    
+            <div class="text1">济南品脉数控有限...</div>
+            <div class="img1">
+                <img src="../../../assets/img/photos/index/photo.png" alt="">
+            </div>
+            <div class="text1">济南品脉数控有限...</div>
+            <div class="img1">
+                <img src="../../../assets/img/photos/index/photo.png" alt="">
+            </div>
+            <div class="text1">济南品脉数控有限...</div>
+            <div class="img1">
+                <img src="../../../assets/img/photos/index/photo.png" alt="">
+            </div>
+            <div class="text1">济南品脉数控有限...</div>
+            <div class="img1">
+                <img src="../../../assets/img/photos/index/photo.png" alt="">
+            </div>
+            <div class="text1">济南品脉数控有限...</div>
+        </div>
+        <div id="content">
+            <div class="tab-2">
+                <div class="text">
+                    工商信息列表
+                </div>
+            </div>
+            <div class="item" style="margin-top:22px;">
+                <div style="width:425px;height:77px;float:left;margin-top:20px;">
+                    <div style="font-size:18px;font-weight:bold;color:#333333;">济南数控品牌有限公司</div>
+                    <div class="scope">
+                        经营范围：矿产品加工（限分支机构经营）及销售、化工产品（危险化工产品和需要专项审批的除外
+                    </div>
+                    <div class="three">
+                        <div class="boxes">公司主页</div>
+                        <div class="boxes" style="margin-left:10px;">公司介绍</div>
+                        <div class="boxes" style="margin-left:10px;">联系方式</div>
+                    </div>
+                </div>
+    
+                <div class="box2">
+                    <div>法人代表：马力</div>
+                    <div style="margin-top:20px;">注册号：13104000213255</div>
+                </div>
+                <div class="hebei">
+                    河北-石家庄-桥西
+                </div>
+            </div>
+    
+            <div class="item" style="margin-top:22px;">
+                <div style="width:425px;height:77px;float:left;margin-top:20px;">
+                    <div style="font-size:18px;font-weight:bold;color:#333333;">济南数控品牌有限公司</div>
+                    <div class="scope">
+                        经营范围：矿产品加工（限分支机构经营）及销售、化工产品（危险化工产品和需要专项审批的除外
+                    </div>
+                    <div class="three">
+                        <div class="boxes">公司主页</div>
+                        <div class="boxes" style="margin-left:10px;">公司介绍</div>
+                        <div class="boxes" style="margin-left:10px;">联系方式</div>
+                    </div>
+                </div>
+    
+                <div class="box2">
+                    <div>法人代表：马力</div>
+                    <div style="margin-top:20px;">注册号：13104000213255</div>
+                </div>
+                <div class="hebei">
+                    河北-石家庄-桥西
+                </div>
+            </div>
+    
+            <div class="item" style="margin-top:22px;">
+                <div style="width:425px;height:77px;float:left;margin-top:20px;">
+                    <div style="font-size:18px;font-weight:bold;color:#333333;">济南数控品牌有限公司</div>
+                    <div class="scope">
+                        经营范围：矿产品加工（限分支机构经营）及销售、化工产品（危险化工产品和需要专项审批的除外
+                    </div>
+                    <div class="three">
+                        <div class="boxes">公司主页</div>
+                        <div class="boxes" style="margin-left:10px;">公司介绍</div>
+                        <div class="boxes" style="margin-left:10px;">联系方式</div>
+                    </div>
+                </div>
+    
+                <div class="box2">
+                    <div>法人代表：马力</div>
+                    <div style="margin-top:20px;">注册号：13104000213255</div>
+                </div>
+                <div class="hebei">
+                    河北-石家庄-桥西
+                </div>
+            </div>
+            <div class="item" style="margin-top:22px;">
+                <div style="width:425px;height:77px;float:left;margin-top:20px;">
+                    <div style="font-size:18px;font-weight:bold;color:#333333;">济南数控品牌有限公司</div>
+                    <div class="scope">
+                        经营范围：矿产品加工（限分支机构经营）及销售、化工产品（危险化工产品和需要专项审批的除外
+                    </div>
+                    <div class="three">
+                        <div class="boxes">公司主页</div>
+                        <div class="boxes" style="margin-left:10px;">公司介绍</div>
+                        <div class="boxes" style="margin-left:10px;">联系方式</div>
+                    </div>
+                </div>
+    
+                <div class="box2">
+                    <div>法人代表：马力</div>
+                    <div style="margin-top:20px;">注册号：13104000213255</div>
+                </div>
+                <div class="hebei">
+                    河北-石家庄-桥西
+                </div>
+            </div>
+            <div class="item" style="margin-top:22px;">
+                <div style="width:425px;height:77px;float:left;margin-top:20px;">
+                    <div style="font-size:18px;font-weight:bold;color:#333333;">济南数控品牌有限公司</div>
+                    <div class="scope">
+                        经营范围：矿产品加工（限分支机构经营）及销售、化工产品（危险化工产品和需要专项审批的除外
+                    </div>
+                    <div class="three">
+                        <div class="boxes">公司主页</div>
+                        <div class="boxes" style="margin-left:10px;">公司介绍</div>
+                        <div class="boxes" style="margin-left:10px;">联系方式</div>
+                    </div>
+                </div>
+    
+                <div class="box2">
+                    <div>法人代表：马力</div>
+                    <div style="margin-top:20px;">注册号：13104000213255</div>
+                </div>
+                <div class="hebei">
+                    河北-石家庄-桥西
+                </div>
+            </div>
+    
+            
+    
+            <div class="item" style="margin-top:22px;">
+                <div style="width:425px;height:77px;float:left;margin-top:20px;">
+                    <div style="font-size:18px;font-weight:bold;color:#333333;">济南数控品牌有限公司</div>
+                    <div class="scope">
+                        经营范围：矿产品加工（限分支机构经营）及销售、化工产品（危险化工产品和需要专项审批的除外
+                    </div>
+                    <div class="three">
+                        <div class="boxes">公司主页</div>
+                        <div class="boxes" style="margin-left:10px;">公司介绍</div>
+                        <div class="boxes" style="margin-left:10px;">联系方式</div>
+                    </div>
+                </div>
+    
+                <div class="box2">
+                    <div>法人代表：马力</div>
+                    <div style="margin-top:20px;">注册号：13104000213255</div>
+                </div>
+                <div class="hebei">
+                    河北-石家庄-桥西
+                </div>
+            </div>
+            <div class="item" style="margin-top:22px;">
+                    <div style="width:425px;height:77px;float:left;margin-top:20px;">
+                        <div style="font-size:18px;font-weight:bold;color:#333333;">济南数控品牌有限公司</div>
+                        <div class="scope">
+                            经营范围：矿产品加工（限分支机构经营）及销售、化工产品（危险化工产品和需要专项审批的除外
+                        </div>
+                        <div class="three">
+                            <div class="boxes">公司主页</div>
+                            <div class="boxes" style="margin-left:10px;">公司介绍</div>
+                            <div class="boxes" style="margin-left:10px;">联系方式</div>
+                        </div>
+                    </div>
+        
+                    <div class="box2">
+                        <div>法人代表：马力</div>
+                        <div style="margin-top:20px;">注册号：13104000213255</div>
+                    </div>
+                    <div class="hebei">
+                        河北-石家庄-桥西
+                    </div>
+                </div>
+        
+    
+            <div class="item" style="margin-top:22px;">
+                <div style="width:425px;height:77px;float:left;margin-top:20px;">
+                    <div style="font-size:18px;font-weight:bold;color:#333333;">济南数控品牌有限公司</div>
+                    <div class="scope">
+                        经营范围：矿产品加工（限分支机构经营）及销售、化工产品（危险化工产品和需要专项审批的除外
+                    </div>
+                    <div class="three">
+                        <div class="boxes">公司主页</div>
+                        <div class="boxes" style="margin-left:10px;">公司介绍</div>
+                        <div class="boxes" style="margin-left:10px;">联系方式</div>
+                    </div>
+                </div>
+    
+                <div class="box2">
+                    <div>法人代表：马力</div>
+                    <div style="margin-top:20px;">注册号：13104000213255</div>
+                </div>
+                <div class="hebei">
+                    河北-石家庄-桥西
+                </div>
+            </div>
+    
+            <div class="item" style="margin-top:22px;border-bottom:1px dashed black;height:165px;">
+                <div style="width:425px;height:77px;float:left;margin-top:20px;">
+                    <div style="font-size:18px;font-weight:bold;color:#333333;">济南数控品牌有限公司</div>
+                    <div class="scope">
+                        经营范围：矿产品加工（限分支机构经营）及销售、化工产品（危险化工产品和需要专项审批的除外
+                    </div>
+                    <div class="three">
+                        <div class="boxes">公司主页</div>
+                        <div class="boxes" style="margin-left:10px;">公司介绍</div>
+                        <div class="boxes" style="margin-left:10px;">联系方式</div>
+                    </div>
+                </div>
+    
+                <div class="box2">
+                    <div>法人代表：马力</div>
+                    <div style="margin-top:20px;">注册号：13104000213255</div>
+                </div>
+                <div class="hebei">
+                    河北-石家庄-桥西
+                </div>
+            </div>
+    
+            <!-- <div id="foot-tab">
+                <div style="width:95px;">
+                    共19条记录
+                </div>
+                <div style="width:95px;">
+                    第1页／第2页
+                </div>
+                <div > 首页</div>
+                <div>上一页</div>
+                <div >下一页</div>
+                <div>尾页</div>
+                
+            </div> -->
+
+            <div class="div-last-child">
+                <link rel="import" href="../../member-center/dev-pages-personal-plugin/dev-pages-personal-plugin.html?__inline">
+              </div>
+
+           
+        </div>
+     <div id="hot">
+                    <div class="product" style="text-align:center;"> 热门产地</div>
+               
+                    <div class="places">
+                     <ul>
+                         <li>·济宁佳昊石业有限公司  </li>
+                         <li>·洛阳三生石文化传媒有限公司</li>
+                         <li>·阿菲特（北京）贸易有限公司</li>
+                         <li>·长春海鲜设备有限公司</li>
+                        
+                      </ul>
+                     <ul>
+                         <li>·北京康路伟业网络科技有限公司</li>
+                         <li>·河南辉造机械设备有限责任公司</li>
+                         <li>·深圳市远峥盛翔科技有限公司 </li>
+                         
+                        <li>·开心培训</li>
+                         
+                        
+                     </ul>
+                     <ul>
+                            <li>·苏州鑫巨五金有限公司</li>  
+                            <li>·中山市古镇德米照明灯饰厂</li>
+                         <li>·深圳鼎游无限科技有限公司 </li>
+                         <li>·北京爱迪友利科贸有限公司</li>
+                        
+                   </ul>
+                   
+                 </div>
+                 </div>
+    </div>
+   
+   </div>
+
+
+  <!-- 插入尾部 -->
+  <link rel="import" href="../../../common/footer-new/footer-new.html?__inline">
+
+  <script>
+  var dev = new initPages("dev-pages-p", 3, 5);
+</script>
+<script src="../../../assets/js/jquery.goup.js"></script>
+</body>
+</html>

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <script src="../../.././assets/js/jquery-1.9.1.min.js"></script>
+    <link rel="stylesheet" href="../../../common/header/header.scss">
+    <link rel="stylesheet" href="../../member-center/supply-manage/list-left/list-left.scss">
+    <link rel="stylesheet" href="../../../common/search/search.scss">
+    <link rel="stylesheet" href="../../../common/nav/nav.scss">
+    <link rel="stylesheet" href="./Keyword-rankings.scss">
+    <link rel="stylesheet" href="../../../index.scss">
+    <link rel="stylesheet" href="../../xw/same/same-body.scss">
+    <link rel="stylesheet" href="../../../common/footer-all/footer-all.scss">
+    <link rel="stylesheet" href="../../member-center/supply-manage/extend-css/extend.css">
+    <link rel="stylesheet" href="../../member-center/dev-pages-personal-plugin/dev-pages-personal-plugin.scss">
+    <!-- <link rel="stylesheet" href="../../member-center/supply-manage/list-header/list-header.scss"> -->
+    
+    <link rel="stylesheet" href="../../member-center/modal-submit/modal-submit.scss">
+    <title></title>
+</head>
+<body>
+    <div id="top" class="header">
+        <!-- w:1211 -->
+        <div id="top-box" >
+          <!-- 2、首商：左 -->
+          <span class="lf">您好,欢迎来到首商网</span>
+          <ul class="lf top-login">
+            <li class="lf"><a href="#" >17600565592</a></li>
+            
+            <li class="lf"><a href="#">退出</a></li>
+          </ul>
+          <!-- 3、文字列表：右 -->
+          <ul class="rt">
+           
+          </ul>
+        </div>
+      </div>
+<!-- 此处插入了公用的header -->
+<div class="search-background">
+
+    <!-- <link rel="import" href="../../../common/search/search.html?__inline"> -->
+    <!-- 此处插入了nav -->
+    <div id="nav" >
+        <!-- 2、右：导航内容 -->
+        <ul class="lf">
+            <li>
+                <a href="#">首页</a>
+            </li>
+            <li>
+                <a href="#">供应信息</a>
+            </li>
+            <li>
+                <a href="#">求购信息</a>
+            </li>
+            <li>
+                <a href="#">公司库</a>
+            </li>
+            <li>
+                <a href="#">商业资讯</a>
+            </li>
+            <li>
+                <a href="#">展会信息</a>
+            </li>
+            <li>
+                <a href="#">企业信息</a>
+            </li>
+            <li>
+                <a href="#"  class="active">会员中心</a>
+            </li>
+        </ul>
+    </div>
+    <!-- 此处插入了nav -->
+</div>
+<div style="width:100%;line-height:25px;background-color:#F3F3F3">
+    <div style="width: 1200px;margin:0 auto;">
+    <span><a  href="#">首页</a> > <a href="#">会员中心</a> > <a href="#" >关键字排名</a></span>
+    <span class="help-center"><b></b><a href="#">帮助中心</a></span>
+    </div>
+</div>
+
+<div style="width: 1220px;margin:0 auto;">
+    <div class="left" style="float:left;margin-top:15px;">
+        <!-- <link rel="import" href="../../member-center/supply-manage/list-header/list-header.html?__inline"> -->
+        <!-- 插入左侧栏 -->
+        <link rel="import" href="../../member-center/supply-manage/list-left/list-left.html?__inline">
+
+        <!-- 插入列表栏
+        <link rel="import" href="../../member-center/supply-manage/supply-info-manage/supply-info-manage.html?__inline"> -->
+    </div>
+    <div class="main" style="float:left;margin-left:40px;margin-top:30px">
+
+        <u>关键字排名</u>
+        <hr></hr>
+        <div class="warn">
+            <ul style="list-style: none">
+                <li class="zysx">注意事项：<br/></li>
+                <li>关键字广告是首商网为国内企业开展的网上品牌宣传而推出有针对性的节目广告，它根据访问者查询的产品关键字显示相应的企业产品信息</li>
+                <li>关键字广告采用“先注册，先使用”的注册原则，具有针对性强、视觉冲击强、品牌展示宣传效应好、有效点击率高的优点。</li>
+                <li>添加关键字广告的好处？</li>
+                <li>例：您的公司是经营对讲机，你可以申请“对讲机”的关键字，这样客户通过输入“对讲机”的时候超级展示位就会显示您发布的产品信息，方便客户第一时间找到您！</li>
+                <li>（1）展示篇幅更大，视觉冲击力强；</li>
+                <li>（2）只要是你指定的关键字，不管其产生的搜索结果有多少页，每一页都会出现您的广告，而不仅限第一页；</li>
+                <li>（3）曝光率更高，真正的物超所值</li>
+            </ul>
+        </div>
+        <div class="keyword" style="margin-top:20px;margin-bottom: 20px;">
+            <b style="width: 90px;font-weight: normal;font-size: 16px;">购买关键字</b>
+            <span></span>
+        </div>
+        <div class="btn" style="margin-top:20px">
+            <span>
+                <b style="font-weight: normal;font-size: 14px;">关键字:</b>
+                <div style="margin-left: 65px;margin-top: -30px;">
+                    <input type="text" style="width: 420px;height: 32px;position:relative;" placeholder="请输入你想要购买的关键字" id="gjz"/>
+                    <button id="money" class="buy"
+                            style="background-color:#EA6901;font-size:16px;border: none;height: 38px;width: 80px;color:#F3F3F3">
+                        购买</button>
+                    <p style="margin-top:15px;">账户余额：300.30元 &nbsp;&nbsp;&nbsp;<a style="color:#eb6700" href="javascript:void(0)">充值余额</a> </p>
+                </div>
+            </span>
+
+            <div class="center-left">
+                <div class="center-left-xinxi">
+                    <div class="center-left-title">
+                        <span class="one">关键字名称</span>
+                        <span class="two">绑定的信息</span>
+                        <span class="three">有效时间</span>
+                        <span class="four">操作</span>
+                    </div>
+                    <ul style="font-size:14px;">
+                        <li><span class="one">消费</span>
+                            <span class="two">一统澳洲进口牛排礼盒</span>
+                            <span class="three">2018-01-03 20：40：00</span>
+                            <span class="four"><a id="money">绑定信息</a>&nbsp;&nbsp;<b></b><a id="xufei">&nbsp;&nbsp;续费</a></span>
+                        </li>
+                        <li><span class="one">消费</span>
+                            <span class="two">一统澳洲进口牛排礼盒</span>
+                            <span class="three"><b>2018-01-03 </b>-<b>  20：40:00</b></span>
+                            <span class="four"><a id="money">绑定信息</a>&nbsp;&nbsp;<b></b><a>&nbsp;&nbsp;续费</a></span>
+                        </li>
+                        <li><span class="one">消费</span>
+                            <span class="two">一统澳洲进口牛排礼盒</span>
+                            <span class="three">2018-01-03 20：40:00</span>
+                            <span class="four"><a id="money">绑定信息</a>&nbsp;&nbsp;<b></b><a>&nbsp;&nbsp;续费</a></span>
+                        </li>
+                        <li><span class="one">消费</span>
+                            <span class="two">一统澳洲进口牛排礼盒</span>
+                            <span class="three">2018-01-03 20：40:00</span>
+                            <span class="four"><a id="money">绑定信息</a>&nbsp;&nbsp;<b></b><a>&nbsp;&nbsp;续费</a></span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="center-footer">
+                    <link rel="import" href="../../member-center/dev-pages-personal-plugin/dev-pages-personal-plugin.html?__inline">
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../../.././assets/js/jquery.goup.js"></script>
+<script src="../../member-center/supply-manage/list-left/list-left.ts"></script>
+<script src="../../member-center/supply-manage/list-header/list-header.ts"></script>
+<script src="./Keyword.-ranking.js"></script>
+
+<div class="clear" style="clear:both;"></div>
+
+<!-- 此处插入了footer -->
+<div style="margin-top:50px;">
+    <link rel="import" href="../../../common/footer-all/footer-all.html?__inline">
+</div>
+<!-- 此处插入了footer -->
+
+<!-- 弹出框1 -->
+<div class="zezao close">
+    <div  id="bind">
+        <div class="box-top">
+            <p></p>
+            <span style="margin-top:5px;">购买关键字</span>
+            <b class="up" id="y"></b>
+        </div>
+        <ul>
+            <li>
+                <span>关键字：</span>
+                <input type="text" placeholder="请输入要购买的关键字" style="width:300px;height:30px;" id="gjz-tc" disable='disable'>
+            </li>
+            <li style="margin-top:20px;">
+                <span>购买：</span>
+                <input placeholder="0" style="margin-left:15px;margin-right:20px;width:90px;height:30px;" id="gou-time">
+                <b style="font-weight:normal" id="price">2000.00</b>
+            </li>
+            <li style="margin-top:20px;">
+                <span>共计：</span>
+                <b style="font-size:24px;color:#eb6700;margin-left:12px;" id="total">400元</b>
+            </li>
+        </ul>
+        <div style="margin-top:20px;width:100%;outline: 0;border:none;">
+            <div>
+                <button class="gm" style="float:left;background: #eb6700;color:white;">购买</button>
+                <button id="qx" style="float: right;">取消</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 续费 -->
+<div class="xufei close">
+    <p><img src="../../../assets/img/photos/8-6/buy-keywords.png"><span class="xu-head">续费通知</span><img  class="xu-close"style="float:right;margin-top:5px;"src="../../../assets/img/photos/8-6/close.png"></p>
+   <p><span>续费：</span><input placeholder="0"><span class="price">2000</span><span>个/月</span></p>
+   <p ><span>共计：</span><span class="total small">200</span><span class="small">元</span></p>
+   <p><button class="xu-success">续费</button><button class="xu-close">取消</button></p>
+</div>
+<!-- 续费成功 -->
+<div  class="modal-submit xu-submit close">
+    <img src="../../../assets/img/succeed.png" alt="">
+    <span>续费成功</span>
+</div>
+<!-- 提交成功弹窗3 -->
+<div id="submit-success" class="modal-submit  close">
+    <img src="../../../assets/img/succeed.png" alt="">
+    <span>购买成功</span>
+</div>
+
+<!-- 弹出框2 -->
+<div class="zhezao close">
+    <div  id="binding">
+        <b>绑定信息
+            <span id="x" style="cursor:pointer;"></span>
+        </b>
+        <br>
+        <p class="binding-top">标题</p>
+        <p class="binding-top">日期</p>
+        <ul>
+            <li>
+                <input type="checkbox">
+                <span>2018年一统海鲜大礼包</span>
+                <span>2018-01-03 20：40：00</span>
+            </li>
+            <li>
+                <input type="checkbox">
+                <span>2018年一统海鲜大礼包</span>
+                <span>2018-01-03 20：40：00</span>
+            </li>
+            <li>
+                <input type="checkbox">
+                <span>2018年一统海鲜大礼包</span>
+                <span>2018-01-03 20：40：00</span>
+            </li>
+            <li>
+                <input type="checkbox">
+                <span>2018年一统海鲜大礼包</span>
+                <span>2018-01-03 20：40：00</span>
+            </li>
+            <li>
+                <input type="checkbox">
+                <span>2018年一统海鲜大礼包</span>
+                <span>2018-01-03 20：40：00</span>
+            </li>
+        </ul>
+        <div style="margin-top:20px;width:100%;">
+            <div>
+                <button class="gm" style="float:left;color:white;
+            background-color: #eb6700;">购买</button>
+                <button id="qx" class="cancel" style="float: right;">取消</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<script src="../../.././assets/js/jquery-1.9.1.min.js"></script>
+<!-- <script src="../../member-center/dev-pages-personal-plugin/dev-pages-personal-plugin.ts"></script> -->
+<!-- <script>
+    var dev = new initPages("dev-pages-p",2,5);
+</script> -->
+<script type="text/javascript">   
+    $(function(){  
+      $('.gm').click(function(){  
+        $('#gjz').val("");  
+      });   
+    });  
+    $(function(){  
+      $('#qx').click(function(){  
+        $('#gjz').val("");  
+      });   
+    });  
+    $(function(){  
+      $('#y').click(function(){  
+        $('#gjz').val("");  
+      });   
+    });  
+
+
+$("body").on('click',"#xufei", function () {
+  $('.xufei').toggleClass('close');
+})
+$("body").on('click',".xu-close", function () {
+  $('.xufei').toggleClass('close');
+})
+$("body").on('click',".xu-success", function () {
+  $('.xu-submit').toggleClass('close');
+})
+   </script>    
+
+<script src="../../member-center/modal-submit/modal-submit.ts"></script>
+</body>
+</html>

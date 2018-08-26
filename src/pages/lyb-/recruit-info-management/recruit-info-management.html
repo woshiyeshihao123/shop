@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>招聘信息管理</title>
+  <meta charset="UTF-8">
+  <script src="../../../assets/js/jquery-1.9.1.min.js"></script>
+  <link rel="stylesheet" href="../../member-center/supply-manage/extend-css/extend.css">
+  <link rel="stylesheet" href="../../../assets/css/common.scss">
+  <link rel="stylesheet" href="../../member-center/supply-manage/list-header/list-header.scss"> 
+  <link rel="stylesheet" href="../../member-center/supply-manage/list-left/list-left.scss"> 
+  <link rel="stylesheet" href="../../member-center/dev-pages-personal-plugin/dev-pages-personal-plugin.scss">
+  <link rel="stylesheet" href="./recruit-info-management.scss">
+  <link rel="stylesheet" href="../../../common/footer-all/footer-all.scss"> 
+  <link rel="stylesheet" href="../../../widgets/index/nav/nav.scss">
+  <link rel="stylesheet" href="../../../pages/csl/chang-password/page-head/page-head.scss">
+  <link rel="stylesheet" href="../../member-center/exhibition-manage/pick-date/pick-date.scss">
+</head>
+<body style="margin:0 auto;">
+    <link rel="import" href="../../../pages/csl/chang-password/page-head/page-head.html?__inline">
+    <div style="width:1211px;margin:0 auto;">
+      <div id="nav" >
+        <!-- 2、右：导航内容 -->
+        <ul class="lf">
+            <li>
+            <a href="#">首页</a>
+            </li>
+            <li>
+                <a href="#">供应信息</a>
+            </li>
+            <li>
+                <a href="#">求购信息</a>
+            </li>
+            <li>
+                <a href="#">公司库</a>
+            </li>
+            <li>
+                <a href="#">商业资讯</a>
+            </li>
+            <li>
+                <a href="#">展会信息</a>
+            </li>
+            <li>
+                <a href="#">企业信息</a>
+            </li>
+            <li>
+                <a href="#" class="active">会员中心</a>
+            </li>
+        </ul>
+    </div>
+    </div>
+    <div class="menber-center-list-header boxsizing">
+        <div class="menber-center-list-header-left">
+            <span><a href="javascript:void(0)">首页</a>&gt</span>
+            <span><a href="javascript:void(0)">会员中心</a> &gt</span>
+            <span><a href="javascript:void(0)">招聘信息管理</a></span>
+            <div class="menber-center-list-header-right">
+                <b></b>
+                帮助中心
+            </div>
+        </div>
+    </div>
+    <div style="width:1211px;margin:0 auto;">
+        <link rel="import" href="../../member-center/supply-manage/list-left/list-left.html?__inline">
+
+      <div id="audit-switch">
+        <p>
+          <span class="color-red audit-switch-span" id="audit-switch-span" href="#audit-switch-div1">审核通过的招聘</span>
+          <span class="audit-switch-span" href="#audit-switch-div2">待审核的招聘</span>
+          <span class="audit-switch-span" href="#audit-switch-div3">审核未通过的招聘</span>
+        </p>
+        <span id="lalala">
+          <div>
+            <i class="all choose-noright"></i>
+            <b>&nbsp;全选</b>
+            <span class="all-">
+              <a href="javascript:void(0)" class="all-change">批量更新</a>
+              <a href="javascript:void(0)" class="all-delete">批量删除</a>
+            </span>
+            <div style="margin-left:130px;">
+                <span class="lf">发布日期：</span>
+        
+                <div class="lf">
+                    <div class="lf calendar-line">
+                        <input type="text" class="date-and-text calendar-input">
+                        <b></b>
+                        <div id="container1" class="date-picker-container none">
+                            <div class="date-title">
+                                <div> < </div>
+        
+                                        <div>
+                                          
+                                        </div>
+        
+                                        <div>
+                                            >
+                                        </div>
+                            </div>
+                            <div class="weeks">
+        
+                            </div>
+                            <div class="days">
+        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <span class="lf">至</span>
+        
+                <div class="lf">
+                  <div class="lf calendar-line">
+                      <input type="text" class="date-and-text calendar-input">
+                      <b></b>
+                      <div id="container2" class="date-picker-container none">
+                          <div class="date-title">
+                                      <div>
+                                          < 
+                                      </div>
+  
+                                      <div>
+  
+                                      </div>
+  
+                                      <div>
+                                          >
+                                      </div>
+                          </div>
+                          <div class="weeks">
+  
+                          </div>
+                          <div class="days">
+  
+                          </div>
+                      </div>
+                  </div>
+                </div>
+            </div>
+            <b><button>搜索</button></b>
+        </div>
+        </span>
+        <div id="audit-switch-div1" class="in">
+            <ul class="lf ul-background">
+                <li></li>
+                <li>标题</li>
+                <li>状态</li>
+                <li></li>
+                <li class="li-time">发布日期</li>
+                <li>操作</li>
+              </ul>
+          <ul class="lf">
+            <li class="choose1"><span class="choose-noright"></span></li>
+            <li><a href="">设计师助理</a></li>
+            <li>审核通过</li>
+            <li></li>
+            <li class="li-time">2018-01-01 20:40:00</li>
+            <li>
+              <b><a href="">修改</a><b></b></b>
+              <b><a href="javascript:void(0)" class="delete-a">删除</a><b></b></b>
+              <b><a href="javascript:void(0)" class="change-a">更新</a></b>
+            </li>
+          </ul>
+          <ul class="lf">
+            <li class="choose1"><span class="choose-noright"></span></li>
+            <li><a href="">园林师</a></li>
+            <li>审核通过</li>
+            <li></li>
+            <li class="li-time">2018-01-01 20:40:00</li>
+            <li>
+              <b><a href="">修改</a><b></b></b>
+              <b><a href="javascript:void(0)" class="delete-a">删除</a><b></b></b>
+              <b><a href="javascript:void(0)" class="change-a">更新</a></b>
+            </li>
+          </ul>
+        </div>
+        <div id="audit-switch-div2">
+            <ul class="lf ul-background">
+                <li></li>
+                <li>标题</li>
+                <li>状态</li>
+                <li></li>
+                <li class="li-time">发布日期</li>
+                <li>操作</li>
+              </ul>
+          <ul class="lf">
+            <li class="choose2"><span class="choose-noright"></span></li>
+            <li><a href="">设计师助理</a></li>
+            <li>审核未通过</li>
+            <li></li>
+            <li class="li-time">2018-01-01 20:40:00</li>
+            <li>
+              <b><a href="">修改</a><b></b></b>
+              <b><a href="javascript:void(0)" class="delete-a">删除</a></b>
+            </li>
+          </ul>
+          <ul class="lf">
+            <li class="choose2"><span class="choose-noright"></span></li>
+            <li><a href="">园林师</a></li>
+            <li>审核未通过</li>
+            <li></li>
+            <li class="li-time">2018-01-01 20:40:00</li>
+            <li>
+              <b><a href="">修改</a><b></b></b>
+              <b><a href="javascript:void(0)" class="delete-a">删除</a></b>
+            </li>
+            
+          </ul>
+        </div>
+        <div id="audit-switch-div3">
+            <ul class="lf ul-background">
+                <li></li>
+                <li>标题</li>
+                <li>状态</li>
+                <li>拒绝原因</li>
+                <li class="li-time">发布日期</li>
+                <li>操作</li>
+              </ul>
+          <ul class="lf">
+            <li class="choose3"><span class="choose-noright"></span></li>
+            <li><a href="">设计师助理</a></li>
+            <li>审核未通过</li>
+            <li>不符合</li>
+            <li class="li-time">2018-01-01 20:40:00</li>
+            <li>
+              <b><a href="">修改</a><b></b></b>
+              <b><a href="" class="delete-a">删除</a></b>
+            </li>
+           
+          </ul>
+          <ul class="lf">
+            <li class="choose3"><span class="choose-noright"></span></li>
+            <li><a href="">园林师</a></li>
+            <li>审核未通过</li>
+            <li>不符合</li>
+            <li class="li-time">2018-01-01 20:40:00</li>
+            <li>
+              <b><a href="">修改</a><b></b></b>
+              <b><a href="" class="delete-a">删除</a></b>
+            </li>
+          </ul>
+          </ul>
+        </div>
+        <div class="div-last-child">
+          <link rel="import" href="../../member-center/dev-pages-personal-plugin/dev-pages-personal-plugin.html?__inline">
+        </div>
+      </div>  
+
+  </div>
+  <div id="alert-success" class="no">
+      <div>
+          <div></div>
+          <p></p>
+      </div>  
+  </div>
+  <div id="alert-success1" class="no">
+      <div>
+          <div></div>
+          <p></p>
+          <button class="confirm">确定</button>
+          <button class="cancel">取消</button>
+      </div>  
+  </div>
+  <link rel="import" href="../../../common/footer-all/footer-all.html?__inline">
+  <script src="./recruit-info-management.js"></script>
+  <script src="../../member-center/exhibition-manage/pick-date/pick-date.ts"></script>
+  <script src="../../../widgets/index/nav/nav.ts"></script>
+  <script src="../../member-center/dev-pages-personal-plugin/dev-pages-personal-plugin.ts"></script>
+  <script src="../../member-center/supply-manage/list-header/list-header.ts"></script>
+  <script src="../../member-center/supply-manage/list-left/list-left.ts"></script>
+  <script>
+      var dev = new initPages("dev-pages-p", 3, 5);
+      var date_pick1 = new datePicker("container1");
+      var date_pick2 = new datePicker("container2");
+  
+      // 监听整个页面，没有点到日历上，就关闭日历，点到了，就返回选中的日期
+      $(document).click(function (e) {
+        $(".calendar-line input").each(function () {
+          if ($.contains(this.parentElement, e.target)) {
+            // 点击到日历上了，不关闭日历
+            // 调用日历中得到选中日期的函数
+  
+            if ($(this).next().next().attr("id") == "container1") {
+            
+              var date=new Date(date_pick1.getChoosedDate());
+              $("#container1").prev().prev().val(""+date.getFullYear()+"-"+(date.getMonth()+1)+"-"+date.getDate());
+            } else if ($(this).next().next().attr("id") == "container2") {
+              var date=new Date(date_pick2.getChoosedDate());
+              $("#container2").prev().prev().val(""+date.getFullYear()+"-"+(date.getMonth()+1)+"-"+date.getDate());
+  
+            }
+          } else {
+            // 否则就关闭日历
+            if ($(this).next().next().hasClass("none")) {
+  
+            } else {
+              $(this).next().next().addClass("none");
+              $(this).next().toggleClass("b-active");
+            }
+          }
+        })
+      })
+    </script>
+  </body>
+</html>

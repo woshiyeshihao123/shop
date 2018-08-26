@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="viewport-fit=cover, width=750, user-scalable=no">
+  <link rel="stylesheet" href="../../h5-common/goTop/goup.scss">
+  <link rel="stylesheet" href="./report.scss">
+  <script src="../../assets/js/jquery-1.9.1.min.js"></script>
+  <title>report</title>
+</head>
+
+<body>
+  <!-- 头部 -->
+  <!-- <div class="header">
+    <a href="../h5-index/index.html" class="deploy-contact"></a>
+    <a href="javascript:void(0)" class="deploy-sidebar"></a>
+  </div> -->
+  <!-- <div class="header-box none">
+    <ul>
+      <li><a href="../h5-index/index.html"><img      src="../../h5-assets/img/index/drawable-xhdpi/main.png"></a>
+        <a class="text" href="../h5-index/index.html">首页</a>
+      </li>
+      <li><a href="../supply-info/supply-info.html"><img      src="../../h5-assets/img/index/drawable-xhdpi/supply-info.png"></a>
+        <a class="text" href="../supply-info/supply-info.html">供应信息</a>
+      </li>
+      <li><a href="../infoBuyList1/infoBuyList1.html"><img      src="../../h5-assets/img/index/drawable-xhdpi/buy-info.png"></a>
+        <a class="text" href="../infoBuyList1/infoBuyList1.html">求购信息</a>
+      </li>
+      <li><a href="../slh/productSearch/productSearch.html"><img      src="../../h5-assets/img/index/drawable-xhdpi/product-info.png"></a>
+        <a class="text" href="../slh/productSearch/productSearch.html">产品信息</a>
+      </li>
+      <li><a href="../corpInfoSearch/corpInfoSearch.html"><img      src="../../h5-assets/img/index/drawable-xhdpi/company-list.png"></a>
+        <a class="text" href="../corpInfoSearch/corpInfoSearch.html">公司库</a>
+      </li>
+      <li><a href="../newsSearchList/newsSearchList.html"><img      src="../../h5-assets/img/index/drawable-xhdpi/news.png"></a>
+        <a class="text" href="../newsSearchList/newsSearchList.html">新闻动态</a>
+      </li>
+      <li><a href="../exproinfo/exproinfo.html"><img      src="../../h5-assets/img/index/drawable-xhdpi/excibition-info1.png"></a>
+        <a class="text" href="../exproinfo/exproinfo.html">展会信息</a>
+      </li>
+      <li><a href="../corpInfo/corpInfo.html"><img      src="../../h5-assets/img/index/drawable-xhdpi/business-info.png"></a>
+        <a class="text" href="../corpInfo/corpInfo.html">工商信息</a>
+      </li>
+      <li><a href="../areaSupplyType/areaSupplyType.html"><img      src="../../h5-assets/img/index/drawable-xhdpi/type-area.png"></a>
+        <a class="text" href="../areaSupplyType/areaSupplyType.html">类别/地区</a>
+      </li>
+    </ul>
+  </div> -->
+
+  <div>
+    <link rel="import" href="../allCatalog/allCatalog.html?__inline">
+    <link rel="stylesheet" href="../allCatalog/allCatalog.scss">
+  </div>
+  <!-- 主体 -->
+  <!-- 主题 -->
+  <div class="container">
+    <div class="container-head"><i class="lf"></i>举报</div>
+    <!-- 内容 -->
+    <form class="container-main" action="#">
+      <ul>
+        <li><span>您的名字：</span><input required type="text" pattern="([\u4e00-\u9fa5]{2,4})" /></li>
+        <li><span>电话号码：</span><input required type="tel" pattern="1[3578]\d{9}" /></li>
+        <li><span>电子邮箱：</span><input trequired type="email" 
+          pattern="^[a-zA-Z0-9._%+-]+@(?!.*\.\..*)[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$"/></li>
+        <li><span>QQ：</span><input required type="number" 
+          pattern="[1-9][0-9]{4,14}" /></li>
+        <li style=" position:relative;"><span>证据及类型：</span><a href="javascript:void(0)" class="list"><span >淫秽色情 </span><b class="down rg"></b></a>
+          <ul class="list-1 none">
+            <li class="jie"><i></i><span>淫秽色情</span></li>
+            <li class="jie"><i></i>
+              <span>赌博</span></li>
+            <li class="jie"><i></i>
+              <span>诈骗</span></li>
+              <li class="jie"><i></i>
+              <span>供货商法国进口时光飞逝</span></li>
+          </ul>
+        </li>
+        <li><span>主题：</span><input required type="text"  /></li>
+        <li><span>网址：</span><input required type="url" /></li>
+        <li class="last">
+          <span>详细内容：</span><textarea required minlength="10"></textarea></li>
+      </ul>
+      <button type="submit" class="sub">提交</button>
+      <div class="container-box none">
+        提交成功!
+      </div>
+      <div class="container-box-1 none">
+        提交失败!
+      </div>
+    </form>
+  </div>
+
+
+  <!-- 结尾 -->
+  <div class="footer">
+     <div>
+      <a href="../h5-index/index.html" > 
+        <b class="one"></b><span>进店</span>
+      </a>
+    </div>
+    <div id="call-phone">
+      <a href="javascript:void(0)" >
+         <b class="two"></b><span>拨打电话</span>
+        </a>
+    </div>
+    <div style="border-right:none;">
+      <a href="javascript:void(0)" >
+     <b class="three"></b>
+      <span>联系QQ</span></a>
+    </div>
+  </div>
+  <!-- 关于模态框的点击弹出html -->
+  <div id="bg" class="none"></div>
+  <div id="call-people" class="none">
+        <img src="../../h5-assets/img/info/drawable-xhdpi/call-people.png">
+        <span>176-0056-5592</span>
+        <p>*此号码不暂不支持短信首发功能*</p>
+        <button><a href="tel:176-0056-5592"></a>拨打</button>
+        <button id="over">取消</button>
+  </div>
+  <script src="./report.js"></script>
+  <script src="../allCatalog/allCatalog.js"></script>
+  <script src="../../h5-common/goTop/jquery.goup.js"></script>
+</body>
+
+</html>

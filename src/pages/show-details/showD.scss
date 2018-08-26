@@ -1,0 +1,158 @@
+#top-box,#top-main,#nav,#main{
+  width:1200px;
+  margin:0 auto;
+}
+
+.search-background{
+  background: #fff;
+  border-bottom: 2px solid #EA6700;
+}
+
+.top{
+  height: 24px;
+  background:#F7F7F4;
+  margin-bottom: 30px;
+}
+.top>ul{
+  width: 1200px;
+  margin: 0 auto;
+}
+.top>ul>li{
+  float:left;
+  height:20px;
+  line-height:20px;
+  color:#666;
+}
+.top>ul>li>b{
+  margin-right:5px;
+}
+.top-a{
+  font-weight:bold;
+  color:#333;
+}
+
+
+// 顶部 END
+
+// main Begin
+
+#leftSide{
+  float: left;
+  width: 910px;
+  margin:0 0 60px 0;
+}
+
+#rightSide{
+  float: left;
+  margin-left: 40px;
+  width: 250px;
+}
+
+h1{
+  width: 500px;
+  margin: 0 auto;
+}
+
+.main-msg-list{
+  padding: 0 225px;
+}
+
+.main-name-list li{
+  margin:  0 0 15px 0;
+}
+
+.share{
+  color: #005ead;
+}
+
+.share p span{
+  margin: 0 0 0 10px;
+}
+
+.share p a{
+  color: #005ead;
+}
+
+//main-name END
+
+.d-list{
+  border-bottom: 1px solid #ddd;;
+  margin-top: 30px;
+  width: 910px;
+}
+
+.d-list b{
+  width: 57px;
+  border-bottom: 4px solid #FFC086;
+  position: relative;
+  margin: 0 0 20px 0;
+}
+
+.d-list b span{
+  font-size: 16px;
+  position: relative;
+  top: 4px;
+}
+
+.d-list ul{
+  margin: 20px 0 30px 0;
+  width: 910px;
+}
+
+.d-list ul li{
+  font-size: 14px;
+  margin-bottom: 15px;
+  width: 909px;
+  height: 12px;
+}
+
+.comp-msg{
+  clear: both;
+  display: block;
+  text-indent:2em;
+  word-wrap: break-word;
+}
+
+// left END
+
+#rightSide .msg-box{
+  padding: 5px 10px;
+  width: 250px;
+  margin-bottom: 20px;
+  box-shadow: 1px 4px 7px #ddd;
+}
+
+#rightSide .msg-box b{
+  border-bottom: 4px solid #FFC086;
+  position: relative;
+  
+}
+
+.msg-box b span{
+  font-size: 16px;
+  position: relative;
+  top: 4px;
+}
+
+.msg-box ul{
+  padding: 30px 0 20px 0;
+}
+
+.msg-box ul li{
+  padding: 5px 10px;
+  width: 230px;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  
+}
+
+.new-sup-box ul li:before {
+	content: "";
+	display: inline-block;
+	width: 5px;
+	height: 5px;
+	background-color: #000;
+	border-radius: 50%;
+	margin: 0 10px 1px 0;
+}

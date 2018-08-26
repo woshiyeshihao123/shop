@@ -1,0 +1,111 @@
+
+.banner {
+	float: left;
+	width:1200px;
+	height:400px;
+	margin:15px 10px 20px -10px;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+	padding-left: 20px;
+}
+.banner>span{
+	margin-right: 100px;
+}
+.imgbox {
+	width: 1200px;
+	height: 400px;
+	position: relative;
+	background-color: #222222;
+	overflow: hidden;
+}
+.img {
+	position: absolute;
+	display: none;
+	left: 764px;
+	top: -2px;
+	margin-left: -770px;
+}
+.im {
+	display: block;
+}
+.change {
+	display: block;
+	position: absolute;
+	z-index: 20;
+	// opacity: 0.4;
+	// transition: 0.4s;
+	top: 335px;
+	margin-top: -50px
+}
+.pre:hover {
+	background: url("../../../assets/img/photos/index/banner/left-pressed.png");
+}
+
+.next:hover {
+	background: url("../../../assets/img/photos/index/banner/right-pressed.png");
+}
+
+.pre {
+	right: 300px;
+	top:402px;
+}
+.next {
+	right: 250px;
+	top:402px;
+}
+.cirbox {
+	width: 310px;
+	position: absolute;
+	z-index: 10;
+	margin-left: -44px;
+	bottom: 20px;
+	left: 385px;
+	cursor: pointer;
+}
+.cir {
+	width: 19px;
+	height: 19px;
+	background:url("../../../assets/img/photos/index/banner/unchoosed.png");
+	// opacity: 0.5;
+	border-radius: 50%;
+	float: left;
+	margin: 0 50px 0 5px;
+
+}
+
+.cir img{
+	position: relative;
+	top: 1px;
+	left: 1px;
+}
+
+// .cir:hover {
+// 	background-color: cyan;
+// 	transition: 0.8s;
+// }
+.cr {
+	background: url("../../../assets/img/photos/index/banner/choosed.png");
+}
+// .cr:hover {
+// 	background-color: white;
+// }
+
+.fixed-line{
+	position: relative;
+	bottom: 40px;
+	left: 220px;
+}
+
+
+.ad-icon{
+	display: inline-block;
+	text-align: center;
+	background: #333;
+	color: #fff;
+	width: 34px;
+	height: 18px;
+	position: relative;
+	top: 10px;
+	
+}

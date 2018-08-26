@@ -1,0 +1,15 @@
+div.newSup .list-flow{
+  float: left;
+  margin-bottom: 10px;
+  margin-right: 40px;
+  
+}
+ .list-flow li{
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space:nowrap;
+    width:210px;
+    margin-bottom: 15px;
+    list-style:square inside url("../../../../assets/img/photos/index/business-service/shape1350copy3.png");
+  
+}

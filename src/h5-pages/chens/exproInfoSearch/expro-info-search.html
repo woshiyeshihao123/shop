@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html mip>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="viewport-fit=cover, width=750, user-scalable=no">
+        <title>展会信息搜索</title>
+        <link rel="stylesheet" href="./expro-info-search.scss">
+        <!-- <link rel="stylesheet" href="../comc/tyh.scss"> -->
+        <link rel="stylesheet" href="../../../h5-assets/css/common.scss">
+        <script src="../../../h5-assets/js/jquery-1.9.1.min.js"></script>
+    </head>
+    <body>
+        <!-- 页头 -->
+        <div>
+            <link rel="import" href="../../allCatalog/allCatalog.html?__inline">
+            <link rel="stylesheet" href="../../allCatalog/allCatalog.scss">
+        </div>
+          <div class="clear"></div>
+
+          <!-- 搜索框 -->
+          <!-- <div class="search-box">
+                 <div class="search-list"> 
+                    <span>展会信息</span>
+                    <img src="../../../h5-assets/img/index/drawable-xhdpi/show-orange.png">
+                 </div>
+                 <div class="search-infor">
+                   <input type="text" placeholder="请输入搜索内容">
+                   <img src="../../../h5-assets/img/dianpu/search.png">
+                 </div>
+
+                  下拉框 
+                <div class="search-information">
+                     <div class="selectList">
+                      <div class="listA-all">
+                        <a href="javascript:;" class="listA">
+                            <span class="size">产品库</span>
+                        </a>
+                        <a href="javascript:;" class="listA">
+                            <span class="size">公司库</span>
+                        </a>
+                        <a href="javascript:;" class="listA">
+                            <span class="size">展会信息</span>
+                        </a>
+                        <a href="javascript:;" class="listA">
+                            <span class="size">商业信息</span>
+                        </a>
+                      </div>
+                    </div>
+                </div>
+          </div> -->
+          <div id="searh-information">
+    <div id="searh-information-box" class="select"> 
+      <span class="selectVal">展会信息</span> 
+      <i class="xl-icon"></i>   
+      <div class="selectList">
+        <div class="listA-all">
+          <a href="javascript:;" class="listA">
+            <span class="size">产品库</span>
+          </a>
+          <a href="javascript:;" class="listA">
+            <span class="size">公司库</span>
+          </a>
+          <a href="javascript:;" class="listA">
+            <span class="size">展会信息</span>
+          </a>
+          <a href="javascript:;" class="listA">
+            <span class="size">商业信息</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <input type="text" placeholder="请输入搜索内容" class="search-box">
+  <a href="#" class="search-click"> </a>
+                
+
+                
+          <!-- 展会信息搜索列表 -->
+          <div class="company-news ">
+            <div class="supply-title">
+                <b>展会信息库搜索列表</b>
+                <div class="lf"> </div>
+            </div>
+            <ul class="news-details">
+                <li class="detail-list">
+                    <a>中国氧气</a>
+                    <p>
+                        <img src="../../../h5-assets/img/index/drawable-xhdpi/exhibition-date.png">
+                        <span>参展日期 : </span>1234567
+                    <div>
+                        <span>&nbsp;中国氧气</span>
+                        <span>&nbsp;报告编号12345657【出版时间】1234567【出版机构】121111111111
+                        </span>
+                    </div>
+                </li>
+                <li class="detail-list">
+                    <a>中国氧气</a>
+                    <p>
+                        <img src="../../../h5-assets/img/index/drawable-xhdpi/exhibition-date.png">
+                        <span>发布日期 : </span>123456
+                    </p>
+                    <div>
+                            <span>&nbsp;中国氧气</span>
+                            <span>&nbsp;报告编号12345657【出版时间】1234567【出版机构】
+                            </span>
+                    </div>
+                </li>
+                <li class="detail-list">
+                    <a>中国氧气</a>
+                    <p>
+                        <img src="../../../h5-assets/img/index/drawable-xhdpi/exhibition-date.png">
+                        <span>发布日期 : </span>123456
+                    </p>
+                    <div>
+                            <span>&nbsp;中国氧气</span>
+                            <span>&nbsp;报告编号12345657【出版时间】1234567【出版机构】
+                            </span>
+                    </div>
+                </li>
+            </ul>
+          </div>
+
+          <div class="clear"></div>
+          <!-- 页脚 -->
+          <!-- <div class="foot-li">
+                <ul class="">
+                    <li><a>登录</a></li>
+                    <li><a>注册</a></li>
+                    <li><a>电脑版</a></li>
+                    <li><a>开通会员</a></li>
+                </ul>
+          </div> -->
+          <div class="to-top">
+              <a href="#">
+                <img src="../../../assets/img/photos/index/goup.png">
+              </a>
+          </div>
+          <!-- <div class="foot-btn">
+                <a href="../../../h5-pages/h5-index/index.html">首页</a>
+                <a href="#">返回顶部</a>
+          </div> -->
+
+            <div class="shadow-hide" id="shadow"></div>
+            <script src="../store-header/store-header.js"></script>
+            <script src="./expro-info-search.js"></script>
+            <script src="../../allCatalog/allCatalog.js"></script>
+    </body>
+</html>

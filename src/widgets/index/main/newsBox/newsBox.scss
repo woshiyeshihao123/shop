@@ -1,0 +1,211 @@
+.newsBox{
+    margin-top: 30px;
+    float: left;
+}
+
+.newsBox .info-tab{
+    width: 550px;
+    height: 510px;
+    float: left;
+}
+
+
+
+.info-tab div:first-child+div ul{
+    border-bottom: 1px dotted #999;
+    width: 550px;
+    padding: 20px 0;
+}
+
+.info-tab div:first-child+div ul li:first-child{
+    font-size: 18px;
+    color: #222;
+}
+
+.info-tab div:first-child+div ul li:last-child{
+    color: #999;
+}
+
+.info-tab div:first-child+div li{
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space:nowrap;
+    width:550px;
+}
+
+.list-title li:first-child{
+    position: relative;
+    border-bottom: 4px solid #fdb315;
+    font-size: 24px;
+}
+
+
+
+.list-title li:first-child a{
+    position: relative;
+    top: 5px;
+}
+
+.list-title{
+    height: 22px;
+    line-height: 23px;
+    margin-bottom: 10px;
+}
+
+div.newsBox .info-tab-active{
+    margin-left: 70px;
+}
+
+div.newsBox .info-tab-active ul li:last-child{
+    float: right;
+    width: 220px;
+    height: 20px;
+}
+
+div.newsBox .info-tab-active ul{
+
+}
+
+div.newsBox .info-tab-active div:first-child+div ul li:first-child{
+    float: left;
+    margin-bottom: 5px;
+    width: 220px;
+   padding: 0 20px;
+    font-size: 12px;
+    
+}
+
+div.newsBox .info-tab-active div:first-child+div ul li:first-child:hover{
+    color: #fdb315;
+}
+
+div.newsBox .info-tab-active div:first-child+div ul:first-child{
+    height: 280px;
+}
+
+.new-prod .list-title li{
+    margin: 0 auto;
+    width: 144px;
+}
+
+.img-box-l{
+    float: left;
+    width: 150px;
+    height: 150px;
+    background: #222;
+}
+
+.msg-box-r{
+    float: left;
+    width: 100px;
+}
+
+#newP1 .msg-box-r ul{
+    border: none;
+    margin: 0 0 0 15px ;
+    padding: 0;
+
+}
+
+#newP1 .msg-box-r ul li{
+    font-size: 12px;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space:nowrap;
+    width: 300px;
+}
+
+#newP1 div:first-child+div{
+    margin-top: 10px;
+    float: left;
+}
+
+#newP2{
+    margin-left: 70px;
+}
+
+
+#newP2 .msg-box-r ul{
+    border: none;
+    margin: 0 0 0 15px ;
+    padding: 0;
+
+}
+
+#newP2 .msg-box-r ul li{
+    font-size: 12px;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space:nowrap;
+    width: 300px;
+}
+
+#newP2 div:first-child+div{
+    margin-top: 10px;
+    float: left;
+}
+
+.msg-box-r input{
+    background: #fdb315;
+    border: none;
+    color: #fff;
+    padding: 7.5px 15px;
+    margin-top: 30px;
+}
+
+.list-box-newP{
+    width: 550px;
+    height: 50px;
+    float: left;
+    margin-top: 10px;
+}
+
+
+.list-box-newP ul:first-child{
+    float: left;
+    width: 65px;
+}
+
+.list-box-newP ul:first-child li{
+    text-align: center;
+    width: 50px;
+    border-right: 2px solid #ddd;
+}
+
+.list-box-newP ul:first-child li:first-child{
+    font-size: 22px;
+}
+
+.list-box-newP ul:first-child+ul{
+    float: left;
+    width: 460px;
+}
+
+.list-box-newP ul:first-child+ul li{
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space:nowrap;
+    width: 460px;
+}
+
+.list-box-newP ul:first-child+ul li:first-child{
+    font-size: 14px;
+} 
+
+.right-new-box{
+    float: left;
+    width: 550px;
+    height: 510px;
+}
+
+.button-more{
+    float: left;
+    width: 260px;
+    height: 45px;
+    border: 1px solid #999;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 18px;
+    margin: 30px 0 0 130px;
+}

@@ -1,0 +1,27 @@
+.lf{
+    float:left;
+}
+.rt{
+    float:right;
+}
+#top-header{
+    background:#f7f7f7;
+    height:40px;
+    line-height:40px;
+    font-size:12px;
+    color:#333;
+}
+ #top-header>div{
+   width:1200px;
+   margin:0 auto;
+ }
+ #top-header>div>ul{
+     margin-left:20px;
+ }
+ #top-header>div>ul>li{
+   float:left;
+   margin-left:20px;
+ }
+//  ul{
+//     list-style:none;
+//   }

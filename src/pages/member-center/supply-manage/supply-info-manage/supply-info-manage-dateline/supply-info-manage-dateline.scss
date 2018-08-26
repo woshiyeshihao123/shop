@@ -1,0 +1,74 @@
+.btn-supply-info-manage-search {
+    font-size: 14px;
+    padding: 10px 35px;
+    background: #ef7714;
+    color: white;
+}
+
+.input-search {
+    background: url("../../../../../assets/img/photos/8-1/searchIcon.png")no-repeat left center
+}
+
+.supply-info-manage-dateline {
+    .date-and-text {
+        position: relative;
+        float: left;
+        margin: 18.5px 9px;
+        height: 35px !important;
+        border: 1px solid #cecece;
+        line-height: 35px;
+        padding-left: 5px;
+        padding-right: 32px;
+        width: 170px !important;
+        // background: url("../../../../../assets/img/photos/8-1/calendar2.png")no-repeat 143px center;
+    }
+    .input-search {
+        padding-left: 30px;
+        background: url("../../../../../assets/img/photos/8-1/searchIcon.png")no-repeat 7px center !important;
+        
+    }
+}
+.calendar-line{
+    position: relative;
+    >b{
+        float: left;
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        left: 144px;
+        top:19px;
+        border:1px solid #cecece;
+        background: url("../../../../../assets/img/photos/8-1/calendar1.png")no-repeat center center;
+    }
+    >.b-active{
+        background: url("../../../../../assets/img/photos/8-1/calendar2.png")no-repeat center center!important;
+    }
+}
+.supply-info-manage-dateline {
+    height: 72px;
+    line-height: 72px;
+    .checkBox-right-active {
+        position: relative;
+        top: -4px;
+        width: 23px;
+        height: 23px;
+        background: url("../../../../../assets/img/photos/8-1/right.png")no-repeat center center;
+    }
+    >span {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    >div:first-child {
+        float: left;
+        width: 22px;
+        height: 22px;
+        margin-top: 25px;
+        margin-left: 10px;
+        background: url("../../../../../assets/img/photos/8-1/rectangle.png")no-repeat center center;
+    }
+    >div {
+        span {
+            font-size: 14px;
+        }
+    }
+}

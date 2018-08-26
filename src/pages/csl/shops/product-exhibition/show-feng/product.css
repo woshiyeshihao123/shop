@@ -1,0 +1,40 @@
+
+.boxsizing * {
+    box-sizing: border-box;
+}
+.boxsizing{
+    box-sizing: border-box;
+}
+.bottom-dash{
+    border-bottom: 1px dashed black;
+}
+.bottom-solid{
+    border-bottom: 1px solid #cecece;
+}
+.vertical-align-middle{
+    vertical-align: middle;
+}
+.vertical-align-text-bottom{
+    vertical-align: text-bottom;
+}
+.supply-list-title{
+    height: 40px;
+    background: red;
+}
+
+.onetwothree-type{
+    min-width: 1px;
+    min-height: 1px;
+    float: left;
+    padding: 5px;
+    height: 30px;
+    width: 20%;
+    border: 1px solid black;
+}
+.none{
+    display: none;
+}
+.main-center{
+    width: 1200px;
+    margin: 0 auto;
+}

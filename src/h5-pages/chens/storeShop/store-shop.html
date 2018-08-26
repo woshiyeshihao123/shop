@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="viewport-fit=cover, width=750, user-scalable=no">
+        <!-- <link rel="stylesheet" type="text/css" href="https://c.mipcdn.com/static/v1/mip.css"> -->
+        <title>公司店铺</title>
+        <link rel="stylesheet" href="./store-shop.scss">
+        <!-- <link rel="stylesheet" href="../comc/tyh.scss"> -->
+        <link rel="stylesheet" href="../../../h5-assets/css/common.scss">
+        <script src="../../../h5-assets/js/jquery-1.9.1.min.js"></script>
+    </head>
+    <body>
+        <!-- 页头 -->
+          <div>
+            <link rel="import" href="../../allCatalog/allCatalog.html?__inline">
+            <link rel="stylesheet" href="../../allCatalog/allCatalog.scss">
+          </div>
+          
+          <!-- 投诉 -->
+          <div class="tousu-box none">
+              <div class="black-cloth ">
+             </div>
+             <img src="../../../h5-assets/img/dianpu/tousu-1.png" class="tousu-pic ">
+             <div class="container ">
+                
+                <!-- 内容 -->
+                <form class="container-main" action="#">
+                <ul>
+                    <li><span>您的名字：</span><input required type="text" pattern="([\u4e00-\u9fa5]{2,4})" /></li>
+                    <li><span>电话号码：</span><input required type="tel" pattern="1[3578]\d{9}" /></li>
+                    <li><span>电子邮箱：</span><input trequired type="email"  
+                    pattern="/^(\w)+(\.\w+)*@(\w)+((\.\w+)+)$/"/></li>
+                    <li><span>QQ：</span><input required type="number" 
+                    pattern="[1-9][0-9]{4,14}" /></li>
+                    <li style=" position:relative;"><span>证据及类型：</span><a href="javascript:void(0)" class="list"><span>淫秽色情 </span><b class="down rg"></b></a>
+                    <ul class="list-1 none">
+                        <li class="jie"><i></i><span>淫秽色情</span></li>
+                        <li class="jie"><i></i>
+                        <span>赌博</span></li>
+                        <li class="jie"><i></i>
+                        <span>诈骗</span></li>
+                    </ul>
+                    </li>
+                    <li><span>主题：</span><input required type="text"  /></li>
+                    <li><span>网址：</span><input required type="url" /></li>
+                    <li class="last">
+                    <span>详细内容：</span><textarea required minlength="10" ></textarea></li>
+                </ul>
+                <button type="submit" class="can-btn">取消</button>
+                <button type="submit" class="sub-btn">提交</button>
+                <div class="container-box none">
+                    提交成功!
+                </div>
+                </form>
+             </div>
+          </div>
+
+
+
+          <div class="store-name">
+              <b class="comp-name">济南品脉数控设别有限公司</b>
+              <img src="../../../h5-assets/img/index/drawable-xhdpi/gold.png">
+              <span class="gold-de">金牌</span>
+              <div>主营：<span> 服装、饰品、玩具、电源</span>
+                <div class="com-plaints rt">
+                    <span>投诉</span>
+                </div>
+              </div>
+              
+          </div>
+
+
+          <!-- 图标导航 -->
+          <div id="icon-nav"  >
+              <ul class="icon-nav">
+                  <li class="active-icon">
+                      <a>
+                        <img src="../../../h5-assets/img/dianpu/home-1.png">
+                      </a>
+                      <p><a>首页</a></p>
+                  </li>
+                  <li class="">
+                      <a href="../../supplyInfoNew/supplyInfoNew.html">
+                        <img src="../../../h5-assets/img/dianpu/supply.png">
+                      </a>
+                      <p><a href="../../supplyInfoNew/supplyInfoNew.html">最新供应</a></p>
+                  </li>
+                  <li class="">
+                      <a href="../../infoBuyList/infoBuyList.html">
+                        <img src="../../../h5-assets/img/dianpu/gou.png">
+                      </a>
+                      <p><a href="../../infoBuyList/infoBuyList.html">采购清单</a></p>
+                  </li>
+                  <li class="">
+                      <a href="../../productShow/productShow.html">
+                        <img src="../../../h5-assets/img/dianpu/chanpin.png">
+                      </a>
+                      <p><a href="../../productShow/productShow.html">产品展厅</a></p>
+                  </li>
+                  <li class="all-btn">
+                      <a>
+                        <img src="../../../h5-assets/img/dianpu/shou.png" class="img-btn">
+                      </a>
+                      <p><a>收起</a></p>
+                  </li>
+              </ul>
+              <ul class="icon-nav" id="icon-nav-second">
+                    <li class="">
+                        <a href="../../newList/newList.html">
+                          <img src="../../../h5-assets/img/dianpu/dong.png">
+                        </a>
+                        <p><a href="../../newList/newList.html">公司动态</a></p>
+                    </li>
+                    <li class="">
+                        <a href="../../recruit-list/recruit-listl.html">
+                          <img src="../../../h5-assets/img/dianpu/zhaopin.png">
+                        </a>
+                        <p><a href="../../recruit-list/recruit-listl.html">公司招聘</a></p>
+                    </li>
+                    <li class="">
+                        <a href="../contactInfo/contact-info.html">
+                          <img src="../../../h5-assets/img/dianpu/lianxi-1.png">
+                        </a>
+                        <p><a href="../contactInfo/contact-info.html">联系方式</a></p>
+                    </li>
+                    <li class="">
+                        <a href="../../corpInductor/corpInductor.html">
+                          <img src="../../../h5-assets/img/dianpu/jieshao.png">
+                        </a>
+                        <p><a href="../../corpInductor/corpInductor.html">公司介绍</a></p>
+                    </li>
+                    <li class="">
+                        <a href="../../corpInfo/corpInfo.html">
+                          <img src="../../../h5-assets/img/dianpu/gongshan.png">
+                        </a>
+                        <p><a href="../../corpInfo/corpInfo.html">工商信息</a></p>
+                    </li>
+                </ul>
+         
+          </div>
+
+          <!-- 最新供应 -->
+          <div class="latest-supply">
+             <div class="supply-title">
+                <b>最新供应</b>
+                <div class="lf"> </div>
+                <img src="../../../h5-assets/img/info/drawable-xhdpi/type.png" class="rt divide-btn">
+                
+             </div>
+             <!-- 最新供应下的选择类别 -->
+             <div class="Select-category none">
+                 
+                 <div class="supplyType-title">选择类别
+                     <img src="../../../h5-assets/img/dianpu/close.png" class="close-btn">
+                 </div>
+                <ul class="supplyType-left-ul">
+                    <li class="supplyType-left-ul-li supplyType-left-li-active">
+                    <a href="javascript:void(0)"><span>机械及行业设备</span></a>
+                        <ul class="supplyType-ul-right-active">
+                            <li>
+                            <a href="javascript:void(0)">高压电器</a>
+                            
+                            </li>
+                            <li>
+                            <a href="javascript:void(0)">冶炼设备</a>
+                            </li>
+                            <li>
+                            <a href="javascript:void(0)">电动工具</a>
+                            </li>
+                            <li>
+                            <a href="javascript:void(0)">冶金矿产</a>
+                            </li>
+                            <li>
+                            <a href="javascript:void(0)">电动机</a>
+                            </li>
+                            <li>
+                            <a href="javascript:void(0)">饮料加工设备</a>
+                            </li>
+                            <li>
+                            <a href="javascript:void(0)">工业用纸</a>
+                            </li>
+                            <li>
+                            <a href="javascript:void(0)">塑料生产设备</a>
+                            </li>
+                            <li>
+                            <a href="javascript:void(0)">选矿设备</a>
+                            </li>
+                            <li>
+                            <a href="javascript:void(0)">电工工具成套设备</a>
+                            </li>
+                            <li>
+                            <a href="javascript:void(0)">印刷机械</a>
+                            </li>
+                            <li>
+                            <a href="javascript:void(0)">低压电器</a>
+                            </li>
+                            <li>
+                            <a href="javascript:void(0)">纺织设备和器</a>
+                            </li>
+                            <li>
+                            <a href="javascript:void(0)">食品加工设备</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="supplyType-left-ul-li">
+                    <a href="javascript:void(0)"><span>能源</span></a>
+                    <ul>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                    </ul>
+                    </li>
+                    <li class="supplyType-left-ul-li">
+                    <a href="javascript:void(0)"><span>服装、鞋帽</span></a>
+                    <ul>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                    </ul>
+                    </li>
+                    <li class="supplyType-left-ul-li">
+                    <a href="javascript:void(0)"><span>家居用品</span></a>
+                    <ul>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                    </ul>
+                    </li>
+                    <li class="supplyType-left-ul-li">
+                    <a href="javascript:void(0)"><span>农业</span></a>
+                    <ul>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                    </ul>
+                    </li>
+                    <li class="supplyType-left-ul-li">
+                    <a href="javascript:void(0)"><span>包装</span></a>
+                    <ul>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                    </ul>
+                    </li>
+                    <li class="supplyType-left-ul-li">
+                    <a href="javascript:void(0)"><span>冶金矿产</span></a>
+                    <ul>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                    </ul>
+                    </li>
+                    <li class="supplyType-left-ul-li">
+                    <a href="javascript:void(0)"><span>家用电器</span></a>
+                    <ul>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                    </ul>
+                    </li>
+
+                    <li class="supplyType-left-ul-li">
+                    <a href="javascript:void(0)"><span>玩具</span></a>
+                    <ul>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                    </ul>
+                    </li>
+
+                    <li class="supplyType-left-ul-li">
+                    <a href="javascript:void(0)"><span>礼品、工艺品、饰品</span></a>
+                    <ul>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                    </ul>
+                    </li>
+
+
+                    <li class="supplyType-left-ul-li">
+                    <a href="javascript:void(0)"><span>交通运输</span></a>
+                    <ul>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                    </ul>
+                    </li>
+
+                    <li class="supplyType-left-ul-li">
+                    <a href="javascript:void(0)"><span>化工</span></a>
+                    <ul>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                    </ul>
+                    </li>
+                    <li class="supplyType-left-ul-li">
+                    <a href="javascript:void(0)"><span>建筑、建材</span></a>
+                    <ul>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                    </ul>
+                    </li>
+                    <li class="supplyType-left-ul-li">
+                    <a href="javascript:void(0)"><span>纺织、皮革</span></a>
+                    <ul>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                    </ul>
+                    </li>
+                    <li class="supplyType-left-ul-li">
+                    <a href="javascript:void(0)"><span>加工</span></a>
+                    <ul>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                        <li>
+                        <a href="javascript:void(0)">测试文本</a>
+                        </li>
+                    </ul>
+                    </li>
+                </ul>
+                
+             </div>
+             <div class="devide-cloth   none"></div>
+
+             <ul class="pic-list">
+                 <li>
+                     <a href="../../supplyInfoNew/supplyInfoNew.html">
+                        <img src="">
+                     </a>
+                     
+                     <div class="de-tails">
+                         <a href="../../supplyInfoNew/supplyInfoNew.html">三段式消防水枪课切换</a>
+                         
+                         <p><img src="../../../h5-assets/img/index/drawable-xhdpi/location2.png">东台市</p>
+                     </div>
+                 </li>
+                 <li>
+                        <a href="../../supplyInfoNew/supplyInfoNew.html">
+                            <img src="">
+                         </a>
+                     <div class="de-tails">
+                         <a>三段式消防水枪课切换</a>
+                         <p><img src="../../../h5-assets/img/index/drawable-xhdpi/location2.png">东台市</p>
+                     </div>
+                 </li>
+                 <li>
+                        <a href="../../supplyInfoNew/supplyInfoNew.html">
+                            <img src="">
+                         </a>
+                     <div class="de-tails">
+                         <a>三段式消防水枪课切换</a>
+                         <p><img src="../../../h5-assets/img/index/drawable-xhdpi/location2.png">东台市</p>
+                     </div>
+                 </li>
+                 <li>
+                        <a href="../../supplyInfoNew/supplyInfoNew.html">
+                            <img src="">
+                         </a>
+                     <div class="de-tails">
+                         <a>三段式消防水枪课切换</a>
+                         <p><img src="../../../h5-assets/img/index/drawable-xhdpi/location2.png">东台市</p>
+                     </div>
+                 </li>
+             </ul>
+          </div>
+
+
+
+          <!-- 热门产品 -->
+          <div class="hot-supply">
+                <div class="supply-title">
+                   <b>热门产品</b>
+                   <div class="lf"> </div>
+                   <img src="../../../h5-assets/img/info/drawable-xhdpi/choose-right.png">
+                   <a href="../../productShow/productShow.html">更多 </a>
+                   
+                </div>
+                <ul class="pic-list">
+                    <li>
+                            <a href="../../productShow/productShow.html">
+                                <img src="">
+                             </a>
+                        <div class="in-struct">
+                            <a href="../../productShow/productShow.html">三段式消防水枪课切换</a>
+                            <span><a href="../../productShow/productShow.html">鹌鹑自动采石器：其结构有大楼料斗 输料桶 漏料槽 一次性对接而成。jasdfghjklwertyuiopzxcvbnm,</a></span>
+                        </div>
+                    </li>
+                    <li>
+                            <a href="../../productShow/productShow.html">
+                                <img src="">
+                             </a>
+                        <div class="in-struct">
+                                <a href="../../productShow/productShow.html">三段式消防水枪课切换</a>
+                                <span><a href="../../productShow/productShow.html">鹌鹑自动采石器：其结构有大楼料斗 输料桶 漏料槽 一次性对接而成。jasdfghjklwertyuiopzxcvbnm,</a></span>
+                        </div>
+                    </li>
+                    <li>
+                            <a href="../../supplyInfoNew/supplyInfoNew.html">
+                                <img src="">
+                             </a>
+                        <div class="in-struct">
+                                <a href="../../productShow/productShow.html">三段式消防水枪课切换</a>
+                                <span><a href="../../productShow/productShow.html">鹌鹑自动采石器：其结构有大楼料斗 输料桶 漏料槽 一次性对接而成。jasdfghjklwertyuiopzxcvbnm,</a></span>
+                        </div>
+                    </li>
+                   
+                </ul>
+          </div>
+
+          <!-- 公司新闻 -->
+          <div class="company-news">
+            <div class="supply-title">
+                <b>公司新闻</b>
+                <div class="lf"> </div>
+                <img src="../../../h5-assets/img/info/drawable-xhdpi/choose-right.png">
+                <a href="../../newList/newList.html">更多 </a>
+            </div>
+            <ul class="news-details">
+                <li class="detail-list">
+                    <a href="../../newList/newList.html">中国氧气</a>
+                    <p>
+                        <img src="../../../h5-assets/img/index/drawable-xhdpi/exhibition-date.png">
+                        <span>发布日期 : </span>123456
+                    </p>
+                    <div>
+                        <span>&nbsp;中国氧气</span>
+                        <span>
+                            <p>【报告编号】</p>: 12345
+                            <p>【出版时间】</p>: 123456
+                            <p>【出版机构】</p>123
+                        </span>
+                    </div>
+                </li>
+                <li class="detail-list">
+                    <a href="../../newList/newList.html">中国氧气</a>
+                    <p>
+                        <img src="../../../h5-assets/img/index/drawable-xhdpi/exhibition-date.png">
+                        <span>发布日期 : </span>123456
+                    </p>
+                    <div>
+                        <span> &nbsp;中国氧气</span>
+                        <span>
+                            <p>【报告编号】</p>: 123456
+                            <p>【出版时间】</p>: 1234567
+                            <p>【出版机构】</p>
+                        </span>
+                    </div>
+                </li>
+            </ul>
+          </div>
+
+         <!-- 公司招聘 -->
+          <div class="com-recruit">
+            <div class="supply-title">
+                <b>公司招聘</b>
+                <div class="lf"> </div>
+                <img src="../../../h5-assets/img/info/drawable-xhdpi/choose-right.png">
+                <a href="../../recruit-list/recruit-listl.html">更多 </a>
+            </div>
+            <ul class="recruit-detail">
+                <li>
+                    <a href="../../recruit-list/recruit-listl.html">
+                        <span>招聘园林设计师</span>
+                    </a>
+                    
+                    <span class="rt">10人</span>
+                    <div class="full-time">
+                        <span>全</span>
+                        <span>职</span>
+                    </div>
+                    
+                </li>
+                <li>
+                        <a href="../../recruit-list/recruit-listl.html">
+                            <span>招聘园林设计师</span>
+                        </a>
+                    <span class="rt">10人</span>
+                    <div class="full-time">
+                        <span>全</span>
+                        <span>职</span>
+                    </div>
+                    
+                </li>
+            </ul>
+          </div>
+          
+
+          <!-- 公司简介 -->
+          <div class="com-introduct">
+            <div class="supply-title">
+                <b>公司简介</b>
+                <div class="lf"> </div>
+                
+            </div>
+            <div class="introduct-detail  more-show">
+                <span>中研智业研究所于2007年成立于北京 是有背景中指整夜信息技术研究院推广并运营的医家研究机构，提供正对企业用户的各类信息 如深度演技报告时长调查统计数据等通过眼睛的iancha和科学的逻辑化的分析 论证发发 忠言职业已于国内多家证券公司机构炉石事务所块级事务所</span>
+            </div>
+            <div class="see-more">
+                <span>更多</span>
+                <img src="../../../h5-assets/img/index/drawable-xhdpi/show.png">
+            </div>
+          </div>
+
+
+          <div class="foot-li">
+              <ul class="">
+                  <li><a href="">登录</a></li>
+                  <li><a href="">注册</a></li>
+                  <li><a href="">电脑版</a></li>
+                  <li><a href="">开通会员</a></li>
+              </ul>
+          </div>
+          
+          <!-- 返回顶部 -->
+          <!-- <div class="to-top">
+            <a href="#">
+            <img src="../../../assets/img/photos/index/goup.png">
+            </a>
+          </div> -->
+
+          <script src="./store-shop.js"></script>
+          <script src="../store-header/store-header.js"></script>
+          <script src="https://c.mipcdn.com/static/v1/mip.js"></script>
+          <script src="../../allCatalog/allCatalog.js"></script>
+    </body>
+</html>

@@ -1,0 +1,613 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+  background-color: 34495e;
+  /* for the tint */
+}
+
+.goup-container {
+  background: url("../../assets/img/photos/index/goup.png");
+  z-index: 9999;
+}
+
+.serch-div {
+  position: relative;
+  top: -440px;
+  overflow: visible;
+}
+
+#searh-information {
+  height: 100px;
+  width: 100%;
+  background: transparent;
+  overflow: visible;
+}
+
+#searh-information-box {
+  width: 154px;
+  line-height: 100px;
+  margin-left: 30px;
+  overflow: visible;
+}
+
+#searh-information-box > span {
+  color: #fff;
+  font-size: 30px;
+  display: inline-block;
+  width: 130px;
+  font-weight: bold;
+}
+
+#searh-information-box > i {
+  width: 20px;
+  height: 20px;
+}
+
+#searh-information-box > .xl-icon {
+  width: 20px;
+  height: 20px;
+  background: url(../img/index/drawable-xhdpi/show-orange.png) no-repeat center center;
+  display: inline-block;
+  position: relative;
+  left: 130px;
+  top: -100px;
+}
+
+#searh-information-box > .sq-icon {
+  width: 20px;
+  height: 20px;
+  background: url(../img/index/drawable-xhdpi/hide-orange.png) no-repeat center center;
+  display: inline-block;
+}
+
+.search-box {
+  height: 60px;
+  width: 520px;
+  border: none;
+  border-radius: 40px;
+  font-size: 30px;
+  float: left;
+  margin-top: -79px;
+  margin-left: 200px;
+  padding: 0 20px;
+}
+
+.search-click {
+  width: 60px;
+  height: 60px;
+  display: block;
+  float: left;
+  background: url(../img/index/drawable-xhdpi/search.png) no-repeat center center;
+  margin-left: 660px;
+  margin-top: -79px;
+}
+
+#searh-information > .select {
+  position: relative;
+}
+
+#searh-information-box .selectList {
+  z-index: 99;
+  display: none;
+  background: white;
+  width: 270px;
+  height: 340px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  position: absolute;
+  top: 80px;
+}
+
+.selectList .listA-all a {
+  width: 100%;
+  height: 84px;
+  line-height: 84px;
+  border-bottom: 1px solid #ccc;
+  font-size: 26px;
+  color: #333;
+  display: block;
+  text-decoration: none;
+}
+
+.selectList .listA-all a .size {
+  width: 100%;
+  height: 30px;
+  padding-left: 40px;
+}
+
+.selectList > .listA-all > a > .border-size {
+  border-left: 4px solid #ef7714;
+}
+
+.selectList > .listA-all > a:hover {
+  color: #ef7714;
+}
+
+.search-box-list {
+  height: 60px;
+  width: 520px;
+  border: none;
+  border-radius: 40px;
+  font-size: 30px;
+  float: left;
+  margin-top: -79px;
+  margin-left: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.search-click {
+  width: 60px;
+  height: 60px;
+  display: block;
+  float: left;
+  background: url(../img/dianpu/search.png) no-repeat center center;
+  margin-left: 660px;
+  margin-top: -79px;
+}
+
+.all-elements {
+  overflow-x: hidden;
+}
+
+.page-content {
+  background-color: #FFFFFF;
+  z-index: 10;
+  display: block;
+  position: relative;
+  min-height: 100%;
+}
+
+.page-content-wrapper {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 20px;
+  padding-bottom: 15px;
+}
+
+.page-sidebar {
+  background-color: #1e1f20;
+  width: 262px;
+  display: block;
+  position: absolute;
+  z-index: 2;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  overflow: hidden;
+  position: fixed;
+}
+
+.page-sidebar-scroll {
+  z-index: 2;
+  width: 282px;
+  overflow: scroll;
+  overflow-x: hidden;
+  /* -webkit-overflow-scrolling: touch;*/
+  height: 100%;
+}
+
+.page-header {
+  background-color: #fafafa;
+  border-bottom: solid 1px #ebebed;
+  height: 80px;
+  width: 100%;
+  z-index: 100;
+}
+
+.cut-line {
+  width: 750px;
+  height: 10px;
+  background: #f4f4f4;
+  position: relative;
+  left: -20px;
+  margin-bottom: 30px;
+}
+
+.deploy-sidebar {
+  float: right;
+  z-index: 999;
+  background-image: url("../img/index/drawable-xhdpi/navigation-classify.png");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: 23px 10px;
+  width: 84px;
+  height: 84px;
+  display: block;
+}
+
+.modal-full-screen {
+  position: fixed;
+  top: 780px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+}
+
+/* .bread-crumb{
+	position:relative;
+	z-index:99;
+	display:block;
+	margin-bottom:16px;
+	margin-top:-35px;
+	text-align:center;
+	text-transform:uppercase;
+	color:#212222;
+	font-family:'Lato', sans-serif;
+	font-weight:700;
+} */
+.deploy-contact {
+  float: left;
+  z-index: 999;
+  background-image: url("../../assets/img/photos/login-register/logo.png");
+  background-size: 144px 50px;
+  background-repeat: no-repeat;
+  /* background-position:12px 18px; */
+  width: 144px;
+  height: 50px;
+  margin: 14px 30px;
+}
+
+.content-header {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+#h5Search {
+  position: relative;
+  top: -390px;
+  left: 0px;
+  padding: 0 30px;
+  line-height: 30px;
+}
+
+#h5Search > span {
+  float: left;
+  color: #fff;
+  height: 60px;
+  line-height: 60px;
+}
+
+#h5Search > span + p {
+  float: left;
+  border: 6px solid transparent;
+  border-top-color: #ef7714;
+  margin: 30px 10px;
+}
+
+.search-box {
+  float: left;
+  height: 60px;
+  width: 520px;
+  line-height: 60px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 30px;
+  margin-left: 26px;
+}
+
+.search-box input {
+  float: left;
+  height: 60px;
+  width: 450px;
+  padding: 0 0 0 40px;
+  color: #ffffff;
+  background-color: transparent;
+  border-radius: 30px;
+  font-weight: lighter;
+  font-size: 28px;
+}
+
+.search-box img {
+  float: left;
+  padding: 6px 10px;
+}
+
+.search-box input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.search-box input::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #fff;
+}
+
+.search-box input:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #fff;
+}
+
+.search-box input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #fff;
+}
+
+.container li {
+  float: left;
+  list-style: none;
+  width: 33.3%;
+  text-align: left;
+  padding: 20px 40px;
+  font-size: 28px;
+  font-weight: lighter;
+  color: #333;
+  border-right: 1px solid #ebebeb;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.container li a {
+  display: inline;
+}
+
+.section-title {
+  margin-bottom: 10px;
+  line-height: 32px;
+  border-bottom: 0.5px solid #ebebeb;
+}
+
+.section-title strong {
+  background-color: #1c1c1c;
+  width: 35px;
+  height: 35px;
+  border-radius: 40px;
+  position: absolute;
+  top: 1px;
+  right: 0px;
+}
+
+.section-title h4 {
+  /* margin-bottom:-0px; */
+  float: left;
+  font-size: 32px;
+  color: #333333;
+  padding-left: 10px;
+}
+
+.section-title h4 + p {
+  float: right;
+  line-height: 28px;
+  padding: 4px 0;
+  font-size: 26px;
+  color: #999;
+  font-weight: lighter;
+}
+
+.section-title h4 + div {
+  float: right;
+  line-height: 28px;
+  padding: 4px 0;
+  font-size: 26px;
+  color: #999;
+  font-weight: lighter;
+}
+
+.section-title h4 + div span {
+  float: left;
+}
+
+.section-title h4 + p span {
+  float: left;
+}
+
+.section-title h4 + div img {
+  position: relative;
+  top: -6px;
+}
+
+.section-title h4 + p img {
+  position: relative;
+  top: -6px;
+}
+
+.section-title h4.msg-title {
+  border: none;
+  height: 32px;
+  line-height: 43px;
+}
+
+.section-title h4.msg-title img {
+  float: left;
+  margin-right: 10px;
+}
+
+.section-title h4.msg-title div {
+  float: left;
+}
+
+.msg-list li {
+  float: none;
+  width: 100%;
+}
+
+.msg-list2 li {
+  float: none;
+  width: 100%;
+  padding-left: 0;
+}
+
+.msg-list3 li {
+  padding-left: 0;
+  width: 12.5%;
+  padding-right: 31px;
+}
+
+.msg-list4 li {
+  padding-left: 0;
+  width: auto;
+  border-right: 1px solid #ef7714;
+  padding: 4px 31px;
+  margin-top: 26px;
+  height: 30px;
+}
+
+.msg-list1 li:before {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background-color: #000;
+  border-radius: 50%;
+  margin: 0 10px 7px 0;
+}
+
+.services-item em {
+  text-align: center;
+  display: block;
+  color: #e34e47;
+  margin-bottom: 10px;
+}
+
+.services-item h4 {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.services-item strong {
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  display: block;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.services-item img {
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+/*Testimonials*/
+.quote-item {
+  font-size: 32px;
+  line-height: 32px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border-bottom: 0.5px solid #ebebeb;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+.quote-item img {
+  width: 170px;
+  height: 170px;
+  background: #333333;
+  float: left;
+  margin-right: 30px;
+}
+
+.quote-item em {
+  display: block;
+  font-size: 28px;
+  font-weight: lighter;
+  color: #666;
+  margin: 30px 0 15px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.quote-item em span {
+  color: #ef7714;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.footer {
+  position: absolute;
+  width: 750px;
+  left: -19px;
+  margin-top: 0px;
+  background: #f9f9f9;
+}
+
+.footer input {
+  float: left;
+  width: 25%;
+  background: transparent;
+  padding: 30px 0;
+  font-weight: lighter;
+}
+
+.none {
+  display: none;
+}
+
+.header-box {
+  position: fixed;
+  top: 80px;
+  width: 100%;
+  height: 700px;
+  background: #fff;
+  z-index: 9999;
+}
+
+.header-box a {
+  height: auto;
+  line-height: 26px;
+}
+
+.header-box ul {
+  list-style: none;
+}
+
+.header-box ul li {
+  float: left;
+  margin: 50px 0 50px 90px;
+  text-align: center;
+  width: 130px;
+  list-style: none;
+}
+
+.header-box ul li .text {
+  margin-top: 20px;
+  width: 115px;
+  display: block;
+  font-size: 26px;
+  margin-right: 24px;
+}
+
+select:focus {
+  background: url("../img/index/drawable-xhdpi/hide-orange.png") no-repeat scroll right center transparent;
+}
+
+select {
+  /*Chrome和Firefox里面的边框是不一样的，所以复写了一下*/
+  border: none;
+  font-size: 100%;
+  width: 144px;
+  color: #fff;
+  /*很关键：将默认的select选择框样式清除*/
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  /*在选择框的最右侧中间显示小箭头图片*/
+  background: url("../img/index/drawable-xhdpi/show-orange.png") no-repeat scroll right center transparent;
+  /*为下拉小箭头留出一点位置，避免被文字覆盖*/
+  padding-right: 32px;
+}
+
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+select::-ms-expand {
+  display: none;
+}
+
+option {
+  font-size: 20px;
+  color: #000;
+  padding: 0;
+}
+
+/*Adjustments for tablets*/
+/*Tablet Landscape*/
+/*Tabet Portrait*/
+/*Preview Frame, demo only*/

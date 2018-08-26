@@ -1,0 +1,131 @@
+
+
+
+#bread-crumb{
+    margin:0px auto;
+    height:30px;
+    background:#f7f7f7;
+   line-height:30px;
+   border-top:3px solid #EB6800;
+}
+a.first-am{
+    margin-left:180px;
+}
+#main-body{
+    width:1200px;
+    margin:40px auto;
+}
+
+#article{
+    width:930px;
+    // height:2000px;
+    margin-top:20px;   
+    overflow: hidden;
+}
+#article>h1{
+    display: block;
+    margin-bottom:20px; 
+    text-align: center;
+}
+#article>span{
+    display: inline-block;
+    margin-left:250px;
+}
+#article>p{
+    line-height:20px;
+    margin:15px 0px;
+    width:920px;
+    
+    
+    display:block;
+}
+#article>p>img{
+    margin:10px auto;
+    display: block;
+}
+#article>p>span{
+    width:920px;
+    margin:10px auto;
+}
+
+div.left-list{
+    width:250px;
+}
+
+#information-list{
+    width:250px;
+    float:right;
+    height:350px;
+    border:1px solid #f7f7f7f7;
+    margin-top:40px;
+    box-shadow:2px 2px 2px #a5a2a2;
+}
+#information-list>p{
+    margin-left:20px;
+    font-size:16px;
+    color:black;
+    font-weight:2px;
+}
+#information-list>div{
+    margin-left:18px;
+    height:10px;
+    width:100px;
+}
+#information-list>div>hr{
+    border-top:5px solid #EB6800;
+    width:95px;
+    
+    margin-top:-6px;
+    opacity: 0.5;
+}
+#information-list>ul{
+    margin-top:20px; 
+    margin-left:20px;
+}
+#information-list>ul>li{
+    margin-top:25px;
+    font-size:14px;
+}
+
+
+
+
+#information-list2{
+    width:250px;
+    float:right;
+    height:475px;
+    border:1px solid #f7f7f7;
+    margin-top:40px;
+    box-shadow:2px 2px 2px #a5a2a2;
+}
+#information-list2>p{
+    margin-left:20px;
+    font-size:16px;
+    color:black;
+    font-weight:2px;
+}
+#information-list2>div{
+    margin-left:18px;
+    height:10px;
+    width:100px;
+}
+#information-list2>div>hr{
+    border-top:5px solid #EB6800;
+    width:95px;
+    margin-top:-6px;
+    opacity: 0.5;
+}
+#information-list2>ul{
+    margin-top:20px; 
+    margin-left:20px;
+}
+#information-list2>ul>li{
+    margin-top:25px;
+    font-size:14px;
+}
+
+a.back-top{
+    position:fixed;
+    right:30px;
+    bottom:20px;
+}

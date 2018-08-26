@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="viewport-fit=cover, width=750, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../../h5-assets/css/common.scss">
+  <link rel="stylesheet" href="../addressChoose/iosSelect.scss">
+  <link rel="stylesheet" href="./supplyInfoList.scss">
+  <link rel="stylesheet" href="../allCatalog/allCatalog.scss">
+  <link rel="stylesheet" href="../../h5-common/goTop/goup.scss">
+  
+  <!-- <script src="../../h5-assets/js/zepto.min.js"></script> -->
+  <script src="../../h5-assets/js/jquery-1.9.1.min.js"></script>
+  <script src="../addressChoose/iosSelect.js"></script>
+  <script src="../addressChoose/areaData_v2.js"></script>
+  <title>Document</title>
+  <style>
+    .header{
+      box-sizing: content-box!important;
+    }
+    html,body{
+      height: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="modal-full-screen none"></div>
+
+  <!-- 这里插入首商网头部 -->
+  <link rel="import" href="../allCatalog/allCatalog.html?__inline">
+  
+  <!-- 供应信息>选矿设备 -->
+  <h3 id="title-type">
+    <a href="javascript:;">供应信息</a>
+    <span>> </span>
+    <a href="javascript:;">选矿设备</a>
+  </h3>
+ 
+  <div id="select">
+    <ul>
+      <li>机床</li>
+      <li>化工设备</li>
+      <li>手动工具</li>
+      <li>商业专用设备</li>
+      <li>包装相关设备</li>
+      <li>泵</li>
+      <li>农用机械</li>
+      <li>工程与建筑机械</li>
+      <li>模具</li>
+    </ul>
+  </div>
+
+  <div id="area-choose">
+    <span>地址</span>
+    <a href="javascript:;" id="choose">请选择></a>
+  </div>
+
+<div class="line-gray">
+</div>
+
+  <!-- 这里插入列表标题和列表项 -->
+  <div id="enterprise">
+    <div class="daily-one">
+        <div class="companies">
+            <i></i>
+            <span class="daily-two">供应列表</span>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <hr style="border:1px solid #f4f4f4">
+    <div class="directories" style="width:750px;">
+        <div class="company-list">
+            <div class="company-detail">
+                    <a href="../supply-info-detail/supply-info-detail.html">
+                <img class="photo" src="../../h5-assets/img/dianpu/beacon.jpg">
+                </a>
+                <ul>
+                    <a href="../supply-info-detail/supply-info-detail.html">
+                    <li class="company-name">
+                        <p>三段式消防水枪可切换球阀实打实大师大师</p>
+                    </li>
+                    <li class="company-ads">
+                        <p>消防水枪质量高质量好，产自与山东青岛某大型制造厂</p>
+                    </li>
+                    </a>
+                    <li class="telephone">
+                        <b></b>
+                        <p class="dizhi">东台市海景消防器材有限公司是打算打算</p>
+                        <i id="call-two"></i>
+                        
+                        <div id="call-people" class="disappear">
+                              <img src="../../h5-assets/img/info/drawable-xhdpi/call-people.png">
+                              <span>176-0056-5592</span>
+                              <p>*此号码不暂不支持短信首发功能*</p>
+                              <button><a href="tel:176-0056-5592"></a>拨打</button>
+                              <button id="over">取消</button>
+                        </div>
+                    </li>
+                </ul>
+                
+            </div>
+            
+        </div>
+        <hr style="border:1px solid #f4f4f4">
+        
+    </div>
+</div>
+  <!-- 这里插入底部，登录注册按钮，电脑版，开通会员 -->
+  <div id="footer-four">
+    <a href="javascript:;">登录</a>
+    <a href="javascript:;">注册</a>
+    <a href="javascript:;">电脑版</a>
+    <a href="javascript:;">开通会员</a>
+  </div>
+  <div id="bg" class="disappear"></div>
+  <script src="./supplyInfoList.js"></script>
+  <script src="../allCatalog/allCatalog.js"></script>
+  <script src="../../h5-common/goTop/jquery.goup.js"></script>
+</body>
+
+</html>

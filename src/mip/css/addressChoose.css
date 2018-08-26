@@ -1,0 +1,486 @@
+.header {
+  background-color: #fff;
+  border-bottom: solid 1px #ebebed;
+  height: 80px;
+  width: 100%;
+  z-index: 12;
+}
+
+.header .deploy-contact {
+  float: left;
+  z-index: 999;
+  background-image: url("../../assets/img/photos/login-register/logo.png");
+  background-size: 144px 50px;
+  background-repeat: no-repeat;
+  /* background-position:12px 18px; */
+  width: 144px;
+  height: 50px;
+  margin: 14px 30px;
+}
+
+.header .deploy-sidebar {
+  float: right;
+  z-index: 999;
+  background-image: url("../img/index/drawable-xhdpi/navigation-classify.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* background-position:15px 19px; */
+  width: 44px;
+  height: 44px;
+  display: block;
+  margin: 22px 30px;
+}
+
+.header-box {
+  position: absolute;
+  width: 100%;
+  height: 750px;
+  background: #fff;
+  z-index: 99;
+}
+
+.header-box ul li {
+  float: left;
+  margin: 50px 0 50px 90px;
+  text-align: center;
+  width: 130px;
+}
+
+.header-box ul li .text {
+  margin-top: 20px;
+  display: block;
+  font-size: 26px;
+}
+
+body {
+  width: 750px;
+  margin: 0;
+}
+
+.main {
+  min-height: 1220px;
+}
+
+#top .img1 {
+  margin: 16px 30px;
+}
+
+#top .img2 {
+  float: right;
+  margin-top: 20px;
+  margin-right: 26px;
+}
+
+ul, li, a, p {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  font-size: 26px;
+}
+
+ul .clear, li .clear, a .clear, p .clear {
+  clear: both;
+}
+
+.none {
+  display: none;
+}
+
+.lf {
+  float: left;
+}
+
+.rt {
+  float: right;
+}
+
+.nav {
+  width: 100%;
+  height: 70px;
+}
+
+.nav p {
+  width: 100%;
+  padding-left: 30px;
+  display: inline-block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: #f4f4f4;
+}
+
+.nav a {
+  font-size: 26px;
+  color: #333;
+  text-decoration: none;
+  font-style: normal;
+  line-height: 70px;
+}
+
+.nav span {
+  font-size: 26px;
+  color: #fe6e0d;
+  margin: 0 10px;
+}
+
+.navtwo {
+  width: 690px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.navtwo button {
+  width: 210px;
+  height: 60px;
+  color: #333;
+  background-color: #fff;
+  margin-left: 15px;
+  margin-top: 10px;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 6px;
+  border: 1px solid #e3e3e3;
+  position: relative;
+}
+
+.navtwo button:hover {
+  border: 1px dashed #ef7714;
+  border-radius: 6px;
+}
+
+.navtwo button:hover b {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background: url("../img/info/drawable-xhdpi/selected.png") no-repeat;
+}
+
+.navtwo .nav-select {
+  width: 100%;
+  margin-top: 50px;
+  position: relative;
+}
+
+.navtwo .nav-select span {
+  font-size: 30px;
+  margin-left: 30px;
+  color: #333;
+}
+
+.navtwo .nav-select p {
+  display: inline-block;
+  font-size: 30px;
+  margin-right: 30px;
+  color: #333;
+}
+
+.navtwo .nav-select p b {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  margin-left: 20px;
+  background: url("../img/info/drawable-xhdpi/choose-right.png") no-repeat;
+  position: absolute;
+  top: 0px;
+  right: -8px;
+}
+
+#enterprise {
+  width: 750px;
+}
+
+#enterprise .daily-one {
+  margin: 30px;
+  height: 35px;
+}
+
+#enterprise .daily-one .companies {
+  width: 375px;
+  height: 50px;
+  line-height: 50px;
+}
+
+#enterprise .daily-one .companies i {
+  width: 4px;
+  height: 23px;
+  background-color: #ef7714;
+  margin-right: 20px;
+  float: left;
+  position: relative;
+  top: 14px;
+  left: 0;
+}
+
+#enterprise .daily-one .companies .daily-two {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333333;
+}
+
+#enterprise .directories .company-list {
+  width: 750px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#enterprise .directories .company-list .company-detail img {
+  width: 170px;
+  height: 170px;
+  margin-right: 30px;
+  float: left;
+  margin-bottom: 30px;
+}
+
+#enterprise .directories .company-list .company-detail ul {
+  width: 70%;
+  margin-left: 200px;
+}
+
+#enterprise .directories .company-list .company-detail ul li {
+  width: 500px;
+  color: #666;
+}
+
+#enterprise .directories .company-list .company-detail ul li p {
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#enterprise .directories .company-list .company-detail ul .company-name {
+  margin-bottom: 20px;
+}
+
+#enterprise .directories .company-list .company-detail ul .company-name p {
+  width: 430px;
+  font-size: 32px;
+  color: #333333;
+  font-family: Arial, Helvetica, sans-serif;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+#enterprise .directories .company-list .company-detail ul .company-ads {
+  margin-bottom: 20px;
+}
+
+#enterprise .directories .company-list .company-detail ul .company-ads p {
+  margin-top: -10px;
+  height: 70px;
+  width: 470px;
+  font-size: 26px;
+  color: #666;
+  font-family: Arial, Helvetica, sans-serif;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+#enterprise .directories .company-list .company-detail ul .telephone {
+  margin-top: 7px;
+  margin-bottom: 7px;
+  position: relative;
+}
+
+#enterprise .directories .company-list .company-detail ul .telephone b {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  position: relative;
+  top: -15px;
+  left: -10px;
+  background: url("../img/index/drawable-xhdpi/location2.png") no-repeat;
+}
+
+#enterprise .directories .company-list .company-detail ul .telephone p {
+  margin-left: 30px;
+  margin-top: -60px;
+  width: 370px;
+  font-size: 26px;
+  color: #666;
+  font-family: Arial, Helvetica, sans-serif;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+#enterprise .directories .company-list .company-detail ul .telephone i {
+  display: inline-block;
+  width: 68px;
+  height: 68px;
+  background: url("../img/index/drawable-xhdpi/tel.png") no-repeat;
+  position: absolute;
+  top: -30px;
+  right: -20px;
+}
+
+#enterprise .directories .company-list .company-main {
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #666666;
+}
+
+#button-btn {
+  position: fixed;
+  bottom: 0px;
+  width: 750px;
+}
+
+#button-btn > button {
+  width: 25%;
+  height: 80px;
+  text-align: center;
+  font-size: 26px;
+  color: black;
+  line-height: 60px;
+  float: left;
+  background: #fafafa;
+  border: 0;
+}
+
+#bg {
+  width: 750px;
+  height: 2200px;
+  filter: alpha(Opacity=80);
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  z-index: 2000;
+  top: 0;
+  left: 0;
+}
+
+#call-people {
+  position: fixed;
+  width: 600px;
+  height: 400px;
+  background: white;
+  z-index: 9999;
+  top: 250px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+#call-people > img {
+  float: left;
+  margin: 70px 10px 10px 70px;
+}
+
+#call-people > span {
+  font-size: 44px;
+  color: #ef7714;
+  font-weight: bold;
+  float: left;
+  margin: 120px 0px 10px 15px;
+}
+
+#call-people > p {
+  font-size: 26px;
+  color: #999999;
+  float: left;
+  margin: 20px 0px 10px 100px;
+}
+
+#call-people > button:nth-child(4) {
+  width: 250px;
+  height: 70px;
+  border-radius: 6px;
+  background: #ef7714;
+  color: #ffffff;
+  font-size: 32px;
+  border: 0;
+  margin: 300px 40px 30px -518px;
+}
+
+#call-people > button:nth-child(5) {
+  width: 250px;
+  height: 70px;
+  border-radius: 6px;
+  background: #f4f4f4;
+  color: #666666;
+  font-size: 32px;
+  border: 0;
+}
+
+.disappear {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+footer {
+  height: 100px;
+  background: #f9f9f9;
+  padding: 0  30px;
+  position: relative;
+}
+
+footer > a {
+  width: 160px;
+  line-height: 100px;
+  text-align: center;
+  display: inline-block;
+  color: #000;
+  font-size: 25px;
+}
+
+#address {
+  position: absolute;
+  background-color: white;
+  width: 750px;
+  height: 600px;
+  z-index: 5;
+  top: -420px;
+  left: 0;
+}
+
+#address .title {
+  background-color: #e5e8e3;
+  width: 750px;
+  height: 40px;
+  border-top: 1px solid orange;
+  border-bottom: 1px solid orange;
+}
+
+#address .content {
+  width: 750px;
+  height: 480px;
+}
+
+.disappear {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+#address .content ul {
+  width: 100px;
+  height: 500px;
+  float: left;
+  position: relative;
+}
+
+#address .content ul li {
+  text-align: center;
+}
+
+#address .bar {
+  position: absolute;
+  width: 750px;
+  height: 34px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  top: 285px;
+  left: 0;
+}

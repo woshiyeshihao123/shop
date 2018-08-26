@@ -1,0 +1,207 @@
+.member-center-list-box li {
+    width: 100%;
+}
+
+.member-center-list-box {
+    // float: right;
+    height:500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    // vertical-align: top;
+    width: 250px;
+    box-shadow: 0px 6px 15px 0px #eae7e7;
+    ul {
+        width: 100%;
+    }
+}
+
+.member-center-second-list {
+    // display: none;
+    width: 170px!important;
+    margin-left: 50px;
+    >li {
+        text-align: left;
+        padding:11px 0;
+        font-size: 12px;
+
+    }
+}
+
+.member-center-list-box-item {
+    width: 100%;
+    
+    >a {
+        display: block;
+        width: 100%;
+        height: 38px;
+        // line-height: 38px;
+        padding-left: 15px;
+        padding-right: 13px;
+        
+        >span{
+            font-size: 14px;
+            padding-right: 7px;
+            // padding-top: 12px;
+            // padding-bottom: 14px;
+            border-bottom: 1px dashed #cccccc;
+            border-top: 1px dashed #cccccc;
+            display: block;
+            height: 38px;
+            line-height: 38px;
+            width: 100%;
+            // 牛逼牛逼，解决了border重叠的问题
+            margin-top: -1px;
+            margin-bottom: -1px;
+        }
+    }
+    // .right-arrow {
+    //     background: url(../../../../../assets/img/photos/8-0/rightArrow-black.png)no-repeat center center;
+    //     float: left;
+    //     width: 5px;
+    //     height: 16px;
+    //     margin-top: 10px;
+    //     margin-right: 10px;
+    // }
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+@mixin list-left-icon {
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-right: 20px;
+}
+.member-center-list-box-item{
+    >a{
+        >span{
+            >b{
+                margin-top: 10px;
+            }
+        }
+    }
+}
+.member-center-list-box-item:first-child {
+    >a {
+        >span {
+            border-top: none;
+            >b {
+                @include list-left-icon;
+                background: url("../../../../../assets/img/shop/1psd/jiantouxia.png")no-repeat center center;
+            }
+            >.active-b{
+                background: url("../../../../../assets/img/shop/1psd/jiantoubaixia.png")no-repeat center center;
+            }
+        }
+    }
+}
+
+.member-center-list-box-item:first-child+li {
+    >a {
+        >span {
+            >b {
+                @include list-left-icon;
+                background: url("../../../../../assets/img/shop/1psd/jiantouxia.png")no-repeat center center;
+            }
+            >.active-b{
+                background: url("../../../../../assets/img/shop/1psd/jiantoubaixia.png")no-repeat center center;
+            }
+        }
+    }
+}
+
+.member-center-list-box-item:first-child+li+li {
+    >a {
+        >span {
+            >b {
+                @include list-left-icon;
+                background: url("../../../../../assets/img/shop/1psd/jiantouxia.png")no-repeat center center;
+            }
+            >.active-b{
+                background: url("../../../../../assets/img/shop/1psd/jiantoubaixia.png")no-repeat center center;
+            }
+        }
+    }
+}
+
+.member-center-list-box-item:first-child+li+li+li {
+    >a {
+        >span {
+            >b {
+                @include list-left-icon;
+                background: url("../../../../../assets/img/shop/1psd/jiantouxia.png")no-repeat center center;
+            }
+            >.active-b{
+                background: url("../../../../../assets/img/shop/1psd/jiantoubaixia.png")no-repeat center center;
+            }
+        }
+    }
+}
+
+.member-center-list-box-item:first-child+li+li+li+li {
+    >a {
+        >span {
+            >b {
+                @include list-left-icon;
+                background: url("../../../../../assets/img/shop/1psd/jiantouxia.png")no-repeat center center;
+            }
+            >.active-b{
+                background: url("../../../../../assets/img/shop/1psd/jiantoubaixia.png")no-repeat center center;
+            }
+        }
+    }
+}
+
+.member-center-list-box-item:first-child+li+li+li+li+li{
+    >a {
+        >span {
+            >b {
+                @include list-left-icon;
+                background: url("../../../../../assets/img/shop/1psd/jiantouxia.png")no-repeat center center;
+            }
+            >.active-b{
+                background: url("../../../../../assets/img/shop/1psd/jiantoubaixia.png")no-repeat center center;
+            }
+        }
+    }
+}
+
+.member-center-list-box-item:first-child+li+li+li+li+li+li {
+    >a {
+        >span {
+            border-bottom: none;
+            >b {
+                @include list-left-icon;
+                background: url("../../../../../assets/img/shop/1psd/jiantouxia.png")no-repeat center center;
+            }
+            >.active-b{
+                background: url("../../../../../assets/img/shop/1psd/jiantoubaixia.png")no-repeat center center;
+            }
+        }
+    }
+}
+
+.list-left-active {
+    // background: linear-gradient(90deg, #ec7413, #fa992e);
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(#ED7515), to(#FB992F));  
+　　background: -webkit-linear-gradient(left, #ED7515, #FB992F);  
+　　background: -moz-linear-gradient(left, #ED7515, #FB992F);  
+　　background: -o-linear-gradient(left, #ED7515, #FB992F);  
+　　background: linear-gradient(left, #ED7515, #FB992F); 
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType = 1, startColorstr = #ED7515, endColorstr = #FB992F); 
+        background: -ms-linear-gradient(left, #ED7515, #FB992F);    
+    color: white;
+    &:hover {
+        color: white;
+    }
+    >span{
+        border-top: 1px solid #fa992e!important;
+        border-bottom: 1px solid #fa992e!important;
+    }
+    .right-arrow{
+        background: url("../../../../assets/img/photos/8-0/rightArrow-white.png")no-repeat center center;
+    }
+}

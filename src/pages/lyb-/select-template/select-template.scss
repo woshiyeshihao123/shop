@@ -1,0 +1,53 @@
+
+#outborder{
+    width:1200px;
+    // float: left;
+    // position: relative;
+    margin:0 auto; 
+}
+#banner{
+    margin-left:30px;
+    margin-top:10px;
+    height:50px;
+    width:950px;
+    background-color: white;
+    float:left;
+}
+#banner>b{
+    border-bottom:4px solid #f99a2e;
+    margin-top:8px;
+    font-size: 16px;
+    float:left;
+}
+#details{
+    margin-left:30px;
+    width:950px;
+    height:600px;
+    float:left;
+}
+#templet1{
+    border: 1px solid silver;
+    height:250px;
+    width:250px;
+    float: left;
+    margin:10px 20px 20px 0px;
+}
+#templet2{
+    border: 1px solid silver;
+    height:250px;
+    width:250px;
+    float: left;
+    margin:10px 0px 20px 0px;
+}
+#style{
+width:900px;
+float: left;
+}
+#style>button{
+    width:250px;
+    height:30px;
+    background-color: white;
+    border:1px solid silver;
+    margin-right: 20px;
+    font-size: 16px;
+}

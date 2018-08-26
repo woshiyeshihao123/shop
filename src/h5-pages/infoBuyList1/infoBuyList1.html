@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="viewport-fit=cover, width=750, user-scalable=no">
+    <link rel="stylesheet" href="./infoBuyList1.scss">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="../../assets/css/common.scss">
+    <link rel="stylesheet" href="../allCatalog/allCatalog.scss">
+    <link rel="stylesheet" href="../../h5-common/goTop/goup.scss">
+    <script src="../../h5-assets/js/jquery-1.9.1.min.js"></script>
+    <title>求购列表页</title>
+    <script src="../addressChoose/iosSelect.js"></script>
+    <script src="../addressChoose/areaData_v2.js"></script>
+    <link rel="stylesheet" href="../addressChoose/iosSelect.scss">
+</head>
+
+<body>
+    <div class="main">
+        <!-- 引入头部 -->
+        <div class="header">
+            <link rel="import" href="../allCatalog/allCatalog.html?__inline">
+        </div>
+        <div class="nav">
+            <p>
+                <a href="#">供应信息</a>
+                <span>></span>
+                <a href="#" style="color:#666;">选矿设备</a>
+            </p>
+        </div>
+        <div class="navtwo">
+            <button>机床
+                <b></b>
+            </button>
+            <button>化工设备
+                <b></b>
+            </button>
+            <button>手动工具
+                <b></b>
+            </button>
+
+            <button>商业专用设备
+                <b></b>
+            </button>
+            <button>包装相关设备
+                <b></b>
+            </button>
+            <button>泵
+                <b></b>
+            </button>
+
+            <button>农业机械
+                <b></b>
+            </button>
+            <button>工程与建筑机械
+                <b></b>
+            </button>
+            <button>磨具
+                <b></b>
+            </button>
+            <div class="nav-select">
+                <span>地址</span>
+                <p id="choose">请选择
+                    <b></b>
+                </p>
+            </div>
+        </div>
+        <hr style="margin-top:20px;background-color:#f4f4f4;height:5px;border:1px solid #f4f4f4;" />
+        <div id="enterprise">
+            <div class="daily-one">
+                <div class="companies">
+                    <i></i>
+                    <span class="daily-two">求购列表</span>
+                </div>
+            </div>
+            <div class="clear"></div>
+           
+            <div class="directories" style="width:750px;">
+                <!-- 列表一 -->
+                <ul>
+                    <li>
+                        <div class="company-list">
+                            <div class="company-detail">
+                                <a href="../productDetail/supplyInfo.html">
+                                    <img src="../../h5-assets/img/dianpu/beacon.jpg">
+                                </a>
+                                <ul>
+                                    <li class="company-name">
+                                        <p>
+                                            <a href="../productDetail/supplyInfo.html">三段式消防水枪可切换球阀...</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <a href="../productDetail/supplyInfo.html" style="color:#666"> 消防水枪质量高质量好，产自与上冻青岛某大型制造厂</a>
+                                    </li>
+                                    <li class="telephone">
+                                        <a href="../chens/storeShop/store-shop.html">
+                                            <b></b>东台市海景消防器材有限公司...</a>
+                                        <i id="call-two" class="clic-img"></i>
+
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="clear"></div>
+                    </li>
+                    <!-- 一行列表 -->
+                    <li>
+                        <div class="company-list">
+                            <div class="company-detail">
+                                <a href="../productDetail/supplyInfo.html">
+                                    <img src="../../h5-assets/img/dianpu/beacon.jpg"> </a>
+                                <ul>
+                                    <li class="company-name">
+                                        <p>
+                                            <a href="../productDetail/supplyInfo.html">三段式消防水枪可切换球阀...</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <a href="../productDetail/supplyInfo.html" style="color:#666"> 消防水枪质量高质量好，产自与上冻青岛某大型制造厂</a>
+                                    </li>
+                                    <li class="telephone">
+                                        <a href="../chens/storeShop/store-shop.html">
+                                            <b></b>东台市海景消防器材有限公司...</a>
+                                        <i id="call-two"></i>
+                    
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                       
+                        <div class="clear"></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 底部悬浮栏 -->
+
+    <!-- 引入拨打电话弹窗 -->
+    <div id="bg" class="disappear"></div>
+    <div id="call-people" class="disappear">
+        <img src="../../h5-assets/img/info/drawable-xhdpi/call-people.png">
+        <span>176-0056-5592</span>
+        <p>*此号码不暂不支持短信首发功能*</p>
+        <button>
+            <a href="tel:176-0056-5592"></a>拨打</button>
+        <button id="over">取消</button>
+    </div>
+
+    <footer>
+        <a href="">登录</a>
+        <a href="">注册</a>
+        <a href="../../index.html">电脑版</a>
+        <a href="">开通会员</a>
+    </footer>
+
+    <script src="../allCatalog/allCatalog.js"></script>
+    <script src="../../h5-common/goTop/jquery.goup.js"></script>
+    <script>
+        var doc = document.documentElement;
+        relHeight = (doc.clientHeight > doc.scrollHeight) ? doc.clientHeight : doc.scrollHeight;//获取屏幕高度和当前页面高度中的较大值  
+        document.getElementById('bg').style.height = relHeight + 'px';
+        $(".clic-img").click(function () {
+            if ($("#bg").hasClass("disappear")) {
+                $("#bg").removeClass("disappear");
+                $("#call-people").removeClass("disappear");
+                $("#bg").addClass("show");
+                $("#call-people").addClass("show");
+            }
+        })
+        $("#over").click(function () {
+            if ($("#bg").hasClass("show")) {
+                $("#bg").removeClass("show");
+                $("#call-people").removeClass("show");
+                $("#bg").addClass("disappear");
+                $("#call-people").addClass("disappear");
+            }
+        })
+    </script>
+    <script src="./infoBuyList1.ts"></script>
+</body>
+
+</html>

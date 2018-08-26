@@ -1,0 +1,277 @@
+.left {
+  margin: 0px 0 15px 20px;
+}
+
+.right {
+  margin: 20px 15px 15px 0;
+}
+
+.nav {
+  height: 90px;
+  line-height: 90px;
+  position: relative;
+}
+
+.nav b {
+  left: 40px;
+  top: 0px;
+  position: absolute;
+  font-size: 32px;
+  margin-left: 20px;
+}
+
+.nav b i {
+  display: block;
+  height: 20px;
+  width: 5px;
+  background-color: #ec6519;
+  position: absolute;
+  top: 35px;
+  left: -30px;
+}
+
+.nav img {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.floor {
+  height: 230px;
+  position: relative;
+  border-top: 1px solid #f4f4f4;
+}
+
+.floor .photo {
+  width: 170px;
+  height: 170px;
+  background-color: skyblue;
+  margin: 30px 20px 30px 20px;
+}
+
+.floor .span1 {
+  text-overflow: ellipsis;
+  position: absolute;
+  top: 30px;
+  left: 210px;
+  width: 440px;
+  display: block;
+  font-size: 32px;
+}
+
+.floor .span2 {
+  position: absolute;
+  top: 80px;
+  left: 210px;
+  width: 500px;
+  word-wrap: break-word;
+  color: #666;
+  font-size: 28px;
+}
+
+.floor .span3 {
+  text-overflow: ellipsis;
+  position: absolute;
+  top: 150px;
+  left: 197px;
+  font-size: 26px;
+  width: 440px;
+  color: #999;
+}
+
+.floor .span3 img {
+  position: relative;
+  top: 6px;
+}
+
+.footer {
+  margin-top: 210px;
+  height: 100px;
+  background-color: #f9f9f9;
+  position: absolute;
+  bottom: -200px;
+}
+
+.footer ul li {
+  float: left;
+  width: 187px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.footer ul li a {
+  font-size: 24px;
+  color: 333333;
+}
+
+.none {
+  display: none;
+}
+
+.header {
+  background-color: #fff;
+  border-bottom: solid 1px #ebebed;
+  height: 80px;
+  width: 100%;
+  z-index: 12;
+}
+
+.header .deploy-contact {
+  float: left;
+  z-index: 999;
+  background-image: url("../../assets/img/photos/login-register/logo.png");
+  background-size: 144px 50px;
+  background-repeat: no-repeat;
+  /* background-position:12px 18px; */
+  width: 144px;
+  height: 50px;
+  margin: 14px 30px;
+}
+
+.header .deploy-sidebar {
+  float: right;
+  z-index: 999;
+  background-image: url("../img/index/drawable-xhdpi/navigation-classify.png");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  /* background-position:15px 19px; */
+  width: 44px;
+  height: 44px;
+  display: block;
+  margin: 27px 30px;
+}
+
+.header-box {
+  position: absolute;
+  width: 100%;
+  height: 620px;
+  background: #fff;
+  z-index: 99;
+}
+
+.header-box ul li {
+  float: left;
+  margin: 50px 0 50px 90px;
+  text-align: center;
+  width: 130px;
+}
+
+.header-box ul li .text {
+  margin-top: 20px;
+  display: block;
+}
+
+#searh-information {
+  height: 100px;
+  width: 100%;
+  background: #f4f4f4;
+}
+
+#searh-information-box {
+  width: 154px;
+  line-height: 100px;
+  margin-left: 30px;
+}
+
+#searh-information-box > span {
+  color: #ef7714;
+  font-size: 30px;
+  display: inline-block;
+  width: 130px;
+  font-weight: bold;
+}
+
+#searh-information-box > i {
+  width: 20px;
+  height: 20px;
+}
+
+#searh-information-box > .xl-icon {
+  width: 20px;
+  height: 20px;
+  background: url(../../../h5-assets/img/index/drawable-xhdpi/show-orange.png) no-repeat center center;
+  display: inline-block;
+}
+
+#searh-information-box > .sq-icon {
+  width: 20px;
+  height: 20px;
+  background: url(../../../h5-assets/img/index/drawable-xhdpi/hide-orange.png) no-repeat center center;
+  display: inline-block;
+}
+
+.search-box {
+  height: 60px;
+  width: 520px;
+  border: none;
+  border-radius: 40px;
+  font-size: 30px;
+  float: left;
+  margin-top: -79px;
+  margin-left: 200px;
+  padding: 20px;
+}
+
+.search-click {
+  width: 60px;
+  height: 60px;
+  display: block;
+  float: left;
+  background: url(../../../h5-assets/img/dianpu/search.png) no-repeat center center;
+  margin-left: 660px;
+  margin-top: -79px;
+}
+
+#searh-information > .select {
+  position: relative;
+}
+
+#searh-information-box .selectList {
+  z-index: 99;
+  display: none;
+  background: white;
+  width: 270px;
+  height: 340px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  position: absolute;
+}
+
+.selectList .listA-all a {
+  width: 100%;
+  height: 84px;
+  line-height: 84px;
+  border-bottom: 1px solid #ccc;
+  font-size: 26px;
+  color: #333;
+  display: block;
+  text-decoration: none;
+}
+
+.selectList .listA-all a .size {
+  width: 100%;
+  height: 30px;
+  padding-left: 40px;
+}
+
+.selectList > .listA-all > a > .border-size {
+  border-left: 4px solid #ef7714;
+}
+
+.selectList > .listA-all > a:hover {
+  color: #ef7714;
+}
+
+/***********************************/
+#shadow {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 177px;
+  z-index: 10;
+}
+
+.shadow-hide {
+  display: none;
+}
